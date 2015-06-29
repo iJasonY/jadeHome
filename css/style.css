@@ -569,6 +569,10 @@ header nav ul li a:hover {
   .search input:focus {
     border: 1px solid #72baa7;
     width: 15em;
+    -webkit-box-shadow: 0 0 10px #0cc;
+    -moz-box-shadow: 0 0 10px #0cc;
+    -webkit-box-shadow: 0 0 10px #0cc;
+    box-shadow: 0 0 10px #0cc;
   }
 }
 .search label {
@@ -2039,7 +2043,7 @@ footer {
 }
 @media only screen and (min-width: 768px) {
   .social-font {
-    width: 15em;
+    width: 49em;
     position: absolute;
     right: -2em;
     top: 3em;
@@ -2049,7 +2053,7 @@ footer {
   float: left;
   display: block;
   width: 14%;
-  color: #fff;
+  color: #72baa7;
   font-size: 185%;
   padding: 0.5em;
 }
@@ -2061,6 +2065,10 @@ footer {
 .social-font a:hover:before {
   text-decoration: none;
   color: #72baa7;
+  -webkit-box-shadow: 0 0 10px #fe0;
+  -moz-box-shadow: 0 0 10px #fe0;
+  -webkit-box-shadow: 0 0 10px #fe0;
+  box-shadow: 0 0 10px #fe0;
 }
 .icon-weibo:before,
 .icon-github:before,
