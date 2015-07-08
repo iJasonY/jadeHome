@@ -2064,11 +2064,7 @@ footer {
 }
 .social-font a:hover:before {
   text-decoration: none;
-  color: #72baa7;
-  -webkit-box-shadow: 0 0 10px #fe0;
-  -moz-box-shadow: 0 0 10px #fe0;
-  -webkit-box-shadow: 0 0 10px #fe0;
-  box-shadow: 0 0 10px #fe0;
+  color: #fe0;
 }
 .icon-weibo:before,
 .icon-github:before,
