@@ -88,6 +88,66 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/2015/01/16/2015-01-16-handler-deal-ui/" title="Android子线程更新UI主线程方法之Handler" itemprop="url">Android子线程更新UI主线程方法之Handler</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="http://jeffjade.github.io/about" title="Jeffyang" target="_blank" itemprop="author">Jeffyang</a>
+		
+  <p class="article-time">
+    <time datetime="2015-01-15T16:00:00.000Z" itemprop="datePublished"> 发表于 2015-01-16</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>我们开发应用程序的时候，处于线程安全的原因子线程通常是不能直接更新主线程（UI线程）中的UI元素的，那么在Android开发中有几种方法解决这个问题，其中方法之一就是利用Handler处理的。</p>
+        
+        
+        <p class="article-more-link">
+          
+            <a href="/2015/01/16/2015-01-16-handler-deal-ui/#more">Read More</a>
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/Program/">Program</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Java/">Java</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/01/16/2015-01-16-handler-deal-ui/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/01/16/2015-01-16-handler-deal-ui/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/2015/01/12/2015-01-12-generate-lua/" title="生成lua的静态库.动态库.lua.exe和luac.exe" itemprop="url">生成lua的静态库.动态库.lua.exe和luac.exe</a>
   </h1>
   <p class="article-author">By
@@ -712,66 +772,6 @@
     </article>
 
 
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2014/12/22/2014-12-24-lua-codepart/" title="Lua代码片段收集" itemprop="url">Lua代码片段收集</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="http://jeffjade.github.io/about" title="Jeffyang" target="_blank" itemprop="author">Jeffyang</a>
-		
-  <p class="article-time">
-    <time datetime="2014-12-22T04:00:00.000Z" itemprop="datePublished"> 发表于 2014-12-22</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <h3 id="Lua实现闭包">Lua实现闭包</h3><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">--[[@Func :实现闭包</span><br><span class="line">    @Desc : 当一个函数内部嵌套另一个函数定义时，内部的函数体可以访问外部的函数的局部变量，这种特征我们称作词法定界]]</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fuck</span><span class="params">()</span></span></span><br><span class="line">    <span class="keyword">local</span> i = <span class="number">0</span></span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">        i = i + <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> i</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">c1 = fuck()</span><br><span class="line"><span class="built_in">print</span>(c1())</span><br><span class="line"><span class="built_in">print</span>(c1())</span><br></pre></td></tr></table></figure>
-        
-        
-        <p class="article-more-link">
-          
-            <a href="/2014/12/22/2014-12-24-lua-codepart/#more">Read More</a>
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-<div class="article-categories">
-  <span></span>
-  <a class="article-category-link" href="/categories/Lua/">Lua</a>
-</div>
-
-
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/Lua/">Lua</a>
-  </div>
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-	  	<span></span>
-		<a href="/2014/12/22/2014-12-24-lua-codepart/#comments" class="ds-thread-count comments-count-link" data-thread-key="2014/12/22/2014-12-24-lua-codepart/" data-count-type="comments">&nbsp;</a>
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
 
   <nav id="page-nav" class="clearfix">
     <a class="extend prev" rel="prev" href="/page/5/"><span></span>Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/7/">Next<span></span></a>
@@ -826,7 +826,7 @@
 		  
 		
 		  
-			<li><a href="/categories/Toss/" title="Toss">Toss<sup>7</sup></a></li>
+			<li><a href="/categories/Toss/" title="Toss">Toss<sup>8</sup></a></li>
 		  
 		
 		  
@@ -851,7 +851,7 @@
 			
 		
 			
-				<li><a href="/tags/Share/" title="Share">Share<sup>13</sup></a></li>
+				<li><a href="/tags/Share/" title="Share">Share<sup>14</sup></a></li>
 			
 		
 			
@@ -863,15 +863,19 @@
 			
 		
 			
+				<li><a href="/tags/Toss/" title="Toss">Toss<sup>5</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/Android/" title="Android">Android<sup>5</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Toss/" title="Toss">Toss<sup>4</sup></a></li>
+				<li><a href="/tags/Travel/" title="Travel">Travel<sup>3</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Travel/" title="Travel">Travel<sup>3</sup></a></li>
+				<li><a href="/tags/Mac/" title="Mac">Mac<sup>3</sup></a></li>
 			
 		
 			
@@ -891,10 +895,6 @@
 			
 		
 			
-				<li><a href="/tags/Mac/" title="Mac">Mac<sup>2</sup></a></li>
-			
-		
-			
 				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>2</sup></a></li>
 			
 		
@@ -911,11 +911,11 @@
 			
 		
 			
-				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>1</sup></a></li>
+				<li><a href="/tags/SSH/" title="SSH">SSH<sup>1</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Movie/" title="Movie">Movie<sup>1</sup></a></li>
+				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>1</sup></a></li>
 			
 		
 			
@@ -923,7 +923,7 @@
 			
 		
 			
-				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>1</sup></a></li>
+				<li><a href="/tags/Movie/" title="Movie">Movie<sup>1</sup></a></li>
 			
 		
 		</ul>
