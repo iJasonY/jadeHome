@@ -616,7 +616,7 @@ header nav ul li a:hover {
   }
 }
 #main section.post {
-  background: #fafafa;
+  background: #f8f8fd;
   margin-bottom: 0.125em;
 }
 #main section.post a {
@@ -651,7 +651,7 @@ header nav ul li a:hover {
   font-size: 0.9em;
 }
 #main article.post-expand {
-  background: #fafafa;
+  background: #f8f8fd;
   margin-bottom: 3.5em;
 }
 #main article.post-expand .img-logo {
@@ -708,7 +708,7 @@ header nav ul li a:hover {
   border-left: 0.5em solid #130c0e;
 }
 #page-nav {
-  background: #fafafa;
+  background: #f8f8fd;
   text-align: center;
   overflow: hidden;
 }
@@ -793,7 +793,7 @@ header nav ul li a:hover {
 .archive-title {
   margin: 1em 0;
   padding: 2em;
-  background: #fafafa;
+  background: #f8f8fd;
   border-left: 0.5em solid #ccc;
 }
 @media only screen and (min-width: 1024px) {
@@ -871,7 +871,12 @@ header nav ul li a:hover {
 .page,
 .link,
 .photo {
-  background: #fafafa;
+  background: #f8f8fd;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 0 30px rgba(10,10,0,0.1) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 0 30px rgba(10,10,0,0.1) inset;
+  -o-box-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 0 30px rgba(10,10,0,0.1) inset;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 0 30px rgba(10,10,0,0.1) inset;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 0 30px rgba(10,10,0,0.1) inset;
 }
 .post a,
 .page a,
@@ -1022,7 +1027,7 @@ article .article-content blockquote {
   color: #808080;
 }
 article .article-content blockquote footer {
-  background: #fafafa;
+  background: #f8f8fd;
   padding: 0;
   margin: 0;
   font-size: 80%;
@@ -1178,7 +1183,7 @@ article .article-content .right {
   float: right;
 }
 footer.article-footer {
-  background: #fafafa;
+  background: #f8f8fd;
   padding: 0 4%;
   margin: 0;
   border-top: 1px solid #dbdbdb;
@@ -1669,7 +1674,12 @@ section.comment {
   }
 }
 #asidepart {
-  background: #fafafa;
+  background: #f8f8fd;
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.4), 0 0 20px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4), 0 0 20px rgba(0,0,0,0.1) inset;
+  -o-box-shadow: 0 1px 5px rgba(0,0,0,0.4), 0 0 20px rgba(0,0,0,0.1) inset;
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.4), 0 0 20px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4), 0 0 20px rgba(0,0,0,0.1) inset;
   margin: 1em 0 0;
   padding: 0.5em 2% 1em;
 }
@@ -1789,7 +1799,7 @@ section.comment {
 }
 .rsspart a:hover {
   color: #130c0e;
-  background: #fafafa;
+  background: #f8f8fd;
 }
 .rsspart a::before {
   font-family: "FontAwesome";
