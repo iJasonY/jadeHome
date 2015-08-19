@@ -116,10 +116,14 @@
 <p>而对于Herf第三点～指向页面中的锚，如下用法：</p>
 <ol>
 <li>需要转到地方添加，<code>&lt;a href=&quot;#命名&quot;&gt;文字&lt;/a&gt;</code>，注意href值是#开头+英文字母命名</li>
-<li>需要在被转到位置添加，<code>&lt;span id=&quot;命名&quot; name=&quot;命名&quot;&gt;&lt;/span&gt;</code>，注意id和name值相同并且与a命名相同（<strong>亲测，id必须跟a命名相同，而span的name则不用！</strong>并且当 href=”#” 之时也会回到页面顶部。）</li>
+<li>需要在被转到位置添加，<code>&lt;span id=&quot;命名&quot; name=&quot;命名&quot;&gt;&lt;/span&gt;</code>，注意id和name值相同并且与a命名相同(<strong>亲测，id必须跟a命名相同，而span的name则不用！</strong>并且当 href=”#” 之时也会回到页面顶部.)</li>
 </ol>
-<h2 id="即可得出当使用（href=”#”）之时即有可能会回到页面顶部。但问题是，活动一屏幕足以显示完，无需滑动，Ios手机也是如此。那么使用（href=”#”）在这里是不会影响页面刷新的。得到ios客户端开发的说法是：这样写［使用（href=”#”）］会触发到客户端的监控，从而引发异常。(～这一段，很多疑惑，只是猜测，有待继续学习检验)。">即可得出当使用（href=”#”）之时即有可能会回到页面顶部。但问题是，活动一屏幕足以显示完，无需滑动，Ios手机也是如此。那么使用（href=”#”）在这里是不会影响页面刷新的。得到ios客户端开发的说法是：这样写［使用（href=”#”）］会触发到客户端的监控，从而引发异常。(～这一段，很多疑惑，只是猜测，有待继续学习检验)。</h2><p>此段15-08-19更新：<br>对于这一段的不理解，后来在ios客户端童鞋的帮助下消解了。对于Ios跟js的交互是略有点不同的：<a href="http://blog.csdn.net/mkhgg/article/details/7109097" target="_blank" rel="external"> ios中objective-c与js的交互</a>这篇文章会有讲到。js调用objective-c的方法, 代码应该这么做：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">testFunc</span><span class="params">(cmd,parameter1)</span>   </span><br><span class="line"></span>&#123;   </span><br><span class="line">    <span class="built_in">document</span>.write(<span class="built_in">Date</span>());   </span><br><span class="line">    <span class="built_in">document</span>.location=<span class="string">"objc://"</span>+cmd+<span class="string">":/"</span>+parameter1;  <span class="comment">//cmd代表objective-   </span></span><br><span class="line">c中的的方法名，parameter1自然就是参数了  （这里的objc:<span class="comment">//可以随意的去改）</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="在ios里面有一个监听_http_跳转的方法；一旦有类似http://_or_objc://他们都可以监听到(像这种_http://_并不是他们要的_，而要的是这种_objc://_这种,所以在跟ios通信时候，都必须这种规则_objc://…。而href=”#”代表的是本地页面[页面跳转到页面本身]。如此就能解释了之前出现问题了：ios可以监听到&lt;a_href=&quot;#&quot;&gt;点击&lt;/a&gt;这种链接，从而使得页面被刷新。">在ios里面有一个监听  http 跳转的方法；一旦有类似<code>http://</code> or <code>objc://</code>他们都可以监听到(像这种 http:// 并不是他们要的 ，而要的是这种 objc:// 这种,所以在跟ios通信时候，都必须这种规则 objc://…。而<strong>href=”#”代表的是本地页面</strong>[页面跳转到页面本身]。如此就能解释了之前出现问题了：ios可以监听到<code>&lt;a href=&quot;#&quot;&gt;点击&lt;/a&gt;</code>这种链接，从而使得页面被刷新。</h2><p>那么很疑惑，为何Android平台没有该问题？最后，也更进一步的疑问：JavaScript中语句最后的分号是可以缺省的，那为何要使用javascript:;而不是javascript:呢？是习惯还是规范，我也很疑惑！我也很疑惑！我也很疑惑！（重要的事情说三遍）</p>
+<p>即可得出当使用（href=”#”）之时即有可能会回到页面顶部。但问题是，活动一屏幕足以显示完，无需滑动，Ios手机也是如此。那么使用（href=”#”）在这里是不会影响页面刷新的。得到ios客户端开发的说法是：这样写［使用（href=”#”）］会触发到客户端的监控，从而引发异常。(～这一段，很多疑惑，只是猜测，有待继续学习检验)。</p>
+<hr>
+<p>此段15-08-19更新：<br>对于这一段的不理解，后来在ios客户端童鞋的帮助下消解了。对于Ios跟js的交互是略有点不同的：<a href="http://blog.csdn.net/mkhgg/article/details/7109097" target="_blank" rel="external"> ios中objective-c与js的交互</a>这篇文章会有讲到。js调用objective-c的方法, 代码应该这么做：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">testFunc</span><span class="params">(cmd,parameter1)</span>   </span><br><span class="line"></span>&#123;   </span><br><span class="line">    <span class="built_in">document</span>.write(<span class="built_in">Date</span>());   </span><br><span class="line">    <span class="built_in">document</span>.location=<span class="string">"objc://"</span>+cmd+<span class="string">":/"</span>+parameter1;  <span class="comment">//cmd代表objective-   </span></span><br><span class="line">c中的的方法名，parameter1自然就是参数了  （这里的objc:<span class="comment">//可以随意的去改）</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>在Ios里面有一个监听  http 跳转的方法；一旦有类似<code>http://</code> or <code>objc://</code>他们都可以监听到(像这种 http:// 并不是他们要的 ，而要的是这种 objc:// 这种,所以在跟ios通信时候，都必须这种规则 objc://…。而<strong>href=”#”代表的是本地页面</strong>[页面跳转到页面本身]。如此就能解释了之前出现问题了：ios可以监听到<code>&lt;a href=&quot;#&quot;&gt;点击&lt;/a&gt;</code>这种链接，从而使得页面被刷新。</p>
+<hr>
+<p>那么很疑惑，为何Android平台没有该问题？最后，也更进一步的疑问：JavaScript中语句最后的分号是可以缺省的，那为何要使用javascript:;而不是javascript:呢？是习惯还是规范，我也很疑惑！我也很疑惑！我也很疑惑！（重要的事情说三遍）</p>
 <blockquote>
 <p>具有代码洁癖的coder们，没事多写一个分号，圣洁的精神世界杯玷污了，怎么能忍受的了呢？这又不是多多语句，不写分号可能会出现意想不到的情况！（很认同，原话出自：<a href="http://www.zhangxinxu.com/wordpress/2013/01/why-use-href-javascript-void0/" target="_blank" rel="external">张鑫旭</a>）</p>
 </blockquote>
@@ -128,8 +132,10 @@
 <blockquote>
 <p>尽量不要用<code>javascript:</code>协议做为A的href属性，这样不仅会导致不必要的触发window.onbeforeunload事件，在IE里面更会使gif动画图片停止播放。</p>
 </blockquote>
-<p>这也许是大家默认使用’javascript:;’的一个原因，个中原委，有待于进一步的去摸索。<br><strong>总结：</strong><br><code>#</code>包含了一个位置信息默认的锚是#top 也就是网页的上端;<br>而<code>javascript:void(0)</code>仅仅表示一个死链接，没有任何信息。<br>而<code>javascript:</code>会导致不必要的触发window.onbeforeunload事件等；</p>
-<h2 id="所以，此处当不依靠href属性做页面跳转时候，最好还是用javascript:;更优一点。">所以，此处当不依靠href属性做页面跳转时候，最好还是用<code>javascript:;</code>更优一点。</h2><p>Gui求指点，欢求吐槽！</p>
+<p>这也许是大家默认使用’javascript:;’的一个原因，个中原委，有待于进一步的去摸索。</p>
+<p><strong>总结：</strong><code>#</code>包含了一个位置信息默认的锚是#top 也就是网页的上端;<br>而<code>javascript:void(0)</code>仅仅表示一个死链接，没有任何信息。作用类同～javascript:;<br>而<code>javascript:</code>会导致不必要的触发window.onbeforeunload事件等。<br>故此：此处当不依靠href属性做页面跳转时候，最好还是用<code>javascript:;</code>更优一点。</p>
+<hr>
+<p>Gui求指点，欢求吐槽！</p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -188,7 +194,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#即可得出当使用（href=”#”）之时即有可能会回到页面顶部。但问题是，活动一屏幕足以显示完，无需滑动，Ios手机也是如此。那么使用（href=”#”）在这里是不会影响页面刷新的。得到ios客户端开发的说法是：这样写［使用（href=”#”）］会触发到客户端的监控，从而引发异常。(～这一段，很多疑惑，只是猜测，有待继续学习检验)。"><span class="toc-number">1.</span> <span class="toc-text">即可得出当使用（href=”#”）之时即有可能会回到页面顶部。但问题是，活动一屏幕足以显示完，无需滑动，Ios手机也是如此。那么使用（href=”#”）在这里是不会影响页面刷新的。得到ios客户端开发的说法是：这样写［使用（href=”#”）］会触发到客户端的监控，从而引发异常。(～这一段，很多疑惑，只是猜测，有待继续学习检验)。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#在ios里面有一个监听_http_跳转的方法；一旦有类似http://_or_objc://他们都可以监听到(像这种_http://_并不是他们要的_，而要的是这种_objc://_这种,所以在跟ios通信时候，都必须这种规则_objc://…。而href=”#”代表的是本地页面[页面跳转到页面本身]。如此就能解释了之前出现问题了：ios可以监听到<a_href="#">点击</a>这种链接，从而使得页面被刷新。"><span class="toc-number">2.</span> <span class="toc-text">在ios里面有一个监听  http 跳转的方法；一旦有类似http:// or objc://他们都可以监听到(像这种 http:// 并不是他们要的 ，而要的是这种 objc:// 这种,所以在跟ios通信时候，都必须这种规则 objc://…。而href=”#”代表的是本地页面[页面跳转到页面本身]。如此就能解释了之前出现问题了：ios可以监听到<a href="#">点击</a>这种链接，从而使得页面被刷新。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#所以，此处当不依靠href属性做页面跳转时候，最好还是用javascript:;更优一点。"><span class="toc-number">3.</span> <span class="toc-text">所以，此处当不依靠href属性做页面跳转时候，最好还是用javascript:;更优一点。</span></a></li></ol>
+ 
  
   </div>
 
