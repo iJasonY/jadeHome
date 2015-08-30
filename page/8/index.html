@@ -11,22 +11,22 @@
 
     <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   
-    <title>Android保存图片到系统图库 | 晚晴幽草轩</title>
+    <title>晚晴幽草轩</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Jeffyang">
     
 
     
-    <meta name="description" content="近期做Android开发需求，涉及到需要将游戏应用的二维码保存到本地相册，以便用户可以查看分享。参考了网上stormzhang 的这篇文章，得到如下可以使用的代码：">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Android保存图片到系统图库">
-<meta property="og:url" content="http://jeffjade.github.io/2015/03/19/2015-03-19-android-save-image/index.html">
+    <meta name="description" content="Wisdom In The Mind Is Better Than Money In The Hand">
+<meta property="og:type" content="website">
+<meta property="og:title" content="晚晴幽草轩">
+<meta property="og:url" content="http://jeffjade.github.io/page/8/index.html">
 <meta property="og:site_name" content="晚晴幽草轩">
-<meta property="og:description" content="近期做Android开发需求，涉及到需要将游戏应用的二维码保存到本地相册，以便用户可以查看分享。参考了网上stormzhang 的这篇文章，得到如下可以使用的代码：">
+<meta property="og:description" content="Wisdom In The Mind Is Better Than Money In The Hand">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Android保存图片到系统图库">
-<meta name="twitter:description" content="近期做Android开发需求，涉及到需要将游戏应用的二维码保存到本地相册，以便用户可以查看分享。参考了网上stormzhang 的这篇文章，得到如下可以使用的代码：">
+<meta name="twitter:title" content="晚晴幽草轩">
+<meta name="twitter:description" content="Wisdom In The Mind Is Better Than Money In The Hand">
 <meta name="twitter:creator" content="@jeffjade2">
 
     
@@ -80,105 +80,75 @@
 </div>
     </header>
     <div id="container">
-      <div id="main" class="post" itemscope itemprop="blogPost">
-  
-	<article itemprop="articleBody"> 
-		<header class="article-info clearfix">
+      <div id="main">
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/03/19/2015-03-19-android-save-image/" title="Android保存图片到系统图库" itemprop="url">Android保存图片到系统图库</a>
+      <a href="/2014/09/20/2014-09-20-java-concurrency/" title="Java 中的并发" itemprop="url">Java 中的并发</a>
   </h1>
   <p class="article-author">By
        
 		<a href="http://jeffjade.github.io/about" title="Jeffyang" target="_blank" itemprop="author">Jeffyang</a>
 		
   <p class="article-time">
-    <time datetime="2015-03-19T11:45:05.000Z" itemprop="datePublished"> 发表于 2015-03-19</time>
+    <time datetime="2014-09-19T16:00:00.000Z" itemprop="datePublished"> 发表于 2014-09-20</time>
     
   </p>
 </header>
-	<div class="article-content">
-		
-		<p>近期做Android开发需求，涉及到需要将游戏应用的二维码保存到本地相册，以便用户可以查看分享。参考了网上<a href="http://stormzhang.com/android/2014/07/24/android-save-image-to-gallery/" target="_blank" rel="external">stormzhang 的这篇文章</a>，得到如下可以使用的代码：</p>
-<a id="more"></a>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">saveImageToGallery</span><span class="params">(Context context, Bitmap bmp)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 首先保存图片</span></span><br><span class="line">    File appDir = <span class="keyword">new</span> File(Environment.getExternalStorageDirectory(), <span class="string">"Boohee"</span>);</span><br><span class="line">    <span class="keyword">if</span> (!appDir.exists()) &#123;</span><br><span class="line">        appDir.mkdir();</span><br><span class="line">    &#125;</span><br><span class="line">    String fileName = System.currentTimeMillis() + <span class="string">".jpg"</span>;</span><br><span class="line">    File file = <span class="keyword">new</span> File(appDir, fileName);</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        FileOutputStream fos = <span class="keyword">new</span> FileOutputStream(file);</span><br><span class="line">        bmp.compress(CompressFormat.JPEG, <span class="number">100</span>, fos);</span><br><span class="line">        fos.flush();</span><br><span class="line">        fos.close();</span><br><span class="line">    &#125; <span class="keyword">catch</span> (FileNotFoundException e) &#123;</span><br><span class="line">        e.printStackTrace();</span><br><span class="line">    &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">        e.printStackTrace();</span><br><span class="line">	&#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 其次把文件插入到系统图库</span></span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        MediaStore.Images.Media.insertImage(context.getContentResolver(),</span><br><span class="line">				file.getAbsolutePath(), fileName, <span class="keyword">null</span>);</span><br><span class="line">    &#125; <span class="keyword">catch</span> (FileNotFoundException e) &#123;</span><br><span class="line">        e.printStackTrace();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 最后通知图库更新</span></span><br><span class="line">    context.sendBroadcast(<span class="keyword">new</span> Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.parse(<span class="string">"file://"</span> + path)));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>在Android4.4之前也就是以发送一个Action为“Intent.ACTION_MEDIA_MOUNTED”的广播通知执行扫描。方法如下:</p>
-<pre><code><span class="keyword">this</span>.sendBroadcast(<span class="keyword">new</span> Intent(Intent.ACTION_MEDIA_MOUNTED, <span class="built_in">Uri</span>.parse(<span class="string">"file://"</span> + Environment.getExternalStorageDirectory())));   
-</code></pre><p>但在Android4.4中，则会抛出以下异常：</p>
-<pre><code>W/<span class="function"><span class="title">ActivityManager</span><span class="params">(  <span class="number">498</span>)</span></span>: Permission Denial: not allowed to send broadcast android<span class="class">.intent</span><span class="class">.action</span><span class="class">.MEDIA_MOUNTED</span> from pid=<span class="number">2269</span>, uid=<span class="number">20016</span>
-</code></pre><p>那是因为Android4.4中限制了系统应用才有权限使用广播通知系统扫描SD卡。</p>
-<p>参考 <a href="http://blog.csdn.net/sgz_china/article/details/24657709" target="_blank" rel="external">逐Ls梦 的专栏</a>这篇文章可得到如下解决方案替代之：</p>
-<pre><code>MediaScannerConnection.scanFile(<span class="keyword">this</span>, <span class="keyword">new</span> <span class="built_in">String</span>[]{Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).getPath() + <span class="string">"/"</span> + fileName}, <span class="keyword">null</span>, <span class="keyword">null</span>);  
-</code></pre><p>即：使用MediaScannerConnection执行具体文件或文件夹进行扫描。</p>
-  
-	</div>
-		<footer class="article-footer clearfix">
+    <div class="article-content">
+        
+        <h2 id="如何创建一个线程">如何创建一个线程</h2><p>按 Java 语言规范中的说法，创建线程只有一种方式，就是创建一个 Thread 对象。而从 HotSpot 虚拟机的角度看，创建一个虚拟机线程<br>有两种方式，一种是创建 Thread 对象，另一种是创建 一个本地线程，加入到虚拟机线程中。</p>
+        
+        
+        <p class="article-more-link">
+          
+            <a href="/2014/09/20/2014-09-20-java-concurrency/#more">Read More</a>
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
 <div class="article-catetags">
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/Android/">Android</a>
+  <a class="article-category-link" href="/categories/Java/">Java</a>
 </div>
 
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/Android/">Android</a>
+  <span></span> <a href="/tags/Java/">Java</a>
   </div>
 
 </div>
 
 
 
-	<div class="article-share" id="share">
-	
-	  <div data-url="http://jeffjade.github.io/2015/03/19/2015-03-19-android-save-image/" data-title="Android保存图片到系统图库 | 晚晴幽草轩" data-tsina="null" class="share clearfix">
-	  </div>
-	
-	</div>
 
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2014/09/20/2014-09-20-java-concurrency/#comments" class="ds-thread-count comments-count-link" data-thread-key="2014/09/20/2014-09-20-java-concurrency/" data-count-type="comments">&nbsp;</a>
+	
+</div>
 
 </footer>
 
-   	       
-	</article>
-	
-<nav class="article-nav clearfix">
- 
- <div class="prev" >
- <a href="/2015/03/19/2015-03-19-android-webview/" title="Android WebView全面总结">
-  <strong>上一篇：</strong><br/>
-  <span>
-  Android WebView全面总结</span>
-</a>
+
+    </article>
+
+
+
+  <nav id="page-nav" class="clearfix">
+    <a class="extend prev" rel="prev" href="/page/7/"><span></span>Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><span class="page-number current">8</span>
+  </nav>
+
 </div>
-
-
-<div class="next">
-<a href="/2015/03/19/2015-03-19-famouswords-brucelee/"  title="李小龙经典英文名言">
- <strong>下一篇：</strong><br/> 
- <span>李小龙经典英文名言
-</span>
-</a>
-</div>
-
-</nav>
-
-	
-<section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2015/03/19/2015-03-19-android-save-image/" data-title="Android保存图片到系统图库" data-url="http://jeffjade.github.io/2015/03/19/2015-03-19-android-save-image/"></div>
-</section>
-
-
-</div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
-
-  <div id="toc" class="toc-aside">
-  <strong class="toc-title">文章目录</strong>
- 
- 
- 
-  </div>
 
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
@@ -469,11 +439,6 @@ $(document).ready(function(){
     o.css("top",Math.max(80,260-$(this).scrollTop()));
   });
   
-        getSize();
-        if (myWidth >= 1024) {
-          c.click();
-        }
-  
   $(window).resize(function(){
     getSize(); 
     if (myWidth >= 1024) {
@@ -482,69 +447,12 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-      
-      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
 });
 </script>
 
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var ai = $('.article-content>iframe'),
-      ae = $('.article-content>embed'),
-      t  = $('#toc'),
-      ta = $('#toc.toc-aside'),
-      o  = $('.openaside'),
-      c  = $('.closeaside');
-  if(ai.length>0){
-    ai.wrap('<div class="video-container" />');
-  };
-  if(ae.length>0){
-   ae.wrap('<div class="video-container" />');
-  };
-  c.click(function(){
-    ta.css('display', 'block').addClass('fadeIn');
-  });
-  o.click(function(){
-    ta.css('display', 'none');
-  });
-  $(window).scroll(function(){
-    ta.css("top",Math.max(140,320-$(this).scrollTop()));
-  });
-});
-</script>
-
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var $this = $('.share'),
-      url = $this.attr('data-url'),
-      encodedUrl = encodeURIComponent(url),
-      title = $this.attr('data-title'),
-      tsina = $this.attr('data-tsina'),
-      description = $this.attr('description');
-  var html = [
-  '<a href="#" class="overlay" id="qrcode"></a>',
-  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
-  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
-  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
-  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
-  '<span title="Share to"></span>'
-  ].join('');
-  $this.append(html);
-  $('.article-share-qrcode').click(function(){
-    var imgSrc = $('#qrcode-pic').attr('data-src');
-    $('#qrcode-pic').attr('src', imgSrc);
-    $('#qrcode-pic').load(function(){
-        $('.qrcode strong').text(' ');
-    });
-  });
-});     
-</script>
 
 
 
@@ -617,4 +525,4 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 
 <!-- MathJax End -->
   </body>
-</html>
+ </html>
