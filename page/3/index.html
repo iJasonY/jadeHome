@@ -554,33 +554,34 @@
 </li>
 </ul>
 <blockquote>
-<p>重启Sublime Text 3。如果在Perferences-&gt;package settings中看到package control这一项，则安装成功。<code>按下Ctrl+Shift+P调出命令面板输入install 调出 Install Package 选项并回车，然后在列表中选中要安装的插件。</code> </p>
+<p>重启Sublime Text 3。如果在Perferences-&gt;package settings中看到package control这一项，则安装成功。按下Ctrl+Shift+P调出命令面板输入install 调出 Install Package 选项并回车，然后在列表中选中要安装的插件。</p>
 </blockquote>
 <p><br></p>
 <h3 id="Sublime_Text_3推荐插件"><strong>Sublime Text 3推荐插件</strong></h3><hr>
 <p>根据自己的需要定制属于自己的强大插件集；下面是一些常用的推荐。<br><a href="http://www.jianshu.com/p/5905f927d01b" target="_blank" rel="external">Sublime Text3插件：增强篇</a><br><a href="http://www.open-open.com/news/view/26d731" target="_blank" rel="external">20个强大的SublimeText插件</a><br>作为在移动端畅游的自己，推荐这么几款插件：</p>
 <ul>
 <li><strong><a href="https://github.com/SublimeText-Markdown/MarkdownEditing" target="_blank" rel="external">MarkDown Editing</a></strong><br>  SublimeText不仅仅是能够查看和编辑 Markdown 文件，但它会视它们为格式很糟糕的纯文本。这个插件通过适当的颜色高亮和其它功能来更好地完成这些任务。关于如何在SublimeText下高效些东西可参见这篇文章：<a href="http://www.cnblogs.com/jadeboy/p/4165449.html" target="_blank" rel="external">sublime text 2(3)下的Markdown写作</a></li>
-<li><strong><a href="https://github.com/titoBouzout/SideBarFolders" target="_blank" rel="external">SideBarFolders</a></strong><br>  打开的文件夹都太多了? 来用这个来管理文件夹，世界原来也可以这么美好。<br>  <img src="http://upload-images.jianshu.io/upload_images/26219-5f543c8b670bad40.png?imageView2/2/w/1240/q/100" alt="SideBarFolders"></li>
+<li><strong><a href="https://github.com/titoBouzout/SideBarFolders" target="_blank" rel="external">SideBarFolders</a></strong><br>  打开的文件夹都太多了? 来用这个来管理文件夹，世界原来也可以这么美好。<br>  <img src="http://www.jeffjade.com/img/toss/sublimetext-folder.png" alt="SideBarFolders"></li>
 <li><strong><a href="http://wbond.net/sublime_packages/terminal" target="_blank" rel="external">Sublime Terminal</a></strong><br>  这个插件可以让你在Sublime中直接使用终端打开你的项目文件夹，并支持使用快捷键。</li>
 <li><strong><a href="http://weslly.github.io/ColorPicker/" target="_blank" rel="external">ColorPicker</a></strong><br>  通常，如果你想使用一个颜色选择器则可能打开 Photoshop 或 GIMP。而在 Sublime Text 中，你可以使用内置的颜色选择器。安装完成后，只要按下Ctrl / Cmd + Shift + C 快捷键。</li>
-<li><strong><a href="https://github.com/wuub/SublimeREPL" target="_blank" rel="external">SublimeREPL</a></strong><br>  这可能是对程序员很有用的插件。SublimeREPL 允许你在 Sublime Texxt 中运行各种语言（NodeJS ， Python，Ruby， Scala 和 Haskell 等等）。</li>
+<li><strong><a href="https://github.com/wuub/SublimeREPL" target="_blank" rel="external">SublimeREPL</a></strong><br>  这可能是对程序员很有用的插件。SublimeREPL 允许你在 Sublime Text 中运行各种语言（NodeJS ， Python，Ruby， Scala 和 Haskell 等等）。</li>
 <li>终极王道：自己编写专用的Sublime Text插件。虽然说各个方面比如移动端，Web前段，服务器端，非Coder的Writer所需要的方便已经被集成在了不同的插件中。但譬如，需要快捷打开PC端的某个模拟器，便捷的进行某些校验，只要你想的到的基本都可以将其在插件内，以快捷键处理之。至于如何编写SublimeText插件，请参看这里<a href="http://www.360doc.com/content/15/0417/22/19342630_463999403.shtml" target="_blank" rel="external">编写自己的Sublime Text2 插件</a></li>
 </ul>
 <p><br></p>
 <h3 id="定制属于自己的快捷键"><strong>定制属于自己的快捷键</strong></h3><hr>
 <ul>
 <li>首先要会使用SublimeText内置的快捷键：<br>  比如 <code>Commond Shift P</code> 打开命令面板:例如打开Package Control安装各种插件；可以可以输入Set(Snytax)来改变使用的语言环境，瞬间切换等等。</li>
-<li>设置快捷键。在SublimeText里，打开Preferences -&gt; Key Bindings - User，我设置的快捷键：<br>  [<br>  { “keys”: [“ctrl+f9”], “command”: “build” },<br>  { “keys”: [“f10”], “command”: “build”, “args”: {“variant”: “Run”} },<br>  { “keys”: [“ctrl+shift+x”], “command”: “toggle_comment”, “args”: { “block”: true } },<br>  ]<br>  具体可参见这边文章<a href="http://blog.csdn.net/moyan_min/article/details/11530751" target="_blank" rel="external">Sublime Text3 快捷键汇总及设置快捷键配置环境变量</a></li>
+<li><p>设置快捷键。在SublimeText里，打开Preferences -&gt; Key Bindings - User，我设置的快捷键：</p>
+  <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">    &#123; "<span class="attribute">keys</span>": <span class="value">[<span class="string">"ctrl+f9"</span>]</span>, "<span class="attribute">command</span>": <span class="value"><span class="string">"build"</span> </span>&#125;,</span><br><span class="line">    &#123; "<span class="attribute">keys</span>": <span class="value">[<span class="string">"f10"</span>]</span>, "<span class="attribute">command</span>": <span class="value"><span class="string">"build"</span></span>, "<span class="attribute">args</span>": <span class="value">&#123;"<span class="attribute">variant</span>": <span class="value"><span class="string">"Run"</span></span>&#125; </span>&#125;,</span><br><span class="line">    &#123; "<span class="attribute">keys</span>": <span class="value">[<span class="string">"ctrl+shift+x"</span>]</span>, "<span class="attribute">command</span>": <span class="value"><span class="string">"toggle_comment"</span></span>, "<span class="attribute">args</span>": <span class="value">&#123; "<span class="attribute">block</span>": <span class="value"><span class="literal">true</span> </span>&#125; </span>&#125;,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<p>  具体可参见这边文章<a href="http://blog.csdn.net/moyan_min/article/details/11530751" target="_blank" rel="external">Sublime Text3 快捷键汇总及设置快捷键配置环境变量</a></p>
+</li>
 <li><p>定制属于自己的专属快捷键：<br>  比如就拿定制Sublime Text(2/3)编译lua 的快捷键来说：</p>
 <ul>
 <li><p>首先：下安装lua环境(MAC)</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -s https://raw.githubusercontent.com/rudix-mac/rpm/2014.10/rudix.py | sudo python - install rudix&#10;&#10;&#25110;&#32773;&#65306;curl -O https://raw.githubusercontent.com/rudix-mac/rpm/2014.10/rudix.py&#10;sudo python rudix.py install rud</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>安装IED：SublimeText3;完毕后上面选择:Build System—New Build System 输入：</p>
-<blockquote>
-<p>{<br>  “cmd”: [“/usr/local/bin/lua”, “$file”],<br>  “file_regex”: “^(…<em>?):([0-9]</em>):?([0-9]*)”,<br>  “selector”: “source.lua”<br>  } </p>
-</blockquote>
+  <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;  </span><br><span class="line">    "<span class="attribute">cmd</span>": <span class="value">[<span class="string">"/usr/local/bin/lua"</span>, <span class="string">"$file"</span>]</span>,  </span><br><span class="line">    "<span class="attribute">file_regex</span>": <span class="value"><span class="string">"^(...*?):([0-9]*):?([0-9]*)"</span></span>,  </span><br><span class="line">    "<span class="attribute">selector</span>": <span class="value"><span class="string">"source.lua"</span>  </span><br><span class="line"></span>&#125;</span><br></pre></td></tr></table></figure>
 <p>保存为Lua.sublime-build，然后Tools-Build System上就能选择lua来编译脚本了）<br>PS：网上找到的大多数都是 “cmd”: [“lua”, “$file”]可能我是用rudix自动来安装lua的，需要改一下路径。</p>
 <p>新建一个xx.lua文件，随便写个语句，选择lua为build system，按一下<code>command+b</code>，就能跑出来了。 如下图所示：<br><img src="http://img2.ph.126.net/PI2F5lnTuwqeBm7KQx56zw==/1871245645272492575.png" alt="LuaShortCutSublimeText"><br>WindowS下面的定制请参看这里<a href="http://www.cnblogs.com/jadeboy/p/4055465.html" target="_blank" rel="external">Sublime Text(2/3)编译lua</a></p>
 </li>
@@ -596,13 +597,21 @@
 <p>—-更新2015.05.21 15:50 ShenZhen@nanshan<br>对于这个依赖于插件的强大性感无比开源编辑器；优雅的适用之，就在于合理的使用需要的插件，走一条快准狠的键盘一刀流。这个当然可以自己用python来写，但是一般的需求基本上都已经有人完成，还是不浪费时间自己造轮子了。今儿就再赘述一些使用的经验，让使用她可以更加优雅。</p>
 <h3 id="插件再推荐："><strong>插件再推荐：</strong></h3><p><strong><a href="https://github.com/SublimeText/CTags" target="_blank" rel="external">Ctags</a></strong><br>有童鞋抱怨Sublime Text不能支持函数的跳转（比如像Eclipse那样，按住Control点击该方法或者对象，即可跳转到定义的地方； Alt+←即可回到原处）。其实Sublime Text也可以借助插件实现之（当然，有些情况下:Can not find defination）毕竟这个也是借助正则来匹配完成的。因此这个也就要求代码很规范。这个插件相对来讲会有些麻烦，具体的可以参见:<a href="http://firstleaf.diandian.com/post/2013-03-29/40049695682" target="_blank" rel="external">Sublime Text ctags 的配置</a>.</p>
 <p><strong><a href="https://github.com/SublimeLinter" target="_blank" rel="external">SublimeLinter</a></strong><br>SublimeLinter 是前端编码利器——<a href="http://www.cnblogs.com/lhb25/archive/2012/12/28/best-tools-for-web-development-b.html" target="_blank" rel="external"><strong>Sublime Text</strong></a> 的一款插件，用于高亮提示用户编写的代码中存在的不规范和错误的写法，支持 JavaScript、CSS、HTML、Java、PHP、Python、Ruby 等十多种开发语言。这篇文章介绍如何在 Windows 中配置 SublimeLinter 进行 JS &amp; CSS 校验。<br>比如写例如像lua这样的弱语言脚本代码，有这个可以规避掉很多不该有的低级错误吧？当然这也需要你SublimeLinter安装完毕之后再安装一个<code>SublimeLinter-lua</code>即可。具体的使用可以参见：<a href="http://www.cnblogs.com/lhb25/archive/2013/05/02/sublimelinter-for-js-css-coding.html" target="_blank" rel="external">借助 SublimeLinter 编写高质量的 JavaScript &amp; CSS 代码</a></p>
+<p><strong>SideBarEnhancements插件：</strong><br>SideBarEnhancements是一款很实用的右键菜单增强插件；在安装该插件前，在Sublime Text左侧FOLDERS栏中点击右键，只有寥寥几个简单的功能；安装了就相当于给其丰了大胸一般。<br><strong>更强大的是</strong>，该插件还能让我们自定义快捷键呼出某个浏览器以预览页面！这样就不用到项目目录下寻找和拖动到特定浏览器中预览了。<br>安装此插件后，点击菜单栏的<em>preferences-&gt;package setting-&gt;side bar-&gt;Key Building-User</em>，键入以下代码：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[   </span><br><span class="line">    &#123; <span class="string">"keys"</span>: [<span class="string">"ctrl+shift+c"</span>], <span class="string">"command"</span>: <span class="string">"copy_path"</span> &#125;,</span><br><span class="line">    //chrome</span><br><span class="line">    &#123; <span class="string">"keys"</span>: [<span class="string">"f2"</span>], <span class="string">"command"</span>: <span class="string">"side_bar_files_open_with"</span>,</span><br><span class="line">            <span class="string">"args"</span>: &#123;</span><br><span class="line">                <span class="string">"paths"</span>: [],</span><br><span class="line">                <span class="string">"application"</span>: <span class="string">"C:\\Users\\jeffj\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"</span>,</span><br><span class="line">                <span class="string">"extensions"</span>:<span class="string">".*"</span></span><br><span class="line">            &#125;</span><br><span class="line">     &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<p>这里设置按Ctrl+Shift+C复制文件路径，按F2即可在Chrome浏览器预览效果(如果需要的话，也可以根据自己的需要为Firefox，Safari，IE，Opera等加上)，当然你也可以自己定义喜欢的快捷键，最后注意代码中的浏览器路径要以自己电脑里的文件路径为准。</p>
+<p><strong><a href="https://github.com/csscomb/CSScomb-for-Sublime" target="_blank" rel="external">CSScomb CSS属性排序</a>:</strong><br>有时候看看自己写的CSS文件，会不会觉得属性很乱查找不易维护难？CSScomb可以按照一定的CSS属性排序规则，将杂乱无章的CSS属性进行重新排序。选中要排序的CSS代码，按Ctrl+Shift+C，即可对CSS属性重新排序了，代码从此简洁有序易维护，如果不款选代码则插件将排序文件中所有的CSS属性。当然，可以自己自定义CSS属性排序规则，打开插件目录里的CSScomb.sublime-settings文件，更改里面的CSS属性顺序就行了。因为这个插件使用PHP写的，要使他工作需要在环境变量中添加PHP的路径，具体请看github上的说明。</p>
+<p><strong><a href="https://github.com/kairyou/SublimeTmpl" target="_blank" rel="external">SublimeTmpl 快速生成文件模板</a></strong><br>一直都很奇怪为什么sublime text 3没有新建文件模板的功能，像html头部的DTD声明每次都要复制粘贴。用SublimeTmpl这款插件终于可以解脱了，SublimeTmpl能新建html、css、javascript、php、python、ruby六种类型的文件模板，所有的文件模板都在插件目录的templates文件夹里，可以自定义编辑文件模板。<br>SublimeTmpl默认的快捷键:<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ctrl+alt+h <span class="tag">html</span></span><br><span class="line">ctrl+alt+j javascript</span><br><span class="line">ctrl+alt+c css</span><br><span class="line">ctrl+alt+<span class="tag">p</span> php</span><br><span class="line">ctrl+alt+r ruby</span><br><span class="line">ctrl+alt+shift+<span class="tag">p</span> python</span><br></pre></td></tr></table></figure></p>
+<p>如果想要新建其他类型的文件模板的话，先自定义文件模板方在templates文件夹里，再分别打开Default (Windows).sublime-keymap、Default.sublime-commands、Main.sublime-menu、SublimeTmpl.sublime-settings这四个文件照着里面的格式自定义想要新建的类型，这里就详细介绍了，请各位自己折腾哈~</p>
 <p>剩下些许其他的可以按需安装的插件，比如：</p>
 <ul>
 <li><strong>ConvertToUTF8</strong>  支持 GBK, BIG5, EUC-KR, EUC-JP, Shift_JIS 等编码的插件</li>
 <li><strong>Bracket Highlighter</strong> 用于匹配括号，引号和html标签。对于很长的代码很有用。安装好之后，不需要设置插件会自动生效</li>
 <li><strong>DocBlockr</strong> 可以自动生成PHPDoc风格的注释。它支持的语言有Javascript, PHP, ActionScript, CoffeeScript, Java, Objective C, C, C++</li>
 <li><strong>Emmet(Zen Coding)</strong>快速生成HTML代码段的插件，强大到无与伦比，web开发必备。</li>
-<li><strong>Format</strong> 格式化代码，懂者自懂。</li>
+<li><strong>Format</strong> 格式化代码，懂者自懂；强迫症Coder必备！。</li>
+<li><strong>CSS Compact Expand CSS属性展开收缩:</strong>写CSS的盆友，喜欢将其写多行还是一行(个人喜欢将其格式化为多行)？如果阅读别人的代码不符合自己的习惯，可以用CSS Compact Expand这个插件将CSS格式化一下，按 Ctrl+Alt+[ 收缩CSS代码为一行显示，按 Ctrl+Alt+] 展开CSS代码为多行显示；强迫症Coder必备！。</li>
+<li><strong>Autoprefixer插件</strong>：这是一款CSS3私有前缀自动补全插件；该插件使用CanIUse资料库（当然，SublimeText自然也有<font color="purple">CanIUse</font>这个插件咯），能精准判断哪些属性需要什么前缀，与CssComb插件一样，该插件也需要系统已安装Node.js环境；使用方法：在输入CSS3属性后（冒号前）按Tab键即可。</li>
 </ul>
 <h3 id="些许实用技巧："><strong>些许实用技巧：</strong></h3><p>(1) Ctrl+O(Command+O)可以实现头文件和源文件之间的快速切换 </p>
 <p>(2) 通过 View -&gt; Side bar 可在左侧显示当前打开的文件列表 </p>
@@ -637,9 +646,8 @@
 <p>(15)使用<code>Ctrl + N</code>在当前窗口创建一个新标签，<code>Ctrl + W</code>关闭当前标签，<code>Ctrl + Shift + T</code>恢复刚刚关闭的标签。</p>
 <p>(16)编辑代码时我们经常会开多个窗口，所以分屏很重要。Windows下：<code>Alt + Shift + 2</code>进行左右分屏，<code>Alt + Shift + 8</code>进行上下分屏，<code>Alt + Shift + 5</code>进行上下左右分屏（即分为四屏）。</p>
 <p>(17)Sublime Text基本的手动格式化操作包括：<code>Ctrl + [</code>向左缩进(等同于将一块选中Shift+Tab)，Ctrl + ]向右缩进(等同于将一块选中后Tab键)，<strong>注解：</strong> Ctr+[ 和 Ctr+[ 针对一块连续内容使用，无需选中；此外Ctrl + Shift + V可以以当前缩进粘贴代码（非常实用）。</p>
-<p>(18) <code>Ctrl+Shift+V</code>（Mac下Command＋Shift＋V），粘贴之时可以调出之前粘贴过的内容（以一个轻量弹框显示以供选择），哇哦，才发现这个功能，感觉棒棒哒😄😄。</p>
+<p>(18) <del><code>Ctrl+Shift+V</code></del>(好吧，尝试了下Windows下的这个，目测不行，看来须得安装下<a href="https://github.com/kemayo/sublime-text-2-clipboard-history" target="_blank" rel="external">Clipboard-history</a>插件～（粘贴板历史记录）才行啊)（Mac下Command＋Shift＋V），粘贴之时可以调出之前粘贴过的内容（以一个轻量弹框显示以供选择），哇哦，才发现这个功能，感觉棒棒哒😄😄。<br><img src="http://www.jeffjade.com/img/toss/sublimetext-hotkey.png" alt="SublimeText"></p>
 <hr>
-<p>—-更新2015.05.29 22:04 ShenZhen@nanshan</p>
 <h3 id="Sublime_Text内运行javascript(ES6)"><strong>Sublime Text内运行javascript(ES6)</strong></h3><h4 id="首先安装nodejs">首先安装<a href="http://nodejs.org/" target="_blank" rel="external">nodejs</a></h4><p>当然你可以使用其它诸如<a href="https://trac.webkit.org/wiki/JSC" target="_blank" rel="external">jsc</a>之类的环境来运行js, 本文使用的是<a href="http://nodejs.org/" target="_blank" rel="external">nodejs</a>. 首先确保你的电脑已经安装好nodejs, 并已将其添加到环境变量中 (一般安装时自动添加或者询问是否添加)</p>
 <h4 id="添加build_system">添加<a href="https://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-2/file_processing/build_systems.html" target="_blank" rel="external">build system</a></h4><p>在sublime text中依次打开Tools -&gt; Build System -&gt; New Build System… 粘贴以下代码后保存(如Node.sublime-build), 然后把Build System设成Automatic<br>{ “cmd”: [“node”, “—use-strict”, “—harmony”, “$file”], “selector”: “source.js”}</p>
 <h4 id="附加说明">附加说明</h4><p>在以上的build文件中(Node.sublime-build), node是执行命令, —harmony和—use-strict是执行参数, $file是当前文件名, 所以一次build操作实际上相当于在命令行中执行了node —use-strict —harmony filename<br>. —harmony表示启用<a href="http://kangax.github.io/compat-table/es6/" target="_blank" rel="external">ES Harmony features</a>, 而这些features目前只能在strict模式下运行, 所以需要同时添加use-strict参数(详见<a href="http://stackoverflow.com/questions/17253509/what-is-extended-mode" target="_blank" rel="external">what-is-extended-mode</a>).<br>如果不想启用es6的特性,把build文件更改成以下代码保存即可.<br>{ “cmd”: [“node”, “$file”], “selector”: “source.js”}</p>
@@ -650,7 +658,8 @@
 <li>(1)文件必须是存在于磁盘中的, 而不是untitled的, 否则sublime无法找到相应的文件.</li>
 <li>(2)Nodejs安装目录需要加入path环境变量中，否则Ctrl+B运行 会出现：[WinError 2] 系统找不到指定的文件。</li>
 </ul>
-<p>参考文章出处：<br><a href="http://www.cnblogs.com/figure9/p/sublime-text-complete-guide.html" target="_blank" rel="external">Sublime Text 全程指引 by Lucida</a></p>
+<p>—-更新2015.08.31 11:59 ShenZhen@nanshan—-</p>
+<p>参考文章出处：<br><a href="http://www.cnblogs.com/figure9/p/sublime-text-complete-guide.html" target="_blank" rel="external">Sublime Text 全程指引 by Lucida</a><br><a href="http://www.cnblogs.com/bugs/p/3533216.html" target="_blank" rel="external">Sublime Text 3能用支持的插件推荐</a></p>
 <p><a href="http://www.jeffjade.com/2015/04/17/2015-04-17-toss-sublime-text/" target="_blank" rel="external">原文首贴链接:http://www.jeffjade.com/2015/04/17/2015-04-17-toss-sublime-text/</a></p>
 
         
