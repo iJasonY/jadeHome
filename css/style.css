@@ -532,28 +532,8 @@ header nav ul li a {
   padding: 0.1em 0 0.2em 0.2em;
   margin: 0 1em 0 0;
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-  text-transform: uppercase;
-  text-shadow: 0 8px 9px #cde6c7, 0px -2px 1px #ffd;
-  font-weight: bold;
-  letter-spacing: -2px;
+  letter-spacing: 0px;
   text-align: center;
-  background: -webkit-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: -moz-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: -o-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: -ms-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: linear-gradient(to bottom, #d3d7d4 0%, #a1a3a6 100%);
-  background: -webkit--webkit-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: -webkit--moz-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: -webkit--o-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: -webkit--ms-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: -webkit-linear-gradient(to bottom, #d3d7d4 0%, #a1a3a6 100%);
-  background: -moz--webkit-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: -moz--moz-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: -moz--o-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: -moz--ms-linear-gradient(top, #d3d7d4 0%, #a1a3a6 100%);
-  background: -moz-linear-gradient(to bottom, #d3d7d4 0%, #a1a3a6 100%);
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
 }
 @media only screen and (min-width: 1024px) {
   header nav ul li a {
