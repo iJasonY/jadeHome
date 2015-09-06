@@ -11,37 +11,22 @@
 
     <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   
-    <title>做，还是不做？做！ | 晚晴幽草轩</title>
+    <title>IOS 8 Safari JIT bug影响jQuery和underscore | 晚晴幽草轩</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Jeffyang">
     
 
     
-    <meta name="description" content="前段时间有读到逍遥游·萧秋水的一篇文章做,其原文简短有理，内容如下：
-有人说，想锻炼写作，不知道怎么开始。
-其实很简单：写！
-
-有人问某本书该不该读，举棋不定。
-其实很简单：读！">
+    <meta name="description" content="前端时间为移动游戏做一个网页活动需求（9宫格的刮奖），遇到一个很诡异的问题:Android端OK，就是在Ios设备上，点击非第一块区域，显示却是第一块区域被刮开咯，查看后端返回数据缺失OK的【前端采用backbone写法，遍历返回数据用的是underscore.js中的each】。经过一番查证，原来如此。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="做，还是不做？做！">
-<meta property="og:url" content="http://jeffjade.github.io/2015/04/02/2015-04-01-thought-do/index.html">
+<meta property="og:title" content="IOS 8 Safari JIT bug影响jQuery和underscore">
+<meta property="og:url" content="http://jeffjade.github.io/2015/09/06/2015-09-06-ios8-safari-jitbug-record/index.html">
 <meta property="og:site_name" content="晚晴幽草轩">
-<meta property="og:description" content="前段时间有读到逍遥游·萧秋水的一篇文章做,其原文简短有理，内容如下：
-有人说，想锻炼写作，不知道怎么开始。
-其实很简单：写！
-
-有人问某本书该不该读，举棋不定。
-其实很简单：读！">
+<meta property="og:description" content="前端时间为移动游戏做一个网页活动需求（9宫格的刮奖），遇到一个很诡异的问题:Android端OK，就是在Ios设备上，点击非第一块区域，显示却是第一块区域被刮开咯，查看后端返回数据缺失OK的【前端采用backbone写法，遍历返回数据用的是underscore.js中的each】。经过一番查证，原来如此。">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="做，还是不做？做！">
-<meta name="twitter:description" content="前段时间有读到逍遥游·萧秋水的一篇文章做,其原文简短有理，内容如下：
-有人说，想锻炼写作，不知道怎么开始。
-其实很简单：写！
-
-有人问某本书该不该读，举棋不定。
-其实很简单：读！">
+<meta name="twitter:title" content="IOS 8 Safari JIT bug影响jQuery和underscore">
+<meta name="twitter:description" content="前端时间为移动游戏做一个网页活动需求（9宫格的刮奖），遇到一个很诡异的问题:Android端OK，就是在Ios设备上，点击非第一块区域，显示却是第一块区域被刮开咯，查看后端返回数据缺失OK的【前端采用backbone写法，遍历返回数据用的是underscore.js中的each】。经过一番查证，原来如此。">
 <meta name="twitter:creator" content="@jeffjade2">
 
     
@@ -101,46 +86,31 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/04/02/2015-04-01-thought-do/" title="做，还是不做？做！" itemprop="url">做，还是不做？做！</a>
+      <a href="/2015/09/06/2015-09-06-ios8-safari-jitbug-record/" title="IOS 8 Safari JIT bug影响jQuery和underscore" itemprop="url">IOS 8 Safari JIT bug影响jQuery和underscore</a>
   </h1>
   <p class="article-author">By
        
 		<a href="http://jeffjade.github.io/about" title="Jeffyang" target="_blank" itemprop="author">Jeffyang</a>
 		
   <p class="article-time">
-    <time datetime="2015-04-01T16:43:02.000Z" itemprop="datePublished"> 发表于 2015-04-02</time>
+    <time datetime="2015-09-06T03:00:00.000Z" itemprop="datePublished"> 发表于 2015-09-06</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
-		<p>　　前段时间有读到<code>逍遥游·萧秋水</code>的一篇文章<a href="http://www.xiaoqiushui.com/archives/9562.html" target="_blank" rel="external">做</a>,其原文简短有理，内容如下：</p>
-<pre><code>有人说，想锻炼写作，不知道怎么开始。
-其实很简单：写！
-
-有人问某本书该不该读，举棋不定。
-其实很简单：读！
-</code></pre><a id="more"></a>
-<pre><code>想做什么，往往就是先去做最好，而不是思前想后，三思后行，不做不知道会怎样，做了才知道。写东西，如果一直不开始，在脑子里翻来复去，自己觉得有盖世才华，只缺一个引子，只要写出来，立刻惊天动地，会上榜首，会拍成电影，自己一举成名……哎呀成名以后怎么办呢？人红是非多……得了，您还没红呐，八字没一撇的事想那么多干嘛？先写下第一句再说。
-
-读书问别人该不该，原则上这是白问，除非别人对自己有很深的了解。同样的书，别人读得如痴如醉，自己读得如坐针毡，这评判怎么客观？我喜欢的书杂，很多书都觉得好，别人却可能看不出好来，于是埋怨我推荐得不对，这也没话好说。再说读了就行了？把书背下来不去照做、不去创造性地做也没用啊。
-
-说了去做，就有人算经济账，什么书钱啊，机会成本啊。
-那什么都不做，只是思考，是不是就没成本了呢？
-
-我是行动派，我说要学摄影，立刻就开始，读书、借相机租相机、看视频、请老师，然后快速地买相机，而且尝试各种拍，拍完再试后期，不管拍得是否难看先发到微博上再说，如果难看，别人自然会讲，如果有进步，别人自然也会赞扬——不过我的确不喜欢那种一味打击人的，对他们来说打击人是乐趣，并不客观——我因为目标之一是放在书里当插图，所以经常直接问编辑的意见，编辑负责把关，当然不会玩客套，在这方面，我相信专业眼光。说不行，我也不觉得是打击，说行，我会高高兴兴地继续去努力，用更高的标准要求自己。
-
-如果我两个月时间都花在思考要不要学摄影上，黄花菜都早凉了，我的摄影水平还是和当初一样烂，起码不会像现在这样进步了1毫米——1毫米也是进步！
-
-别人问我的建议，我说，做！别人立刻给我一堆这理由那理由，意思就是这不行那不行。我就闭嘴，又不是我提的问，我干嘛还要负责给了建议再加说服，那也太累了。做不做是自己的事，又不是别人的，我也不能给的建议里说读什么书，就自己买书奉上，别人的进步也不是我的责任。
-
-反正我自己，就是做，并坚持 。
-
-人生哪里用得着那么多废话？
-</code></pre><p>　　读完大觉写的好，算是蛮不错的心灵鸡汤；但应该对所要做的事情加一层判断限制条件，即：对于眼前便可实现且对人生没什么直接大影响的事务，好比一次旅行，继续一个爱好等，这样至少我很认可是更优的抉择；但是对于可能影响长远的，譬如求学，婚姻这样普罗大众都觉得是人生重大里程碑的择决，必须还是应该三思而后行的来的好一些——内心会因思虑的艰辛而更多了几分相信，至少觉得更靠谱。</p>
-<p>　　这几日下来，突然顿悟，这本身其实何必呢？毕竟想的多少，跟结果的优劣也不会是成正比的。名校高才，也不一定会比普通人成就更大的价值；婚前的百般考究如能成就一生幸福，当真有些离谱了。人生短暂，想的确是很重要，但真的不应该因此而搁浅了你”做”的初衷。很多时候，今天不会发生在你身上的事情，也许这一辈子也不会再发生了。</p>
-<p>　　何况有些事情，做了，如果成功了是一种精彩，即便失败也是一种经历；经历的累积也终究会成就更耀眼的精彩。更有：即便以不做此事的时间来思虑别的，也不能保证有更为出彩的所为不是？ 人之一生，沧海一粟，想做，就跟随内心的声音去做就好了，宁可有些过错，也别错过了。浮世幻变无常，别辜负了这不易人世的一场行走。</p>
-<p>　　借用他的话说：“人生哪里用得着那么多废话？”。做不做？做！</p>
+		<p>前端时间为移动游戏做一个网页活动需求（9宫格的刮奖），遇到一个很诡异的问题:Android端OK，就是在Ios设备上，点击非第一块区域，显示却是第一块区域被刮开咯，查看后端返回数据缺失OK的【前端采用backbone写法，遍历返回数据用的是underscore.js中的each】。经过一番查证，原来如此。</p>
+<a id="more"></a>
+<p>参考<a href="http://www.newsmth.net/nForum/#!article/WebDev/36711" target="_blank" rel="external">水木社区</a>这里的叙述，知晓原来这个属于：IOS 8 Safari JIT bug 影响 jQuery 和 underscore，致使： $.each/<em>.each，看到 .length 后，会把一个 object 当作数组来遍历。这个bug 会造成莫名其妙的结果。而我那里的结果就是：object数据对象，会在</em>.each遍历之后被以其value值大小排序了。然后就造成以上所描述的问题。</p>
+<p>于此，当时的解决办法是:将后端返回的object对象数据，做了转数组处理后，set给定义的模板，交付给_.each遍历就没有问题了。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arrList = [];</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>; i&lt;<span class="number">9</span>; i++)&#123;</span><br><span class="line">	arrList.push(data.datainit.list[i]);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">this</span>.model.set(<span class="string">'arrList'</span>,arrList);</span><br></pre></td></tr></table></figure>
+<p>好吧,可以看到这里for循环用的是这种传统的方式（还有一个魔数9,额の）。一开始，这里用for..in方式进行遍历的，代码如下：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (k <span class="keyword">in</span> data.datainit.list)&#123;</span><br><span class="line">  arrList.push(data.datainit.list[k]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>惊奇的结果是：这样搞，不行的;好奇怪的样子(得更努力的深入Js才行哇～)？在chrome的console下比较两者转化的数组结果一模一样。然后以ipod机器（系统版本Ios8.4.1）alert数组的长度，得到的结果是一样的，都是9。额，奇怪啊。就在即将放弃的时候alert了下转化数组结果，发现采用for..in 方式遍历object对象数据，在ios机器上（没试过所有，拿了ipad，iphone相对高版本系统）会打乱原有的顺序（原来以为是以value从大到小呢，后来多次尝试，不是如此，也未发现规律）；可见,<strong>Ios8 Safari上，以for..in方式遍历object对象会造成乱序;</strong>但是为何会造成这样子呢？有待继续学习😄。</p>
+<hr>
+<p>当然：jQuery 1.11.3 和 underscore 1.8.3修正了这个问题。事实上，对于此问题：jquery方面在Github这里<a href="https://github.com/jquery/jquery/issues/2145" target="_blank" rel="external">$.each fails intermittently on iOS due to Safari bug#2145</a>有过相关的论述；有兴趣一探究竟，可以点进去看下。</p>
+<p>来对比下underscore 1.7.0和underscore1.8.3中_.each的代码差异，来窥测下其修正手法：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// The cornerstone, an `each` implementation, aka `forEach`. Handles raw objects in addition to array-likes. Treats all sparse array-likes as if they were dense.   _.each = _.forEach = function(obj, iteratee, context) &#123;</span></span><br><span class="line">  <span class="keyword">if</span> (obj == <span class="literal">null</span>) <span class="keyword">return</span> obj;</span><br><span class="line">  iteratee = createCallback(iteratee, context);</span><br><span class="line">  <span class="keyword">var</span> i, length = obj.length;</span><br><span class="line">  <span class="keyword">if</span> (length === +length) &#123;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; length; i++) &#123;</span><br><span class="line">      iteratee(obj[i], i, obj);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> keys = _.keys(obj);</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>, length = keys.length; i &lt; length; i++) &#123;</span><br><span class="line">      iteratee(obj[keys[i]], keys[i], obj);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> obj;   &#125;;</span><br></pre></td></tr></table></figure></p>
+<p>在underscore1.8.3中，做了如下改进，并附有相应注释：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Helper for collection methods to determine whether a collection</span></span><br><span class="line"><span class="comment">// should be iterated as an array or as an object</span></span><br><span class="line"><span class="comment">// Related: http://people.mozilla.org/~jorendorff/es6-draft.html#sec-tolength</span></span><br><span class="line"><span class="comment">// Avoids a very nasty iOS 8 JIT bug on ARM-64. #2094</span></span><br><span class="line"><span class="keyword">var</span> MAX_ARRAY_INDEX = <span class="built_in">Math</span>.pow(<span class="number">2</span>, <span class="number">53</span>) - <span class="number">1</span>;</span><br><span class="line"><span class="keyword">var</span> getLength = property(<span class="string">'length'</span>);</span><br><span class="line"><span class="keyword">var</span> isArrayLike = <span class="function"><span class="keyword">function</span><span class="params">(collection)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> length = getLength(collection);</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">typeof</span> length == <span class="string">'number'</span> &amp;&amp; length &gt;= <span class="number">0</span> &amp;&amp; length &lt;= MAX_ARRAY_INDEX;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Collection Functions</span></span><br><span class="line"><span class="comment">// --------------------</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// The cornerstone, an `each` implementation, aka `forEach`.</span></span><br><span class="line"><span class="comment">// Handles raw objects in addition to array-likes. Treats all</span></span><br><span class="line"><span class="comment">// sparse array-likes as if they were dense.</span></span><br><span class="line">_.each = _.forEach = <span class="function"><span class="keyword">function</span><span class="params">(obj, iteratee, context)</span> </span>&#123;</span><br><span class="line">  iteratee = optimizeCb(iteratee, context);</span><br><span class="line">  <span class="keyword">var</span> i, length;</span><br><span class="line">  <span class="keyword">if</span> (isArrayLike(obj)) &#123;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>, length = obj.length; i &lt; length; i++) &#123;</span><br><span class="line">      iteratee(obj[i], i, obj);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> keys = _.keys(obj);</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>, length = keys.length; i &lt; length; i++) &#123;</span><br><span class="line">      iteratee(obj[keys[i]], keys[i], obj);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> obj;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -148,13 +118,13 @@
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/Thought/">Thought</a>
+  <a class="article-category-link" href="/categories/Web/">Web</a>
 </div>
 
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/Thought/">Thought</a>
+  <span></span> <a href="/tags/Javascript/">Javascript</a>
   </div>
 
 </div>
@@ -163,7 +133,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://jeffjade.github.io/2015/04/02/2015-04-01-thought-do/" data-title="做，还是不做？做！ | 晚晴幽草轩" data-tsina="null" class="share clearfix">
+	  <div data-url="http://jeffjade.github.io/2015/09/06/2015-09-06-ios8-safari-jitbug-record/" data-title="IOS 8 Safari JIT bug影响jQuery和underscore | 晚晴幽草轩" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -176,19 +146,11 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2015/04/03/2015-04-03-thought-poor-son-rich-gril-education/" title="穷养儿富养女真正的内涵(转)">
-  <strong>上一篇：</strong><br/>
-  <span>
-  穷养儿富养女真正的内涵(转)</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2015/03/28/2015-03-28-thought-weishang/"  title="微商已死(转载)">
+<a href="/2015/08/28/2015-09-02-js-string-compare/"  title="JavaScript字符串间的比较">
  <strong>下一篇：</strong><br/> 
- <span>微商已死(转载)
+ <span>JavaScript字符串间的比较
 </span>
 </a>
 </div>
@@ -197,7 +159,7 @@
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2015/04/02/2015-04-01-thought-do/" data-title="做，还是不做？做！" data-url="http://jeffjade.github.io/2015/04/02/2015-04-01-thought-do/"></div>
+	<div class="ds-thread" data-thread-key="2015/09/06/2015-09-06-ios8-safari-jitbug-record/" data-title="IOS 8 Safari JIT bug影响jQuery和underscore" data-url="http://jeffjade.github.io/2015/09/06/2015-09-06-ios8-safari-jitbug-record/"></div>
 </section>
 
 
