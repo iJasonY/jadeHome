@@ -88,6 +88,66 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/2015/05/23/2015-05-23-advie-from-oldprogramer/" title="老程序员的建议" itemprop="url">老程序员的建议</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="http://jeffjade.github.io/about" title="Jeffyang" target="_blank" itemprop="author">Jeffyang</a>
+		
+  <p class="article-time">
+    <time datetime="2015-05-22T16:00:00.000Z" itemprop="datePublished"> 发表于 2015-05-23</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>接触计算机倒是有几个年头了，而接触编程的时间也基本等于这个年限；但真正开始认识编程也才是不久的事。经历了几年的弯路后的小感悟，也才是编程漫漫其修远的始端。今天有看到《Learn Python The Hard Way》最后一节中“老程序员的建议”，颇多的感触。</p>
+        
+        
+        <p class="article-more-link">
+          
+            <a href="/2015/05/23/2015-05-23-advie-from-oldprogramer/#more">Read More</a>
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/Thought/">Thought</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Thought/">Thought</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/05/23/2015-05-23-advie-from-oldprogramer/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/05/23/2015-05-23-advie-from-oldprogramer/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/2015/05/17/2015-05-17-lua-ldoc/" title="使用Ldoc给Lua生成文档" itemprop="url">使用Ldoc给Lua生成文档</a>
   </h1>
   <p class="article-author">By
@@ -626,200 +686,6 @@
     </article>
 
 
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2015/04/17/2015-04-17-toss-sublime-text/" title="如何优雅地使用Sublime Text" itemprop="url">如何优雅地使用Sublime Text</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="http://jeffjade.github.io/about" title="Jeffyang" target="_blank" itemprop="author">Jeffyang</a>
-		
-  <p class="article-time">
-    <time datetime="2015-04-17T04:50:00.000Z" itemprop="datePublished"> 发表于 2015-04-17</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>Sublime Text：一款具有代码高亮、语法提示、自动完成且反应快速的编辑器软件，不仅具有华丽的界面，还支持插件扩展机制，用她来写代码，绝对是一种享受。相比于难于上手的Vim，浮肿沉重的Eclipse，VS，即便体积轻巧迅速启动的Editplus、Notepad++，在SublimeText面前大略显失色，无疑这款性感无比的编辑器是Coding和Writing最佳的选择，没有之一。</p>
-<p><br></p>
-<h3 id="Sublime_Text_2和3的对比"><strong>Sublime Text 2和3的对比</strong></h3><hr>
-<p>相比于2，Sublime Text 3就秒启动一项，就压倒性地胜利了。因此在之后的叙述中都以Sublime Text 3为主角。具体的差异可参看<a href="http://www.sublimetext.com/blog/" target="_blank" rel="external">Sublime Blog</a>.简单的说：</p>
-<blockquote>
-<ul>
-<li>ST3支持在项目目录里面寻找变量</li>
-<li>提供了对标签页更好地支持（更多的命令和快捷键）</li>
-<li>加快了程序运行的速度</li>
-<li>更新了API，使用Python3.3</li>
-</ul>
-</blockquote>
-<p>强烈推荐朋友们使用3! 唯快不破，不解释。</p>
-<p><br></p>
-<h3 id="Sublime_Text_3安装插件"><strong>Sublime Text 3安装插件</strong></h3><hr>
-<p>Sublime Text的强大就是她拥有强大的课可扩展性。您可根据自己的需要安装不同的插件；这使得她变的无比强大的同时又不失轻便。</p>
-<ul>
-<li><p>插件安装方式一：直接安装</p>
-<blockquote>
-<p>安装Sublime text 3插件很方便，可以直接下载安装包解压缩到Packages目录（菜单-&gt;preferences-&gt;packages）。</p>
-</blockquote>
-</li>
-<li><blockquote>
-<p>插件安装方式一：使用Package Control组件安装<br>按Ctrl+`调出console（注：安装有QQ输入法的这个快捷键会有冲突的，输入法属性设置-输入法管理-取消热键切换至QQ拼音）粘贴以下代码到底部命令行并回车：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib.request,os; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), <span class="string">'wb'</span>).write(urllib.request.urlopen( <span class="string">'http://sublime.wbond.net/'</span> + pf.replace(<span class="string">' '</span>,<span class="string">'%20'</span>)).read())</span><br></pre></td></tr></table></figure>
-</blockquote>
-</li>
-</ul>
-<blockquote>
-<p>重启Sublime Text 3。如果在Perferences-&gt;package settings中看到package control这一项，则安装成功。按下Ctrl+Shift+P调出命令面板输入install 调出 Install Package 选项并回车，然后在列表中选中要安装的插件。</p>
-</blockquote>
-<p><br></p>
-<h3 id="Sublime_Text_3推荐插件"><strong>Sublime Text 3推荐插件</strong></h3><hr>
-<p>根据自己的需要定制属于自己的强大插件集；下面是一些常用的推荐。<br><a href="http://www.jianshu.com/p/5905f927d01b" target="_blank" rel="external">Sublime Text3插件：增强篇</a><br><a href="http://www.open-open.com/news/view/26d731" target="_blank" rel="external">20个强大的SublimeText插件</a><br>作为在移动端畅游的自己，推荐这么几款插件：</p>
-<ul>
-<li><strong><a href="https://github.com/SublimeText-Markdown/MarkdownEditing" target="_blank" rel="external">MarkDown Editing</a></strong><br>  SublimeText不仅仅是能够查看和编辑 Markdown 文件，但它会视它们为格式很糟糕的纯文本。这个插件通过适当的颜色高亮和其它功能来更好地完成这些任务。关于如何在SublimeText下高效些东西可参见这篇文章：<a href="http://www.cnblogs.com/jadeboy/p/4165449.html" target="_blank" rel="external">sublime text 2(3)下的Markdown写作</a></li>
-<li><strong><a href="https://github.com/titoBouzout/SideBarFolders" target="_blank" rel="external">SideBarFolders</a></strong><br>  打开的文件夹都太多了? 来用这个来管理文件夹，世界原来也可以这么美好。<br>  <img src="http://www.jeffjade.com/img/toss/sublimetext-folder.png" alt="SideBarFolders"></li>
-<li><strong><a href="http://wbond.net/sublime_packages/terminal" target="_blank" rel="external">Sublime Terminal</a></strong><br>  这个插件可以让你在Sublime中直接使用终端打开你的项目文件夹，并支持使用快捷键。</li>
-<li><strong><a href="http://weslly.github.io/ColorPicker/" target="_blank" rel="external">ColorPicker</a></strong><br>  通常，如果你想使用一个颜色选择器则可能打开 Photoshop 或 GIMP。而在 Sublime Text 中，你可以使用内置的颜色选择器。安装完成后，只要按下Ctrl / Cmd + Shift + C 快捷键。</li>
-<li><strong><a href="https://github.com/wuub/SublimeREPL" target="_blank" rel="external">SublimeREPL</a></strong><br>  这可能是对程序员很有用的插件。SublimeREPL 允许你在 Sublime Text 中运行各种语言（NodeJS ， Python，Ruby， Scala 和 Haskell 等等）。</li>
-<li>终极王道：自己编写专用的Sublime Text插件。虽然说各个方面比如移动端，Web前段，服务器端，非Coder的Writer所需要的方便已经被集成在了不同的插件中。但譬如，需要快捷打开PC端的某个模拟器，便捷的进行某些校验，只要你想的到的基本都可以将其在插件内，以快捷键处理之。至于如何编写SublimeText插件，请参看这里<a href="http://www.360doc.com/content/15/0417/22/19342630_463999403.shtml" target="_blank" rel="external">编写自己的Sublime Text2 插件</a></li>
-</ul>
-<p><br></p>
-<h3 id="定制属于自己的快捷键"><strong>定制属于自己的快捷键</strong></h3><hr>
-<ul>
-<li>首先要会使用SublimeText内置的快捷键：<br>  比如 <code>Commond Shift P</code> 打开命令面板:例如打开Package Control安装各种插件；可以可以输入Set(Snytax)来改变使用的语言环境，瞬间切换等等。</li>
-<li><p>设置快捷键。在SublimeText里，打开Preferences -&gt; Key Bindings - User，我设置的快捷键：</p>
-  <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">    &#123; "<span class="attribute">keys</span>": <span class="value">[<span class="string">"ctrl+f9"</span>]</span>, "<span class="attribute">command</span>": <span class="value"><span class="string">"build"</span> </span>&#125;,</span><br><span class="line">    &#123; "<span class="attribute">keys</span>": <span class="value">[<span class="string">"f10"</span>]</span>, "<span class="attribute">command</span>": <span class="value"><span class="string">"build"</span></span>, "<span class="attribute">args</span>": <span class="value">&#123;"<span class="attribute">variant</span>": <span class="value"><span class="string">"Run"</span></span>&#125; </span>&#125;,</span><br><span class="line">    &#123; "<span class="attribute">keys</span>": <span class="value">[<span class="string">"ctrl+shift+x"</span>]</span>, "<span class="attribute">command</span>": <span class="value"><span class="string">"toggle_comment"</span></span>, "<span class="attribute">args</span>": <span class="value">&#123; "<span class="attribute">block</span>": <span class="value"><span class="literal">true</span> </span>&#125; </span>&#125;,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<p>  具体可参见这边文章<a href="http://blog.csdn.net/moyan_min/article/details/11530751" target="_blank" rel="external">Sublime Text3 快捷键汇总及设置快捷键配置环境变量</a></p>
-</li>
-<li><p>定制属于自己的专属快捷键：<br>  比如就拿定制Sublime Text(2/3)编译lua 的快捷键来说：</p>
-<ul>
-<li><p>首先：下安装lua环境(MAC)</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -s https://raw.githubusercontent.com/rudix-mac/rpm/2014.10/rudix.py | sudo python - install rudix&#10;&#10;&#25110;&#32773;&#65306;curl -O https://raw.githubusercontent.com/rudix-mac/rpm/2014.10/rudix.py&#10;sudo python rudix.py install rud</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装IED：SublimeText3;完毕后上面选择:Build System—New Build System 输入：</p>
-  <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;  </span><br><span class="line">    "<span class="attribute">cmd</span>": <span class="value">[<span class="string">"/usr/local/bin/lua"</span>, <span class="string">"$file"</span>]</span>,  </span><br><span class="line">    "<span class="attribute">file_regex</span>": <span class="value"><span class="string">"^(...*?):([0-9]*):?([0-9]*)"</span></span>,  </span><br><span class="line">    "<span class="attribute">selector</span>": <span class="value"><span class="string">"source.lua"</span>  </span><br><span class="line"></span>&#125;</span><br></pre></td></tr></table></figure>
-<p>保存为Lua.sublime-build，然后Tools-Build System上就能选择lua来编译脚本了）<br>PS：网上找到的大多数都是 “cmd”: [“lua”, “$file”]可能我是用rudix自动来安装lua的，需要改一下路径。</p>
-<p>新建一个xx.lua文件，随便写个语句，选择lua为build system，按一下<code>command+b</code>，就能跑出来了。 如下图所示：<br><img src="http://img2.ph.126.net/PI2F5lnTuwqeBm7KQx56zw==/1871245645272492575.png" alt="LuaShortCutSublimeText"><br>WindowS下面的定制请参看这里<a href="http://www.cnblogs.com/jadeboy/p/4055465.html" target="_blank" rel="external">Sublime Text(2/3)编译lua</a></p>
-</li>
-</ul>
-</li>
-</ul>
-<p><br></p>
-<h3 id="定制属于自己的主题"><strong>定制属于自己的主题</strong></h3><hr>
-<p>SublimeText 她不仅仅是作为性感无比，强大可大编辑器的存在；要知道在如今这么靠脸吃饭的时代，她的美者这方面怎么可能不臻至完美呢？Mac和Windows都默认十多种不同风格的主题，想必会有您喜欢😍的。即便没有也没关系，我们可以自己定制自己喜欢的风格主题。<a href="http://tmtheme-editor.herokuapp.com/#/local/Monokai" target="_blank" rel="external">在线制作专属Sublime Text主题</a>。这个网址可以轻松按照自己的意愿制作喜欢的主题。完毕之后将生成的xx.sublime.theme文件，点开Preferences -&gt; Browsr Packages这个，放在这个直属目录之下，即可在Theme处选择这个主题了，亲测没有问题。</p>
-<p>后记：作为如此便捷的她(Sublime Text3)，值得分享肯定不止这些，在Coding and Writing路上，要继续去发现和发扬她的美，未完待续…</p>
-<p>—写于2015.04.17 22:49 ShenZhen@nanshan</p>
-<hr>
-<p>—-更新2015.05.21 15:50 ShenZhen@nanshan<br>对于这个依赖于插件的强大性感无比开源编辑器；优雅的适用之，就在于合理的使用需要的插件，走一条快准狠的键盘一刀流。这个当然可以自己用python来写，但是一般的需求基本上都已经有人完成，还是不浪费时间自己造轮子了。今儿就再赘述一些使用的经验，让使用她可以更加优雅。</p>
-<h3 id="插件再推荐："><strong>插件再推荐：</strong></h3><p><strong><a href="https://github.com/SublimeText/CTags" target="_blank" rel="external">Ctags</a></strong><br>有童鞋抱怨Sublime Text不能支持函数的跳转（比如像Eclipse那样，按住Control点击该方法或者对象，即可跳转到定义的地方； Alt+←即可回到原处）。其实Sublime Text也可以借助插件实现之（当然，有些情况下:Can not find defination）毕竟这个也是借助正则来匹配完成的。因此这个也就要求代码很规范。这个插件相对来讲会有些麻烦，具体的可以参见:<a href="http://firstleaf.diandian.com/post/2013-03-29/40049695682" target="_blank" rel="external">Sublime Text ctags 的配置</a>.</p>
-<p><strong><a href="https://github.com/SublimeLinter" target="_blank" rel="external">SublimeLinter</a></strong><br>SublimeLinter 是前端编码利器——<a href="http://www.cnblogs.com/lhb25/archive/2012/12/28/best-tools-for-web-development-b.html" target="_blank" rel="external"><strong>Sublime Text</strong></a> 的一款插件，用于高亮提示用户编写的代码中存在的不规范和错误的写法，支持 JavaScript、CSS、HTML、Java、PHP、Python、Ruby 等十多种开发语言。这篇文章介绍如何在 Windows 中配置 SublimeLinter 进行 JS &amp; CSS 校验。<br>比如写例如像lua这样的弱语言脚本代码，有这个可以规避掉很多不该有的低级错误吧？当然这也需要你SublimeLinter安装完毕之后再安装一个<code>SublimeLinter-lua</code>即可。具体的使用可以参见：<a href="http://www.cnblogs.com/lhb25/archive/2013/05/02/sublimelinter-for-js-css-coding.html" target="_blank" rel="external">借助 SublimeLinter 编写高质量的 JavaScript &amp; CSS 代码</a></p>
-<p><strong>SideBarEnhancements插件：</strong><br>SideBarEnhancements是一款很实用的右键菜单增强插件；在安装该插件前，在Sublime Text左侧FOLDERS栏中点击右键，只有寥寥几个简单的功能；安装了就相当于给其丰了大胸一般。<br><strong>更强大的是</strong>，该插件还能让我们自定义快捷键呼出某个浏览器以预览页面！这样就不用到项目目录下寻找和拖动到特定浏览器中预览了。<br>安装此插件后，点击菜单栏的<em>preferences-&gt;package setting-&gt;side bar-&gt;Key Building-User</em>，键入以下代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[   </span><br><span class="line">    &#123; <span class="string">"keys"</span>: [<span class="string">"ctrl+shift+c"</span>], <span class="string">"command"</span>: <span class="string">"copy_path"</span> &#125;,</span><br><span class="line">    //chrome</span><br><span class="line">    &#123; <span class="string">"keys"</span>: [<span class="string">"f2"</span>], <span class="string">"command"</span>: <span class="string">"side_bar_files_open_with"</span>,</span><br><span class="line">            <span class="string">"args"</span>: &#123;</span><br><span class="line">                <span class="string">"paths"</span>: [],</span><br><span class="line">                <span class="string">"application"</span>: <span class="string">"C:\\Users\\jeffj\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"</span>,</span><br><span class="line">                <span class="string">"extensions"</span>:<span class="string">".*"</span></span><br><span class="line">            &#125;</span><br><span class="line">     &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<p>这里设置按Ctrl+Shift+C复制文件路径，按F2即可在Chrome浏览器预览效果(如果需要的话，也可以根据自己的需要为Firefox，Safari，IE，Opera等加上)，当然你也可以自己定义喜欢的快捷键，最后注意代码中的浏览器路径要以自己电脑里的文件路径为准。</p>
-<p><strong><a href="https://github.com/csscomb/CSScomb-for-Sublime" target="_blank" rel="external">CSScomb CSS属性排序</a>:</strong><br>有时候看看自己写的CSS文件，会不会觉得属性很乱查找不易维护难？CSScomb可以按照一定的CSS属性排序规则，将杂乱无章的CSS属性进行重新排序。选中要排序的CSS代码，按Ctrl+Shift+C，即可对CSS属性重新排序了，代码从此简洁有序易维护，如果不款选代码则插件将排序文件中所有的CSS属性。当然，可以自己自定义CSS属性排序规则，打开插件目录里的CSScomb.sublime-settings文件，更改里面的CSS属性顺序就行了。因为这个插件使用PHP写的，要使他工作需要在环境变量中添加PHP的路径，具体请看github上的说明。</p>
-<p><strong><a href="https://github.com/kairyou/SublimeTmpl" target="_blank" rel="external">SublimeTmpl 快速生成文件模板</a></strong><br>一直都很奇怪为什么sublime text 3没有新建文件模板的功能，像html头部的DTD声明每次都要复制粘贴。用SublimeTmpl这款插件终于可以解脱了，SublimeTmpl能新建html、css、javascript、php、python、ruby六种类型的文件模板，所有的文件模板都在插件目录的templates文件夹里，可以自定义编辑文件模板。<br>SublimeTmpl默认的快捷键:<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ctrl+alt+h <span class="tag">html</span></span><br><span class="line">ctrl+alt+j javascript</span><br><span class="line">ctrl+alt+c css</span><br><span class="line">ctrl+alt+<span class="tag">p</span> php</span><br><span class="line">ctrl+alt+r ruby</span><br><span class="line">ctrl+alt+shift+<span class="tag">p</span> python</span><br></pre></td></tr></table></figure></p>
-<p>如果想要新建其他类型的文件模板的话，先自定义文件模板方在templates文件夹里，再分别打开Default (Windows).sublime-keymap、Default.sublime-commands、Main.sublime-menu、SublimeTmpl.sublime-settings这四个文件照着里面的格式自定义想要新建的类型，这里就详细介绍了，请各位自己折腾哈~</p>
-<p>剩下些许其他的可以按需安装的插件，比如：</p>
-<ul>
-<li><strong>ConvertToUTF8</strong>  支持 GBK, BIG5, EUC-KR, EUC-JP, Shift_JIS 等编码的插件</li>
-<li><strong>Bracket Highlighter</strong> 用于匹配括号，引号和html标签。对于很长的代码很有用。安装好之后，不需要设置插件会自动生效</li>
-<li><strong>DocBlockr</strong> 可以自动生成PHPDoc风格的注释。它支持的语言有Javascript, PHP, ActionScript, CoffeeScript, Java, Objective C, C, C++</li>
-<li><strong>Emmet(Zen Coding)</strong>快速生成HTML代码段的插件，强大到无与伦比，web开发必备。</li>
-<li><strong>Format</strong> 格式化代码，懂者自懂；强迫症Coder必备！。</li>
-<li><strong>CSS Compact Expand CSS属性展开收缩:</strong>写CSS的盆友，喜欢将其写多行还是一行(个人喜欢将其格式化为多行)？如果阅读别人的代码不符合自己的习惯，可以用CSS Compact Expand这个插件将CSS格式化一下，按 Ctrl+Alt+[ 收缩CSS代码为一行显示，按 Ctrl+Alt+] 展开CSS代码为多行显示；强迫症Coder必备！。</li>
-<li><strong>Autoprefixer插件</strong>：这是一款CSS3私有前缀自动补全插件；该插件使用CanIUse资料库（当然，SublimeText自然也有<font color="purple">CanIUse</font>这个插件咯），能精准判断哪些属性需要什么前缀，与CssComb插件一样，该插件也需要系统已安装Node.js环境；使用方法：在输入CSS3属性后（冒号前）按Tab键即可。</li>
-</ul>
-<h3 id="些许实用技巧："><strong>些许实用技巧：</strong></h3><p>(1) Ctrl+O(Command+O)可以实现头文件和源文件之间的快速切换 </p>
-<p>(2) 通过 View -&gt; Side bar 可在左侧显示当前打开的文件列表 </p>
-<p>(3) ST3虽然不像notepad++可以在sidebar上显示函数列表，但是可通过Ctrl+R查看 </p>
-<p>(3) 通过 Preference -&gt; Key binding user 可根据个人操作习惯自定义快捷键（包括ST3自带的和插件的） </p>
-<p>(4) 双击可选中光标所在单词，三击可选中光标所在行(等同于<code>Ctrl＋L</code>(Command+L));</p>
-<p>(5) Ctrl+Shift+T可以打开之前关闭的tab页，这点同chrome是一样的</p>
-<p>(6)Ctrl+R定位函数；Ctrl+G定位到行；</p>
-<p>(7) 单个文件批量修改：<strong>纯相同的内容</strong>：选中需要修改的内容<code>Alt+F3</code>(Mac下默认的是<code>Ctrl+Command+G</code>) ， 或者连续 Ctrl+D(Win) /连续 Command+D（Mac）之后重新写即可，使用<code>Ctrl + U</code>进行回退，使用Esc退出多重编辑。<br><strong>不纯相同却有一定规律可循的内容</strong>：这个就需要借助SublimeText强大正则的支持了。可以使用<code>Ctrl+H</code>(Mac下是<code>Alt+Command+F</code>)调出：<br><img src="http://i.imgur.com/4NnE9SN.jpg" alt="SublimeText"><br>正则表达式是非常强大的文本查找&amp;替换工具，Sublime Text中使用Alt + R切换正则匹配模式的开启/关闭。Sublime Text的使用<a href="http://www.boost.org/doc/libs/1_44_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html" target="_blank" rel="external">Boost里的Perl正则表达式风格</a>。鉴于篇幅，加之本身就对这个不甚熟悉，这里就不再多啰嗦；以下是一些可以参考的文章：</p>
-<ul>
-<li><a href="http://www.oschina.net/question/12_9507" target="_blank" rel="external">开源中国～正则表达式30分钟入门教程</a></li>
-<li><a href="http://www.jeffjade.com/2014/12/25/2014-12-25-regular-expression/" target="_blank" rel="external">59分钟学会正则表达式</a></li>
-<li><a href="https://msdn.microsoft.com/zh-cn/library/ae5bf541(v=vs.90" target="_blank" rel="external">MSDN～正则表达式语法</a>.aspx)</li>
-<li><a href="http://www.williamlong.info/archives/433.html" target="_blank" rel="external">月光博客～常用正则表达式</a></li>
-</ul>
-<p>(8) 有时我们需要对一片区域的所有行进行同时编辑，<code>Ctrl+Shift+L</code>可以将当前选中区域打散，然后进行同时编辑：<br><img src="http://i.imgur.com/0NHpXFl.gif" alt="SublimeText"></p>
-<p>(9)有打散自然就有合并，<code>Ctrl + J</code>(mac下Command＋J)可以把当前选中区域合并为一行：<br><img src="http://i.imgur.com/hfRAyiy.gif" alt="SublimeText"></p>
-<p>(10)在<code>Ctrl + P</code>(Command+P)匹配到文件后，我们可以进行后续输入以跳转到更精确的位置：</p>
-<ul>
-<li>@ 符号跳转：输入<code>@symbol</code>跳转到symbol符号所在的位置</li>
-<li># 关键字跳转：输入<code>#keyword</code>跳转到keyword所在的位置</li>
-<li>: 行号跳转：输入<code>:12</code>跳转到文件的第12行。</li>
-</ul>
-<p>(11)<code>Ctrl + Enter</code>(Mac~Command+Enter)在当前行下面新增一行然后跳至该行；<code>Ctrl + Shift + Enter</code>在当前行上面增加一行并跳至该行。</p>
-<p>(12)Sublime Text的查找有不同的模式：<code>Alt + C</code>切换大小写敏感（Case-sensitive）模式，Alt + W切换整字匹配（Whole matching）模式，除此之外Sublime Text还支持在选中范围内搜索（Search in selection），这个功能没有对应的快捷键，但可以通过以下配置项自动开启。</p>
-<blockquote>
-<p>“auto_find_in_selection”: true</p>
-</blockquote>
-<p>这样之后在选中文本的状态下范围内搜索就会自动开启，配合这个功能，局部重命名（Local Renaming）变的非常方便：<br><img src="http://i.imgur.com/QRIsDra.gif" alt="SublimeText"></p>
-<p>(13)Windows下<code>Ctrl + ←/→</code>进行逐词移动，相应的，<code>Ctrl + Shift + ←/→</code>进行逐词选择。<br><img src="http://i.imgur.com/jFnTDl3.gif" alt="SublimeText"><br>而Mac下的<code>Command+←/→</code>是从一端移动到另一端；相应的，<code>Command + Shift + ←/→</code>是从一端选择到另一端。</p>
-<p>(14) Windows下<code>Ctrl + ↑/↓</code>移动当前显示区域，<code>Ctrl + Shift + ↑/↓</code>移动当前行。<br><img src="http://i.imgur.com/v31pd3k.gif" alt="SublimeText"><br>而Mac下的<code>Command + ↑/↓</code>是从当前行移动到头/尾；相应的，<code>Command + Shift + ↑/↓</code>是从当前行选择到头/尾；</p>
-<p>(15)使用<code>Ctrl + N</code>在当前窗口创建一个新标签，<code>Ctrl + W</code>关闭当前标签，<code>Ctrl + Shift + T</code>恢复刚刚关闭的标签。</p>
-<p>(16)编辑代码时我们经常会开多个窗口，所以分屏很重要。Windows下：<code>Alt + Shift + 2</code>进行左右分屏，<code>Alt + Shift + 8</code>进行上下分屏，<code>Alt + Shift + 5</code>进行上下左右分屏（即分为四屏）。</p>
-<p>(17)Sublime Text基本的手动格式化操作包括：<code>Ctrl + [</code>向左缩进(等同于将一块选中Shift+Tab)，Ctrl + ]向右缩进(等同于将一块选中后Tab键)，<strong>注解：</strong> Ctr+[ 和 Ctr+[ 针对一块连续内容使用，无需选中；此外Ctrl + Shift + V可以以当前缩进粘贴代码（非常实用）。</p>
-<p>(18) <del><code>Ctrl+Shift+V</code></del>(好吧，尝试了下Windows下的这个，目测不行，看来须得安装下<a href="https://github.com/kemayo/sublime-text-2-clipboard-history" target="_blank" rel="external">Clipboard-history</a>插件～（粘贴板历史记录）才行啊)（Mac下Command＋Shift＋V），粘贴之时可以调出之前粘贴过的内容（以一个轻量弹框显示以供选择），哇哦，才发现这个功能，感觉棒棒哒😄😄。<br><img src="http://www.jeffjade.com/img/toss/sublimetext-hotkey.png" alt="SublimeText"></p>
-<hr>
-<h3 id="Sublime_Text内运行javascript(ES6)"><strong>Sublime Text内运行javascript(ES6)</strong></h3><h4 id="首先安装nodejs">首先安装<a href="http://nodejs.org/" target="_blank" rel="external">nodejs</a></h4><p>当然你可以使用其它诸如<a href="https://trac.webkit.org/wiki/JSC" target="_blank" rel="external">jsc</a>之类的环境来运行js, 本文使用的是<a href="http://nodejs.org/" target="_blank" rel="external">nodejs</a>. 首先确保你的电脑已经安装好nodejs, 并已将其添加到环境变量中 (一般安装时自动添加或者询问是否添加)</p>
-<h4 id="添加build_system">添加<a href="https://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-2/file_processing/build_systems.html" target="_blank" rel="external">build system</a></h4><p>在sublime text中依次打开Tools -&gt; Build System -&gt; New Build System… 粘贴以下代码后保存(如Node.sublime-build), 然后把Build System设成Automatic<br>{ “cmd”: [“node”, “—use-strict”, “—harmony”, “$file”], “selector”: “source.js”}</p>
-<h4 id="附加说明">附加说明</h4><p>在以上的build文件中(Node.sublime-build), node是执行命令, —harmony和—use-strict是执行参数, $file是当前文件名, 所以一次build操作实际上相当于在命令行中执行了node —use-strict —harmony filename<br>. —harmony表示启用<a href="http://kangax.github.io/compat-table/es6/" target="_blank" rel="external">ES Harmony features</a>, 而这些features目前只能在strict模式下运行, 所以需要同时添加use-strict参数(详见<a href="http://stackoverflow.com/questions/17253509/what-is-extended-mode" target="_blank" rel="external">what-is-extended-mode</a>).<br>如果不想启用es6的特性,把build文件更改成以下代码保存即可.<br>{ “cmd”: [“node”, “$file”], “selector”: “source.js”}</p>
-<h4 id="具体使用">具体使用</h4><p>在sublime test中新建一个test.js文件, 然后输入你的测试代码, 比如:<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">for (let i = 0; i &#60; 3; i++) &#123;&#10;    console.log(&#39;i:&#39;, i);&#10;&#125;</span><br></pre></td></tr></table></figure></p>
-<p>使用快捷键 <code>ctrl + b</code><br>, 将得到以下执行结果:<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">i:</span> <span class="number">0</span><span class="string">i:</span> <span class="number">1</span><span class="string">i:</span> <span class="number">2</span>[Finished <span class="keyword">in</span> <span class="number">0.1</span>s]</span><br></pre></td></tr></table></figure></p>
-<p><strong>温馨注解:</strong></p>
-<ul>
-<li>(1)文件必须是存在于磁盘中的, 而不是untitled的, 否则sublime无法找到相应的文件.</li>
-<li>(2)Nodejs安装目录需要加入path环境变量中，否则Ctrl+B运行 会出现：[WinError 2] 系统找不到指定的文件。</li>
-</ul>
-<p>—-更新2015.08.31 11:59 ShenZhen@nanshan—-</p>
-<p>参考文章出处：<br><a href="http://www.cnblogs.com/figure9/p/sublime-text-complete-guide.html" target="_blank" rel="external">Sublime Text 全程指引 by Lucida</a><br><a href="http://www.cnblogs.com/bugs/p/3533216.html" target="_blank" rel="external">Sublime Text 3能用支持的插件推荐</a></p>
-<p><a href="http://www.jeffjade.com/2015/04/17/2015-04-17-toss-sublime-text/" target="_blank" rel="external">原文首贴链接:http://www.jeffjade.com/2015/04/17/2015-04-17-toss-sublime-text/</a></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-<div class="article-categories">
-  <span></span>
-  <a class="article-category-link" href="/categories/Toss/">Toss</a>
-</div>
-
-
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/SublimeText/">SublimeText</a>
-  </div>
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-	  	<span></span>
-		<a href="/2015/04/17/2015-04-17-toss-sublime-text/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/04/17/2015-04-17-toss-sublime-text/" data-count-type="comments">&nbsp;</a>
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
 
   <nav id="page-nav" class="clearfix">
     <a class="extend prev" rel="prev" href="/page/2/"><span></span>Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/4/">Next<span></span></a>
@@ -882,7 +748,7 @@
 		  
 		
 		  
-			<li><a href="/categories/Web/" title="Web">Web<sup>8</sup></a></li>
+			<li><a href="/categories/Web/" title="Web">Web<sup>9</sup></a></li>
 		  
 		
 		</ul>
@@ -903,11 +769,11 @@
 			
 		
 			
-				<li><a href="/tags/Lua/" title="Lua">Lua<sup>7</sup></a></li>
+				<li><a href="/tags/Toss/" title="Toss">Toss<sup>7</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Toss/" title="Toss">Toss<sup>6</sup></a></li>
+				<li><a href="/tags/Lua/" title="Lua">Lua<sup>7</sup></a></li>
 			
 		
 			
@@ -915,11 +781,11 @@
 			
 		
 			
-				<li><a href="/tags/Javascript/" title="Javascript">Javascript<sup>5</sup></a></li>
+				<li><a href="/tags/Android/" title="Android">Android<sup>5</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Android/" title="Android">Android<sup>5</sup></a></li>
+				<li><a href="/tags/Javascript/" title="Javascript">Javascript<sup>5</sup></a></li>
 			
 		
 			
@@ -935,6 +801,10 @@
 			
 		
 			
+				<li><a href="/tags/Health/" title="Health">Health<sup>2</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/CSS/" title="CSS">CSS<sup>2</sup></a></li>
 			
 		
@@ -943,7 +813,7 @@
 			
 		
 			
-				<li><a href="/tags/Git/" title="Git">Git<sup>2</sup></a></li>
+				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>2</sup></a></li>
 			
 		
 			
@@ -963,11 +833,7 @@
 			
 		
 			
-				<li><a href="/tags/Health/" title="Health">Health<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>1</sup></a></li>
+				<li><a href="/tags/Git/" title="Git">Git<sup>2</sup></a></li>
 			
 		
 			
