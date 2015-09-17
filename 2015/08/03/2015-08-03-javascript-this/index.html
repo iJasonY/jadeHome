@@ -11,7 +11,7 @@
 
     <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   
-    <title>JavaScript中的百变大咖～this | 晚晴幽草轩</title>
+    <title>JavaScript 之 this 详解 | 晚晴幽草轩</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Jeffyang">
@@ -20,12 +20,12 @@
     
     <meta name="description" content="JavaScript作为一种脚本语言身份的存在，因此被很多人认为是简单易学的。然而情况恰恰相反，JavaScript支持函数式编程、闭包、基于原型的继承等高级功能。由于其运行期绑定的特性，JavaScript 中的 this 含义要丰富得多，它可以是全局对象、当前对象或者任意对象，这完全取决于函数的调用方式。JavaScript中函数的调用有以下几种方式：作为对象方法调用，作为函数调用，作为构造函">
 <meta property="og:type" content="article">
-<meta property="og:title" content="JavaScript中的百变大咖～this">
+<meta property="og:title" content="JavaScript 之 this 详解">
 <meta property="og:url" content="http://jeffjade.github.io/2015/08/03/2015-08-03-javascript-this/index.html">
 <meta property="og:site_name" content="晚晴幽草轩">
 <meta property="og:description" content="JavaScript作为一种脚本语言身份的存在，因此被很多人认为是简单易学的。然而情况恰恰相反，JavaScript支持函数式编程、闭包、基于原型的继承等高级功能。由于其运行期绑定的特性，JavaScript 中的 this 含义要丰富得多，它可以是全局对象、当前对象或者任意对象，这完全取决于函数的调用方式。JavaScript中函数的调用有以下几种方式：作为对象方法调用，作为函数调用，作为构造函">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JavaScript中的百变大咖～this">
+<meta name="twitter:title" content="JavaScript 之 this 详解">
 <meta name="twitter:description" content="JavaScript作为一种脚本语言身份的存在，因此被很多人认为是简单易学的。然而情况恰恰相反，JavaScript支持函数式编程、闭包、基于原型的继承等高级功能。由于其运行期绑定的特性，JavaScript 中的 this 含义要丰富得多，它可以是全局对象、当前对象或者任意对象，这完全取决于函数的调用方式。JavaScript中函数的调用有以下几种方式：作为对象方法调用，作为函数调用，作为构造函">
 <meta name="twitter:creator" content="@jeffjade2">
 
@@ -86,7 +86,7 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/08/03/2015-08-03-javascript-this/" title="JavaScript中的百变大咖～this" itemprop="url">JavaScript中的百变大咖～this</a>
+      <a href="/2015/08/03/2015-08-03-javascript-this/" title="JavaScript 之 this 详解" itemprop="url">JavaScript 之 this 详解</a>
   </h1>
   <p class="article-author">By
        
@@ -162,7 +162,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://jeffjade.github.io/2015/08/03/2015-08-03-javascript-this/" data-title="JavaScript中的百变大咖～this | 晚晴幽草轩" data-tsina="null" class="share clearfix">
+	  <div data-url="http://jeffjade.github.io/2015/08/03/2015-08-03-javascript-this/" data-title="JavaScript 之 this 详解 | 晚晴幽草轩" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -196,7 +196,7 @@
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2015/08/03/2015-08-03-javascript-this/" data-title="JavaScript中的百变大咖～this" data-url="http://jeffjade.github.io/2015/08/03/2015-08-03-javascript-this/"></div>
+	<div class="ds-thread" data-thread-key="2015/08/03/2015-08-03-javascript-this/" data-title="JavaScript 之 this 详解" data-url="http://jeffjade.github.io/2015/08/03/2015-08-03-javascript-this/"></div>
 </section>
 
 
@@ -309,15 +309,15 @@
 			
 		
 			
-				<li><a href="/tags/Travel/" title="Travel">Travel<sup>3</sup></a></li>
-			
-		
-			
 				<li><a href="/tags/Read/" title="Read">Read<sup>3</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>2</sup></a></li>
+				<li><a href="/tags/Travel/" title="Travel">Travel<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Health/" title="Health">Health<sup>2</sup></a></li>
 			
 		
 			
@@ -333,10 +333,6 @@
 			
 		
 			
-				<li><a href="/tags/Git/" title="Git">Git<sup>2</sup></a></li>
-			
-		
-			
 				<li><a href="/tags/SublimeText/" title="SublimeText">SublimeText<sup>2</sup></a></li>
 			
 		
@@ -349,7 +345,11 @@
 			
 		
 			
-				<li><a href="/tags/Health/" title="Health">Health<sup>2</sup></a></li>
+				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Git/" title="Git">Git<sup>2</sup></a></li>
 			
 		
 			
