@@ -3,7 +3,7 @@ var jeffjade_firebase = new Firebase("https://jeffjade.firebaseIO.com");
 jeffjade_firebase.child("sum").on("value", function(data) {
   var current_counter = data.val();
   if($("#counter").length > 0  && current_counter > 1){
-     $("#counter").html("&nbsp;|&nbsp;本站总访问量&nbsp;<font style='color:white'>"+ current_counter +"</font>&nbsp;次");
+     $("#counter").html("&nbsp;本站总热度&nbsp;<font style='color:purple'>"+ current_counter +"</font>&nbsp;次访");
   };
 });
 
@@ -16,6 +16,16 @@ var current_url = window.location.pathname.replace(new RegExp('\\/|\\.', 'g'),"_
 
 jeffjade_firebase.child("detail/"+current_url).transaction(function (current_counter) {
   return (current_counter || 0) + 1;
+});
+
+// 获取明细，并将明细也展示在页面上
+jeffjade_firebase.child("detail/"+current_url).on("value", function(data){
+	var detail_counter = data.val();
+	if($("#detail_counter").length > 0 && detail_counter > 1){
+		$("#detail_counter").html(
+			"&nbsp;本页总热度&nbsp;<font style='color:purple'>"+ detail_counter +"</font>&nbsp;次访"
+		);
+	}
 });
 
 var n = new Date();
