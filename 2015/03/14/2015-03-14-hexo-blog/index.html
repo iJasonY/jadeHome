@@ -118,6 +118,22 @@
 <p><a href="http://dev.duoshuo.com/threads/541d3b2b40b5abcd2e4df0e9" target="_blank" rel="external">Hexo添加多说评论框指南</a></p>
 <p><a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="external">独立博客—Github Pages与Hexo教程</a></p>
 <hr>
+<p>—————————-2015-10-02更新———————————<br>在使用<code>jacman</code>这个主题，确实得到了很好的体验。然而，美中不足的是该主题对统计的支持仅是google和百度统计，因个人喜好，多少是有失偏颇。不得不自己折腾一番了；参考 <code>不如</code>的<a href="http://ibruce.info/2013/12/22/count-views-of-hexo/" target="_blank" rel="external">为hexo博客添加访问次数统计功能</a>文章，有尝试过用下<code>不蒜子</code>,但毕竟在完善期，稍加折腾没什么好的体验，就放弃了。按照其文提到的<code>firebase</code>,就去折腾了下，感觉尚可。不过已经有人写出了不错的文章<a href="http://www.pangjian.info/2015/02/27/realtime-count-firebase/#more" target="_blank" rel="external">基于Firebase的Hexo博客实时访问数统计</a>，也是在此文的说明下，也给自己的站点添加了统计功能。Api简单，使用起来非常的方便，有兴趣的壳去折腾下。</p>
+<p>说起这<a href="https://www.firebase.com/" target="_blank" rel="external">Firebase</a>,功能也算可以，对于其优缺点，有人做出了如此评判和对比：<br><strong>Firebase优点：</strong></p>
+<ol>
+<li>Api简单，使用起来非常的方便，可大大减少代码量。</li>
+<li>可通过网页对数据进行管理，很方便。</li>
+<li>支持SSL、权限认证、数据安全机制。</li>
+</ol>
+<p><strong>Firebase缺点：</strong></p>
+<ol>
+<li>数据结构和数据库存储方式不一致（由于想支持REST方式读取数据）</li>
+<li>不能部署自己的数据库（很多项目都需要自己维护数据库的）</li>
+<li>目前数据操作能力较弱（有很多需求(稍微复杂点的查询)目前Firebase很难支持）</li>
+<li>数据分析功能很弱，只能查看流量和当前在线人数(独立数据库的话，这部分很容易做的更强大)[2]</li>
+</ol>
+<p>具体参考：<a href="http://blog.csdn.net/justfrozen/article/details/12716669" target="_blank" rel="external">实时Javascript开发框架Clouda、Meteor、Firebase对比</a></p>
+<hr>
 <p>搭建完毕会生成一篇 <code>markdown</code> 所写，如下所示的文章；大致可窥测待搭建完毕生成的一篇markdown缩写的文章；一起来领略下使用Hexo书写／测试／发表 Blog是一件都么简单优雅的事情。</p>
 <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
