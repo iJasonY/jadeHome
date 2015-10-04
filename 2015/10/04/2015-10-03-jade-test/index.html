@@ -1,0 +1,790 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  
+    <title>〔转〕jQuery编程的最佳实践 | 晚晴幽草轩</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Jeffyang">
+    
+
+    
+    <meta name="description" content="前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍不住不由自主的转到了自己的Blog。此文出自“刘哇勇的部落格”jQuery编程的最佳实践；原文出自Coding Standards &amp;amp; Best Practices。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="〔转〕jQuery编程的最佳实践">
+<meta property="og:url" content="http://jeffjade.github.io/2015/10/04/2015-10-03-jade-test/index.html">
+<meta property="og:site_name" content="晚晴幽草轩">
+<meta property="og:description" content="前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍不住不由自主的转到了自己的Blog。此文出自“刘哇勇的部落格”jQuery编程的最佳实践；原文出自Coding Standards &amp;amp; Best Practices。">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="〔转〕jQuery编程的最佳实践">
+<meta name="twitter:description" content="前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍不住不由自主的转到了自己的Blog。此文出自“刘哇勇的部落格”jQuery编程的最佳实践；原文出自Coding Standards &amp;amp; Best Practices。">
+<meta name="twitter:creator" content="@jeffjade2">
+
+    
+    <link rel="alternative" href="/atom.xml" title="晚晴幽草轩" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/xuan.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/xuan.ico">
+    <link rel="apple-touch-icon-precomposed" href="/img/xuan.ico">
+      
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/yingYang.png" alt="晚晴幽草轩" title="晚晴幽草轩"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="晚晴幽草轩">晚晴幽草轩</a></h1>
+				<h2 class="blog-motto">It&#39;s only too late if you decide it is. Get busy living. or get busy dying!</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="云轩菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/About">About</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:jeffjade.github.io">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/10/04/2015-10-03-jade-test/" class=jade-cp-link title="〔转〕jQuery编程的最佳实践" itemprop="url">〔转〕jQuery编程的最佳实践</a>
+    
+  </h1>
+  <p class="article-author">By
+       
+		<a href="http://jeffjade.github.io/about" title="Jeffyang" target="_blank" itemprop="author">Jeffyang</a>
+		
+  <p class="article-time">
+    <time datetime="2015-10-04T04:00:00.000Z" itemprop="datePublished"> 发表于 2015-10-04</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<p>前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍不住不由自主的转到了自己的Blog。此文出自“刘哇勇的部落格”<a href="http://www.cnblogs.com/Wayou/p/jquery_best_practise.html" target="_blank" rel="external">jQuery编程的最佳实践</a>；原文出自<a href="http://lab.abhinayrathore.com/jquery-standards/" target="_blank" rel="external">Coding Standards &amp; Best Practices</a>。</p>
+<a id="more"></a>
+<p>好像是feedly订阅里看到的文章，读完后觉得非常不错，译之备用，多看受益。</p>
+<h2 id="加载jQuery"><strong>加载jQuery</strong></h2><ol>
+<li><p>坚持使用CDN来加载jQuery，这种别人服务器免费帮你托管文件的便宜干嘛不占呢。<a href="http://www.sitepoint.com/7-reasons-to-use-a-cdn/" target="_blank" rel="external">点击查看</a>使用CDN的好处，<a href="http://lab.abhinayrathore.com/jquery-standards/#jQueryCND" target="_blank" rel="external">点此</a>查看一些主流的jQuery CDN地址。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"</span>&gt;<span class="xml"><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript"><span class="built_in">window</span>.jQuery || <span class="built_in">document</span>.write(<span class="string">'&lt;script src="js/jquery-1.11.0.min.js" type="text/javascript"&gt;&lt;\/script&gt;'</span>)</span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>安全起见，最好还是提供一个本地备份以便在无法从远程CDN服务器获取jQuery时网站也能工作，如上面代码所示。<a href="https://css-tricks.com/snippets/jquery/fallback-for-cdn-hosted-jquery/" target="_blank" rel="external">详情见此</a>。</p>
+</li>
+<li><p>使用<a href="http://www.paulirish.com/2010/the-protocol-relative-url/" target="_blank" rel="external">裸协议</a>的URL（也就是说去掉http:或者https:），如上面代码展示的那样。</p>
+</li>
+<li><p>如果可能，尽量将你的JavaScript和jQuery代码放到页面底部。详情移步<a href="https://developer.yahoo.com/blogs/ydn/high-performance-sites-rule-6-move-scripts-bottom-7200.html" target="_blank" rel="external">这里</a>，或者查看一个<a href="https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html" target="_blank" rel="external">HTML5页面标准模板</a>。</p>
+</li>
+<li><p>该使用哪个版本？</p>
+</li>
+</ol>
+<ul>
+<li>如果你想兼容IE678请表用2.x的版本</li>
+<li>针对极少数不用考虑兼容性的幸运儿，极力推荐使用最新版本的jQuery</li>
+<li>当从CDN服务器加载jQuery时，最好把版本写全（比如1.11.0而不是1.11或者直接写个1）</li>
+<li>千万莫重复加载.</li>
+</ul>
+<ol>
+<li><p>如果你同时还使用了其他JS框架诸如Prototype, MooTools, Zepto云云，因为他们也使用了$符号，所以你就表再用美刀符号来进行jQuery 编码了，而请用<code>jQuery</code>代替。并且调用<code>$.noConflict()</code>保证不会有冲突出现。</p>
+</li>
+<li><p>要检测浏览器对一些新特性是否支持，请用<a href="https://modernizr.com" target="_blank" rel="external">Modernizr</a>。插播广告：<a href="http://www.cnblogs.com/Wayou/p/why_jquery_obselete_brower_detecting.html" target="_blank" rel="external">论为毛不检测浏览器</a>。</p>
+</li>
+</ol>
+<h2 id="关于变量"><strong>关于变量</strong></h2><ol>
+<li><p>jQuery类型的变量最好加个$前缀。</p>
+</li>
+<li><p>时常将jQuery选择器返回的内容存进变量以便重用</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> $products = $(<span class="string">"div.products"</span>); <span class="comment">// 慢</span></span><br><span class="line"><span class="keyword">var</span> $products = $(<span class="string">".products"</span>); <span class="comment">// 快</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用驼峰命名.</p>
+</li>
+</ol>
+<h2 id="关于选择器"><strong>关于选择器</strong></h2><ol>
+<li><p>尽量ID选择器。其背后机理其实是调用原生的<code>document.getElementById()</code>，所以速度较其他选择器快。</p>
+</li>
+<li><p>使用类选择器时表指定元素的类型。不信你看这个<a href="http://jsperf.com/jqeury-selector-test" target="_blank" rel="external">性能比较</a></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> $products = $(<span class="string">"div.products"</span>); <span class="comment">// 慢</span></span><br><span class="line"><span class="keyword">var</span> $products = $(<span class="string">".products"</span>); <span class="comment">// 快</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>ID父亲容器下面再查找子元素请用.find()方法。这样做快的原因是通过id选择元素不会使用Sizzle引擎。详情看这里 </p>
+</li>
+<li><p>多级查找中，右边尽量指定得详细点而左边则尽量简单点。了解更多</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 丑陋</span></span><br><span class="line">$(<span class="string">"div.data .gonzalez"</span>);</span><br><span class="line"><span class="comment">// 优化后</span></span><br><span class="line">$(<span class="string">".data td.gonzalez"</span>);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>避免冗余。<a href="http://learn.jquery.com/performance/optimize-selectors/" target="_blank" rel="external">详情</a>或者查看<a href="http://jsperf.com/avoid-excessive-specificity" target="_blank" rel="external">性能比较</a></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">".data table.attendees td.gonzalez"</span>);</span><br><span class="line"><span class="comment">// 好的方式：去掉了中间的冗余</span></span><br><span class="line">$(<span class="string">".data td.gonzalez"</span>);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>指定选择的上下文。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 劣质的代码：因为需要遍历整个DOM来找到.class</span></span><br><span class="line">$(<span class="string">'.class'</span>);</span><br><span class="line"><span class="comment">// 高品代码：因为只需在指定容器范围内进行查找</span></span><br><span class="line">$(<span class="string">'.class'</span>, <span class="string">'#class-container'</span>);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>表使用万能选择器。查看<a href="http://learn.jquery.com/performance/optimize-selectors/" target="_blank" rel="external">具体阐释</a></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">'div.container &gt; *'</span>); <span class="comment">// 差</span></span><br><span class="line">$(<span class="string">'div.container'</span>).children(); <span class="comment">// 棒</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>警惕隐式的万能选择器。省略的情况下其实使用的就是*号通配符。更多信息</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">'div.someclass :radio'</span>); <span class="comment">// 差</span></span><br><span class="line">$(<span class="string">'div.someclass input:radio'</span>); <span class="comment">// 棒</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>ID已经表示唯一了，背后使用的是document.getElementById()，所以表跟其他选择器混搭了。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">'#outer #inner'</span>); <span class="comment">// 脏</span></span><br><span class="line">$(<span class="string">'div#inner'</span>); <span class="comment">// 乱</span></span><br><span class="line">$(<span class="string">'.outer-container #inner'</span>); <span class="comment">// 差</span></span><br><span class="line">$(<span class="string">'#inner'</span>); <span class="comment">// 干净利落，后台只需调用document.getElementById()</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="DOM操作相关"><strong>DOM操作相关</strong></h2><ol>
+<li>操作任何元素前先将其从文档卸载，完了再贴回去。<a href="http://learn.jquery.com/performance/detach-elements-before-work-with-them/" target="_blank" rel="external">这事儿还能说细点</a><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> $myList = $(<span class="string">"#list-container &gt; ul"</span>).detach();</span><br><span class="line"><span class="comment">//...一大堆对$myList的处理</span></span><br><span class="line">$myList.appendTo(<span class="string">"#list-container"</span>);</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>2.代码里将HTML组织好后再一次性贴到DOM中去。<a href="http://learn.jquery.com/performance/append-outside-loop/" target="_blank" rel="external">具体来说</a>，<a href="http://jsperf.com/jquery-append-vs-string-concat" target="_blank" rel="external">性能比较</a><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 这样不好</span></span><br><span class="line"><span class="keyword">var</span> $myList = $(<span class="string">"#list"</span>);</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">10000</span>; i++)&#123;</span><br><span class="line">    $myList.append(<span class="string">"&lt;li&gt;"</span>+i+<span class="string">"&lt;/li&gt;"</span>);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="comment">// 这样好</span></span><br><span class="line"><span class="keyword">var</span> $myList = $(<span class="string">"#list"</span>);</span><br><span class="line"><span class="keyword">var</span> list = <span class="string">""</span>;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">10000</span>; i++)&#123;</span><br><span class="line">    list += <span class="string">"&lt;li&gt;"</span>+i+<span class="string">"&lt;/li&gt;"</span>;</span><br><span class="line">&#125;</span><br><span class="line">$myList.html(list);</span><br><span class="line"> </span><br><span class="line"><span class="comment">// 但这样更好</span></span><br><span class="line"><span class="keyword">var</span> array = []; </span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">10000</span>; i++)&#123;</span><br><span class="line">    array[i] = <span class="string">"&lt;li&gt;"</span>+i+<span class="string">"&lt;/li&gt;"</span>; </span><br><span class="line">&#125;</span><br><span class="line">$myList.html(array.join(<span class="string">''</span>));</span><br></pre></td></tr></table></figure></p>
+<p>3.不要处理不存在的元素。<a href="http://learn.jquery.com/performance/dont-act-on-absent-elements/" target="_blank" rel="external">详情</a><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 无良的做法：jQuery后台要跑完三个函数后才会知道这个元素其实根本不存在</span></span><br><span class="line">$(<span class="string">"#nosuchthing"</span>).slideUp();</span><br><span class="line"><span class="comment">// 应该这样</span></span><br><span class="line"><span class="keyword">var</span> $mySelection = $(<span class="string">"#nosuchthing"</span>);</span><br><span class="line"><span class="keyword">if</span> ($mySelection.length) &#123;</span><br><span class="line">    $mySelection.slideUp();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="事件相关"><strong>事件相关</strong></h2><ol>
+<li><p>一个页面只写一个文档ready事件的处理程序。这样代码既清晰好调试，又容易跟踪代码的进程。</p>
+</li>
+<li><p>表用匿名函数来做事件的回调。匿名函数不易调试维护测试和复用。或许你想较真，看看<a href="http://learn.jquery.com/code-organization/beware-anonymous-functions/" target="_blank" rel="external">这里</a>吧</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">"#myLink"</span>).on(<span class="string">"click"</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;...&#125;); <span class="comment">// 表这样</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">// 这样</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">myLinkClickHandler</span><span class="params">()</span></span>&#123;...&#125;</span><br><span class="line">$(<span class="string">"#myLink"</span>).on(<span class="string">"click"</span>, myLinkClickHandler);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>处理文档ready事件的回调也表用匿名函数，匿名函数不易调试维护测试和复用:(</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123; ... &#125;); <span class="comment">// 糟糕的做法：无法利用此函数也无法为其写测试用例</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">// 好的做法</span></span><br><span class="line">$(initPage); <span class="comment">// 抑或 $(document).ready(initPage);</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">initPage</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">// 这里你可以进行程序的初始化了</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>进一步，最好也将ready事件的处理程序放到外部文件中引入到页面，而页面中内嵌的代码只需调用即可。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">"my-document-ready.js"</span>&gt;<span class="xml"><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript"></span><br><span class="line">    <span class="comment">// 初始化一些必要的全局变量</span></span><br><span class="line">    $(<span class="built_in">document</span>).ready(initPage); <span class="comment">// 抑或 $(initPage);</span></span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>千万表写内联到HTML的JS代码，这是调试的梦魇！应该总是用jQuery来绑定事件自带程序，这样也方便随时动态地取消绑定。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;a id="myLink" href="#" onclick="myEventHandler();"&gt;my link&lt;/a&gt; &lt;!--不好 --&gt;</span><br><span class="line">$("#myLink").on("click", myEventHandler); // GOOD</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>如果可能尽量在绑定事件处理程序时使用一个命名空间，这样可以方便地取消绑定而不会影响其他绑定。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">"#myLink"</span>).on(<span class="string">"click.mySpecialClick"</span>, myEventHandler); <span class="comment">// 不错</span></span><br><span class="line"><span class="comment">// 之后，让我们优雅地解除绑定</span></span><br><span class="line">$(<span class="string">"#myLink"</span>).unbind(<span class="string">"click.mySpecialClick"</span>);</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="异步操作"><strong>异步操作</strong></h2><ol>
+<li><p>直接用$.ajax()而表去用.getJson() 或 .get(),因为jQuery内部还是将其转为前者</p>
+</li>
+<li><p>表对HTTPS站点使用HTTP去发起请求，最好干脆就表指定（将HTTP或者HTTPS从你的URL中移除）</p>
+</li>
+<li><p>表在链接里面嵌参数，请使用专门的参数设置来传递</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 不易阅读的代码...</span></span><br><span class="line">$.ajax(&#123;</span><br><span class="line">    url: <span class="string">"something.php?param1=test1&amp;param2=test2"</span>,</span><br><span class="line">    ....</span><br><span class="line">&#125;);</span><br><span class="line"> </span><br><span class="line"><span class="comment">// 更易阅读...</span></span><br><span class="line">$.ajax(&#123;</span><br><span class="line">    url: <span class="string">"something.php"</span>,</span><br><span class="line">    data: &#123; param1: test1, param2: test2 &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>尽量指明数据类型以便你自己清楚要处理什么样的数据（见下方会提到的Ajax模板）</p>
+</li>
+<li><p>对于异步动态加载的内容，最好使用代理来绑定事件处理程序。这样的好处是对于之后动态加载的元素事件同样有效。你或许想<a href="http://api.jquery.com/on/" target="_blank" rel="external">了解更多</a></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">"#parent-container"</span>).on(<span class="string">"click"</span>, <span class="string">"a"</span>, delegatedClickHandlerForAjax);</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>6.使用Promise模式。<a href="http://www.htmlgoodies.com/beyond/javascript/making-promises-with-jquery-deferred.html" target="_blank" rel="external">更多例子</a><br><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$.ajax(&#123; <span class="keyword">...</span> &#125;).then(successHandler, failureHandler);</span><br><span class="line"> </span><br><span class="line">// 抑或</span><br><span class="line">var jqxhr = $.ajax(&#123; <span class="keyword">...</span> &#125;);</span><br><span class="line">jqxhr.done(successHandler);</span><br><span class="line">jqxhr.fail(failureHandler);</span><br></pre></td></tr></table></figure></p>
+<ol>
+<li>标准的Ajax模板一分。<a href="https://api.jquery.com/jQuery.ajax/" target="_blank" rel="external">追寻根源</a><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> jqxhr = $.ajax(&#123;</span><br><span class="line">    url: url,</span><br><span class="line">    type: <span class="string">"GET"</span>, <span class="comment">// 默认为GET,你可以根据需要更改</span></span><br><span class="line">    cache: <span class="literal">true</span>, <span class="comment">// 默认为true,但对于script,jsonp类型为false,可以自行设置</span></span><br><span class="line">    data: &#123;&#125;, <span class="comment">// 将请求参数放这里.</span></span><br><span class="line">    dataType: <span class="string">"json"</span>, <span class="comment">// 指定想要的数据类型</span></span><br><span class="line">    jsonp: <span class="string">"callback"</span>, <span class="comment">// 指定回调处理JSONP类型的请求</span></span><br><span class="line">    statusCode: &#123; <span class="comment">// 如果你想处理各状态的错误的话</span></span><br><span class="line">        <span class="number">404</span>: handler404,</span><br><span class="line">        <span class="number">500</span>: handler500</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br><span class="line">jqxhr.done(successHandler);</span><br><span class="line">jqxhr.fail(failureHandler);</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="动画与特效"><strong>动画与特效</strong></h2><ol>
+<li>保持一个始终如一风格统一的动画实现</li>
+<li>紧遵用户体验，表滥用动画特效</li>
+</ol>
+<p>使用简洁的显示隐藏，状态切换，滑入滑出等效果来展示元素<br>使用预设值来设置动画的速度’fast’，’slow’，或者400（中等速度）</p>
+<h2 id="插件相关"><strong>插件相关</strong></h2><ol>
+<li><p>始终选择一个有良好支持，完善文档，全面测试过并且社区活跃的插件</p>
+</li>
+<li><p>注意所用插件与当前使用的jQuery版本是否兼容</p>
+</li>
+<li><p>一些常用功能应该写成jQuery插件。<a href="http://lab.abhinayrathore.com/jquery-standards/" target="_blank" rel="external">一分jQuery插件的编写模板</a></p>
+</li>
+</ol>
+<h2 id="链式句法"><strong>链式句法</strong></h2><ol>
+<li><p>除了用变量将jQuery选择器返回的结果保存，还可以利用好链式调用。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">"#myDiv"</span>).addClass(<span class="string">"error"</span>).show();</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>当链式调用多达3次以上或代码因绑定回调略显复杂时，使用换行和适当的缩进来提高代码的可读性。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">"#myLink"</span>)</span><br><span class="line">    .addClass(<span class="string">"bold"</span>)</span><br><span class="line">    .on(<span class="string">"click"</span>, myClickHandler)</span><br><span class="line">    .on(<span class="string">"mouseover"</span>, myMouseOverHandler)</span><br><span class="line">    .show();</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>对于特别长的调用最好还是用变量保存下中间结果来简化代码。</p>
+</li>
+</ol>
+<h2 id="其他"><strong>其他</strong></h2><ol>
+<li><p>使用对象字面量来传递参数</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$myLink.attr(<span class="string">"href"</span>, <span class="string">"#"</span>).attr(<span class="string">"title"</span>, <span class="string">"my link"</span>).attr(<span class="string">"rel"</span>, <span class="string">"external"</span>); <span class="comment">// 糟糕：调用了三次attr</span></span><br><span class="line"><span class="comment">// 不错，只调用了一次attr</span></span><br><span class="line">$myLink.attr(&#123;</span><br><span class="line">    href: <span class="string">"#"</span>,</span><br><span class="line">    title: <span class="string">"my link"</span>,</span><br><span class="line">    rel: <span class="string">"external"</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>表将CSS与jQuery杂揉</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">"#mydiv"</span>).css(&#123;<span class="string">'color'</span>:red, <span class="string">'font-weight'</span>:<span class="string">'bold'</span>&#125;); <span class="comment">// 不好</span></span><br><span class="line"></span><br><span class="line">.error &#123;<span class="comment">/* 不错 */</span></span><br><span class="line">    color: red;</span><br><span class="line">    font-weight: bold;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">$(<span class="string">"#mydiv"</span>).addClass(<span class="string">"error"</span>);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>时刻关注官方Changelog，表使用摒弃了的方法。<a href="http://api.jquery.com/category/deprecated/" target="_blank" rel="external">点此</a>查看所有废弃的方法.</p>
+</li>
+<li><p>适时地使用原生JavaScript。<a href="http://jsperf.com/document-getelementbyid-vs-jquery/3" target="_blank" rel="external">一些与此有关的性能比较</a></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">"#myId"</span>); <span class="comment">// 多少还是会逊色于...</span></span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">"myId"</span>);</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="REFERENCE"><strong>REFERENCE</strong></h2><p>原文：Coding Standards &amp; Best Practices <a href="http://lab.abhinayrathore.com/jquery-standards/" target="_blank" rel="external">http://lab.abhinayrathore.com/jquery-standards/</a></p>
+<p>原文的reference<br>jQuery Performance: <a href="http://learn.jquery.com/performance/" target="_blank" rel="external">http://learn.jquery.com/performance/</a><br>jQuery Learn: <a href="http://learn.jquery.com" target="_blank" rel="external">http://learn.jquery.com</a><br>jQuery API Docs: <a href="http://api.jquery.com/" target="_blank" rel="external">http://api.jquery.com/</a><br>jQuery Coding Standards and Best Practice: <a href="http://www.jameswiseman.com/blog/2010/04/20/jquery-standards-and-best-practice/" target="_blank" rel="external">http://www.jameswiseman.com/blog/2010/04/20/jquery-standards-and-best-practice/</a><br>jQuery Plugin Boilerplate: <a href="http://stefangabos.ro/jquery/jquery-plugin-boilerplate-revisited/" target="_blank" rel="external">http://stefangabos.ro/jquery/jquery-plugin-boilerplate-revisited/</a> </p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/Front-End/">Front-End</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/jQuery/">jQuery</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://jeffjade.github.io/2015/10/04/2015-10-03-jade-test/" data-title="〔转〕jQuery编程的最佳实践 | 晚晴幽草轩" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2015/09/25/2015-09-25-js-array/"  title="Javascript数组操作">
+ <strong>下一篇：</strong><br/> 
+ <span>Javascript数组操作
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2015/10/04/2015-10-03-jade-test/" data-title="〔转〕jQuery编程的最佳实践" data-url="http://jeffjade.github.io/2015/10/04/2015-10-03-jade-test/"></div>
+</section>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#加载jQuery"><span class="toc-number">1.</span> <span class="toc-text">加载jQuery</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关于变量"><span class="toc-number">2.</span> <span class="toc-text">关于变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关于选择器"><span class="toc-number">3.</span> <span class="toc-text">关于选择器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DOM操作相关"><span class="toc-number">4.</span> <span class="toc-text">DOM操作相关</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#事件相关"><span class="toc-number">5.</span> <span class="toc-text">事件相关</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#异步操作"><span class="toc-number">6.</span> <span class="toc-text">异步操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#动画与特效"><span class="toc-number">7.</span> <span class="toc-text">动画与特效</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#插件相关"><span class="toc-number">8.</span> <span class="toc-text">插件相关</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#链式句法"><span class="toc-number">9.</span> <span class="toc-text">链式句法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#其他"><span class="toc-number">10.</span> <span class="toc-text">其他</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#REFERENCE"><span class="toc-number">11.</span> <span class="toc-text">REFERENCE</span></a></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">云轩分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/Android/" title="Android">Android<sup>9</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Front-End/" title="Front-End">Front-End<sup>12</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Health/" title="Health">Health<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Internet/" title="Internet">Internet<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Java/" title="Java">Java<sup>5</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Lua/" title="Lua">Lua<sup>6</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Program/" title="Program">Program<sup>8</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Read/" title="Read">Read<sup>3</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Share/" title="Share">Share<sup>7</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Thought/" title="Thought">Thought<sup>11</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Toss/" title="Toss">Toss<sup>9</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Travel/" title="Travel">Travel<sup>3</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">云轩标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/Thought/" title="Thought">Thought<sup>19</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Share/" title="Share">Share<sup>14</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Toss/" title="Toss">Toss<sup>8</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Lua/" title="Lua">Lua<sup>7</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Javascript/" title="Javascript">Javascript<sup>6</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Java/" title="Java">Java<sup>6</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android/" title="Android">Android<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Read/" title="Read">Read<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Mac/" title="Mac">Mac<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Travel/" title="Travel">Travel<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Health/" title="Health">Health<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/CSS/" title="CSS">CSS<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Adb/" title="Adb">Adb<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Git/" title="Git">Git<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/SublimeText/" title="SublimeText">SublimeText<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Music/" title="Music">Music<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/SSH/" title="SSH">SSH<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">云轩关注</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://blog.codingnow.com" target="_blank" title="云风Blog">云风Blog</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://cnfeat.com" target="_blank" title="陈素封">陈素封</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://www.williamlong.info/" target="_blank" title="月光博客">月光博客</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://coolshell.cn/" target="_blank" title="酷壳－陈浩">酷壳－陈浩</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://wuchong.me" target="_blank" title="Jark&#39;s Blog">Jark&#39;s Blog</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://www.zhangxinxu.com/" target="_blank" title="鑫空间-鑫生活">鑫空间-鑫生活</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://saryxi.com/" target="_blank" title="sary小屋">sary小屋</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="linkslist">
+  <p class="asidetitle">好书推荐</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://www.amazon.cn/gp/product/B00D73BJWK/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00D73BJWK&linkCode=as2&tag=droidyue-23" target="_blank" title="浪潮之巅">浪潮之巅</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://www.amazon.cn/gp/product/B00OB3SNMY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00OB3SNMY&linkCode=as2&tag=droidyue-23" target="_blank" title="三体">三体</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://book.douban.com/subject/1477390/" target="_blank" title="代码大全2">代码大全2</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="linkslist">
+  <p class="asidetitle">轩站统计</p>
+  
+    <font id="counter"></font><br>
+    <font id="detail_counter"></font>
+  
+</div>
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> 追求卓越，成功就会在不经意间 追上你！ <br/>
+			As you think, so shall you become. </p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/3235949794" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		<a href="https://github.com/jeffjade" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		<a href="https://twitter.com/jeffjade2" target="_blank" class="icon-twitter" title="twitter"></a>
+		
+		
+		<a href="https://www.facebook.com/100006379368522" target="_blank" class="icon-facebook" title="facebook"></a>
+		
+		
+		
+		<a href="http://www.douban.com/people/125966439/" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:yunjeff@163.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2015 
+		
+		<a href="http://jeffjade.github.io/about" target="_blank" title="Jeffyang">Jeffyang</a>
+		
+		</p>
+</div>
+
+<script src="//buru.u.qiniudn.com/firebase-2.0.5.js"></script>
+<script src="/js/counter.js"></script></footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+        getSize();
+        if (myWidth >= 1024) {
+          c.click();
+        }
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"jeffjade"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-67901984-1', 'auto');  
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+  </body>
+</html>
