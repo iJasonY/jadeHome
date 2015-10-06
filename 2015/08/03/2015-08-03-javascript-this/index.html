@@ -140,7 +140,7 @@
 <p><strong>将this指向的对象保存到变量(一般用that)</strong><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> mydemo = &#123;</span><br><span class="line">    name: <span class="string">'angela'</span>,</span><br><span class="line">    say: <span class="function"><span class="keyword">function</span> <span class="params">()</span> </span>&#123; alert(<span class="string">"I'm "</span> + <span class="keyword">this</span>.name); &#125;,</span><br><span class="line">    init: <span class="function"><span class="keyword">function</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> that = <span class="keyword">this</span>;</span><br><span class="line">        <span class="built_in">document</span>.getElementById(<span class="string">'btn'</span>).onclick = <span class="function"><span class="keyword">function</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">            that.say();  <span class="comment">//弹出Alert：I'm angela</span></span><br><span class="line">            <span class="keyword">this</span>.say();  <span class="comment">//这儿报错: undefined is not a function (evaluating 'this.say()')  </span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">mydemo.init();</span><br></pre></td></tr></table></figure></p>
 <h3 id="第三方库or框架中的this"><strong>第三方库or框架中的this</strong></h3><p>比如，使用backbone框架中events时间回调中的this，其指向的就是对应的视图，而不是Dom元素，因为该回调时通过events哈希绑定的，实质上也是自对应视图那里callback到对应的函数;</p>
 <h3 id="Javascript中的eval_方法"><strong>Javascript中的eval 方法</strong></h3><p>JavaScript 中的 eval 方法可以将字符串转换为 JavaScript 代码，使用 eval 方法时，this 指向哪里呢？答案很简单，看谁在调用 eval 方法，调用者的执行环境（ExecutionContext）中的 this 就被 eval 方法继承下来了。(悪，还没用过,有待实践下)！<br><em>但是：</em>在严格模式之下，eval的作用域也被改变了。正常模式下，eval语句的作用域，取决于它处于全局作用域，还是处于函数作用域。严格模式下，eval语句本身就是一个作用域，不再能够生成全局变量了，它所生成的变量只能用于eval内部。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="pi">　"use strict"</span>;</span><br><span class="line">　　<span class="keyword">var</span> x = <span class="number">2</span>;</span><br><span class="line">　　<span class="built_in">console</span>.info(<span class="built_in">eval</span>(<span class="string">"var x = 5; x"</span>)); <span class="comment">// 5</span></span><br><span class="line">　　<span class="built_in">console</span>.info(x); <span class="comment">// 2</span></span><br></pre></td></tr></table></figure></p>
-<p><strong>后记：</strong>由于javascript的动态性（解释执行，当然也有简单的预编译过程），this的指向在运行时才确定，因此在只要足够留心其运行时的上下文，即可无痛挥霍this的强大。</p>
+<p><strong>后记：</strong>由于javascript的动态性（解释执行，当然也有简单的预编译过程），this的指向在运行时才确定，因此在只要足够留心其运行时的上下文，即可无痛挥霍this的强大。上面列举了这么些许，也是要说明另一个问题：即便知道了这个本质，到底还是需要了解各种环境的差异，方可运用自如。比如这篇<a href="http://segmentfault.com/a/1190000002675091" target="_blank" rel="external">JavaScript:万恶的this拿命来（一）</a>文章还谈及：node脚本，还有<code>REPL</code>(“读取-求值-输出”循环（Read-Eval-Print Loop，简称REPL）)中使用this的些许区别，可以一览。</p>
 <p>参考A<a href="http://gaohaoyang.github.io/2015/06/12/JavaScript-this/" target="_blank" rel="external">JavaScript 中的 this</a><br>参考B<a href="http://www.cnblogs.com/liyunhua/p/4509888.html" target="_blank" rel="external">JavaScript中this的一些怪异现象</a><br>参考C<a href="http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html" target="_blank" rel="external">Javascript的this用法-阮一峰</a><br>参考D<a href="http://www.ibm.com/developerworks/cn/web/1207_wangqf_jsthis/" target="_blank" rel="external">深入浅出 JavaScript 中的 this</a></p>
   
 	</div>
@@ -226,7 +226,7 @@
 		  
 		
 		  
-			<li><a href="/categories/Front-End/" title="Front-End">Front-End<sup>12</sup></a></li>
+			<li><a href="/categories/Front-End/" title="Front-End">Front-End<sup>13</sup></a></li>
 		  
 		
 		  
@@ -291,11 +291,11 @@
 			
 		
 			
-				<li><a href="/tags/Lua/" title="Lua">Lua<sup>7</sup></a></li>
+				<li><a href="/tags/Javascript/" title="Javascript">Javascript<sup>7</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Javascript/" title="Javascript">Javascript<sup>6</sup></a></li>
+				<li><a href="/tags/Lua/" title="Lua">Lua<sup>7</sup></a></li>
 			
 		
 			
@@ -307,7 +307,7 @@
 			
 		
 			
-				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>3</sup></a></li>
+				<li><a href="/tags/Mac/" title="Mac">Mac<sup>3</sup></a></li>
 			
 		
 			
@@ -315,7 +315,7 @@
 			
 		
 			
-				<li><a href="/tags/Mac/" title="Mac">Mac<sup>3</sup></a></li>
+				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>3</sup></a></li>
 			
 		
 			
@@ -335,7 +335,7 @@
 			
 		
 			
-				<li><a href="/tags/Git/" title="Git">Git<sup>2</sup></a></li>
+				<li><a href="/tags/jQuery/" title="jQuery">jQuery<sup>2</sup></a></li>
 			
 		
 			
@@ -355,7 +355,7 @@
 			
 		
 			
-				<li><a href="/tags/SSH/" title="SSH">SSH<sup>1</sup></a></li>
+				<li><a href="/tags/Git/" title="Git">Git<sup>2</sup></a></li>
 			
 		
 		</ul>

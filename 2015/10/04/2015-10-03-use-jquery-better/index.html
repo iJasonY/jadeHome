@@ -18,15 +18,15 @@
     
 
     
-    <meta name="description" content="前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍不住不由自主的转到了自己的Blog。此文出自“刘哇勇的部落格”jQuery编程的最佳实践；原文出自Coding Standards &amp;amp; Best Practices。">
+    <meta name="description" content="前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍将不住的转了来；以备之后深加探究。此文出自“刘哇勇的部落格”jQuery编程的最佳实践；原文出自Coding Standards &amp;amp; Best Practices。另有一篇关于jQuery的不错文章14 Helpful jQuery Tricks, Notes, and Best Practices，值得一览，译文在此14条关于">
 <meta property="og:type" content="article">
 <meta property="og:title" content="〔转〕jQuery编程的最佳实践">
-<meta property="og:url" content="http://jeffjade.github.io/2015/10/04/2015-10-03-jade-test/index.html">
+<meta property="og:url" content="http://jeffjade.github.io/2015/10/04/2015-10-03-use-jquery-better/index.html">
 <meta property="og:site_name" content="晚晴幽草轩">
-<meta property="og:description" content="前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍不住不由自主的转到了自己的Blog。此文出自“刘哇勇的部落格”jQuery编程的最佳实践；原文出自Coding Standards &amp;amp; Best Practices。">
+<meta property="og:description" content="前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍将不住的转了来；以备之后深加探究。此文出自“刘哇勇的部落格”jQuery编程的最佳实践；原文出自Coding Standards &amp;amp; Best Practices。另有一篇关于jQuery的不错文章14 Helpful jQuery Tricks, Notes, and Best Practices，值得一览，译文在此14条关于">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="〔转〕jQuery编程的最佳实践">
-<meta name="twitter:description" content="前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍不住不由自主的转到了自己的Blog。此文出自“刘哇勇的部落格”jQuery编程的最佳实践；原文出自Coding Standards &amp;amp; Best Practices。">
+<meta name="twitter:description" content="前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍将不住的转了来；以备之后深加探究。此文出自“刘哇勇的部落格”jQuery编程的最佳实践；原文出自Coding Standards &amp;amp; Best Practices。另有一篇关于jQuery的不错文章14 Helpful jQuery Tricks, Notes, and Best Practices，值得一览，译文在此14条关于">
 <meta name="twitter:creator" content="@jeffjade2">
 
     
@@ -86,7 +86,7 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/10/04/2015-10-03-jade-test/" class=jade-cp-link title="〔转〕jQuery编程的最佳实践" itemprop="url">〔转〕jQuery编程的最佳实践</a>
+      <a href="/2015/10/04/2015-10-03-use-jquery-better/" class=jade-cp-link title="〔转〕jQuery编程的最佳实践" itemprop="url">〔转〕jQuery编程的最佳实践</a>
     
   </h1>
   <p class="article-author">By
@@ -100,7 +100,7 @@
 </header>
 	<div class="article-content">
 		
-		<p>前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍不住不由自主的转到了自己的Blog。此文出自“刘哇勇的部落格”<a href="http://www.cnblogs.com/Wayou/p/jquery_best_practise.html" target="_blank" rel="external">jQuery编程的最佳实践</a>；原文出自<a href="http://lab.abhinayrathore.com/jquery-standards/" target="_blank" rel="external">Coding Standards &amp; Best Practices</a>。</p>
+		<p>前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍将不住的转了来；以备之后深加探究。此文出自“刘哇勇的部落格”<a href="http://www.cnblogs.com/Wayou/p/jquery_best_practise.html" target="_blank" rel="external">jQuery编程的最佳实践</a>；原文出自<a href="http://lab.abhinayrathore.com/jquery-standards/" target="_blank" rel="external">Coding Standards &amp; Best Practices</a>。另有一篇关于jQuery的不错文章<a href="http://code.tutsplus.com/tutorials/14-helpful-jquery-tricks-notes-and-best-practices--net-14405" target="_blank" rel="external">14 Helpful jQuery Tricks, Notes, and Best Practices</a>，值得一览，译文在此<a href="http://www.iinterest.net/2010/09/27/%E8%BD%AC14%E6%9D%A1%E5%85%B3%E4%BA%8Ejquery%E7%9A%84%E7%9F%A5%E8%AF%86/" target="_blank" rel="external">14条关于jQuery的知识</a>。</p>
 <a id="more"></a>
 <p>好像是feedly订阅里看到的文章，读完后觉得非常不错，译之备用，多看受益。</p>
 <h2 id="加载jQuery"><strong>加载jQuery</strong></h2><ol>
@@ -214,12 +214,9 @@
 </ol>
 <p>使用简洁的显示隐藏，状态切换，滑入滑出等效果来展示元素<br>使用预设值来设置动画的速度’fast’，’slow’，或者400（中等速度）</p>
 <h2 id="插件相关"><strong>插件相关</strong></h2><ol>
-<li><p>始终选择一个有良好支持，完善文档，全面测试过并且社区活跃的插件</p>
-</li>
-<li><p>注意所用插件与当前使用的jQuery版本是否兼容</p>
-</li>
-<li><p>一些常用功能应该写成jQuery插件。<a href="http://lab.abhinayrathore.com/jquery-standards/" target="_blank" rel="external">一分jQuery插件的编写模板</a></p>
-</li>
+<li>始终选择一个有良好支持，完善文档，全面测试过并且社区活跃的插件</li>
+<li>注意所用插件与当前使用的jQuery版本是否兼容</li>
+<li>一些常用功能应该写成jQuery插件。<a href="http://lab.abhinayrathore.com/jquery-standards/" target="_blank" rel="external">一分jQuery插件的编写模板</a></li>
 </ol>
 <h2 id="链式句法"><strong>链式句法</strong></h2><ol>
 <li><p>除了用变量将jQuery选择器返回的结果保存，还可以利用好链式调用。</p>
@@ -268,7 +265,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://jeffjade.github.io/2015/10/04/2015-10-03-jade-test/" data-title="〔转〕jQuery编程的最佳实践 | 晚晴幽草轩" data-tsina="null" class="share clearfix">
+	  <div data-url="http://jeffjade.github.io/2015/10/04/2015-10-03-use-jquery-better/" data-title="〔转〕jQuery编程的最佳实践 | 晚晴幽草轩" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -281,6 +278,14 @@
 	
 <nav class="article-nav clearfix">
  
+ <div class="prev" >
+ <a href="/2015/10/06/2015-10-06-perfect-js-code/" title="精妙JS代码段搜集">
+  <strong>上一篇：</strong><br/>
+  <span>
+  精妙JS代码段搜集</span>
+</a>
+</div>
+
 
 <div class="next">
 <a href="/2015/09/25/2015-09-25-js-array/"  title="Javascript数组操作">
@@ -294,7 +299,7 @@
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2015/10/04/2015-10-03-jade-test/" data-title="〔转〕jQuery编程的最佳实践" data-url="http://jeffjade.github.io/2015/10/04/2015-10-03-jade-test/"></div>
+	<div class="ds-thread" data-thread-key="2015/10/04/2015-10-03-use-jquery-better/" data-title="〔转〕jQuery编程的最佳实践" data-url="http://jeffjade.github.io/2015/10/04/2015-10-03-use-jquery-better/"></div>
 </section>
 
 
@@ -322,7 +327,7 @@
 		  
 		
 		  
-			<li><a href="/categories/Front-End/" title="Front-End">Front-End<sup>12</sup></a></li>
+			<li><a href="/categories/Front-End/" title="Front-End">Front-End<sup>13</sup></a></li>
 		  
 		
 		  
@@ -387,11 +392,11 @@
 			
 		
 			
-				<li><a href="/tags/Lua/" title="Lua">Lua<sup>7</sup></a></li>
+				<li><a href="/tags/Javascript/" title="Javascript">Javascript<sup>7</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Javascript/" title="Javascript">Javascript<sup>6</sup></a></li>
+				<li><a href="/tags/Lua/" title="Lua">Lua<sup>7</sup></a></li>
 			
 		
 			
@@ -403,7 +408,7 @@
 			
 		
 			
-				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>3</sup></a></li>
+				<li><a href="/tags/Mac/" title="Mac">Mac<sup>3</sup></a></li>
 			
 		
 			
@@ -411,7 +416,7 @@
 			
 		
 			
-				<li><a href="/tags/Mac/" title="Mac">Mac<sup>3</sup></a></li>
+				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>3</sup></a></li>
 			
 		
 			
@@ -431,7 +436,7 @@
 			
 		
 			
-				<li><a href="/tags/Git/" title="Git">Git<sup>2</sup></a></li>
+				<li><a href="/tags/jQuery/" title="jQuery">jQuery<sup>2</sup></a></li>
 			
 		
 			
@@ -451,7 +456,7 @@
 			
 		
 			
-				<li><a href="/tags/SSH/" title="SSH">SSH<sup>1</sup></a></li>
+				<li><a href="/tags/Git/" title="Git">Git<sup>2</sup></a></li>
 			
 		
 		</ul>
