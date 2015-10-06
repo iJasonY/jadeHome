@@ -18,18 +18,15 @@
     
 
     
-    <meta name="description" content="现在到处都是JavaScript，倘若花点时间去体察，每次都能知道点新的东西。一旦你入了门，你总能从这里或是那里领悟到很多知识。一旦发现些许有意思的东西，总习惯先收藏起来。待到时技(时间＋技术)成熟，再去感觉他们的源代码，看一看它们是怎么办到的，览一览大牛们的“奇技淫巧”。这里便是关于所遇精妙JS代码的收藏室，愿随时间的渐行渐远，这里收集的日渐丰盈，技术也能“层林尽染”。
-CSS布局调试代码片段在">
+    <meta name="description" content="现在到处都是JavaScript，倘若花点时间去体察，每次都能知道点新的东西。一旦你入了门，你总能从这里或是那里领悟到很多知识。一旦发现些许有意思的东西，总习惯先收藏起来。待到时技(时间＋技术)成熟，再去感觉他们的源代码，看一看它们是怎么办到的，览一览大牛们的“奇技淫巧”。这里便是关于所遇精妙JS代码的收藏室，愿随时间的渐行渐远，这里收集的日渐丰盈，技术也能“层林尽染”。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="精妙JS代码段搜集">
 <meta property="og:url" content="http://jeffjade.github.io/2015/10/06/2015-10-06-perfect-js-code/index.html">
 <meta property="og:site_name" content="晚晴幽草轩">
-<meta property="og:description" content="现在到处都是JavaScript，倘若花点时间去体察，每次都能知道点新的东西。一旦你入了门，你总能从这里或是那里领悟到很多知识。一旦发现些许有意思的东西，总习惯先收藏起来。待到时技(时间＋技术)成熟，再去感觉他们的源代码，看一看它们是怎么办到的，览一览大牛们的“奇技淫巧”。这里便是关于所遇精妙JS代码的收藏室，愿随时间的渐行渐远，这里收集的日渐丰盈，技术也能“层林尽染”。
-CSS布局调试代码片段在">
+<meta property="og:description" content="现在到处都是JavaScript，倘若花点时间去体察，每次都能知道点新的东西。一旦你入了门，你总能从这里或是那里领悟到很多知识。一旦发现些许有意思的东西，总习惯先收藏起来。待到时技(时间＋技术)成熟，再去感觉他们的源代码，看一看它们是怎么办到的，览一览大牛们的“奇技淫巧”。这里便是关于所遇精妙JS代码的收藏室，愿随时间的渐行渐远，这里收集的日渐丰盈，技术也能“层林尽染”。">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="精妙JS代码段搜集">
-<meta name="twitter:description" content="现在到处都是JavaScript，倘若花点时间去体察，每次都能知道点新的东西。一旦你入了门，你总能从这里或是那里领悟到很多知识。一旦发现些许有意思的东西，总习惯先收藏起来。待到时技(时间＋技术)成熟，再去感觉他们的源代码，看一看它们是怎么办到的，览一览大牛们的“奇技淫巧”。这里便是关于所遇精妙JS代码的收藏室，愿随时间的渐行渐远，这里收集的日渐丰盈，技术也能“层林尽染”。
-CSS布局调试代码片段在">
+<meta name="twitter:description" content="现在到处都是JavaScript，倘若花点时间去体察，每次都能知道点新的东西。一旦你入了门，你总能从这里或是那里领悟到很多知识。一旦发现些许有意思的东西，总习惯先收藏起来。待到时技(时间＋技术)成熟，再去感觉他们的源代码，看一看它们是怎么办到的，览一览大牛们的“奇技淫巧”。这里便是关于所遇精妙JS代码的收藏室，愿随时间的渐行渐远，这里收集的日渐丰盈，技术也能“层林尽染”。">
 <meta name="twitter:creator" content="@jeffjade2">
 
     
@@ -104,6 +101,7 @@ CSS布局调试代码片段在">
 	<div class="article-content">
 		
 		<p>现在到处都是JavaScript，倘若花点时间去体察，每次都能知道点新的东西。一旦你入了门，你总能从这里或是那里领悟到很多知识。一旦发现些许有意思的东西，总习惯先收藏起来。待到时技(时间＋技术)成熟，再去感觉他们的源代码，看一看它们是怎么办到的，览一览大牛们的“奇技淫巧”。这里便是关于所遇精妙JS代码的收藏室，愿随时间的渐行渐远，这里收集的日渐丰盈，技术也能“层林尽染”。</p>
+<a id="more"></a>
 <h2 id="CSS布局调试代码片段"><strong>CSS布局调试代码片段</strong></h2><p>在浏览器控制台运行此段代码(当然也只能在控制台运用)，会给页面里所有的 DOM 元素添加一个 1px 的描边（outline），方便我们在调试 CSS 过程中分析、排查问题。当然这样的工具使用Chrome一些插件也易办到，但直接撸起如此代码，能够领悟到很多知识。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[].forEach.call($$(<span class="string">"*"</span>),<span class="function"><span class="keyword">function</span><span class="params">(a)</span></span>&#123;</span><br><span class="line">    a.style.outline=<span class="string">"1px solid #"</span>+(~~(<span class="built_in">Math</span>.random()*(<span class="number">1</span>&lt;&lt;<span class="number">24</span>))).toString(<span class="number">16</span>);</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p>
 <h3 id="代码分析："><strong>代码分析：</strong></h3><p>这段代码是 Github 上的 140 bytes 活动中的代码，简单分析下这段 JS 代码，作者使用了不少技巧：</p>
 <p>首先是需要选择页面上的所有元素，这里使用了只能在console调试工具中使用的$$函数，你可以在console中输入$$(‘a’)自己试一下。它会返回当前页面的所有anchor（链接）元素。<code>$$</code>与<code>document.querySelectorAll</code>是等价的，有兴趣可查看<a href="http://ourjs.com/detail/54ab768a5695544119000007" target="_blank" rel="external">$$和$选择器的历史</a>。</p>
@@ -127,7 +125,7 @@ CSS布局调试代码片段在">
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/Javascript/">Javascript</a><a href="/tags/jQuery/">jQuery</a>
+  <span></span> <a href="/tags/JavaScript/">JavaScript</a><a href="/tags/jQuery/">jQuery</a>
   </div>
 
 </div>
@@ -251,11 +249,11 @@ CSS布局调试代码片段在">
 			
 		
 			
-				<li><a href="/tags/Toss/" title="Toss">Toss<sup>8</sup></a></li>
+				<li><a href="/tags/JavaScript/" title="JavaScript">JavaScript<sup>8</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Javascript/" title="Javascript">Javascript<sup>7</sup></a></li>
+				<li><a href="/tags/Toss/" title="Toss">Toss<sup>7</sup></a></li>
 			
 		
 			
@@ -279,10 +277,6 @@ CSS布局调试代码片段在">
 			
 		
 			
-				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>3</sup></a></li>
-			
-		
-			
 				<li><a href="/tags/Travel/" title="Travel">Travel<sup>3</sup></a></li>
 			
 		
@@ -291,11 +285,23 @@ CSS布局调试代码片段在">
 			
 		
 			
+				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>2</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/CSS/" title="CSS">CSS<sup>2</sup></a></li>
 			
 		
 			
+				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>2</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/Adb/" title="Adb">Adb<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>2</sup></a></li>
 			
 		
 			
@@ -307,15 +313,7 @@ CSS布局调试代码片段在">
 			
 		
 			
-				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>2</sup></a></li>
-			
-		
-			
 				<li><a href="/tags/Music/" title="Music">Music<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>2</sup></a></li>
 			
 		
 			
