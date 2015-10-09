@@ -24,6 +24,7 @@
 <meta property="og:url" content="http://jeffjade.github.io/2015/10/06/2015-10-06-perfect-js-code/index.html">
 <meta property="og:site_name" content="晚晴幽草轩">
 <meta property="og:description" content="现在到处都是JavaScript，倘若花点时间去体察，每次都能知道点新的东西。一旦你入了门，你总能从这里或是那里领悟到很多知识。一旦发现些许有意思的东西，总习惯先收藏起来。待到时技(时间＋技术)成熟，再去感觉他们的源代码，看一看它们是怎么办到的，览一览大牛们的“奇技淫巧”。这里便是关于所遇精妙JS代码的收藏室，愿随时间的渐行渐远，这里收集的日渐丰盈，技术也能“层林尽染”。">
+<meta property="og:image" content="http://www.jeffjade.com/img/css/console-css-outline.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="精妙JS代码段搜集">
 <meta name="twitter:description" content="现在到处都是JavaScript，倘若花点时间去体察，每次都能知道点新的东西。一旦你入了门，你总能从这里或是那里领悟到很多知识。一旦发现些许有意思的东西，总习惯先收藏起来。待到时技(时间＋技术)成熟，再去感觉他们的源代码，看一看它们是怎么办到的，览一览大牛们的“奇技淫巧”。这里便是关于所遇精妙JS代码的收藏室，愿随时间的渐行渐远，这里收集的日渐丰盈，技术也能“层林尽染”。">
@@ -103,6 +104,7 @@
 		<p>现在到处都是JavaScript，倘若花点时间去体察，每次都能知道点新的东西。一旦你入了门，你总能从这里或是那里领悟到很多知识。一旦发现些许有意思的东西，总习惯先收藏起来。待到时技(时间＋技术)成熟，再去感觉他们的源代码，看一看它们是怎么办到的，览一览大牛们的“奇技淫巧”。这里便是关于所遇精妙JS代码的收藏室，愿随时间的渐行渐远，这里收集的日渐丰盈，技术也能“层林尽染”。</p>
 <a id="more"></a>
 <h2 id="CSS布局调试代码片段"><strong>CSS布局调试代码片段</strong></h2><p>在浏览器控制台运行此段代码(当然也只能在控制台运用)，会给页面里所有的 DOM 元素添加一个 1px 的描边（outline），方便我们在调试 CSS 过程中分析、排查问题。当然这样的工具使用Chrome一些插件也易办到，但直接撸起如此代码，能够领悟到很多知识。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[].forEach.call($$(<span class="string">"*"</span>),<span class="function"><span class="keyword">function</span><span class="params">(a)</span></span>&#123;</span><br><span class="line">    a.style.outline=<span class="string">"1px solid #"</span>+(~~(<span class="built_in">Math</span>.random()*(<span class="number">1</span>&lt;&lt;<span class="number">24</span>))).toString(<span class="number">16</span>);</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p>
+<p><img src="http://www.jeffjade.com/img/css/console-css-outline.png" alt=""></p>
 <h3 id="代码分析："><strong>代码分析：</strong></h3><p>这段代码是 Github 上的 140 bytes 活动中的代码，简单分析下这段 JS 代码，作者使用了不少技巧：</p>
 <p>首先是需要选择页面上的所有元素，这里使用了只能在console调试工具中使用的$$函数，你可以在console中输入$$(‘a’)自己试一下。它会返回当前页面的所有anchor（链接）元素。<code>$$</code>与<code>document.querySelectorAll</code>是等价的，有兴趣可查看<a href="http://ourjs.com/detail/54ab768a5695544119000007" target="_blank" rel="external">$$和$选择器的历史</a>。</p>
 <p>其次遍历所有元素，这里用的是<code>[].forEach.call(...)</code>，使用 <code>forEach</code> 替代 for 之类循环能减少不少代码量，而 forEach 是 Array 对象的方法，所以用了个 [] 空数组来代替Array.prototype,更显简洁;得到所有元素的节点列表（NodeList），但是它并没有实现Array的所有接口，因此使用 $$(‘*’).forEach 会返回错误，这里使用<code>call</code>方法来更改forEach内部this环境，当然也可以使用<code>apply</code>。</p>
@@ -147,6 +149,14 @@
 	
 <nav class="article-nav clearfix">
  
+ <div class="prev" >
+ <a href="/2015/10/08/2015-10-08-js-object-length/" title="JavaScript对象length">
+  <strong>上一篇：</strong><br/>
+  <span>
+  JavaScript对象length</span>
+</a>
+</div>
+
 
 <div class="next">
 <a href="/2015/10/04/2015-10-03-use-jquery-better/"  title="〔转〕jQuery编程的最佳实践">
@@ -188,7 +198,7 @@
 		  
 		
 		  
-			<li><a href="/categories/Front-End/" title="Front-End">Front-End<sup>13</sup></a></li>
+			<li><a href="/categories/Front-End/" title="Front-End">Front-End<sup>14</sup></a></li>
 		  
 		
 		  
@@ -249,7 +259,7 @@
 			
 		
 			
-				<li><a href="/tags/JavaScript/" title="JavaScript">JavaScript<sup>8</sup></a></li>
+				<li><a href="/tags/JavaScript/" title="JavaScript">JavaScript<sup>9</sup></a></li>
 			
 		
 			
@@ -273,15 +283,15 @@
 			
 		
 			
-				<li><a href="/tags/Read/" title="Read">Read<sup>3</sup></a></li>
-			
-		
-			
 				<li><a href="/tags/Travel/" title="Travel">Travel<sup>3</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Health/" title="Health">Health<sup>2</sup></a></li>
+				<li><a href="/tags/Read/" title="Read">Read<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Music/" title="Music">Music<sup>2</sup></a></li>
 			
 		
 			
@@ -297,6 +307,10 @@
 			
 		
 			
+				<li><a href="/tags/jQuery/" title="jQuery">jQuery<sup>2</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/Adb/" title="Adb">Adb<sup>2</sup></a></li>
 			
 		
@@ -305,7 +319,7 @@
 			
 		
 			
-				<li><a href="/tags/jQuery/" title="jQuery">jQuery<sup>2</sup></a></li>
+				<li><a href="/tags/Git/" title="Git">Git<sup>2</sup></a></li>
 			
 		
 			
@@ -313,11 +327,7 @@
 			
 		
 			
-				<li><a href="/tags/Music/" title="Music">Music<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/Git/" title="Git">Git<sup>2</sup></a></li>
+				<li><a href="/tags/Health/" title="Health">Health<sup>2</sup></a></li>
 			
 		
 		</ul>
@@ -465,6 +475,8 @@
 </div>
 
 <script src="//buru.u.qiniudn.com/firebase-2.0.5.js"></script>
+<script>window.Firebase || document.write('<script src="/js/firebase-2.0.5.js" type="text/javascript"><\/script>')
+</script>
 <script src="/js/counter.js"></script></footer>
     <script src="/js/jquery-2.0.3.min.js"></script>
 <script src="/js/jquery.imagesloaded.min.js"></script>
