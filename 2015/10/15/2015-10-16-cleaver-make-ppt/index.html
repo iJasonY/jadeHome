@@ -107,7 +107,7 @@ Cleaver基于HTML5，用最短的时间做出超炫幻灯片。你还会坚持Po
 <p>Cleaver基于HTML5，用最短的时间做出超炫幻灯片。你还会坚持PowerPoint吗？</p>
 <a id="more"></a>
 <h3 id="Cleaver介绍"><strong>Cleaver介绍</strong></h3><p>如果你已经有了一个Markdown的文档，30秒就可以制作成幻灯片。Cleaver是为Hacker准备的工具。<br>Cleaver的官方发布页：<a href="http://jdan.github.io/cleaver/" target="_blank" rel="external">http://jdan.github.io/cleaver/</a>；<br>参考文章:<a href="http://blog.fens.me/nodejs-slide-cleaver/" target="_blank" rel="external">30秒制作幻灯片 Cleaver</a>。</p>
-<h3 id="Cleaver安装"><strong>Cleaver安装</strong></h3><p>系统环境(据悉：cleaver不支持win系统)<br>Linux: Ubuntu 12.04 LTS 64bit<br>node: v0.6.12<br>npm: 1.1.4<br>通过nodejs安装Cleaver<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//&#23616;&#37096;&#23433;&#35013;Cleaver&#10;~ mkdir nodejs-cleaver &#38;&#38; cd nodejs-cleaver&#10;~ sudo npm install cleaver&#10;&#10;//&#20840;&#23616;&#23433;&#35013;Cleaver&#10;~ sudo npm install cleaver -g</span><br></pre></td></tr></table></figure></p>
+<h3 id="Cleaver安装"><strong>Cleaver安装</strong></h3><p>系统环境(据悉：支持Linux 和 Mac; cleaver不支持win系统)<br>Linux: Ubuntu 12.04 LTS 64bit<br>node: v0.6.12<br>npm: 1.1.4<br>通过nodejs安装Cleaver<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//&#23616;&#37096;&#23433;&#35013;Cleaver&#10;~ mkdir nodejs-cleaver &#38;&#38; cd nodejs-cleaver&#10;~ sudo npm install cleaver&#10;&#10;//&#20840;&#23616;&#23433;&#35013;Cleaver&#10;~ sudo npm install cleaver -g</span><br></pre></td></tr></table></figure></p>
 <h3 id="Cleaver基本使用"><strong>Cleaver基本使用</strong></h3><p>执行cleaver命令，解析一个markdown文件，会自动生成HTMl文档，欧耶,算是Pandoc的部分功能深入了;</p>
 <p>用cleaver自带的例子：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//&#22914;&#26159;&#23616;&#37096;&#23433;&#35013;&#65292;&#36816;&#34892;&#19979;&#38754;&#19968;&#21477;&#23601;&#22909;&#10;cleaver node_modules/cleaver/examples/basic.md&#10;&#10;//&#22914;&#26159;&#20840;&#23616;&#23433;&#35013;&#65292;&#35831;&#36305;&#36215;Like this&#65306;&#10;cleaver  /usr/local/lib/node_modules/cleaver/examples/basic.md</span><br></pre></td></tr></table></figure></p>
 <h3 id="Cleaver配置选项option"><strong>Cleaver配置选项option</strong></h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title: Basic Example  #HTML&#30340;&#26631;&#39064;&#21517;&#10;author:               #&#20316;&#32773;&#20449;&#24687;,&#22312;&#26368;&#21518;&#19968;&#39029;&#26174;&#31034;&#10;  name: Jordan Scales&#10;  twitter: jdan&#10;  url: http://jeffjade.com&#10;output: basic.html</span><br></pre></td></tr></table></figure>
@@ -130,8 +130,8 @@ Cleaver基于HTML5，用最短的时间做出超炫幻灯片。你还会坚持Po
 <blockquote>
 <p>!! Cannot read property ‘compiled’ of undefined<br>Please report this to <a href="https://github.com/chjj/marked" target="_blank" rel="external">https://github.com/chjj/marked</a>.</p>
 </blockquote>
-<p>花了些许时间来探究这个问题，只是现在网络上目测关于这个信息不是很多。逐一对比之下，文章的格式没什么问题。在即将放弃的时候，发现原来是标记代码的时候用了<font color="purple">```shell</font>,所造成的问题,去掉or换成别的就没有问题了。额…。</p>
-<p><a href="/special/md2pptViaCleaver.html" style="font-size:1em;font-weight:blod">此文的PPT版本(Cleaver)</a></p>
+<p>花了些许时间来探究这个问题，只是现在网络上目测关于这个信息不是很多。逐一对比之下，文章的格式没什么问题。在即将放弃的时候，发现原来是标记代码的时候用了<font color="purple">```shell</font>,所造成的问题,去掉shell或者换成别的也就没有问题了。额…。</p>
+<p>点击这里查看：<a href="/special/md2pptViaCleaver.html" style="font-size:1em;font-weight:blod">此文的PPT版本(Cleaver)</a></p>
   
 	</div>
 		<footer class="article-footer clearfix">
