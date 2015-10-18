@@ -97,6 +97,20 @@ a img {
   src: url("../font/coveredbyyourgrace-webfont.eot");
   src: url("../font/coveredbyyourgrace-webfont.eot?#iefix") format('embedded-opentype'), url("../font/coveredbyyourgrace-webfont.svg#covered_by_your_graceregular") format('svg'), url("../font/coveredbyyourgrace-webfont.woff") format('woff'), url("../font/coveredbyyourgrace-webfont.ttf") format('truetype');
 }
+@font-face {
+  font-family: "squareCircleRunningscript";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../font/squareCircleRunningscript.eot");
+  src: url("../font/squareCircleRunningscript.eot?#iefix") format('embedded-opentype'), url("../font/squareCircleRunningscript.svg#squareCircleRunningscript") format('svg'), url("../font/squareCircleRunningscript.woff") format('woff'), url("../font/squareCircleRunningscript.ttf") format('truetype');
+}
+@font-face {
+  font-family: "sxslRegularTh";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../font/sxslRegularTh.eot");
+  src: url("../font/sxslRegularTh.eot?#iefix") format('embedded-opentype'), url("../font/sxslRegularTh.svg#sxslRegularTh") format('svg'), url("../font/sxslRegularTh.woff") format('woff'), url("../font/sxslRegularTh.ttf") format('truetype');
+}
 /* icon Font */
 @font-face {
   font-family: "FontAwesome";
@@ -378,8 +392,8 @@ body >header {
   width: 100%;
   -webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-  background: url("../") center #130c0e;
-  color: #426ab3;
+  background: url("../") center #2d2d2d;
+  color: #009ad6;
   padding: 1em 0 0.8em;
 }
 @media only screen and (min-width: 1024px) {
@@ -400,7 +414,8 @@ body >header >div {
 }
 body >header a {
   display: block;
-  color: #426ab3;
+  font-family: "sxslRegularTh";
+  color: #009ad6;
 }
 body >header a:hover {
   text-decoration: none;
@@ -441,7 +456,7 @@ body >header a:hover {
 }
 #textlogo h1.site-name {
   width: 86%;
-  font-family: "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+  font-family: "sxslRegularTh";
   font-size: 200%;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
@@ -531,7 +546,8 @@ header nav {
 header nav ul li a {
   padding: 0.1em 0 0.2em 0.2em;
   margin: 0 1em 0 0;
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "sxslRegularTh", Arial;
+  font-size: 1.3em;
   letter-spacing: 0px;
   text-align: center;
 }
@@ -553,8 +569,8 @@ header nav ul li a:hover {
   -webkit-appearance: textfield;
   font-size: 0.87em;
   line-height: 1.9;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #009ad6;
+  color: #009ad6;
   background: transparent;
   width: 80%;
   -webkit-border-radius: 1em;
@@ -639,7 +655,7 @@ header nav ul li a:hover {
   }
 }
 #main section.post a:hover {
-  border-left: 0.5em solid #130c0e;
+  border-left: 0.5em solid #2d2d2d;
 }
 #main section.post a h1 {
   color: #72baa7;
@@ -689,7 +705,7 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 #main article.post-expand .article-more-link a:hover {
-  background: #130c0e;
+  background: #2d2d2d;
   color: #694d9f;
   text-decoration: none;
 }
@@ -709,7 +725,7 @@ header nav ul li a:hover {
   border-left: 0.5em solid #ccc;
 }
 .unexpand .prev:hover {
-  border-left: 0.5em solid #130c0e;
+  border-left: 0.5em solid #2d2d2d;
 }
 #page-nav {
   background: #f8f8fd;
@@ -725,7 +741,7 @@ header nav ul li a:hover {
 }
 #page-nav a:hover {
   background: #ccc;
-  color: #130c0e;
+  color: #2d2d2d;
 }
 #page-nav .prev {
   float: left;
@@ -822,7 +838,7 @@ header nav ul li a:hover {
   transition: color 0.5s;
 }
 .archive-title a:hover {
-  color: #130c0e;
+  color: #2d2d2d;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
@@ -908,7 +924,7 @@ article header.article-info >h1 {
   word-break: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border-left: 5px solid #130c0e;
+  border-left: 5px solid #2d2d2d;
 }
 @media only screen and (min-width: 1024px) {
   article header.article-info >h1 {
@@ -1029,7 +1045,7 @@ article .article-content abbr {
   border-bottom: 1px dotted;
 }
 article .article-content blockquote {
-  border-left: 0.2em solid #130c0e;
+  border-left: 0.2em solid #2d2d2d;
   margin: 0.65em 0 0.65em 1%;
   padding-left: 1%;
   line-height: 1.7;
@@ -1629,7 +1645,7 @@ section.comment {
   transition: color 1s ease-out;
 }
 #toc.toc-aside a:hover {
-  color: #130c0e;
+  color: #2d2d2d;
   -webkit-transition: color 0.3s ease-out;
   -moz-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
@@ -1637,7 +1653,7 @@ section.comment {
   transition: color 0.3s ease-out;
 }
 .active {
-  color: #130c0e !important;
+  color: #2d2d2d !important;
 }
 .openaside {
   display: none;
@@ -1651,7 +1667,7 @@ section.comment {
   border: 1px solid #fff;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  background: #130c0e;
+  background: #2d2d2d;
   padding: 0.2em 0.55em;
 }
 .openaside a::before {
@@ -1664,7 +1680,7 @@ section.comment {
   display: none;
 }
 .closeaside a {
-  color: #130c0e;
+  color: #2d2d2d;
 }
 .closeaside a:hover {
   color: #72baa7;
@@ -1711,7 +1727,7 @@ section.comment {
   color: #72baa7;
 }
 .asidetitle a:hover {
-  color: #130c0e;
+  color: #2d2d2d;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
@@ -1780,11 +1796,11 @@ section.comment {
   border-radius: 28px;
 }
 .tagslist ul li a:hover {
-  color: #130c0e;
+  color: #2d2d2d;
   background: #596060;
 }
 .rsspart {
-  background: #130c0e;
+  background: #2d2d2d;
   width: 100%;
 }
 @media only screen and (min-width: 768px) {
@@ -1808,7 +1824,7 @@ section.comment {
   text-align: center;
 }
 .rsspart a:hover {
-  color: #130c0e;
+  color: #2d2d2d;
   background: #f8f8fd;
 }
 .rsspart a::before {
@@ -1836,7 +1852,7 @@ section.comment {
   padding: 0.5em;
 }
 .archiveslist li a:hover {
-  color: #130c0e;
+  color: #2d2d2d;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   -o-transition: color 0.25s;
@@ -1884,7 +1900,7 @@ section.comment {
   float: left;
 }
 .tagcloudlist .tagcloudlist a:hover {
-  color: #130c0e;
+  color: #2d2d2d;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   -o-transition: color 0.25s;
@@ -2291,7 +2307,7 @@ footer {
   font-weight: normal;
 }
 .article-content .gist .gist-file .gist-meta a:hover {
-  color: #130c0e;
+  color: #2d2d2d;
 }
 pre .comment,
 pre .title {
