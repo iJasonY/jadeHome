@@ -457,7 +457,7 @@ body >header a:hover {
 }
 #textlogo h1.site-name {
   width: 86%;
-  font-family: "sxslRegularTh", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+  font-family: "sxslregularth-webfont", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
   font-size: 200%;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
@@ -476,7 +476,7 @@ body >header a:hover {
 #textlogo h2.blog-motto {
   font-size: 0.7em;
   font-weight: normal;
-  font-family: "covered_by_your_graceregular";
+  font-family: "sxslregularth-webfont", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
 }
 @media only screen and (min-width: 768px) {
   #textlogo h2.blog-motto {
