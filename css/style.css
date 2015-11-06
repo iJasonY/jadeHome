@@ -707,6 +707,18 @@ header nav ul li a:hover {
 #archive-page section.post a {
   font-size: 0.9em;
   padding: 0.5em !important;
+  border: 1px solid #fff;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -ms-transition: all 1s;
+  transition: all 1s;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+}
+#archive-page section.post a:hover {
+  border-color: #72baa7;
 }
 @media only screen and (min-width: 768px) {
   #archive-page section.post a time {
