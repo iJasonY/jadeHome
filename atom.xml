@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://jeffjade.github.io/"/>
-  <updated>2015-11-14T10:20:25.000Z</updated>
+  <updated>2015-11-14T10:23:42.000Z</updated>
   <id>http://jeffjade.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://jeffjade.github.io/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/"/>
     <id>http://jeffjade.github.io/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/</id>
     <published>2015-11-14T09:30:00.000Z</published>
-    <updated>2015-11-14T10:20:25.000Z</updated>
+    <updated>2015-11-14T10:23:42.000Z</updated>
     <content type="html"><![CDATA[<p>利用CSS进行元素的水平居中，比较简单，手到擒来：行级元素设置其父元素的text-align center，块级元素设置其本身的left 和 right margins为auto即可。而撸起垂直居中，相信于大多初撸者来说，与我相似，内心是抗拒的。于此，以我司同事一内部分享为基，加以搜集完善，得8种CSS垂直居中书写之法；个中有示例Demo，以及代码和优劣之评。</p>
 <a id="more"></a>
 <ul><br>    <li><a href="/special/horizontal_center-methods.html" style="font-size:1em;font-weight:blod">CSS实现水平居中(3法)</a><br>    </li><br>    <li><a href="/special/vertical_center_methods.html" style="font-size:1em;font-weight:blod">CSS实现垂直居中(8法)</a><br>    </li><br></ul>
