@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://jeffjade.github.io/"/>
-  <updated>2015-11-09T16:27:11.000Z</updated>
+  <updated>2015-11-14T10:07:47.000Z</updated>
   <id>http://jeffjade.github.io/</id>
   
   <author>
@@ -13,6 +13,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[CSS实现水平|垂直居中漫谈]]></title>
+    <link href="http://jeffjade.github.io/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/"/>
+    <id>http://jeffjade.github.io/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/</id>
+    <published>2015-11-14T09:30:00.000Z</published>
+    <updated>2015-11-14T10:07:47.000Z</updated>
+    <content type="html"><![CDATA[<p>利用CSS进行元素的水平居中，比较简单，手到擒来：行级元素设置其父元素的text-align center，块级元素设置其本身的left 和 right margins为auto即可。而撸起垂直居中，相信于大多初撸者来说，与我相似，内心是抗拒的。于此，以我司同事一内部分享为基，加以搜集完善，得8种CSS垂直居中书写之法；个中有示例Demo，以及代码和优劣之评。</p>
+<a id="more"></a>
+<ul><br>    <li><a href="/special/md2pptViaCleaver.html" style="font-size:1em;font-weight:blod">CSS实现水平居中</a><br>    </li><br>    <li><a href="/special/md2pptViaCleaver.html" style="font-size:1em;font-weight:blod">CSS实现垂直居中</a><br>    </li><br></ul>
+
+<p>PS：窃以为，对于CSS足够熟悉的话，以CSS多种属性组合出的“奇技淫巧”想必是层次不穷的，这里也只是搜集整理了其中为大家常用而又简洁的部分而已。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>利用CSS进行元素的水平居中，比较简单，手到擒来：行级元素设置其父元素的text-align center，块级元素设置其本身的left 和 right margins为auto即可。而撸起垂直居中，相信于大多初撸者来说，与我相似，内心是抗拒的。于此，以我司同事一内部分享为基，加以搜集完善，得8种CSS垂直居中书写之法；个中有示例Demo，以及代码和优劣之评。</p>]]>
+    
+    </summary>
+    
+      <category term="CSS" scheme="http://jeffjade.github.io/tags/CSS/"/>
+    
+      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[聊聊心中功夫明星榜]]></title>
@@ -345,29 +368,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[精美动画后宫苑]]></title>
-    <link href="http://jeffjade.github.io/2015/10/15/2015-10-15-nice-animation-collection/"/>
-    <id>http://jeffjade.github.io/2015/10/15/2015-10-15-nice-animation-collection/</id>
-    <published>2015-10-15T03:50:00.000Z</published>
-    <updated>2015-10-15T10:16:25.000Z</updated>
-    <content type="html"><![CDATA[<p>对于觉得美的事物，向来都怀有收藏之癖。迷恋精美网页动画已久，只是未能遇见娇藏她的“铜雀台”。直到一见钟情于她~<code>CodePen</code>站点地址：<a href="http://codepen.io/" target="_blank" rel="external">http://codepen.io/</a>。一款高效在线IDE，不仅站点是在墙内的，并且可免费使用其常用功能；并且功能体验俱佳，真是深得我心啊。至于关于CodePen可以参见：<a href="http://stoneydream.com/2015/09/19/%E4%BD%BF%E7%94%A8codepen%E5%88%86%E4%BA%AB%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81/" target="_blank" rel="external">使用codepen分享前端代码</a>和张鑫旭的<a href="http://www.zhangxinxu.com/wordpress/2012/07/codepen-jsfiddle/" target="_blank" rel="external">见多识广,CodePen项目网站简介</a>。当然，仅仅收藏之，倒无什么意义，待得空闲，须当一一深析以为己用方是正道。</p>
-<a id="more"></a>
-<p data-height="268" data-theme-id="0" data-slug-hash="YXQoQE" data-default-tab="result" data-user="nikrowell" class="codepen">See the Pen <a href="http://codepen.io/nikrowell/pen/YXQoQE/" target="_blank" rel="external">Scripted Heart</a> by Nik (<a href="http://codepen.io/nikrowell" target="_blank" rel="external">@nikrowell</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><br><p><script async src="http://codepen.io/assets/embed/ei.js"></script><span id="more-2017"></span></p>
-
-<hr>
-<p data-height="268" data-theme-id="20035" data-slug-hash="yYzyWQ" data-default-tab="result" data-user="natewiley" class="codepen">See the Pen <a href="http://codepen.io/natewiley/pen/yYzyWQ/" target="_blank" rel="external">Infinite Cubes CSS</a> by Nate Wiley (<a href="http://codepen.io/natewiley" target="_blank" rel="external">@natewiley</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p>]]></content>
-    <summary type="html">
-    <![CDATA[<p>对于觉得美的事物，向来都怀有收藏之癖。迷恋精美网页动画已久，只是未能遇见娇藏她的“铜雀台”。直到一见钟情于她~<code>CodePen</code>站点地址：<a href="http://codepen.io/">http://codepen.io/</a>。一款高效在线IDE，不仅站点是在墙内的，并且可免费使用其常用功能；并且功能体验俱佳，真是深得我心啊。至于关于CodePen可以参见：<a href="http://stoneydream.com/2015/09/19/%E4%BD%BF%E7%94%A8codepen%E5%88%86%E4%BA%AB%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81/">使用codepen分享前端代码</a>和张鑫旭的<a href="http://www.zhangxinxu.com/wordpress/2012/07/codepen-jsfiddle/">见多识广,CodePen项目网站简介</a>。当然，仅仅收藏之，倒无什么意义，待得空闲，须当一一深析以为己用方是正道。</p>]]>
-    
-    </summary>
-    
-      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
-    
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[Cleaver快速制作网页PPT]]></title>
     <link href="http://jeffjade.github.io/2015/10/15/2015-10-16-cleaver-make-ppt/"/>
     <id>http://jeffjade.github.io/2015/10/15/2015-10-16-cleaver-make-ppt/</id>
@@ -416,6 +416,29 @@
       <category term="NodeJs" scheme="http://jeffjade.github.io/tags/NodeJs/"/>
     
       <category term="Toss" scheme="http://jeffjade.github.io/categories/Toss/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[精美动画后宫苑]]></title>
+    <link href="http://jeffjade.github.io/2015/10/15/2015-10-15-nice-animation-collection/"/>
+    <id>http://jeffjade.github.io/2015/10/15/2015-10-15-nice-animation-collection/</id>
+    <published>2015-10-15T03:50:00.000Z</published>
+    <updated>2015-10-15T10:16:25.000Z</updated>
+    <content type="html"><![CDATA[<p>对于觉得美的事物，向来都怀有收藏之癖。迷恋精美网页动画已久，只是未能遇见娇藏她的“铜雀台”。直到一见钟情于她~<code>CodePen</code>站点地址：<a href="http://codepen.io/" target="_blank" rel="external">http://codepen.io/</a>。一款高效在线IDE，不仅站点是在墙内的，并且可免费使用其常用功能；并且功能体验俱佳，真是深得我心啊。至于关于CodePen可以参见：<a href="http://stoneydream.com/2015/09/19/%E4%BD%BF%E7%94%A8codepen%E5%88%86%E4%BA%AB%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81/" target="_blank" rel="external">使用codepen分享前端代码</a>和张鑫旭的<a href="http://www.zhangxinxu.com/wordpress/2012/07/codepen-jsfiddle/" target="_blank" rel="external">见多识广,CodePen项目网站简介</a>。当然，仅仅收藏之，倒无什么意义，待得空闲，须当一一深析以为己用方是正道。</p>
+<a id="more"></a>
+<p data-height="268" data-theme-id="0" data-slug-hash="YXQoQE" data-default-tab="result" data-user="nikrowell" class="codepen">See the Pen <a href="http://codepen.io/nikrowell/pen/YXQoQE/" target="_blank" rel="external">Scripted Heart</a> by Nik (<a href="http://codepen.io/nikrowell" target="_blank" rel="external">@nikrowell</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><br><p><script async src="http://codepen.io/assets/embed/ei.js"></script><span id="more-2017"></span></p>
+
+<hr>
+<p data-height="268" data-theme-id="20035" data-slug-hash="yYzyWQ" data-default-tab="result" data-user="natewiley" class="codepen">See the Pen <a href="http://codepen.io/natewiley/pen/yYzyWQ/" target="_blank" rel="external">Infinite Cubes CSS</a> by Nate Wiley (<a href="http://codepen.io/natewiley" target="_blank" rel="external">@natewiley</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p>]]></content>
+    <summary type="html">
+    <![CDATA[<p>对于觉得美的事物，向来都怀有收藏之癖。迷恋精美网页动画已久，只是未能遇见娇藏她的“铜雀台”。直到一见钟情于她~<code>CodePen</code>站点地址：<a href="http://codepen.io/">http://codepen.io/</a>。一款高效在线IDE，不仅站点是在墙内的，并且可免费使用其常用功能；并且功能体验俱佳，真是深得我心啊。至于关于CodePen可以参见：<a href="http://stoneydream.com/2015/09/19/%E4%BD%BF%E7%94%A8codepen%E5%88%86%E4%BA%AB%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81/">使用codepen分享前端代码</a>和张鑫旭的<a href="http://www.zhangxinxu.com/wordpress/2012/07/codepen-jsfiddle/">见多识广,CodePen项目网站简介</a>。当然，仅仅收藏之，倒无什么意义，待得空闲，须当一一深析以为己用方是正道。</p>]]>
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
+    
+      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
     
   </entry>
   
@@ -1001,79 +1024,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[JavaScript字符串间的比较]]></title>
-    <link href="http://jeffjade.github.io/2015/08/28/2015-09-02-js-string-compare/"/>
-    <id>http://jeffjade.github.io/2015/08/28/2015-09-02-js-string-compare/</id>
-    <published>2015-08-28T13:00:00.000Z</published>
-    <updated>2015-10-06T10:28:01.000Z</updated>
-    <content type="html"><![CDATA[<p>字符串在JavaScript中几乎无处不在，在你处理用户的输入数据的时候，在读取或设置DOM对象的属性时，在操作cookie时，当然还有更 多…。@雪斌在<a href="http://www.cnblogs.com/xuebin/articles/1296837.html" target="_blank" rel="external">JavaScript中的字符串操作</a>一文中讲的很详细，但是对于涉及Js字符串的比较，还是有必要再学习和探究下的。</p>
-<a id="more"></a>
-<h2 id="字符串和其他对象比较大小"><strong>字符串和其他对象比较大小</strong></h2><p>字符串和其他对象进行比较，大体要遵循下面的这些考量：</p>
-<ol>
-<li>两个操作数都是数值，则进行数值比较</li>
-<li>两个操作数都是字符串，则比较两个字符串对应的字符编码值</li>
-<li>两个操作数有一个是数值，则将另一个转换为数值，再进行数值比较</li>
-<li>两个操作数有一个是对象，则先调用valueOf()方法或toString()方法，再用结果比较</li>
-</ol>
-<p>言不如例子，例不如图；然后，请看下面代码：<br><strong>1)纯数字之间比较</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="number">1</span>&lt;<span class="number">3</span>);<span class="comment">//true</span></span><br></pre></td></tr></table></figure></p>
-<p><strong>2)数字字符串比较，会将其先转成数字</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">"1"</span>&lt;<span class="string">"3"</span>);<span class="comment">//true</span></span><br><span class="line">alert(<span class="string">"123"</span>&lt;<span class="string">"123"</span>);<span class="comment">//false</span></span><br></pre></td></tr></table></figure></p>
-<p><strong>3)纯字符串比较,先转成ascii码</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">"a"</span>&lt;<span class="string">"b"</span>);<span class="comment">//true</span></span><br><span class="line">alert(<span class="string">"abc"</span>&lt;<span class="string">"aad"</span>);<span class="comment">//false,多纯字母比较，会依次比较ascii码</span></span><br></pre></td></tr></table></figure></p>
-<p><strong>4)汉字比较</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">"我"</span>.charCodeAt());<span class="comment">//25105</span></span><br><span class="line">alert(<span class="string">"的"</span>.charCodeAt());<span class="comment">//30340</span></span><br><span class="line">alert(<span class="string">"我"</span>&lt;<span class="string">"的"</span>);<span class="comment">//true,汉字比较,转成ascii码</span></span><br></pre></td></tr></table></figure></p>
-<p><strong>5)当数字和字符串比较，且字符串为数字。则将数字字符串转为数字</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="number">123</span>&lt;<span class="string">"124"</span>);<span class="comment">//true,下面一句代码得出124的ascii码为49，所以并不是转成ascii比较</span></span><br><span class="line">alert(<span class="string">"124"</span>.charCodeAt());<span class="comment">//49</span></span><br></pre></td></tr></table></figure></p>
-<p><strong>6)当数字和字符串比较,且字符串为非纯数字时,则将非数字字符串转成数字的时候会转换为NaN,</strong>当NaN和数字比较时不论大小都返回false(NaN “Not a Number”。出现这个数值比较少见，以至于我们可以不理它。当运算无法返回正确的数值时，就会返回“NaN”值。NaN 值非常特殊，因为它“不是数字”，所以任何数跟它都不相等，<em>甚至 NaN 本身也不等于 NaN</em> 。 )<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="number">13</span>&gt;<span class="string">"abc"</span>);<span class="comment">//false</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="判断两个字符串(/对象)是否相等"><strong>判断两个字符串(/对象)是否相等</strong></h2><ol>
-<li>如果一个操作值为布尔值，则在比较之前先将其转换为数值，false转成0，true为1；</li>
-<li>如果一个操作值为字符串，另一个操作值为数值，则通过Number()函数将字符串转换为数值</li>
-<li>如果一个操作值是对象，另一个不是，则调用对象的valueOf()方法，得到的结果按照前面的规则进行比较</li>
-<li>null与undefined是相等的；avaScript的设计者希望用null表示一个空的值，而undefined表示值未定义。事实证明，这并没有什么卵用，区分两者的意义不大。大多数情况下，我们都应该用null。undefined仅仅在判断函数参数是否传递的情况下有用。</li>
-<li>如果一个操作值为NaN，则相等比较返回false（<strong>NaN 本身也不等于 NaN</strong>）唯一能判断NaN的方法是通过isNaN()函数：isNaN(NaN); // true</li>
-<li>如果两个操作值都是对象，则比较它们是不是指向同一个对象。如果两个操作数都指向同一个对象，则相等操作符返回true，否则，返回false</li>
-<li>在全等和不全等的判断上，只有值和类型都相等，才返回true，否则返回false；</li>
-<li>注意浮点数的相等比较：浮点数在运算过程中会产生误差；所以：1 / 3 === (1 - 2 / 3); // false。要比较两个浮点数是否相等，只能计算它们之差的绝对值，看是否小于某个阈值：Math.abs(1 / 3 - (1 - 2 / 3)) &lt; 0.0000001; // true</li>
-</ol>
-<p>十言不如一例，请看下面的代码：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> num =<span class="number">2</span>==<span class="number">2</span>;  <span class="comment">//true</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="string">'2'</span>==<span class="number">2</span>; <span class="comment">//true,'2'会转成数值2</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="literal">false</span> == <span class="number">0</span>; <span class="comment">//true,false转成数值就是0</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="literal">false</span> == <span class="string">"0"</span>; <span class="comment">//true,false转成数值就是0,"0"会转化成0</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="string">'a'</span>==<span class="string">'A'</span>;  <span class="comment">//false,转换后的编码不一样</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="number">2</span>==<span class="literal">NaN</span>; <span class="comment">//false,只要有NaN，都是false</span></span><br><span class="line"><span class="keyword">var</span> num = &#123;&#125;==&#123;&#125;; <span class="comment">//false,比较的是他们的地址，每个新创建对象的引用地址都不同</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> age = &#123;&#125;;</span><br><span class="line"><span class="keyword">var</span> height = age;</span><br><span class="line"><span class="keyword">var</span> box = age == height;<span class="comment">//true,引用地址一样，所以相等</span></span><br></pre></td></tr></table></figure></p>
-<p>JavaScript有两种相等运算符。一种是完全向后兼容的，标准的”==”，如果两个操作数类型不一致，它会在某些时候自动对操作数进行类型转换，考虑下面的赋值语句：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> strA = <span class="string">"i love you!"</span>;</span><br><span class="line"><span class="keyword">var</span> strB = <span class="keyword">new</span> <span class="built_in">String</span>(<span class="string">"i love you!"</span>);</span><br></pre></td></tr></table></figure>
-<p>这两个变量含有相同的字符序列，但数据类型却不同，前者为string，后者为object，在使用”==”操作符时，JavaScript会尝试各种求值，以检测两者是否会在某种情况下相等。所以下面的表达式结果为true： strA == strB。</p>
-<p>第二种操作符是”严格”的”===”，它在求值时不会这么宽容，不会进行类型转换。所以表达式strA === strB的值为false，虽然两个变量持有的值相同。<br>有时代码的逻辑要求你判断两个值是否不相等，这里也有两个选择：”!=”和严格的”!==”，它们的关系就类似于”==”和”===”。</p>
-<p>“==”和”!=”在求值时会尽可能地寻找值的匹配性，但你可能还是想在比较前进行显式的类型转换，以”帮助”它们完成工作。比如，如果想判断一个用户的输入值（字符串）是否等于一个数字，你可以让”==”帮你完成类型转换：</p>
-<blockquote>
-<p>if(document.form1.txtAge.value == someNumericVar) { … }</p>
-</blockquote>
-<p>也可以提前转换：</p>
-<blockquote>
-<p>if(parseInt(document.form1.txtAge.value) == someNumericVar) { … }</p>
-</blockquote>
-<p>如果你比较习惯于强类型的编程语言(比如C#,Java等)，那么这里你可以延续你的习惯(类型转换)，这样也会增强程序的可读性。</p>
-<p>有一种情况需要注意，就是计算机的区域设置。如果用”&lt;”和”&gt;”来比较字符串，那么JavaScript把它们作为Unicode来比较， 但显然，人们在浏览网页时不会把文本当作Unicode来阅读:) 比如在西班牙语中，按照传统的排序，”ch”将作为一个字符排在”c”和”d”之间。localeCompare()提供了一种方式，可以帮助你使用默认 区域设置下的字符排序规则。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> strings;  <span class="comment">// 要排序的字符串数组，假设已经得到初始化</span></span><br><span class="line">strings.sort(<span class="function"><span class="keyword">function</span><span class="params">(a,b)</span> </span>&#123; <span class="keyword">return</span> a.localeCompare(b) &#125;);  <span class="comment">// 调用sort()方法进行排序</span></span><br></pre></td></tr></table></figure></p>
-<p>@阮一峰在<a href="http://www.ruanyifeng.com/blog/2011/05/how_to_judge_the_existence_of_a_global_object_in_javascript.html" target="_blank" rel="external">如何判断Javascript对象是否存在</a>中详细的写到如何判断Javascript是否存在；涉及10种不同的写法（据悉有超过50种写法）。值得一提的是，Javascript语言的设计，造成了写一个判断一个Javascript对象是否存在，都得小心翼翼。比如下面写法：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (!myObj) &#123;</span><br><span class="line">　　　myObj = &#123; &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>根据其他脚本语言经验，直觉上这是对的，然而运行这段代码，浏览器会直接抛出ReferenceError错误，导致运行中断。对了，if语句判断myObj是否为空时，这个变量还不存在，所以才会报错。改成下面这样，就能正确运行了。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (!myObj) &#123;</span><br><span class="line">　　<span class="keyword">var</span> myObj = &#123; &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>究其原因，在于Javascript语言是”<strong>先解析，后运行</strong>“，解析时就已经完成了变量声明，所以上面的代码实际等同于：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> myObj;</span><br><span class="line"><span class="keyword">if</span> (!myObj) &#123;</span><br><span class="line">　	<span class="keyword">var</span> myObj = &#123; &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<blockquote>
-<p>因为，if语句做判断时，myObj确实已经存在了，所以就不报错了。这就是var命令的”代码提升”（hoisting）作用。Javascript解释器，只”提升”var命令定义的变量，对不使用var命令、直接赋值的变量不起作用，这就是为什么不加var会报错的原因。</p>
-</blockquote>
-<p>也就是说，程序运行到判断对象是否相等之前，必须确认二者是否都’存在’。否则就会报错：</p>
-<blockquote>
-<p>ReferenceError: xxx is not defined</p>
-</blockquote>
-<p>==参考文章链接==：</p>
-<p><a href="http://segmentfault.com/a/1190000002423935" title="详解js运算符" target="_blank" rel="external">详解js运算符－segmentfault</a> </p>
-<p><a href="http://www.esnsc.com/news655.html" target="_blank" rel="external">js如何比较数字字符串之间大小</a></p>
-<p><a href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000" target="_blank" rel="external">廖雪峰－javascript教程</a></p>
-<p><a href="http://www.ruanyifeng.com/blog/2011/05/how_to_judge_the_existence_of_a_global_object_in_javascript.html" target="_blank" rel="external">如何判断Javascript对象是否存在</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>字符串在JavaScript中几乎无处不在，在你处理用户的输入数据的时候，在读取或设置DOM对象的属性时，在操作cookie时，当然还有更 多…。@雪斌在<a href="http://www.cnblogs.com/xuebin/articles/1296837.html">JavaScript中的字符串操作</a>一文中讲的很详细，但是对于涉及Js字符串的比较，还是有必要再学习和探究下的。</p>]]>
-    
-    </summary>
-    
-      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
-    
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[追寻高效工作的一路折腾II]]></title>
     <link href="http://jeffjade.github.io/2015/08/28/2015-08-28-Write-Morkdown/"/>
     <id>http://jeffjade.github.io/2015/08/28/2015-08-28-Write-Morkdown/</id>
@@ -1183,6 +1133,79 @@
       <category term="Toss" scheme="http://jeffjade.github.io/tags/Toss/"/>
     
       <category term="Toss" scheme="http://jeffjade.github.io/categories/Toss/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[JavaScript字符串间的比较]]></title>
+    <link href="http://jeffjade.github.io/2015/08/28/2015-09-02-js-string-compare/"/>
+    <id>http://jeffjade.github.io/2015/08/28/2015-09-02-js-string-compare/</id>
+    <published>2015-08-28T13:00:00.000Z</published>
+    <updated>2015-10-06T10:28:01.000Z</updated>
+    <content type="html"><![CDATA[<p>字符串在JavaScript中几乎无处不在，在你处理用户的输入数据的时候，在读取或设置DOM对象的属性时，在操作cookie时，当然还有更 多…。@雪斌在<a href="http://www.cnblogs.com/xuebin/articles/1296837.html" target="_blank" rel="external">JavaScript中的字符串操作</a>一文中讲的很详细，但是对于涉及Js字符串的比较，还是有必要再学习和探究下的。</p>
+<a id="more"></a>
+<h2 id="字符串和其他对象比较大小"><strong>字符串和其他对象比较大小</strong></h2><p>字符串和其他对象进行比较，大体要遵循下面的这些考量：</p>
+<ol>
+<li>两个操作数都是数值，则进行数值比较</li>
+<li>两个操作数都是字符串，则比较两个字符串对应的字符编码值</li>
+<li>两个操作数有一个是数值，则将另一个转换为数值，再进行数值比较</li>
+<li>两个操作数有一个是对象，则先调用valueOf()方法或toString()方法，再用结果比较</li>
+</ol>
+<p>言不如例子，例不如图；然后，请看下面代码：<br><strong>1)纯数字之间比较</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="number">1</span>&lt;<span class="number">3</span>);<span class="comment">//true</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>2)数字字符串比较，会将其先转成数字</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">"1"</span>&lt;<span class="string">"3"</span>);<span class="comment">//true</span></span><br><span class="line">alert(<span class="string">"123"</span>&lt;<span class="string">"123"</span>);<span class="comment">//false</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>3)纯字符串比较,先转成ascii码</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">"a"</span>&lt;<span class="string">"b"</span>);<span class="comment">//true</span></span><br><span class="line">alert(<span class="string">"abc"</span>&lt;<span class="string">"aad"</span>);<span class="comment">//false,多纯字母比较，会依次比较ascii码</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>4)汉字比较</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">"我"</span>.charCodeAt());<span class="comment">//25105</span></span><br><span class="line">alert(<span class="string">"的"</span>.charCodeAt());<span class="comment">//30340</span></span><br><span class="line">alert(<span class="string">"我"</span>&lt;<span class="string">"的"</span>);<span class="comment">//true,汉字比较,转成ascii码</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>5)当数字和字符串比较，且字符串为数字。则将数字字符串转为数字</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="number">123</span>&lt;<span class="string">"124"</span>);<span class="comment">//true,下面一句代码得出124的ascii码为49，所以并不是转成ascii比较</span></span><br><span class="line">alert(<span class="string">"124"</span>.charCodeAt());<span class="comment">//49</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>6)当数字和字符串比较,且字符串为非纯数字时,则将非数字字符串转成数字的时候会转换为NaN,</strong>当NaN和数字比较时不论大小都返回false(NaN “Not a Number”。出现这个数值比较少见，以至于我们可以不理它。当运算无法返回正确的数值时，就会返回“NaN”值。NaN 值非常特殊，因为它“不是数字”，所以任何数跟它都不相等，<em>甚至 NaN 本身也不等于 NaN</em> 。 )<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="number">13</span>&gt;<span class="string">"abc"</span>);<span class="comment">//false</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="判断两个字符串(/对象)是否相等"><strong>判断两个字符串(/对象)是否相等</strong></h2><ol>
+<li>如果一个操作值为布尔值，则在比较之前先将其转换为数值，false转成0，true为1；</li>
+<li>如果一个操作值为字符串，另一个操作值为数值，则通过Number()函数将字符串转换为数值</li>
+<li>如果一个操作值是对象，另一个不是，则调用对象的valueOf()方法，得到的结果按照前面的规则进行比较</li>
+<li>null与undefined是相等的；avaScript的设计者希望用null表示一个空的值，而undefined表示值未定义。事实证明，这并没有什么卵用，区分两者的意义不大。大多数情况下，我们都应该用null。undefined仅仅在判断函数参数是否传递的情况下有用。</li>
+<li>如果一个操作值为NaN，则相等比较返回false（<strong>NaN 本身也不等于 NaN</strong>）唯一能判断NaN的方法是通过isNaN()函数：isNaN(NaN); // true</li>
+<li>如果两个操作值都是对象，则比较它们是不是指向同一个对象。如果两个操作数都指向同一个对象，则相等操作符返回true，否则，返回false</li>
+<li>在全等和不全等的判断上，只有值和类型都相等，才返回true，否则返回false；</li>
+<li>注意浮点数的相等比较：浮点数在运算过程中会产生误差；所以：1 / 3 === (1 - 2 / 3); // false。要比较两个浮点数是否相等，只能计算它们之差的绝对值，看是否小于某个阈值：Math.abs(1 / 3 - (1 - 2 / 3)) &lt; 0.0000001; // true</li>
+</ol>
+<p>十言不如一例，请看下面的代码：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> num =<span class="number">2</span>==<span class="number">2</span>;  <span class="comment">//true</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="string">'2'</span>==<span class="number">2</span>; <span class="comment">//true,'2'会转成数值2</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="literal">false</span> == <span class="number">0</span>; <span class="comment">//true,false转成数值就是0</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="literal">false</span> == <span class="string">"0"</span>; <span class="comment">//true,false转成数值就是0,"0"会转化成0</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="string">'a'</span>==<span class="string">'A'</span>;  <span class="comment">//false,转换后的编码不一样</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="number">2</span>==<span class="literal">NaN</span>; <span class="comment">//false,只要有NaN，都是false</span></span><br><span class="line"><span class="keyword">var</span> num = &#123;&#125;==&#123;&#125;; <span class="comment">//false,比较的是他们的地址，每个新创建对象的引用地址都不同</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> age = &#123;&#125;;</span><br><span class="line"><span class="keyword">var</span> height = age;</span><br><span class="line"><span class="keyword">var</span> box = age == height;<span class="comment">//true,引用地址一样，所以相等</span></span><br></pre></td></tr></table></figure></p>
+<p>JavaScript有两种相等运算符。一种是完全向后兼容的，标准的”==”，如果两个操作数类型不一致，它会在某些时候自动对操作数进行类型转换，考虑下面的赋值语句：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> strA = <span class="string">"i love you!"</span>;</span><br><span class="line"><span class="keyword">var</span> strB = <span class="keyword">new</span> <span class="built_in">String</span>(<span class="string">"i love you!"</span>);</span><br></pre></td></tr></table></figure>
+<p>这两个变量含有相同的字符序列，但数据类型却不同，前者为string，后者为object，在使用”==”操作符时，JavaScript会尝试各种求值，以检测两者是否会在某种情况下相等。所以下面的表达式结果为true： strA == strB。</p>
+<p>第二种操作符是”严格”的”===”，它在求值时不会这么宽容，不会进行类型转换。所以表达式strA === strB的值为false，虽然两个变量持有的值相同。<br>有时代码的逻辑要求你判断两个值是否不相等，这里也有两个选择：”!=”和严格的”!==”，它们的关系就类似于”==”和”===”。</p>
+<p>“==”和”!=”在求值时会尽可能地寻找值的匹配性，但你可能还是想在比较前进行显式的类型转换，以”帮助”它们完成工作。比如，如果想判断一个用户的输入值（字符串）是否等于一个数字，你可以让”==”帮你完成类型转换：</p>
+<blockquote>
+<p>if(document.form1.txtAge.value == someNumericVar) { … }</p>
+</blockquote>
+<p>也可以提前转换：</p>
+<blockquote>
+<p>if(parseInt(document.form1.txtAge.value) == someNumericVar) { … }</p>
+</blockquote>
+<p>如果你比较习惯于强类型的编程语言(比如C#,Java等)，那么这里你可以延续你的习惯(类型转换)，这样也会增强程序的可读性。</p>
+<p>有一种情况需要注意，就是计算机的区域设置。如果用”&lt;”和”&gt;”来比较字符串，那么JavaScript把它们作为Unicode来比较， 但显然，人们在浏览网页时不会把文本当作Unicode来阅读:) 比如在西班牙语中，按照传统的排序，”ch”将作为一个字符排在”c”和”d”之间。localeCompare()提供了一种方式，可以帮助你使用默认 区域设置下的字符排序规则。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> strings;  <span class="comment">// 要排序的字符串数组，假设已经得到初始化</span></span><br><span class="line">strings.sort(<span class="function"><span class="keyword">function</span><span class="params">(a,b)</span> </span>&#123; <span class="keyword">return</span> a.localeCompare(b) &#125;);  <span class="comment">// 调用sort()方法进行排序</span></span><br></pre></td></tr></table></figure></p>
+<p>@阮一峰在<a href="http://www.ruanyifeng.com/blog/2011/05/how_to_judge_the_existence_of_a_global_object_in_javascript.html" target="_blank" rel="external">如何判断Javascript对象是否存在</a>中详细的写到如何判断Javascript是否存在；涉及10种不同的写法（据悉有超过50种写法）。值得一提的是，Javascript语言的设计，造成了写一个判断一个Javascript对象是否存在，都得小心翼翼。比如下面写法：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (!myObj) &#123;</span><br><span class="line">　　　myObj = &#123; &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>根据其他脚本语言经验，直觉上这是对的，然而运行这段代码，浏览器会直接抛出ReferenceError错误，导致运行中断。对了，if语句判断myObj是否为空时，这个变量还不存在，所以才会报错。改成下面这样，就能正确运行了。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (!myObj) &#123;</span><br><span class="line">　　<span class="keyword">var</span> myObj = &#123; &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>究其原因，在于Javascript语言是”<strong>先解析，后运行</strong>“，解析时就已经完成了变量声明，所以上面的代码实际等同于：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> myObj;</span><br><span class="line"><span class="keyword">if</span> (!myObj) &#123;</span><br><span class="line">　	<span class="keyword">var</span> myObj = &#123; &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>因为，if语句做判断时，myObj确实已经存在了，所以就不报错了。这就是var命令的”代码提升”（hoisting）作用。Javascript解释器，只”提升”var命令定义的变量，对不使用var命令、直接赋值的变量不起作用，这就是为什么不加var会报错的原因。</p>
+</blockquote>
+<p>也就是说，程序运行到判断对象是否相等之前，必须确认二者是否都’存在’。否则就会报错：</p>
+<blockquote>
+<p>ReferenceError: xxx is not defined</p>
+</blockquote>
+<p>==参考文章链接==：</p>
+<p><a href="http://segmentfault.com/a/1190000002423935" title="详解js运算符" target="_blank" rel="external">详解js运算符－segmentfault</a> </p>
+<p><a href="http://www.esnsc.com/news655.html" target="_blank" rel="external">js如何比较数字字符串之间大小</a></p>
+<p><a href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000" target="_blank" rel="external">廖雪峰－javascript教程</a></p>
+<p><a href="http://www.ruanyifeng.com/blog/2011/05/how_to_judge_the_existence_of_a_global_object_in_javascript.html" target="_blank" rel="external">如何判断Javascript对象是否存在</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>字符串在JavaScript中几乎无处不在，在你处理用户的输入数据的时候，在读取或设置DOM对象的属性时，在操作cookie时，当然还有更 多…。@雪斌在<a href="http://www.cnblogs.com/xuebin/articles/1296837.html">JavaScript中的字符串操作</a>一文中讲的很详细，但是对于涉及Js字符串的比较，还是有必要再学习和探究下的。</p>]]>
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
+    
+      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
     
   </entry>
   
@@ -1349,56 +1372,6 @@
       <category term="Toss" scheme="http://jeffjade.github.io/tags/Toss/"/>
     
       <category term="Toss" scheme="http://jeffjade.github.io/categories/Toss/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Mac，无愧设备中优雅的情人]]></title>
-    <link href="http://jeffjade.github.io/2015/07/24/2015-07-24-why-programmer-love-mac/"/>
-    <id>http://jeffjade.github.io/2015/07/24/2015-07-24-why-programmer-love-mac/</id>
-    <published>2015-07-24T12:36:00.000Z</published>
-    <updated>2015-07-27T12:17:25.000Z</updated>
-    <content type="html"><![CDATA[<p>在众多设备当中，如果将其分别映射出各自的角色。手机，已成感染烟瘾人手中的毒品，时刻都难以离开，愣是要给予一个角色，想来想去也只有“自己”更能予之对应了。相比之下，利器Filco机械键盘，则堪称是砌字垒码的倚天神剑；便携而专注的Kindle则更多如一位良师益友般的存在；更便携的Ipod Shuffle，则像是一位时刻能随时出现在你身边的朋友，或码字或运动，抑或发呆，总能在任何你想聊以慰籍的时候给你带来音和乐。而这Mac，则可谓无愧设备中的“优雅情人”。<br><a id="more"></a></p>
-<p><img src="http://www.jeffjade.com/img/other/mac_air.jpg" alt=""></p>
-<p>为何会有如此戏说？<strong>乔布斯是个大师，他创造了一批无可挑剔的作品，让世界跟着他的节奏来改变自己的习惯.</strong>从大学到工作后两年，基本都是在windows下折腾；而这随着日积月累，加上3月份入手了一台Mac Pro之后的对比，非常正常的在继成为姑姑(Google)铁杆儿粉之后，也成了果果的铁杆儿粉。这多少有点来自windows的功劳，更多的是深深折服在这各种惊艳的设计当中；前两天看到一篇博文<a href="http://www.vpsee.com/2009/06/why-programmers-love-mac/" target="_blank" rel="external">为什么国外的程序员大都偏爱Mac？</a>，一番浏览，感觉说的蛮有道理，贴之于下；也算之前那么戏说的一个佐证。</p>
-<hr>
-<p>Mac 在国外很受欢迎，尤其是在设计/web 开发/IT 人员圈子里。普通用户喜欢 Mac 可以理解，毕竟 Mac 设计美观，简单好用，没有病毒。那么为什么专业人士也对 Mac 情有独钟呢？从个人使用经验来看我想有下面几个原因：</p>
-<h3 id="1、Mac_OS_X_是基于_Unix_的-"><strong>1、Mac OS X 是基于 Unix 的.</strong></h3><p>这一点太重要了，尤其是对开发人员，至少对于我来说很重要，这意味着 Unix 下一堆好用的工具都可以随手捡到。如果你是个 windows 开发人员，我想你会在 windows 上装一套 cygwin 环境吧？你不用 flex/yacc，grep，screen，ssh，make？好多 open source 的项目只提供 cygwin/gcc/make 的编译环境。Mac 就是基于 BSD Unix 的，所有这些都是 built in 的。</p>
-<h3 id="2、开发环境。"><strong>2、开发环境。</strong></h3><p>c/c++/java/perl/python/php/ruby/lisp，各种 shell，应有尽有，直接支持，非常方便。你要在 windows 上开发 C++，要装个 Visual Studio 编译器吧？或者其他的 C++ 编译器；你要开发 Java，你要下载 Java SDK 吧，说不定还要一个 Elipse 或者 Netbean；你要用 Perl，要安装一个 Perl 解释器吧，Active Perl？你要 python/php/ruby，你要安装……？开发程序需要库，图像处理，视频处理，人工智能之类大部分库都是只支持 Unix/Linux 的。Mac 基于 Unix，所以这些通通都和 Mac 能很好和睦相处。</p>
-<h3 id="3、编辑器_Vi/Emac。"><strong>3、编辑器 Vi/Emac。</strong></h3><p>作为程序员/IT 人员一个好用的编辑器太重要了，因为写程序/改系统配置都需要编辑器。我在 Mac 上差不多1/2 的时间是 browser/email，另外1/2 时间差不多就是 Vi 了。</p>
-<h3 id="4、没有病毒/木马。"><strong>4、没有病毒/木马。</strong></h3><p>用了 5 年多的 Mac 就没看到病毒长成什么样，我还看不到 Mac 上装杀毒软件的需要。</p>
-<h3 id="5、不需要维护。"><strong>5、不需要维护。</strong></h3><p>Mac 买来就直接用，磁盘碎片整理？不需要。装驱动？Mac 装好了，驱动就好了。重装系统？我 5 年没有重装过一次（期间换了几次不同的 Mac）。</p>
-<h3 id="6、简洁异常。"><strong>6、简洁异常。</strong></h3><p>Mac 上所有的操作都简洁到了极致，尽量避免干扰用户，增加了程序员的生产力。比如切换无线网功能，在 Mac 上切换只需要 1 次鼠标点击就可以完成，在 windows 上需要点击多次鼠标（包括一些很愚蠢的确认对话框）；再比如卸载 USB 盘，Mac 只需要 1 次鼠标点击，windows 至少需要点击右下角图标、停止设备、确认对话框等多次点击。</p>
-<h3 id="7、多窗口切换。"><strong>7、多窗口切换。</strong></h3><p>这个很方便管理打开的程序/文档。我经常要在多个虚拟窗口切换，比如看浏览网页/邮件一个窗口，写程序/文档一个窗口。</p>
-<h3 id="8、程序员文化。"><strong>8、程序员文化。</strong></h3><p>国外程序员是以 Unix 为主流成长起来的。这一点和国内不同，中国程序员/开发人员大都是从 90 年代的 DOS 开始的，随着 Windows 的壮大，成长了一批使用 Microsoft 工具的程序员。这也解释了为什么自从 Mac 切换到 Unix 阵营后，Mac 会发展这么快。基于 Unix 的 Mac 一经推出后，迅速赢得了一大批老 Unix hacker 和新 Web 2.0/Linux hacker 的关注，正是因为这些忠实的 fans 影响了他们的人际网络，圈子，博客，从而影响了整个程序员文化。有点像 Ruby on Rails，开始是一小部分人（精英人士）试用，这些人感觉不错就在博客，研讨会等各种场合鼓吹，从而在 Web 开发领域刮起一阵 Ruby 风。</p>
-<h3 id="9、苹果很酷。"><strong>9、苹果很酷。</strong></h3><p>每台电脑，每个系列都设计完美，从包装盒，宣传册，广告，电源线，电脑内部，电脑外观，电脑软件都精心设计，风格统一。甚至微小到螺丝，看过苹果机箱上的螺丝，机箱里面的数据线吗？那个也是设计。每个 Mac 上都标记着：Designed by Apple in California，而不是 Desgined in USA，苹果就是这么酷，“我们是一家加州公司”。苹果的保密措施可以说做到了极致，产品官方不发售就在市场上看不到踪影。</p>
-<h3 id="10、企业家精神。"><strong>10、企业家精神。</strong></h3><p>苹果的传奇经历吸引了大批硅谷创业者，Apple/Google/Microsoft/Amazon/eBay/Yahoo 代表了创新，进取的企业家精神。这不是一个大原因，但可以看作是 Mac 在国外，尤其是在美国，尤其是在硅谷，尤其是在大学这么流行的一个小原因吧。据调查 2007 年美国大学 Mac 市场占有率第一，这些大学精英们毕业以后走上工作岗位，走上社会，再过几年其中一部分走入中层，走进高层，他们会如何影响 Mac 呢？</p>
-<p><img src="http://www.nowamagic.net/librarys/images/201502/2015_02_27_01.jpg" alt=""></p>
-<h3 id="关于Mac五个月来的体验"><strong>关于Mac五个月来的体验</strong></h3><p>在使用Mac的这几个月来，除过上面已经叙述的那么多关于Mac的好，还是不得不聊下这几个感慨：<br><strong>超清晰的屏显</strong>好吧，已经如今这个年代水还要说外设没内设重要？虽然windows也可以配置超棒的屏显键盘等外设。而Mac就已经与生具来了。</p>
-<p><strong>使用Macbook需要鼠标吗？</strong>有这样优秀的触摸板，还需要鼠标吗？第一次使用Macbook的触摸板的人，都会尖叫：太好用了。只有玩一玩PS或者做ppt/keynote时，我才会动用到鼠标。</p>
-<p><strong>Keynote</strong>毫无疑问，Keynote让我爱上了幻灯片;做幻灯片好如在轻易的雕铸一件艺术品了，你还会有不开森？</p>
-<p>基于其本身与生俱来的高贵优雅，简洁强大，已经使人难以不爱上“她”了。而如果再经过一番属于自己的配置（软件添加＋操作方式修改等等），则会让你更加如鱼得水的畅游在乔大师的所布局的节奏中。譬如就从下面些许软件(免费)来窥测下Mac的强大呗；</p>
-<p><strong>Alfred：</strong>虽然本身自带的SpotLight已经非常强大了。而这款软件简直堪称完美(虽然只是使用了其一点点的功能)；但就只这一个软件的免费部分，也比windows下Everything＋AuthHotKey＋Other<br>组合更加NB，虽然那几款在windows下都已能算神器。可参见<a href="http://bbs.feng.com/read-htm-tid-6398178.html" target="_blank" rel="external">【MAC技术组】键盘流——Alfred全攻略</a></p>
-<p><strong>Homebrew:</strong>虽然Mac下没有自带类似Linus下apt-get这样的功能，但是Mac有<a href="http://brew.sh/" target="_blank" rel="external">Homebrew(brew)</a>:Mac OSX上的软件包管理工具，能在Mac中方便的 安装/查询/卸载 软件， 只需要一个命令， 非常方便！具体可参见<a href="http://www.jeffjade.com/2015/05/16/2015-05-16-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之Brew</a></p>
-<p>……….</p>
-<p>无论是做码农还是设计，搞科研还是弄金融，相信Mac都会是一个更佳的选择。即便是用来玩儿和学习，她也会有更优的体验；对于爱玩儿游戏的盆友，也算蛮好，Mac对大型游戏的支持一如对过时的Flash一样～不怎么友好；而这一点恰好对爱玩儿游戏的盆友起到些许正能量的作用，毕竟沉溺于游戏好处并不是那么多。对于程序员来讲，Mac则就无疑是设备中的情人了：强大流畅的系统，便捷人性的设计，于工作可以更高效；于学习可以更加舒畅；偶尔闲了搭建个人网站，或者写写文章都是那么的方便；使人怎么不爱？</p>
-<p>这不是在安利Mac(Mac也不需要我们的’自来水’)；<br>这只是你也早见相见Mac这个美好的同时表述下自己使用Mac的感想而已。</p>
-<hr>
-<p><strong>后记:</strong>Mac优点众多。但相比于即便很高配的Windows也要贵上一倍多。但，真的是一分钱一分货。不过，购买的时候条件允许的话，还是买港行的对自己更好一点；毕竟：天朝的这税高的惊人(Retina 显示屏，13 英寸，2014 年中，储存256GB，内存8B；国行10788RMB，港行大概9000RMB左右。这个差价带来的唯一好处就是不用烦请代购或者前往香港。但如果能轻易的拿到港行的货，这个差价就可以购买N多mac下优秀的软件，或者请妹纸或朋友吃几顿大餐咯。当然，土豪请无视之～ …… ^_^ )。</p>
-<p>-2015-07-26~2015-07-27 于深圳南山-</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>在众多设备当中，如果将其分别映射出各自的角色。手机，已成感染烟瘾人手中的毒品，时刻都难以离开，愣是要给予一个角色，想来想去也只有“自己”更能予之对应了。相比之下，利器Filco机械键盘，则堪称是砌字垒码的倚天神剑；便携而专注的Kindle则更多如一位良师益友般的存在；更便携的Ipod Shuffle，则像是一位时刻能随时出现在你身边的朋友，或码字或运动，抑或发呆，总能在任何你想聊以慰籍的时候给你带来音和乐。而这Mac，则可谓无愧设备中的“优雅情人”。<br>]]>
-    
-    </summary>
-    
-      <category term="Mac" scheme="http://jeffjade.github.io/tags/Mac/"/>
-    
-      <category term="Share" scheme="http://jeffjade.github.io/tags/Share/"/>
-    
-      <category term="Thought" scheme="http://jeffjade.github.io/tags/Thought/"/>
-    
-      <category term="Share" scheme="http://jeffjade.github.io/categories/Share/"/>
     
   </entry>
   

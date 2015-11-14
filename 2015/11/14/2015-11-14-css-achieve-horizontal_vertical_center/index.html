@@ -11,22 +11,22 @@
 
     <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   
-    <title>Drawable.Bitmap.Canvas.Paint.Matrix | 晚晴幽草轩</title>
+    <title>CSS实现水平|垂直居中漫谈 | 晚晴幽草轩</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Jeffyang">
     
 
     
-    <meta name="description" content="首先让我们理解下Android平台中的显示类是View，但是还提供了底层图形类android.graphics，今天所说的这些均为graphics底层图形接口。">
+    <meta name="description" content="利用CSS进行元素的水平居中，比较简单，手到擒来：行级元素设置其父元素的text-align center，块级元素设置其本身的left 和 right margins为auto即可。而撸起垂直居中，相信于大多初撸者来说，与我相似，内心是抗拒的。于此，以我司同事一内部分享为基，加以搜集完善，得8种CSS垂直居中书写之法；个中有示例Demo，以及代码和优劣之评。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Drawable.Bitmap.Canvas.Paint.Matrix">
-<meta property="og:url" content="http://jeffjade.github.io/2015/02/09/2015-02-09-bitmap-matrix-paint-drawable/index.html">
+<meta property="og:title" content="CSS实现水平|垂直居中漫谈">
+<meta property="og:url" content="http://jeffjade.github.io/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/index.html">
 <meta property="og:site_name" content="晚晴幽草轩">
-<meta property="og:description" content="首先让我们理解下Android平台中的显示类是View，但是还提供了底层图形类android.graphics，今天所说的这些均为graphics底层图形接口。">
+<meta property="og:description" content="利用CSS进行元素的水平居中，比较简单，手到擒来：行级元素设置其父元素的text-align center，块级元素设置其本身的left 和 right margins为auto即可。而撸起垂直居中，相信于大多初撸者来说，与我相似，内心是抗拒的。于此，以我司同事一内部分享为基，加以搜集完善，得8种CSS垂直居中书写之法；个中有示例Demo，以及代码和优劣之评。">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Drawable.Bitmap.Canvas.Paint.Matrix">
-<meta name="twitter:description" content="首先让我们理解下Android平台中的显示类是View，但是还提供了底层图形类android.graphics，今天所说的这些均为graphics底层图形接口。">
+<meta name="twitter:title" content="CSS实现水平|垂直居中漫谈">
+<meta name="twitter:description" content="利用CSS进行元素的水平居中，比较简单，手到擒来：行级元素设置其父元素的text-align center，块级元素设置其本身的left 和 right margins为auto即可。而撸起垂直居中，相信于大多初撸者来说，与我相似，内心是抗拒的。于此，以我司同事一内部分享为基，加以搜集完善，得8种CSS垂直居中书写之法；个中有示例Demo，以及代码和优劣之评。">
 <meta name="twitter:creator" content="@jeffjade2">
 
     
@@ -86,7 +86,7 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/02/09/2015-02-09-bitmap-matrix-paint-drawable/" class= title="Drawable.Bitmap.Canvas.Paint.Matrix" itemprop="url">Drawable.Bitmap.Canvas.Paint.Matrix</a>
+      <a href="/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/" class= title="CSS实现水平|垂直居中漫谈" itemprop="url">CSS实现水平|垂直居中漫谈</a>
     
   </h1>
   <p class="article-author">By
@@ -94,74 +94,17 @@
 		<a href="http://jeffjade.github.io/about" title="Jeffyang" target="_blank" itemprop="author">Jeffyang</a>
 		
   <p class="article-time">
-    <time datetime="2015-02-09T05:00:00.000Z" itemprop="datePublished"> 发表于 2015-02-09</time>
+    <time datetime="2015-11-14T09:30:00.000Z" itemprop="datePublished"> 发表于 2015-11-14</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
-		<p>由于对Drawable、Bitmap、Canvas、Paint和 Matrix 的关系和使用 一直不太清楚，就在网上搜集了一下，摘录一些，主要来看这两篇文章:<a href="http://www.cnblogs.com/warioland/archive/2011/10/17/2215039.html" target="_blank" rel="external">Drawable、Bitmap、Canvas和Paint的关系以及部分使用方法</a>  和 Android显示系统之Pixel、Bitmap、Drawable、Canvas、Paint和Matrix之间的联系</p>
+		<p>利用CSS进行元素的水平居中，比较简单，手到擒来：行级元素设置其父元素的text-align center，块级元素设置其本身的left 和 right margins为auto即可。而撸起垂直居中，相信于大多初撸者来说，与我相似，内心是抗拒的。于此，以我司同事一内部分享为基，加以搜集完善，得8种CSS垂直居中书写之法；个中有示例Demo，以及代码和优劣之评。</p>
 <a id="more"></a>
-<p>首先让我们理解下Android平台中的显示类是View，但是还提供了底层图形类android.graphics，今天所说的这些均为graphics底层图形接口。</p>
-<p><font color="green" size="+1">Bitmap </font>— 称作位图，一般位图的文件格式后缀为bmp，当然编码器也有很多如RGB565、RGB888、ARGB8888。作为一种像素的显示对象 执行效率高，但是存储效率低的缺点也很明显。就理解为一种bmp格式图像存储对象。</p>
-<p><font color="green" size="+1">Drawable </font>— 作为Android下通用的绘制图形对象，它可以装载常用格式的图像，比如GIF、PNG、JPG，当然也支持BMP，当然还提供一些高级的可视化对象，比如渐变、图形等。</p>
-<p><font color="green" size="+1">Canvas </font> — 画布，我们可以看作是一种处理过程，使用各种方法来管理Bitmap、GL或者Path路径，同时它可以配合Matrix矩阵类给图像做旋转、缩放等操作，同时Canvas类还提供了裁剪、选取等操作。</p>
-<p><font color="green" size="+1">Paint</font> — 可以把它看做一个画图工具，比如画笔、画刷。他管理了每个画图工具的字体、颜色、样式。 如果涉及一些Android游戏开发、显示特效可以通过这些底层图形类来高效实现自己的应用。</p>
-<h4 id="1-_Drawable_to—&gt;_Bitmap">1. Drawable to—&gt; Bitmap</h4><p>BitmapDrawable 继承自 Drawable</p>
-<pre><code><span class="comment">//方法一    </span>
-<span class="constant">Resources res;    
-InputStream is</span>=res.openRawResource(R.drawable.pic);    
-<span class="constant">BitmapDrawable bitmapDrawable</span>=new BitmapDrawable(is);    
-<span class="constant">Bitmap bmp</span>=bitmapDrawable.getBitmap();    
+<ul><br>    <li><a href="/special/md2pptViaCleaver.html" style="font-size:1em;font-weight:blod">CSS实现水平居中</a><br>    </li><br>    <li><a href="/special/md2pptViaCleaver.html" style="font-size:1em;font-weight:blod">CSS实现垂直居中</a><br>    </li><br></ul>
 
-<span class="comment">//方法二    </span>
-<span class="constant">Resources res;    
-BitmapDrawable bitmapDrawable</span>=(BitmapDrawable)res.getDrawable(R.drawable.pic);    
-<span class="constant">Bitmap bmp</span>=bitmapDrawable.getBitmap();    
-
-<span class="comment">//方法三    </span>
-<span class="constant">ImageView image；    
-image.setImageBitmap(BitmapFactory.decodeStream(~~~~));    
-BitmapDrawable bitmapDrawable</span>=(BitmapDrawable)image.getDrawable();    
-<span class="constant">Bitmap bmp</span>=bitmapDrawable.getBitmap();  
-</code></pre><h4 id="2-_Bitmap_to—&gt;_Drawable">2. Bitmap to—&gt; Drawable</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Drawable d = <span class="keyword">new</span> BitmapDrawable(bitmap);</span><br></pre></td></tr></table></figure>
-<h4 id="3-_从资源中获取Bitmap">3. 从资源中获取Bitmap</h4><p>① 通过decodeResource,这种方式不可取，因为这些函数在完成decode后，最终都是通过java层的createBitmap来完成的，需要消耗更多内存。</p>
-<pre><code>Resources <span class="variable">res=</span>getResources();  
-Bitmap <span class="variable">bmp=</span>BitmapFactory.decodeResource(res, R.drawable.pic);  
-② 通过BitmapFactory.decodeStream方法，创建出一个bitmap (推荐)
-InputStream <span class="variable">is =</span> context.getResources().openRawResource(R.drawable.app_sample_code);  
-Bitmap <span class="variable">bmp =</span> BitmapFactory.decodeStream(is);  
-</code></pre><h4 id="4-_Bitmap_to—&gt;_byte[]">4. Bitmap to—&gt; byte[]</h4><pre><code><span class="keyword">private</span> <span class="keyword">byte</span>[] Bitmap2Bytes(Bitmap bm){     
-    ByteArrayOutputStream byteos = <span class="keyword">new</span> ByteArrayOutputStream();       
-    bm.compress(Bitmap.CompressFormat.PNG, <span class="number">100</span>, byteos);       
-    <span class="function"><span class="keyword">return</span> byteos.<span class="title">toByteArray</span><span class="params">()</span></span>;     
-}  
-</code></pre><h4 id="5-_byte[]_to—&gt;_Bitmap">5. byte[] to—&gt; Bitmap</h4><pre><code><span class="keyword">private</span> <span class="function">Bitmap <span class="title">Bytes2Bimap</span><span class="params">(<span class="keyword">byte</span>[] <span class="keyword">byte</span>)</span></span>{     
-    <span class="keyword">if</span>(<span class="keyword">byte</span>.length!=<span class="number">0</span>){     
-        <span class="function"><span class="keyword">return</span> BitmapFactory.<span class="title">decodeByteArray</span><span class="params">(<span class="keyword">byte</span>, <span class="number">0</span>, <span class="keyword">byte</span>.length)</span></span>;     
-       }     
-    <span class="keyword">else</span> {     
-        <span class="keyword">return</span> <span class="keyword">null</span>;     
-    }     
- }  
-</code></pre><h4 id="6-_Matrix">6. Matrix</h4><p><font color="green" size="+1"> Matrix</font>为矩阵的意思，一般用来与Bitmap配合，实现图像的缩放、变形、扭曲等操作。</p>
-<pre><code><span class="keyword">public</span> <span class="keyword">static</span> <span class="function">Bitmap <span class="title">scaleBitmap</span><span class="params">(Bitmap bitmap, <span class="keyword">int</span> scalWidth, <span class="keyword">int</span> scaleHeight)</span> </span>{      
-    <span class="keyword">int</span> w = bitmap.getWidth();      
-    <span class="keyword">int</span> h = bitmap.getHeight();      
-    <span class="comment">// 创建操作图片用的Matrix对象      </span>
-    Matrix matrix = <span class="keyword">new</span> Matrix();      
-    <span class="comment">// 计算缩放比例      </span>
-    <span class="keyword">float</span> sx= ((<span class="keyword">float</span>) scaleWidth / w);      
-    <span class="keyword">float</span> sy= ((<span class="keyword">float</span>) scaleHeight / h);      
-    <span class="comment">// 设置缩放比例      </span>
-    matrix.postScale(sx, sy);      
-    <span class="comment">// 建立新的bitmap，其内容是对原bitmap的缩放后的图     </span>
-    Bitmap scaleBmp = Bitmap.createBitmap(bitmap, <span class="number">0</span>, <span class="number">0</span>, w, h, matrix, <span class="keyword">true</span>);      
-    <span class="keyword">return</span> scaleBmp;      
-}
-</code></pre><p>Matrix类的其他典型方法。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">boolean</span>  <span class="title">postScale</span><span class="params">(<span class="keyword">float</span> sx, <span class="keyword">float</span> sy)</span><span class="comment">//缩放    </span></span><br><span class="line"><span class="keyword">boolean</span>     <span class="title">postSkew</span><span class="params">(<span class="keyword">float</span> kx, <span class="keyword">float</span> ky)</span><span class="comment">//扭曲    </span></span><br><span class="line"><span class="keyword">boolean</span>     <span class="title">postTranslate</span><span class="params">(<span class="keyword">float</span> dx, <span class="keyword">float</span> dy)</span><span class="comment">//转换    </span></span><br><span class="line"><span class="keyword">boolean</span>     <span class="title">preConcat</span><span class="params">(Matrix other)</span><span class="comment">//合并    </span></span><br><span class="line"><span class="keyword">boolean</span>     <span class="title">preRotate</span><span class="params">(<span class="keyword">float</span> degrees)</span><span class="comment">//旋转</span></span></span><br></pre></td></tr></table></figure>
-<p><a href="http://blog.csdn.net/ymangu666/article/details/39892353" target="_blank" rel="external">原文链接地址</a></p>
+<p>PS：窃以为，对于CSS足够熟悉的话，以CSS多种属性组合出的“奇技淫巧”想必是层次不穷的，这里也只是搜集整理了其中为大家常用而又简洁的部分而已。</p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -169,13 +112,13 @@ Bitmap <span class="variable">bmp =</span> BitmapFactory.decodeStream(is);
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/Android/">Android</a>
+  <a class="article-category-link" href="/categories/Front-End/">Front-End</a>
 </div>
 
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/Bitmap/">Bitmap</a>
+  <span></span> <a href="/tags/CSS/">CSS</a>
   </div>
 
 </div>
@@ -184,7 +127,7 @@ Bitmap <span class="variable">bmp =</span> BitmapFactory.decodeStream(is);
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://jeffjade.github.io/2015/02/09/2015-02-09-bitmap-matrix-paint-drawable/" data-title="Drawable.Bitmap.Canvas.Paint.Matrix | 晚晴幽草轩" data-tsina="null" class="share clearfix">
+	  <div data-url="http://jeffjade.github.io/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/" data-title="CSS实现水平|垂直居中漫谈 | 晚晴幽草轩" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -197,19 +140,11 @@ Bitmap <span class="variable">bmp =</span> BitmapFactory.decodeStream(is);
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2015/03/14/2015-03-14-hexo-blog/" title="使用Hexo搭建专属Blog">
-  <strong>上一篇：</strong><br/>
-  <span>
-  使用Hexo搭建专属Blog</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2015/02/09/2015-02-09-android-intent/"  title="Android之Intent用法全面总结">
+<a href="/2015/11/07/2015-11-07-share-kungfu-star/"  title="聊聊心中功夫明星榜">
  <strong>下一篇：</strong><br/> 
- <span>Android之Intent用法全面总结
+ <span>聊聊心中功夫明星榜
 </span>
 </a>
 </div>
@@ -218,7 +153,7 @@ Bitmap <span class="variable">bmp =</span> BitmapFactory.decodeStream(is);
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2015/02/09/2015-02-09-bitmap-matrix-paint-drawable/" data-title="Drawable.Bitmap.Canvas.Paint.Matrix" data-url="http://jeffjade.github.io/2015/02/09/2015-02-09-bitmap-matrix-paint-drawable/"></div>
+	<div class="ds-thread" data-thread-key="2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/" data-title="CSS实现水平|垂直居中漫谈" data-url="http://jeffjade.github.io/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/"></div>
 </section>
 
 
@@ -228,7 +163,7 @@ Bitmap <span class="variable">bmp =</span> BitmapFactory.decodeStream(is);
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-_Drawable_to—>_Bitmap"><span class="toc-number">1.</span> <span class="toc-text">1. Drawable to—> Bitmap</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-_Bitmap_to—>_Drawable"><span class="toc-number">2.</span> <span class="toc-text">2. Bitmap to—> Drawable</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-_从资源中获取Bitmap"><span class="toc-number">3.</span> <span class="toc-text">3. 从资源中获取Bitmap</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-_Bitmap_to—>_byte[]"><span class="toc-number">4.</span> <span class="toc-text">4. Bitmap to—> byte[]</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-_byte[]_to—>_Bitmap"><span class="toc-number">5.</span> <span class="toc-text">5. byte[] to—> Bitmap</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-_Matrix"><span class="toc-number">6.</span> <span class="toc-text">6. Matrix</span></a></li></ol>
+ 
  
   </div>
 
