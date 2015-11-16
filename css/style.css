@@ -106,6 +106,13 @@ a img {
   src: url("../font/sxslregularth-webfont.eot");
   src: url("../font/sxslregularth-webfont.eot?#iefix") format('embedded-opentype'), url("../font/sxslregularth-webfont.svg#sxslregularth-webfont") format('svg'), url("../font/sxslregularth-webfont.woff") format('woff'), url("../font/sxslregularth-webfont.ttf") format('truetype');
 }
+@font-face {
+  font-family: "rougescript-regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../font/rougescript-regular.eot");
+  src: url("../font/rougescript-regular.eot?#iefix") format('embedded-opentype'), url("../font/rougescript-regular.svg#rougescript-regular") format('svg'), url("../font/rougescript-regular.woff") format('woff'), url("../font/rougescript-regular.ttf") format('truetype');
+}
 /* icon Font */
 @font-face {
   font-family: "FontAwesome";
@@ -409,7 +416,7 @@ body >header >div {
 }
 body >header a {
   display: block;
-  font-family: "sxslRegularTh";
+  font-family: "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
   color: #009ad6;
 }
 body >header a:hover {
@@ -467,19 +474,27 @@ body >header a:hover {
     font-size: 280%;
   }
 }
+#textlogo h1.site-name a {
+  background: url("../img/sxsl_wqyc2.png") center #2d2d2d;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  width: 18em;
+  height: 2em;
+}
 #textlogo h2.blog-motto {
-  font-size: 0.7em;
+  font-size: 1.5em;
   font-weight: normal;
-  font-family: "sxslregularth-webfont", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+  font-family: sxslRegularTh-webfont, "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
 }
 @media only screen and (min-width: 768px) {
   #textlogo h2.blog-motto {
-    font-size: 100%;
+    font-size: 1.3em;
   }
 }
 @media only screen and (min-width: 1024px) {
   #textlogo h2.blog-motto {
-    font-size: 110%;
+    font-size: 1.3em;
   }
 }
 .navbar {
@@ -541,8 +556,8 @@ header nav {
 header nav ul li a {
   padding: 0.1em 0 0.2em 0.2em;
   margin: 0 1em 0 0;
-  font-family: "sxslregularth-webfont", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
-  font-size: 1.3em;
+  font-family: "rougescript-regular", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+  font-size: 1.8em;
   letter-spacing: 0px;
   text-align: center;
 }
@@ -562,7 +577,7 @@ header nav ul li a:hover {
 }
 .search input {
   -webkit-appearance: textfield;
-  font-size: 0.87em;
+  font-size: 1.2em;
   line-height: 1.9;
   border: 1px solid #009ad6;
   color: #009ad6;
@@ -571,6 +586,7 @@ header nav ul li a:hover {
   -webkit-border-radius: 1em;
   border-radius: 1em;
   padding-left: 0.5em;
+  font-family: "rougescript-regular", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
 }
 @media only screen and (min-width: 1024px) {
   .search input {
