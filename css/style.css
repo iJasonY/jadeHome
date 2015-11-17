@@ -395,6 +395,13 @@ body >header {
   -webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   background: url("../") center #2d2d2d;
+  -webkit-animation: colorChange 5s linear infinite alternate;
+  -moz-animation: colorChange 5s linear infinite alternate;
+  -o-animation: colorChange 5s linear infinite alternate;
+  -ms-animation: colorChange 5s linear infinite alternate;
+  animation: colorChange 5s linear infinite alternate;
+  -webkit-animation: colorChange 5s linear infinite alternate;
+  -moz-animation: colorChange 5s linear infinite alternate;
   color: #009ad6;
   padding: 1em 0 0.8em;
 }
@@ -475,7 +482,7 @@ body >header a:hover {
   }
 }
 #textlogo h1.site-name a {
-  background: url("../img/sxsl_wqyc2.png") center #2d2d2d;
+  background: url("../img/sxsl_wqyc2.png") center;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -608,6 +615,86 @@ header nav ul li a:hover {
 }
 .search label {
   display: none;
+}
+@-moz-keyframes colorChange {
+  0% {
+    background-color: #102b6a;
+  }
+  20% {
+    background-color: #411445;
+  }
+  40% {
+    background-color: #402e4c;
+  }
+  60% {
+    background-color: #2d2d2d;
+  }
+  80% {
+    background-color: #130c0e;
+  }
+  100% {
+    background-color: #000;
+  }
+}
+@-webkit-keyframes colorChange {
+  0% {
+    background-color: #102b6a;
+  }
+  20% {
+    background-color: #411445;
+  }
+  40% {
+    background-color: #402e4c;
+  }
+  60% {
+    background-color: #2d2d2d;
+  }
+  80% {
+    background-color: #130c0e;
+  }
+  100% {
+    background-color: #000;
+  }
+}
+@-o-keyframes colorChange {
+  0% {
+    background-color: #102b6a;
+  }
+  20% {
+    background-color: #411445;
+  }
+  40% {
+    background-color: #402e4c;
+  }
+  60% {
+    background-color: #2d2d2d;
+  }
+  80% {
+    background-color: #130c0e;
+  }
+  100% {
+    background-color: #000;
+  }
+}
+@keyframes colorChange {
+  0% {
+    background-color: #102b6a;
+  }
+  20% {
+    background-color: #411445;
+  }
+  40% {
+    background-color: #402e4c;
+  }
+  60% {
+    background-color: #2d2d2d;
+  }
+  80% {
+    background-color: #130c0e;
+  }
+  100% {
+    background-color: #000;
+  }
 }
 /* index layout */
 #container {
