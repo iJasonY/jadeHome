@@ -100,7 +100,7 @@
 </header>
 	<div class="article-content">
 		
-		<p><strong>前言:</strong> <code>gulp</code>是前端开发过程中对代码进行构建的工具，是自动化项目的构建利器；她不仅能对网站资源进行优化，而且在开发过程中很多重复的任务能够使用正确的工具自动完成；使用她，我们不仅可以很愉快的编写代码，而且大大提高我们的工作效率。相比于<code>grun</code>t的频繁 IO 操作，gulp的流操作，能更快地更便捷地完成构建工作。此处仅记录初步折腾中所遇点滴以及待解决的点。</p>
+		<p><strong>前言:</strong> <code>gulp</code>是前端开发过程中对代码进行构建的工具，是自动化项目的构建利器；她不仅能对网站资源进行优化，而且在开发过程中很多重复的任务能够使用正确的工具自动完成；使用她，我们不仅可以很愉快的编写代码，而且大大提高我们的工作效率。相比于<code>grunt</code>的频繁 IO 操作，gulp的流操作，能更快地更便捷地完成构建工作。此处仅记录初步折腾中所遇点滴以及待解决的点。</p>
 <a id="more"></a>
 <h2 id="Gulp折腾之初探"><strong>Gulp折腾之初探</strong></h2><h3 id="折腾之战略上的藐视"><strong>折腾之战略上的藐视</strong></h3><p>回过头看Gulp的折腾历程，使用还是非常简易的。初步入门资料可参考<a href="#refer">这里</a>。所以战略上一定要藐视”她”;当然战术上要给予足够的重视。毕竟要依赖她以及其他各种插件and编辑器等实现前端<strong>工程化，组件化，模块化，便捷化</strong>是一个蛮复杂的过程。总之，折腾伊始需要自信就好，折腾过程带着耐心就好。譬如，想借助gulp压缩美化下js代码，写如下代码于gulpfile.js即可：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">'gulp'</span>),</span><br><span class="line">    uglify = <span class="built_in">require</span>(<span class="string">'gulp-uglify'</span>);</span><br><span class="line"><span class="keyword">var</span> gNeedDealJsFile = <span class="string">'./js/*.js'</span>; <span class="comment">//javascrip代码存放路径</span></span><br><span class="line"><span class="keyword">var</span> outPut = <span class="string">"./build/"</span>;  <span class="comment">//指定输出文件存放目录</span></span><br><span class="line">gulp.task(<span class="string">'scripts'</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp.src(gNeedDealJsFile)</span><br><span class="line">        .pipe(uglify())</span><br><span class="line">        .pipe(rename(&#123;</span><br><span class="line">            suffix: <span class="string">'.min'</span></span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(gulp.dest(outPut));</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
 <p>在gulpfile.js同级目录运行<code>gulp scripts</code>即可；PS:当然前提是您已经安装了nodejs，并且使用npm安装了代码中需要的插件<code>gulp</code>和<code>gulp-uglify</code>与本地。</p>
@@ -151,7 +151,7 @@
 <p>接下来，(如果我们要使用gulp-concat这个模块)我们进入单独小项目(eg: gulpTest),使用<code>npm link gulp-concat</code>命令会去【mac/linux】<em>/usr/local/lib/node_modules/</em>, 【window】<em>D:\UserProfiles\username\AppData\Roaming\npm\node_modules</em>,目录下查找名叫<code>gulp-concat</code>的模块，找到这个模块后把该的目录链接到 ~/work/**/gulpTest/node_modules/gulp-concat 这个目录上来。如此，在此项目小项目中的gulpfile.js中也可以加以使用了。当然，<code>npm link</code>也支持多个参数:<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm link gulp gulp-concat gulp-rename gulp-uglify  gulp-minify-css gulp-jshint gulp-cached</span><br></pre></td></tr></table></figure></p>
 <p>PS:这样使用时，需要注意忽略掉node_modules目录下的js/css代码，gulp.src参数数组中可以加入<code>&#39;!node_modules/**/*.+(js|css)&#39;</code>以过滤之。</p>
 <hr>
-<p><strong>注:</strong>即便使用<code>npm link</code>感觉也不是一个特别<strong>简洁</strong>的方案。并且在使用的时候还遇到了些许问题: 具体见@segmentFault<a href="http://segmentfault.com/q/1010000003969179" target="_blank" rel="external">gulp如何管理多项目？</a> 以及@V2EX <a href="https://www.v2ex.com/t/234896#reply14" target="_blank" rel="external">gulp如何管理多项目</a>;热心码友也提出了一些可行的建议，比如：配置多个task，或者采用<code>fbi</code>，或者采用<code>nodejs 中的 NODE_PATH</code>@<a href="http://segmentfault.com/a/1190000002478924" target="_blank" rel="external">nodejs 中的 NODE_PATH</a>等等;此处有待进一步学习&amp;折腾&amp;择决; (如有简洁方案，欢求指点，拜谢)。</p>
+<p><strong>注:</strong>即便使用<code>npm link</code>感觉也不是一个特别<strong>简洁</strong>的方案。并且在使用的时候还遇到了些许问题: 之前有提问于@segmentFault<a href="http://segmentfault.com/q/1010000003969179" target="_blank" rel="external">gulp如何管理多项目？</a> 以及@V2EX <a href="https://www.v2ex.com/t/234896#reply14" target="_blank" rel="external">gulp如何管理多项目</a>;热心码友也提出了一些可行的建议，比如：配置多个task，或者采用<code>fbi</code>，或者采用<code>nodejs 中的 NODE_PATH</code>@<a href="http://segmentfault.com/a/1190000002478924" target="_blank" rel="external">nodejs 中的 NODE_PATH</a>等等;此处有待进一步学习&amp;折腾&amp;择决; (如有简洁方案，欢求指点，拜谢)。</p>
 <hr>
 <h3 id="gulp-util幸之助"><strong>gulp-util幸之助</strong></h3><p><strong>幸亏有gulp-util之协助</strong>：在折腾的过程中，难免不会出现奇奇怪怪的问题；然而gulp本身的报错提示机制真心让新手的我蛋蛋的忧伤：比如在折腾的过程中压缩JS代码就出现<code>Uglify throws Parse error</code>;可是提示却…幸好@stackoverflow<a href="http://stackoverflow.com/questions/28003104/uglify-throws-parse-error" target="_blank" rel="external">Uglify throws Parse error</a>一个问答中，大牛给予了明灯般的指导：引入<code>gulp-util</code>;原话如下：</p>
 <blockquote>
@@ -222,6 +222,14 @@
 	
 <nav class="article-nav clearfix">
  
+ <div class="prev" >
+ <a href="/2015/11/25/2015-11-31-jQuery-vs-javaScript/" title="jQuery VS JavaScript原生API">
+  <strong>上一篇：</strong><br/>
+  <span>
+  jQuery VS JavaScript原生API</span>
+</a>
+</div>
+
 
 <div class="next">
 <a href="/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/"  title="CSS实现水平|垂直居中漫谈">
@@ -263,7 +271,7 @@
 		  
 		
 		  
-			<li><a href="/categories/Front-End/" title="Front-End">Front-End<sup>19</sup></a></li>
+			<li><a href="/categories/Front-End/" title="Front-End">Front-End<sup>20</sup></a></li>
 		  
 		
 		  
@@ -324,7 +332,7 @@
 			
 		
 			
-				<li><a href="/tags/JavaScript/" title="JavaScript">JavaScript<sup>11</sup></a></li>
+				<li><a href="/tags/JavaScript/" title="JavaScript">JavaScript<sup>12</sup></a></li>
 			
 		
 			
@@ -332,11 +340,11 @@
 			
 		
 			
-				<li><a href="/tags/Lua/" title="Lua">Lua<sup>7</sup></a></li>
+				<li><a href="/tags/Android/" title="Android">Android<sup>7</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Android/" title="Android">Android<sup>7</sup></a></li>
+				<li><a href="/tags/Lua/" title="Lua">Lua<sup>7</sup></a></li>
 			
 		
 			
@@ -352,11 +360,15 @@
 			
 		
 			
-				<li><a href="/tags/Travel/" title="Travel">Travel<sup>3</sup></a></li>
+				<li><a href="/tags/jQuery/" title="jQuery">jQuery<sup>3</sup></a></li>
 			
 		
 			
 				<li><a href="/tags/Read/" title="Read">Read<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Travel/" title="Travel">Travel<sup>3</sup></a></li>
 			
 		
 			
@@ -368,7 +380,11 @@
 			
 		
 			
-				<li><a href="/tags/Health/" title="Health">Health<sup>2</sup></a></li>
+				<li><a href="/tags/Music/" title="Music">Music<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>2</sup></a></li>
 			
 		
 			
@@ -380,19 +396,11 @@
 			
 		
 			
+				<li><a href="/tags/Health/" title="Health">Health<sup>2</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/Music/" title="Music">Music<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/jQuery/" title="jQuery">jQuery<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>2</sup></a></li>
 			
 		
 			
@@ -400,15 +408,15 @@
 			
 		
 			
-				<li><a href="/tags/Movie/" title="Movie">Movie<sup>1</sup></a></li>
-			
-		
-			
 				<li><a href="/tags/SSH/" title="SSH">SSH<sup>1</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Gulp/" title="Gulp">Gulp<sup>1</sup></a></li>
+				<li><a href="/tags/Movie/" title="Movie">Movie<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Html/" title="Html">Html<sup>1</sup></a></li>
 			
 		
 			
@@ -420,7 +428,7 @@
 			
 		
 			
-				<li><a href="/tags/Html/" title="Html">Html<sup>1</sup></a></li>
+				<li><a href="/tags/Gulp/" title="Gulp">Gulp<sup>1</sup></a></li>
 			
 		
 			
