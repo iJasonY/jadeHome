@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://jeffjade.github.io/"/>
-  <updated>2016-01-04T16:38:50.000Z</updated>
+  <updated>2016-01-05T12:13:47.000Z</updated>
   <id>http://jeffjade.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://jeffjade.github.io/2016/01/01/2016-01-01-movie2015/"/>
     <id>http://jeffjade.github.io/2016/01/01/2016-01-01-movie2015/</id>
     <published>2016-01-01T14:12:00.000Z</published>
-    <updated>2016-01-04T16:38:50.000Z</updated>
+    <updated>2016-01-05T12:13:47.000Z</updated>
     <content type="html"><![CDATA[<p>只要把美好的回忆珍藏,走到哪里就都不算流浪。然，回忆可以珍藏可以回味，但不要沉迷；走过缤纷万千的2015，悲伤也好，欢喜也罢，都将一去不返。记忆最是带有趋向性和淡忘性，习惯用文字和照片，将过往的美好珍藏，令老来可以按图文以索骥；也能使当下轻装而前行，开始书写一个全然不同的年份和结局…15年兴趣方面，除却听音乐，就是刷电影；这里整理下15年所欢喜过的那些电影，只为一份回忆以珍藏。</p>
 <a id="more"></a>
 <h3 id="《老炮儿》"><strong>《老炮儿》</strong></h3><p>欣赏时间：2016-01-03(深圳南山百川国际)[上映时间：2015年12月24日]；晚上(16-01-03)同两个兄弟看完,感恸不已，感慨万千；回来有在微信朋友圈感言道：“干，即便天下熙熙皆为利来，天下攘攘皆为利往，男人，有所谓有所不为！道理义气情谊，咱得讲究。“出格儿”的事儿，该办还得办。永远热泪盈眶，永远感动自己”(理性的思维，也还是如此感性)。</p>
@@ -149,7 +149,7 @@
     <link href="http://jeffjade.github.io/2015/12/15/2015-04-17-toss-sublime-text/"/>
     <id>http://jeffjade.github.io/2015/12/15/2015-04-17-toss-sublime-text/</id>
     <published>2015-12-15T04:50:00.000Z</published>
-    <updated>2015-12-16T12:43:26.000Z</updated>
+    <updated>2016-01-05T11:32:39.000Z</updated>
     <content type="html"><![CDATA[<p>Sublime Text：一款具有代码高亮、语法提示、自动完成且反应快速的编辑器软件，不仅具有华丽的界面，还支持插件扩展机制，用她来写代码，绝对是一种享受。相比于难于上手的Vim，浮肿沉重的Eclipse，VS，即便体积轻巧迅速启动的Editplus、Notepad++，在SublimeText面前大略显失色，无疑这款性感无比的编辑器是Coding和Writing最佳的选择，没有之一。</p>
 <a id="more"></a>
 <h2 id="如何优雅地使用Sublime_Text之目录："><strong>如何优雅地使用Sublime Text之目录：</strong></h2><ul>
@@ -270,7 +270,7 @@
 <p>“auto_find_in_selection”: true</p>
 </blockquote>
 <p>这样之后在选中文本的状态下范围内搜索就会自动开启，配合这个功能，局部重命名（Local Renaming）变的非常方便：<br><img src="http://i.imgur.com/QRIsDra.gif" alt="SublimeText"></p>
-<p>(13)Windows下<code>Ctrl + ←/→</code>进行逐词移动，相应的，<code>Ctrl + Shift + ←/→</code>进行逐词选择。<br><img src="http://i.imgur.com/jFnTDl3.gif" alt="SublimeText"><br>而Mac下的<code>Command+←/→</code>是从一端移动到另一端；相应的，<code>Command + Shift + ←/→</code>是从一端选择到另一端。</p>
+<p>(13)Windows下<code>Ctrl + ←/→</code>进行逐词移动，相应的，<code>Ctrl + Shift + ←/→</code>进行逐词选择。<br><img src="http://i.imgur.com/jFnTDl3.gif" alt="SublimeText"><br>而Mac下的<code>Command+←/→</code>是从一端移动到另一端；相应的，<code>Command + Shift + ←/→</code>是从一端选择到另一端。Mac 下 option 加上左右键可以逐词移动；</p>
 <p>(14) Windows下<code>Ctrl + ↑/↓</code>移动当前显示区域，<code>Ctrl + Shift + ↑/↓</code>移动当前行。<br><img src="http://i.imgur.com/v31pd3k.gif" alt="SublimeText"><br>而Mac下的<code>Command + ↑/↓</code>是从当前行移动到头/尾；相应的，<code>Command + Shift + ↑/↓</code>是从当前行选择到头/尾；</p>
 <p>(15)使用<code>Ctrl + N</code>在当前窗口创建一个新标签，<code>Ctrl + W</code>关闭当前标签，<code>Ctrl + Shift + T</code>恢复刚刚关闭的标签。</p>
 <p>(16)编辑代码时我们经常会开多个窗口，所以分屏很重要。Windows下：<code>Alt + Shift + 2</code>进行左右分屏，<code>Alt + Shift + 8</code>进行上下分屏，<code>Alt + Shift + 5</code>进行上下左右分屏（即分为四屏）。</p>
