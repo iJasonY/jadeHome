@@ -103,7 +103,7 @@
     <link href="http://jeffjade.github.io/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/"/>
     <id>http://jeffjade.github.io/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/</id>
     <published>2015-12-26T06:30:00.000Z</published>
-    <updated>2016-01-01T14:12:26.000Z</updated>
+    <updated>2016-01-06T03:16:39.000Z</updated>
     <content type="html"><![CDATA[<p><strong>写作</strong>：是为了光阴流逝使我心安（源自知乎一话题），这一出发点鸣动我心；也是此刻键盘敲击动力源之一；兜兜辗转，2015年好或坏的都将成为历史，几近年关，俗念盘桓，免不了感慨总结一番，也算对新一年展望与期待。</p>
 <a id="more"></a>
 <p>在唠叨之前分享一段，今年一直游走在口边心里的激励，与君共勉：</p>
@@ -122,7 +122,7 @@
 <p><strong>博客内容</strong>： 写作这事儿，谁天生都行呢？技术这事儿，岂不也需要磨砺！很多事儿，其实都是从模仿开始的。即便今时今日，写得几点心得，也是颇多参考网络上故有的见解（互联网真好）。目前见识知识还亟待提升，所苟留内容难免只是一个搬运工而已，即便偶尔写的一些<code>游记</code> <code>想法</code> <code>音乐</code>等也不尽我意，但成长只是路上而已；并且在以<strong>用心分享</strong>的虔诚之下，也不至于贻祸他人；往后的日子中会尽量自己原创，除过技术经验心得总结外，<code>写写影评</code> <code>嘀嗒些经验</code> 或者<code>搬运些自我放松大法</code>（这有别于“鸡汤”，在微信里阅尽鸡汤，听过无数道理，依旧过不好一生；我想说，端上“鸡汤”好人儿，请换行“春药”也好～，😂）等；让技术和写作共舞，令专业同兴趣齐飞；倘能如愿，幸甚至哉。</p>
 <h2 id="关于工具"><strong>关于工具</strong></h2><p>作为火影迷的话，都知道<strong>多重影分身</strong>对与早期早期鸣人来讲，是其最为薄弱的技能；后来因缘造化有短致长，，很长时间却成为他的主流技能；在14年偶然接触Win下<code>Everything</code>工具(可见笔者那时候见识多么浅薄，其实现在也是)之后，便走上了伪工具控的道路；只因她带给自己很早惊喜，节省很多时间；同时于思维也是一个颇大的转换：<strong>工欲善其事，必先利其器</strong>；除此外，无论编程还是人生享受，也亦如此，生命有限，能够抽象出一些重复之事，交付与可利用的工具，节省出来更多时间，除了享受本身，其实还可以早就更多可能性，何乐不为？</p>
 <ul>
-<li>3月初有国行入手一台MacPro(关于价格：如果可以还是买港行；近2千大洋的差价可以感受下天朝关税之猛烈么？<strong>土豪无视</strong>)；有她真好。9个月来没怎么关机，坐下打开，合上就走；虽没怎用她工作，却由她见证了很多欢喜；公司戴尔即便又加了内存，怎么给自己的感觉还是：<strong>珍爱生命，远离Windows</strong>(当然这很有偏见，高配Window必然有其可取处，只是我没机会拥有而已)。</li>
+<li>3月初有国行入手一台MacBook Pro(关于价格：如果可以还是买港行；近2千大洋的差价可以感受下天朝关税之猛烈么？<strong>土豪请无视</strong>)；有她真好。9个月来没怎么关机，坐下打开，合上就走；虽没怎用她工作，却由她见证了很多欢喜；早先也有感慨道：<a href="http://www.jeffjade.com/2015/07/24/2015-07-24-why-programmer-love-mac/" target="_blank" rel="external">Mac，无愧设备中优雅的情人</a>。公司戴尔即便又加了内存，怎么给自己的感觉还是：<strong>珍爱生命，远离Windows</strong>(当然这很有偏见，高配Window必然有其可取处，只是还没机会拥有而已)。</li>
 <li>6月初有一台日本产的<strong>青轴Filco</strong>；只能说处于健康和享受来讲，机械键盘值得拥有，这真不是“装B”的说；关于这个在<a href="http://www.jeffjade.com/2015/06/05/2015-06-05-Share-Filco/" target="_blank" rel="external">码字者的倚天剑</a>有比较详尽的叙述。</li>
 <li>7月份有入手两件Ipod Shuffle;读书用Kindle，听歌手机活着Mac，运动时候，一个人行走在路上（这个要注意安全），就得用她，玲珑小巧，却精致够用；重要的是便捷&amp;续航能力，喜之不尽。</li>
 <li>9月份公司windows有加了SSD，用起来稍有些；关键是发现并用上了<code>AutohotKey</code> <code>Listary</code> <code>Cmder</code> <code>Clover</code>等软件之后，即便几个软件加起来也不如Mac下的<code>Alfred</code>，但满满的也都是欢喜啊。这在<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/" target="_blank" rel="external">Windows下效率必备软件</a>和  <a href="http://www.jeffjade.com/2015/05/26/2015-05-26-high-efficiency-tools-collecting/" target="_blank" rel="external">追寻高效工作的一路折腾</a> 等文章中有过记载;今年也是将使用SublimeText的经验经验升华了下，并做梳理有载于<a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a>;</li>
