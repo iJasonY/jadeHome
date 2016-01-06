@@ -103,7 +103,7 @@
     <link href="http://jeffjade.github.io/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/"/>
     <id>http://jeffjade.github.io/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/</id>
     <published>2015-12-26T06:30:00.000Z</published>
-    <updated>2016-01-06T03:16:39.000Z</updated>
+    <updated>2016-01-06T03:51:34.000Z</updated>
     <content type="html"><![CDATA[<p><strong>写作</strong>：是为了光阴流逝使我心安（源自知乎一话题），这一出发点鸣动我心；也是此刻键盘敲击动力源之一；兜兜辗转，2015年好或坏的都将成为历史，几近年关，俗念盘桓，免不了感慨总结一番，也算对新一年展望与期待。</p>
 <a id="more"></a>
 <p>在唠叨之前分享一段，今年一直游走在口边心里的激励，与君共勉：</p>
@@ -1329,10 +1329,9 @@
     <link href="http://jeffjade.github.io/2015/08/28/2015-08-28-Write-Morkdown/"/>
     <id>http://jeffjade.github.io/2015/08/28/2015-08-28-Write-Morkdown/</id>
     <published>2015-08-28T13:00:00.000Z</published>
-    <updated>2015-10-19T10:14:33.000Z</updated>
+    <updated>2016-01-06T03:55:28.000Z</updated>
     <content type="html"><![CDATA[<p>之前有陆续学习和整理关于<a href="http://www.jeffjade.com/2015/05/26/2015-05-26-high-efficiency-tools-collecting/" target="_blank" rel="external">追寻高效工作的一路折腾</a>；毕竟技无止境，需要不断的学习总结和对比。而其中诸多内容也是需要分支出来一一细谈(其实就是更为详尽搜集些资料，然后加以整理)；此文就是为了更详尽说明～关于如何更高效的利用SublimeText来写作。</p>
 <a id="more"></a>
-<p><img src="http://upload-images.jianshu.io/upload_images/26219-29e0b5a286d79092.png?imageView2/2/w/1240/q/100" alt="Sublime Text"></p>
 <p>对程序员来讲，写作其实是一件非常有益的事情。这一点不少业界大牛对此已有很深刻的阐述和倡导，比如这里~<a href="http://www.jeffjade.com/2015/02/01/2015-02-01-recommended-article/#程序员" target="_blank" rel="external">吐血推荐文章集锦</a>收录了那些精辟论述;而SublimeText和Markdown结合无疑是一个魔幻的组合。虽然，Markdown在MAC或Win下都有非常多的IDE，比如个人用过的<code>MarkdownPad</code> <code>作业部落</code> <code>简书</code>等，还有Chrome 插件<code>马克飞象</code>  MAC下的<code>Ulysses</code> <code>Mou</code>云云。月光博客的<a href="http://www.williamlong.info/archives/4319.html" target="_blank" rel="external">好用的Markdown编辑器一览</a>对这些有过更详细的总结。但是，对于程序员来讲，SublimeText下蛮多插件支持Markdown写作无疑很棒，如此编码写作，就不用在各个IDE间切换，且享受SublimeText精巧性感如斯，岂是不美？</p>
 <h2 id="MarkdownEditing：Sublime_Text的Markdown利器"><strong>MarkdownEditing：Sublime Text的Markdown利器</strong></h2><p>Github项目地址：<a href="https://github.com/SublimeText-Markdown/MarkdownEditing" target="_blank" rel="external">SublimeText-Markdown/MarkdownEditing</a></p>
 <h3 id="关于安装："><strong>关于安装：</strong></h3><p>如果Sublime安装了Package Control,直接Command+Shift+P(Mac下)输入MarkdownEditing，搜索到点击即可自行安装，重启便可使用用。</p>
