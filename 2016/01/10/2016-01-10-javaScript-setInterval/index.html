@@ -1,0 +1,730 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  
+    <title>你所不知道的setInterval | 晚晴幽草轩</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="jeffjade">
+    
+
+    
+    <meta name="description" content="在你所不知道的setTimeout记载了下setTimeout相关,此篇则整理了下setInterval；作为拥有广泛应用场景(定时器，轮播图，动画效果，自动滚动等等)，而又充满各种不确定性的这setInterval，自当先洞悉它，才能很好的驾驭它。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="你所不知道的setInterval">
+<meta property="og:url" content="http://jeffjade.github.io/2016/01/10/2016-01-10-javaScript-setInterval/index.html">
+<meta property="og:site_name" content="晚晴幽草轩">
+<meta property="og:description" content="在你所不知道的setTimeout记载了下setTimeout相关,此篇则整理了下setInterval；作为拥有广泛应用场景(定时器，轮播图，动画效果，自动滚动等等)，而又充满各种不确定性的这setInterval，自当先洞悉它，才能很好的驾驭它。">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="你所不知道的setInterval">
+<meta name="twitter:description" content="在你所不知道的setTimeout记载了下setTimeout相关,此篇则整理了下setInterval；作为拥有广泛应用场景(定时器，轮播图，动画效果，自动滚动等等)，而又充满各种不确定性的这setInterval，自当先洞悉它，才能很好的驾驭它。">
+<meta name="twitter:creator" content="@jeffjade2">
+
+    
+    <link rel="alternative" href="/atom.xml" title="晚晴幽草轩" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/xuan.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/xuan.ico">
+    <link rel="apple-touch-icon-precomposed" href="/img/xuan.ico">
+      
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/yang.png" alt="晚晴幽草轩" title="晚晴幽草轩"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="晚晴幽草轩"></a></h1>
+				<h2 class="blog-motto">It&#39;s only too late if you decide it is. Get busy living. or get busy dying!</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="云轩菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/About">About</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:jeffjade.github.io">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2016/01/10/2016-01-10-javaScript-setInterval/" class= title="你所不知道的setInterval" itemprop="url">你所不知道的setInterval</a>
+    
+  </h1>
+  <p class="article-author">By
+       
+		<a href="http://jeffjade.github.io/about" title="jeffjade" target="_blank" itemprop="author">jeffjade</a>
+		
+  <p class="article-time">
+    <time datetime="2016-01-10T10:30:00.000Z" itemprop="datePublished"> 发表于 2016-01-10</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<p>在<a href="http://www.jeffjade.com/2016/01/10/2016-01-10-javacript-setTimeout/" target="_blank" rel="external">你所不知道的setTimeout</a>记载了下<strong>setTimeout</strong>相关,此篇则整理了下<strong>setInterval</strong>；作为拥有广泛应用场景(定时器，轮播图，动画效果，自动滚动等等)，而又充满各种不确定性的这setInterval，自当先洞悉它，才能很好的驾驭它。</p>
+<a id="more"></a>
+<h2 id="1-_setInterval()基础"><strong>1. setInterval()基础</strong></h2><p>setInterval函数的用法与setTimeout完全一致，区别仅仅在于setInterval指定某个任务每隔一段时间就执行一次，也就是无限次的定时执行。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=<span class="string">"button"</span> onclick=<span class="string">"clearInterval(timer)"</span> value=<span class="string">"stop"</span>&gt;</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript"></span><br><span class="line">  <span class="keyword">var</span> i = <span class="number">1</span></span><br><span class="line">  <span class="keyword">var</span> timer = setInterval(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure></p>
+<p>上面代码表示每隔1000毫秒就输出一个2，直到用户点击了停止按钮。</p>
+<p>与setTimeout一样，除了前两个参数，setInterval 方法还可以接受更多的参数，它们会传入回调函数，下面是一个例子。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;<span class="built_in">arguments</span>.length;i++)&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="built_in">arguments</span>[i]);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">setInterval(f, <span class="number">1000</span>, <span class="string">"Hello World"</span>);</span><br><span class="line"><span class="comment">// Hello World</span></span><br><span class="line"><span class="comment">// Hello World</span></span><br><span class="line"><span class="comment">// Hello World</span></span><br><span class="line"><span class="comment">// ...</span></span><br></pre></td></tr></table></figure></p>
+<p>如果网页不在浏览器的当前窗口（或tab），许多浏览器限制setInteral指定的反复运行的任务最多每秒执行一次。</p>
+<p>setInterval指定的是“开始执行”之间的间隔，并不考虑每次任务执行本身所消耗的事件。因此实际上，两次执行之间的间隔会小于指定的时间。比如，setInterval指定每100ms执行一次，每次执行需要5ms，那么第一次执行结束后95毫秒，第二次执行就会开始。如果某次执行耗时特别长，比如需要105毫秒，那么它结束后，下一次执行就会立即开始。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> i = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">var</span> timer = setInterval(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  alert(i++);</span><br><span class="line">&#125;, <span class="number">2000</span>);</span><br></pre></td></tr></table></figure></p>
+<p>上面代码每隔2000毫秒，就跳出一个alert对话框。如果用户一直不点击“确定”，整个浏览器就处于“堵塞”状态，后面的执行就一直无法触发，将会累积起来。举例来说，第一次跳出alert对话框后，用户过了6000毫秒才点击“确定”，那么第二次、第三次、第四次执行将累积起来，它们之间不会再有等待间隔。</p>
+<p>为了确保两次执行之间有固定的间隔，可以不用setInterval，而是每次执行结束后，使用setTimeout指定下一次执行的具体时间。上面代码用setTimeout，可以改写如下。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> i = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">var</span> timer = setTimeout(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  alert(i++);</span><br><span class="line">  timer = setTimeout(<span class="built_in">arguments</span>.callee, <span class="number">2000</span>);</span><br><span class="line">&#125;, <span class="number">2000</span>);</span><br></pre></td></tr></table></figure></p>
+<p>上面代码可以确保两次执行的间隔是2000毫秒。</p>
+<p>根据这种思路，可以自己部署一个函数，实现间隔时间确定的setInterval的效果。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">interval</span><span class="params">(func, wait)</span></span>&#123;</span><br><span class="line">  <span class="keyword">var</span> interv = <span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">    func.call(<span class="literal">null</span>);</span><br><span class="line">    setTimeout(interv, wait);</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  setTimeout(interv, wait);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">interval(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">&#125;,<span class="number">1000</span>);</span><br></pre></td></tr></table></figure></p>
+<p>上面代码部署了一个interval函数，用循环调用setTimeout模拟了setInterval。</p>
+<p>HTML 5标准规定，setInterval的最短间隔时间是<strong>10毫秒</strong>，也就是说，小于10毫秒的时间间隔会被调整到10毫秒。</p>
+<h2 id="2-_setInterval运行机制"><strong>2. setInterval运行机制</strong></h2><p><strong>setInterval</strong>的运行机制是，将指定的代码移出本次执行，等到下一轮Event Loop时，再检查是否到了指定时间。如果到了，就执行对应的代码；如果不到，就等到再下一轮Event Loop时重新判断。这意味着，setTimeout指定的代码，必须等到本次执行的所有代码都执行完，才会执行。</p>
+<p>每一轮Event Loop时，都会将“任务队列”中需要执行的任务，一次执行完。setTimeout和setInterval都是把任务添加到“任务队列”的尾部。因此，它们实际上要等到当前脚本的所有同步任务执行完，然后再等到本次Event Loop的“任务队列”的所有任务执行完，才会开始执行。由于前面的任务到底需要多少时间执行完，是不确定的，所以没有办法保证，setTimeout和setInterval指定的任务，一定会按照预定时间执行。</p>
+<p>这一点对于setInterval影响尤其大。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">setInterval(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">&#125;,<span class="number">1000</span>);</span><br><span class="line"></span><br><span class="line">(<span class="function"><span class="keyword">function</span> <span class="params">()</span></span>&#123;</span><br><span class="line">  sleeping(<span class="number">3000</span>);</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure></p>
+<p>上面的第一行语句要求每隔1000毫秒，就输出一个2。但是，第二行语句需要3000毫秒才能完成，请问会发生什么结果？</p>
+<p>结果就是等到第二行语句运行完成以后，立刻连续输出三个2，然后开始每隔1000毫秒，输出一个2。也就是说，setIntervel具有<strong>累积效应</strong>，如果某个操作特别耗时，超过了setInterval的时间间隔，排在后面的操作会被累积起来，然后在很短的时间内连续触发，这可能或造成性能问题（比如集中发出Ajax请求）。</p>
+<p>为了进一步理解JavaScript的单线程模型，请看下面这段伪代码。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">init</span><span class="params">()</span></span>&#123;</span><br><span class="line">  &#123; 耗时<span class="number">5</span>ms的某个操作 &#125;</span><br><span class="line">  触发mouseClickEvent事件</span><br><span class="line">  &#123; 耗时<span class="number">5</span>ms的某个操作 &#125;</span><br><span class="line">  setInterval(timerTask,<span class="number">10</span>);</span><br><span class="line">  &#123; 耗时<span class="number">5</span>ms的某个操作 &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">handleMouseClick</span><span class="params">()</span></span>&#123;</span><br><span class="line">  耗时<span class="number">8</span>ms的某个操作</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">timerTask</span><span class="params">()</span></span>&#123;</span><br><span class="line">  耗时<span class="number">2</span>ms的某个操作</span><br><span class="line">&#125;</span><br><span class="line">init();</span><br></pre></td></tr></table></figure></p>
+<p>请问调用init函数后，这段代码的运行顺序是怎样的？</p>
+<blockquote>
+<p><strong>0-15ms</strong>：运行init函数。<br><strong>15-23ms</strong>：运行handleMouseClick函数。请注意，这个函数是在5ms时触发的，应该在那个时候就立即运行，但是由于单线程的关系，必须等到init函数完成之后再运行。<br><strong>23-25ms</strong>：运行timerTask函数。这个函数是在10ms时触发的，规定每10ms运行一次，即在20ms、30ms、40ms等时候运行。由于20ms时，JavaScript线程还有任务在运行，因此必须延迟到前面任务完成时再运行。<br><strong>30-32ms</strong>：运行timerTask函数。<br><strong>40-42ms</strong>：运行timerTask函数。</p>
+</blockquote>
+<p>对于setInterval得使用，个人建议是能不用尽量不用。涉及到必须要的定时器，前文已经叙述可以使用两个setTimeout嵌套组合来实现，并且还能规避掉一些问题得发生。涉及到要用它来制作动画（ jQuery就使用setInterval来写动画，也是导致其慢原因之一），更建议使用<strong>requestAnimationFrame</strong>(RAF)，或者直接采用CSS来写（如果可以的话）。</p>
+<p><strong>requestAnimationFrame</strong>比起setTimeout、setInterval的优势主要有两点：</p>
+<ol>
+<li>requestAnimationFrame会把每一帧中的所有DOM操作集中起来，在一次重绘或回流中就完成，并且重绘或回流的时间间隔紧紧跟随浏览器的刷新频率，一般来说，这个频率为每秒60帧。</li>
+<li>在隐藏或不可见的元素中，requestAnimationFrame将不会进行重绘或回流，这当然就意味着更少的的cpu，gpu和内存使用量。</li>
+</ol>
+<p>参考文章链接：<br><a href="http://javascript.ruanyifeng.com/bom/timer.html#toc2" target="_blank" rel="external">阮一峰-javaScript标准参考教程</a></p>
+<hr>
+<p>您可能会感兴趣的文章：<br><a href="http://www.jeffjade.com/2016/01/10/2016-01-10-javaScript-setInterval/" target="_blank" rel="external">你所不知道的setTimeout</a></p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/Front-End/">Front-End</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/JavaScript/">JavaScript</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://jeffjade.github.io/2016/01/10/2016-01-10-javaScript-setInterval/" data-title="你所不知道的setInterval | 晚晴幽草轩" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2016/01/10/2016-01-10-javacript-setTimeout/"  title="你所不知道的setTimeout">
+ <strong>下一篇：</strong><br/> 
+ <span>你所不知道的setTimeout
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2016/01/10/2016-01-10-javaScript-setInterval/" data-title="你所不知道的setInterval" data-url="http://jeffjade.github.io/2016/01/10/2016-01-10-javaScript-setInterval/"></div>
+</section>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-_setInterval()基础"><span class="toc-number">1.</span> <span class="toc-text">1. setInterval()基础</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-_setInterval运行机制"><span class="toc-number">2.</span> <span class="toc-text">2. setInterval运行机制</span></a></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">云轩分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/Android/" title="Android">Android<sup>9</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Front-End/" title="Front-End">Front-End<sup>22</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Health/" title="Health">Health<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Internet/" title="Internet">Internet<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Java/" title="Java">Java<sup>5</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Lua/" title="Lua">Lua<sup>6</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Movie/" title="Movie">Movie<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Program/" title="Program">Program<sup>7</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Read/" title="Read">Read<sup>3</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Share/" title="Share">Share<sup>8</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Thought/" title="Thought">Thought<sup>12</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Toss/" title="Toss">Toss<sup>13</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Travel/" title="Travel">Travel<sup>3</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">云轩标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/Thought/" title="Thought">Thought<sup>20</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Share/" title="Share">Share<sup>15</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/JavaScript/" title="JavaScript">JavaScript<sup>14</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Toss/" title="Toss">Toss<sup>11</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android/" title="Android">Android<sup>7</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Lua/" title="Lua">Lua<sup>7</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Efficiency/" title="Efficiency">Efficiency<sup>6</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Java/" title="Java">Java<sup>6</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/CSS/" title="CSS">CSS<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/jQuery/" title="jQuery">jQuery<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Travel/" title="Travel">Travel<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Mac/" title="Mac">Mac<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Read/" title="Read">Read<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Movie/" title="Movie">Movie<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Music/" title="Music">Music<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Health/" title="Health">Health<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/SublimeText/" title="SublimeText">SublimeText<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/NodeJs/" title="NodeJs">NodeJs<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Adb/" title="Adb">Adb<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/SSH/" title="SSH">SSH<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Gulp/" title="Gulp">Gulp<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Git/" title="Git">Git<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Http/" title="Http">Http<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Html/" title="Html">Html<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Bat/" title="Bat">Bat<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Regex/" title="Regex">Regex<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Chrome/" title="Chrome">Chrome<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">云轩关注</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://blog.codingnow.com" target="_blank" title="云风Blog">云风Blog</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://cnfeat.com" target="_blank" title="陈素封">陈素封</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://www.williamlong.info/" target="_blank" title="月光博客">月光博客</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://coolshell.cn/" target="_blank" title="酷壳－陈浩">酷壳－陈浩</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://wuchong.me" target="_blank" title="Jark&#39;s Blog">Jark&#39;s Blog</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://www.zhangxinxu.com/" target="_blank" title="鑫空间-鑫生活">鑫空间-鑫生活</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://saryxi.com/" target="_blank" title="sary小屋">sary小屋</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://www.cnblogs.com/jadeboy/" target="_blank" title="云轩奕鹤">云轩奕鹤</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://lijunnan.com" target="_blank" title="君南的稀罕货">君南的稀罕货</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="linkslist">
+  <p class="asidetitle">好书推荐</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://www.amazon.cn/gp/product/B00D73BJWK/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00D73BJWK&linkCode=as2&tag=droidyue-23" target="_blank" title="浪潮之巅">浪潮之巅</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://www.amazon.cn/gp/product/B00OB3SNMY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00OB3SNMY&linkCode=as2&tag=droidyue-23" target="_blank" title="三体">三体</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://book.douban.com/subject/1477390/" target="_blank" title="代码大全2">代码大全2</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="linkslist">
+  <p class="asidetitle">轩站统计</p>
+  
+    <font id="counter"></font><br>
+    <font id="detail_counter"></font>
+  
+</div>
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> 追求卓越，成功就会在不经意间 追上你！ <br/>
+			As you think, so shall you become. </p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/3235949794" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		<a href="https://github.com/jeffjade" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		<a href="https://twitter.com/jeffjade2" target="_blank" class="icon-twitter" title="twitter"></a>
+		
+		
+		<a href="https://www.facebook.com/100006379368522" target="_blank" class="icon-facebook" title="facebook"></a>
+		
+		
+		
+		<a href="http://www.douban.com/people/125966439/" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:yunjeff@163.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="http://jeffjade.github.io/about" target="_blank" title="jeffjade">jeffjade</a>
+		
+		</p>
+</div>
+
+<script src="//buru.u.qiniudn.com/firebase-2.0.5.js"></script>
+<script>window.Firebase || document.write('<script src="/js/firebase-2.0.5.js" type="text/javascript"><\/script>')
+</script>
+<script src="/js/counter.js"></script></footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+        getSize();
+        if (myWidth >= 1024) {
+          c.click();
+        }
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"jeffjade"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd0ed9bb72df3b2b32bdd2274981a7d07' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+  </body>
+</html>
