@@ -24,6 +24,7 @@
 <meta property="og:url" content="http://jeffjade.github.io/2016/01/10/2016-01-10-javacript-setTimeout/index.html">
 <meta property="og:site_name" content="晚晴幽草轩">
 <meta property="og:description" content="JavaScript提供定时执行代码的功能，叫做定时器（timer），主要由setTimeout()和setInterval()这两个函数来完成。它们向任务队列添加定时任务。初始接触它的人都觉得好简单，实时上真的如此么？这里记载下，一路对其使用姿势变迁的历程。">
+<meta property="og:image" content="http://7xoosr.com1.z0.glb.clouddn.com/jiangXin1.jpg">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="你所不知道的setTimeout">
 <meta name="twitter:description" content="JavaScript提供定时执行代码的功能，叫做定时器（timer），主要由setTimeout()和setInterval()这两个函数来完成。它们向任务队列添加定时任务。初始接触它的人都觉得好简单，实时上真的如此么？这里记载下，一路对其使用姿势变迁的历程。">
@@ -102,6 +103,7 @@
 		
 		<p>JavaScript提供定时执行代码的功能，叫做定时器（timer），主要由setTimeout()和setInterval()这两个函数来完成。它们向任务队列添加定时任务。初始接触它的人都觉得好简单，实时上真的如此么？这里记载下，一路对其使用姿势变迁的历程。</p>
 <a id="more"></a>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/jiangXin1.jpg" alt="你所不知道的setTimeout"></p>
 <h2 id="1,_setTimeout()基础"><strong>1, setTimeout()基础</strong></h2><p>setTimeout函数用来指定某个函数或某段代码，在多少毫秒之后执行。它返回一个整数，表示定时器的编号，以后可以用来取消这个定时器。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> timerId = setTimeout(func|code, delay)</span><br></pre></td></tr></table></figure></p>
 <p>上面代码中，setTimeout函数接受两个参数，第一个参数func|code是将要推迟执行的函数名或者一段代码，第二个参数delay是推迟执行的毫秒数。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span>);</span><br><span class="line">setTimeout(<span class="string">'console.log(2)'</span>,<span class="number">1000</span>);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">3</span>);</span><br></pre></td></tr></table></figure></p>
 <p>上面代码的输出结果就是1，3，2，因为setTimeout指定第二行语句推迟1000毫秒再执行(如果这在Sublime下运用插件以nodejs环境来执行，许解释器不同，会报错)。</p>

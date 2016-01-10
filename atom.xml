@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://jeffjade.github.io/"/>
-  <updated>2016-01-10T15:04:30.000Z</updated>
+  <updated>2016-01-10T16:12:26.000Z</updated>
   <id>http://jeffjade.github.io/</id>
   
   <author>
@@ -19,9 +19,10 @@
     <link href="http://jeffjade.github.io/2016/01/10/2016-01-10-javaScript-setInterval/"/>
     <id>http://jeffjade.github.io/2016/01/10/2016-01-10-javaScript-setInterval/</id>
     <published>2016-01-10T10:30:00.000Z</published>
-    <updated>2016-01-10T15:04:30.000Z</updated>
+    <updated>2016-01-10T16:12:26.000Z</updated>
     <content type="html"><![CDATA[<p>在<a href="http://www.jeffjade.com/2016/01/10/2016-01-10-javacript-setTimeout/" target="_blank" rel="external">你所不知道的setTimeout</a>记载了下<strong>setTimeout</strong>相关,此篇则整理了下<strong>setInterval</strong>；作为拥有广泛应用场景(定时器，轮播图，动画效果，自动滚动等等)，而又充满各种不确定性的这setInterval，自当先洞悉它，才能很好的驾驭它。</p>
 <a id="more"></a>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/jiangXin.jpg" alt="你所不知道的setInterval"></p>
 <h2 id="1-_setInterval()基础"><strong>1. setInterval()基础</strong></h2><p>setInterval函数的用法与setTimeout完全一致，区别仅仅在于setInterval指定某个任务每隔一段时间就执行一次，也就是无限次的定时执行。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=<span class="string">"button"</span> onclick=<span class="string">"clearInterval(timer)"</span> value=<span class="string">"stop"</span>&gt;</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript"></span><br><span class="line">  <span class="keyword">var</span> i = <span class="number">1</span></span><br><span class="line">  <span class="keyword">var</span> timer = setInterval(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure></p>
 <p>上面代码表示每隔1000毫秒就输出一个2，直到用户点击了停止按钮。</p>
 <p>与setTimeout一样，除了前两个参数，setInterval 方法还可以接受更多的参数，它们会传入回调函数，下面是一个例子。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;<span class="built_in">arguments</span>.length;i++)&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="built_in">arguments</span>[i]);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">setInterval(f, <span class="number">1000</span>, <span class="string">"Hello World"</span>);</span><br><span class="line"><span class="comment">// Hello World</span></span><br><span class="line"><span class="comment">// Hello World</span></span><br><span class="line"><span class="comment">// Hello World</span></span><br><span class="line"><span class="comment">// ...</span></span><br></pre></td></tr></table></figure></p>
@@ -69,9 +70,10 @@
     <link href="http://jeffjade.github.io/2016/01/10/2016-01-10-javacript-setTimeout/"/>
     <id>http://jeffjade.github.io/2016/01/10/2016-01-10-javacript-setTimeout/</id>
     <published>2016-01-10T06:30:00.000Z</published>
-    <updated>2016-01-10T15:04:26.000Z</updated>
+    <updated>2016-01-10T17:50:40.000Z</updated>
     <content type="html"><![CDATA[<p>JavaScript提供定时执行代码的功能，叫做定时器（timer），主要由setTimeout()和setInterval()这两个函数来完成。它们向任务队列添加定时任务。初始接触它的人都觉得好简单，实时上真的如此么？这里记载下，一路对其使用姿势变迁的历程。</p>
 <a id="more"></a>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/jiangXin1.jpg" alt="你所不知道的setTimeout"></p>
 <h2 id="1,_setTimeout()基础"><strong>1, setTimeout()基础</strong></h2><p>setTimeout函数用来指定某个函数或某段代码，在多少毫秒之后执行。它返回一个整数，表示定时器的编号，以后可以用来取消这个定时器。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> timerId = setTimeout(func|code, delay)</span><br></pre></td></tr></table></figure></p>
 <p>上面代码中，setTimeout函数接受两个参数，第一个参数func|code是将要推迟执行的函数名或者一段代码，第二个参数delay是推迟执行的毫秒数。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span>);</span><br><span class="line">setTimeout(<span class="string">'console.log(2)'</span>,<span class="number">1000</span>);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">3</span>);</span><br></pre></td></tr></table></figure></p>
 <p>上面代码的输出结果就是1，3，2，因为setTimeout指定第二行语句推迟1000毫秒再执行(如果这在Sublime下运用插件以nodejs环境来执行，许解释器不同，会报错)。</p>
