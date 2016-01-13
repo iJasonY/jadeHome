@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://jeffjade.github.io/"/>
-  <updated>2016-01-10T16:12:26.000Z</updated>
+  <updated>2016-01-13T13:25:48.000Z</updated>
   <id>http://jeffjade.github.io/</id>
   
   <author>
@@ -13,6 +13,90 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Win下必备神器之Cmder]]></title>
+    <link href="http://jeffjade.github.io/2016/01/13/2016-01-13-windows-software-cmder/"/>
+    <id>http://jeffjade.github.io/2016/01/13/2016-01-13-windows-software-cmder/</id>
+    <published>2016-01-13T13:11:00.000Z</published>
+    <updated>2016-01-13T13:25:48.000Z</updated>
+    <content type="html"><![CDATA[<p>诚言，对于开发码字者，Mac和Linux果断要比Windows更贴心;但只要折腾下，Windows下也是有不少利器的。之前就有在<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/" target="_blank" rel="external">Windows下效率必备软件</a>一文中对此做了下记载；其虽没<code>oh-my-zsh</code>那么逆天的存在，却也甚是好用，至少要比Windows原生Cmd好出了天际。因为<strong>好用</strong>，所以<strong>“必备”</strong>。</p>
+<a id="more"></a>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/cmder.jpg" alt="Cmder"></p>
+<h2 id="安裝_cmder"><strong>安裝 cmder</strong></h2><p><a href="http://cmder.net/" target="_blank" rel="external">Cmder官网</a><code>http://cmder.net/</code>;她作为一个压缩档的存在, 可即压即用。你甚至可以放到USB就可以虽时带着走，连调整过的设定都会放在这个目录下，不会用到系统机码(Registry)，所以也很适合放在Dropbox / Google Drive / OneDrive共享于多台电脑。</p>
+<p>下载的时候，有两个版本，分别是mini与full版；唯一的差别在于有没有内建msysgit工具，这是Git for Windows的标准配备；全安装版 cmder 自带了 msysgit, 压缩包 23M, 除了 git 本身这个命令之外, 里面可以使用大量的 linux 命令；比如 grep, curl(没有 wget)； 像vim, grep, tar, unzip, ssh, ls, bash, perl 对于爱折腾的Coder更是痛点需求。</p>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/msysgit-bin.png" alt="cmder强大自带命令"></p>
+<h2 id="配置_Cmder"><strong>配置 Cmder</strong></h2><h3 id="启动Cmder"><strong>启动Cmder</strong></h3><p>因为她是即压即用的存在，所以点击<code>Cmder.exe</code>即可运行。很显然这般打开她，不怎么快捷，即便用<code>Listary</code>高效搜索到她，然后点击;我们可以这样做:</p>
+<ol>
+<li><p>把 <strong>cmder</strong> 加到环境变量<br>可以把<code>Cmder.exe</code>存放的目录添加到系统环境变量；加完之后,<code>Win+r</code>一下输入<code>cmder</code>,即可。</p>
+</li>
+<li><p><strong>添加 cmder 到右键菜单</strong><br>在某个文件夹中打开终端, 这个是一个(超级)痛点需求, 实际上上一步的把 <strong>cmder</strong> 加到环境变量就是为此服务的, 在管理员权限的终端输入以下语句即可:</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cmder<span class="class">.exe</span> /REGISTER ALL</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><strong>打开一个管理员权限终端:</strong><br>输入 Ctrl + t, 或者点击下面控制条的绿色加号, 勾选 Run as administrator<br><img src="http://7xoosr.com1.z0.glb.clouddn.com/cmderRunAdmin.jpg" alt="Run as administrator"><br>这就打开了一个管理员权限的终端, 在里面输入上述语句，就可在每个文件夹右键菜单中点击 <code>Cmder here</code>唤起Cmder，方便快捷。</p>
+<p>不用打开文件夹就能打Cmder,并进入该目录;爽。</p>
+<ol>
+<li>借用Win下逆天神器：<code>AutoHotKey</code>（这个下篇要好好记载下）为Cmder配置自己喜欢的快捷键(个人用<code>Alt+r</code>)：<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">!r:: run, D:<span class="command">\*</span>*<span class="command">\cmder</span>_mini<span class="command">\Cmder</span>.exe</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>个人比较推崇使用<code>AutoHotKey</code>；高效简洁，才是王道。</p>
+<h3 id="默认开启设置"><strong>默认开启设置</strong></h3><p>作为强大的存在，必然支持私人定制。输入<code>win + alt + p</code>或者 在底部右击点击 settings, 进入设置页面；可以根据自己的所需进行各种配置(字体，皮肤等等等等)。</p>
+<p>目前游走在前端，<code>Gulp</code>已离不开，<code>Cmder+PowerShell</code>这个组合无疑是运行gulp的利器。如下图所示，可以设置<code>PowerShell</code>作为默认开启的选项；也可以更改默认开启是所在目录。<br><img src="http://7xoosr.com1.z0.glb.clouddn.com/CmderSeting.jpg" alt="Cmder-Seting"></p>
+<h3 id="解决文字重叠问题"><strong>解决文字重叠问题</strong></h3><p>Win + Ait + P 唤出设置界面 &gt; mian &gt; font &gt; monospce,去掉那勾勾即可。</p>
+<h3 id="修改命令提示符号·λ·"><strong>修改命令提示符号·λ·</strong></h3><p><img src="http://7xoosr.com1.z0.glb.clouddn.com/CmderChange.jpg" alt="Cmder修改命令提示符号"><br>Cmder预设的命列列提示符号是<strong>λ</strong>;如果用着不习惯，可以将这个字元改成Mac / Linux环境下常见的<strong>$</strong>符号，具体操作如下：<br>编辑Cmder安装目录下的vendor\init.bat批处理文件(min版本15行)，把：<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">@prompt</span> <span class="variable">$E</span>[<span class="number">1</span>;<span class="number">32</span>;<span class="number">40</span>m<span class="variable">$P</span><span class="variable">$S</span>&#123;git&#125;&#123;hg&#125;<span class="variable">$S</span><span class="variable">$_</span><span class="variable">$E</span>[<span class="number">1</span>;<span class="number">30</span>;<span class="number">40</span>m &#123;lamb&#125; <span class="variable">$S</span><span class="variable">$E</span>[0m</span><br></pre></td></tr></table></figure></p>
+<p>修改成以下即可：<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">@prompt</span> <span class="variable">$E</span>[<span class="number">1</span>;<span class="number">32</span>;<span class="number">40</span>m<span class="variable">$P</span><span class="variable">$S</span>&#123;git&#125;&#123;hg&#125;<span class="variable">$S</span><span class="variable">$_</span><span class="variable">$E</span>[<span class="number">1</span>;<span class="number">30</span>;<span class="number">40</span>m <span class="variable">$$</span> <span class="variable">$S</span><span class="variable">$E</span>[0m</span><br></pre></td></tr></table></figure></p>
+<p>这个亲测在<code>cmder.exe</code>可以，但在<code>PowerShell.exe</code>需要另行设置:<br>打开文件config/cmder.lua（prompt.lua也有版本是这个），将第二行中的<strong>λ</strong>修改为Linux下常用的<strong>$</strong>即可；亲测可行(2016-01-13)。</p>
+<h2 id="常用功能介绍"><strong>常用功能介绍</strong></h2><p>cmder 功能极为强大，功能也非常多，但从视窗画面上看不太出其强大实力，这里就先说下其「看的见」的功能：<br><img src="http://7xoosr.com1.z0.glb.clouddn.com/CmderFunction.png" alt="Cmder强大功能图示"><br>如上图示编号的部分说明如下：<br>1, Cmder常用快捷键<br>跟一般浏览器页签操作习惯一致:</p>
+<blockquote>
+<p>可以利用<code>Tab</code>，自动路径补全(爽,赞！)；<br>可以利用<strong>Ctrl+T</strong>建立新页签；<br>利用<strong>Ctrl+W</strong>关闭页签;<br>还可以透过<strong>Ctrl+Tab</strong>切换页签;<br><strong>Alt+F4</strong>：关闭所有页签<br><strong>Alt+Shift+1</strong>：开启cmd.exe<br><strong>Alt+Shift+2</strong>：开启powershell.exe<br><strong>Alt+Shift+3</strong>：开启powershell.exe (系统管理员权限)<br><strong>Ctrl+1</strong>：快速切换到第1个页签<br><strong>Ctrl+n</strong>：快速切换到第n个页签( n值无上限)<br><strong>Alt + enter</strong>： 切换到全屏状态；<br><strong>Ctr+r</strong> 历史命令搜索;<br><strong>End, Home, Ctrl</strong> : Traversing text with as usual on Windows</p>
+</blockquote>
+<p>2, 可在视窗内搜寻画面上出现过的任意关键字。<br>3, 新增页签按钮，可透过滑鼠新增页签。<br>4, 切换页签按钮，可透过滑鼠切换页签。<br>5, 锁定视窗，让视窗无法再输入。<br>6, 切换视窗是否提供卷轴功能，启动时可查询之前显示过的内容。<br>7, 按下滑鼠左键可开启系统选单，滑鼠右键可开启工具选项视窗。 Win+Alt+P  ：开启工具选项视窗</p>
+<h2 id="cmder元件组成"><strong>cmder元件组成</strong></h2><p>cmder其实结合了多套软体，其中包括<a href="https://github.com/msysgit/msysgit" target="_blank" rel="external">msysgit</a>与最重要的<a href="http://conemu.github.io/" target="_blank" rel="external">ConEmu</a>与<a href="http://mridgers.github.io/clink/" target="_blank" rel="external">Clink</a>软体，而ConEmu与Clink这两套软体就是cmder真正的核心元件。</p>
+<ul>
+<li><strong>msysgit</strong>除了提供Git for Windows 相关工具外，其实还提供了多套Unix/Linux 环境下常用的指令列工具，例如less, ls, tar, unzip, md5sum, grep, sed, … 等多套工具。<br>光是一个grep 就不知道比Windows 内建的findstr 强几百倍了！</li>
+<li><strong>ConEmu</strong>也可以是单独一款软件存在，曾经一度迷恋于它，然而其体验并不如<strong>cmder</strong>，便放弃它了。</li>
+<li><strong>Clink</strong> 将GNU Readline 函式库整合进原生的Windows 命令提示字元视窗，提供命令列模式下强大的编辑与输入能力，这也是用了cmder 之后会这么像在Linux 环境下使用的感觉。</li>
+</ul>
+<p>上述功能,目前没怎么用，根据<strong>学以致用</strong>原理，也就还没去了解去折腾。</p>
+<h2 id="其他功能"><strong>其他功能</strong></h2><ul>
+<li><p>Cmder还增加了<strong>alias</strong>功能;他让你用短短的指令执行一些常见但指令超长又难以记忆的语法;比如 <code>ls</code> <code>cls</code>等等；在其控制台输入<code>alias</code>可以查看。</p>
+</li>
+<li><p>主控台文字自动放大缩小功能，你只要按<strong>下Ctrl+滑鼠滚轮</strong>就可以办到;果你用支援两点触控的笔电，也可以在触控板上用两指放大的手势调整文字大小。还有：<strong>up</strong>，向上翻历史命令;</p>
+</li>
+<li><p><strong>Cmder</strong>有极为简单的<strong>复制粘贴</strong>操作。<strong>Ctr+V</strong>直接粘贴;用鼠标选中你想拷贝的内容，自动就复制到剪切板；天神，这悉数的美感;点赞!</p>
+</li>
+<li><p><strong>自定义aliases</strong>:打开Cmder目录下的config文件夹，里面的aliases文件就是我们可以配置的别名文件，只需将里面ls命令的别名按下列方式修改就可以在ls命令下显示中文。</p>
+<figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ls</span>=<span class="keyword">ls</span> --show-<span class="keyword">control</span>-chars --<span class="keyword">color</span>=auto <span class="variable">$*</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>当然，别名文件还可以有许多其他配置，如：<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">e</span>.=explorer .</span><br><span class="line">gcc=<span class="keyword">cd</span> <span class="keyword">D</span>:\Document\gcc\</span><br><span class="line">gw=<span class="keyword">cd</span> <span class="keyword">D</span>:\Document\GitHub\work</span><br><span class="line"><span class="keyword">gl</span>=git <span class="keyword">log</span> --oneline --all --<span class="keyword">graph</span> --decorate  $*</span><br><span class="line"><span class="keyword">ls</span>=<span class="keyword">ls</span> --show-control-chars --color=auto $*</span><br><span class="line"><span class="keyword">pwd</span>=<span class="keyword">cd</span></span><br><span class="line"><span class="keyword">clear</span>=cls</span><br></pre></td></tr></table></figure></p>
+<p>这个在公司电脑上总不成功；问题<code>无效的宏定义。</code>;在写到这里时候，还未查明缘由<strong>【待探究，待更新】</strong>。</p>
+<p>大概就这样，折腾让生活更美好，不止于编程码字。还是那句话，与君共勉：<br>“<strong>过一个平凡无趣的人生实在太容易了，你可以不读书，不冒险，不运动，不写作，不外出，不折腾……但是，人生最后悔的事情就是：我本可以。</strong>”——陈素封。</p>
+<p>参考文章：<br><a href="http://cmder.net/" target="_blank" rel="external">Cmder官网</a><br><a href="http://blog.miniasp.com/post/2015/09/27/Useful-tool-Cmder.aspx" target="_blank" rel="external">介绍好用工具：Cmder ( 具有Linux 温度的Windows 命令提示字元工具 )</a></p>
+<hr>
+<p>对您可能有用(/感兴趣)的文章：</p>
+<ul>
+<li><a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a></li>
+<li><a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a></li>
+<li><a href="http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/" target="_blank" rel="external">Vimium~让您的Chrome起飞</a></li>
+<li><a href="http://www.jeffjade.com/2015/08/28/2015-08-28-Write-Morkdown/" target="_blank" rel="external">SublimeText下写作利器之MarkdownEditing</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[Windows下效率必备软件:Cmder介绍;]]>
+    
+    </summary>
+    
+      <category term="Efficiency" scheme="http://jeffjade.github.io/tags/Efficiency/"/>
+    
+      <category term="Share" scheme="http://jeffjade.github.io/tags/Share/"/>
+    
+      <category term="Toss" scheme="http://jeffjade.github.io/tags/Toss/"/>
+    
+      <category term="Toss" scheme="http://jeffjade.github.io/categories/Toss/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[你所不知道的setInterval]]></title>
@@ -1388,26 +1472,6 @@
     </summary>
     
       <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
-    
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[以Backbone仿写自己的Todos]]></title>
-    <link href="http://jeffjade.github.io/2015/09/07/2015-09-07-jadetodos/"/>
-    <id>http://jeffjade.github.io/2015/09/07/2015-09-07-jadetodos/</id>
-    <published>2015-09-07T06:30:00.000Z</published>
-    <updated>2015-09-24T13:35:42.000Z</updated>
-    <content type="html"><![CDATA[<p>学习基本是从模仿开始；对于编程其实也一样。构建todo列表(这个小应用个人很喜欢)无疑是一种学习Backbone规则的很好方式。参考《Backbone.js应用程序开发～Addy Osmani》一文和<a href="http://todomvc.com" target="_blank" rel="external">TodoMVC</a>，前段时间也仿制了自己的<a href="/jadeTodo/index.html">JadetodoS</a>；业余，可以根据自己持续变更的知识,喜好和想法，不断地丰富她，想想都是一件很美好的事儿。倘若可以做出点不一样的改变，哇哦，简直可谓一举数得耶；如此这般期待着，也当这样前行！</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>学习基本是从模仿开始；对于编程其实也一样。构建todo列表(这个小应用个人很喜欢)无疑是一种学习Backbone规则的很好方式。参考《Backbone.js应用程序开发～Addy Osmani》一文和<a href="http://todomvc.com" target="]]>
-    </summary>
-    
-      <category term="Backbone" scheme="http://jeffjade.github.io/tags/Backbone/"/>
-    
-      <category term="Toss" scheme="http://jeffjade.github.io/tags/Toss/"/>
     
       <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
     
