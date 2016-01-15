@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://jeffjade.github.io/"/>
-  <updated>2016-01-13T16:22:26.000Z</updated>
+  <updated>2016-01-15T13:09:59.000Z</updated>
   <id>http://jeffjade.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://jeffjade.github.io/2016/01/13/2016-01-13-windows-software-cmder/"/>
     <id>http://jeffjade.github.io/2016/01/13/2016-01-13-windows-software-cmder/</id>
     <published>2016-01-13T13:11:00.000Z</published>
-    <updated>2016-01-13T16:22:26.000Z</updated>
+    <updated>2016-01-15T13:09:59.000Z</updated>
     <content type="html"><![CDATA[<p>诚言，对于开发码字者，Mac和Linux果断要比Windows更贴心;但只要折腾下，Windows下也是有不少利器的。之前就有在<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/" target="_blank" rel="external">Windows下效率必备软件</a>一文中对此做了下记载；其虽没<code>oh-my-zsh</code>那么逆天的存在，却也甚是好用，至少要比Windows原生Cmd好出了天际。因为<strong>好用</strong>，所以<strong>“必备”</strong>。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/cmder.jpg" alt="Cmder"></p>
@@ -43,7 +43,7 @@
 <p>个人比较推崇使用<code>AutoHotKey</code>；高效简洁，才是王道。</p>
 <h3 id="默认开启设置"><strong>默认开启设置</strong></h3><p>作为强大的存在，必然支持私人定制。输入<code>win + alt + p</code>或者 在底部右击点击 settings, 进入设置页面；可以根据自己的所需进行各种配置(字体，皮肤等等等等)。</p>
 <p>目前游走在前端，<code>Gulp</code>已离不开，<code>Cmder+PowerShell</code>这个组合无疑是运行gulp的利器。如下图所示，可以设置<code>PowerShell</code>作为默认开启的选项；也可以更改默认开启是所在目录。<br><img src="http://7xoosr.com1.z0.glb.clouddn.com/CmderSeting.jpg" alt="Cmder-Seting"></p>
-<h3 id="解决文字重叠问题"><strong>解决文字重叠问题</strong></h3><p>Win + Ait + P 唤出设置界面 &gt; mian &gt; font &gt; monospce,去掉那勾勾即可。</p>
+<h3 id="解决文字重叠问题"><strong>解决文字重叠问题</strong></h3><p>Win + ALT + P 唤出设置界面 &gt; mian &gt; font &gt; monospce,去掉那勾勾即可。</p>
 <h3 id="修改命令提示符号·λ·"><strong>修改命令提示符号·λ·</strong></h3><p><img src="http://7xoosr.com1.z0.glb.clouddn.com/CmderChange.jpg" alt="Cmder修改命令提示符号"><br>Cmder预设的命列列提示符号是<strong>λ</strong>;如果用着不习惯，可以将这个字元改成Mac / Linux环境下常见的<strong>$</strong>符号，具体操作如下：<br>编辑Cmder安装目录下的vendor\init.bat批处理文件(min版本15行)，把：<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">@prompt</span> <span class="variable">$E</span>[<span class="number">1</span>;<span class="number">32</span>;<span class="number">40</span>m<span class="variable">$P</span><span class="variable">$S</span>&#123;git&#125;&#123;hg&#125;<span class="variable">$S</span><span class="variable">$_</span><span class="variable">$E</span>[<span class="number">1</span>;<span class="number">30</span>;<span class="number">40</span>m &#123;lamb&#125; <span class="variable">$S</span><span class="variable">$E</span>[0m</span><br></pre></td></tr></table></figure></p>
 <p>修改成以下即可：<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">@prompt</span> <span class="variable">$E</span>[<span class="number">1</span>;<span class="number">32</span>;<span class="number">40</span>m<span class="variable">$P</span><span class="variable">$S</span>&#123;git&#125;&#123;hg&#125;<span class="variable">$S</span><span class="variable">$_</span><span class="variable">$E</span>[<span class="number">1</span>;<span class="number">30</span>;<span class="number">40</span>m <span class="variable">$$</span> <span class="variable">$S</span><span class="variable">$E</span>[0m</span><br></pre></td></tr></table></figure></p>
 <p>这个亲测在<code>cmder.exe</code>可以，但在<code>PowerShell.exe</code>需要另行设置:<br>打开文件config/cmder.lua（prompt.lua也有版本是这个），将第二行中的<strong>λ</strong>修改为Linux下常用的<strong>$</strong>即可；亲测可行(2016-01-13)。</p>
@@ -76,6 +76,8 @@
 </ul>
 <p>当然，别名文件还可以有许多其他配置，如：<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">e</span>.=explorer .</span><br><span class="line">gcc=<span class="keyword">cd</span> <span class="keyword">D</span>:\Document\gcc\</span><br><span class="line">gw=<span class="keyword">cd</span> <span class="keyword">D</span>:\Document\GitHub\work</span><br><span class="line"><span class="keyword">gl</span>=git <span class="keyword">log</span> --oneline --all --<span class="keyword">graph</span> --decorate  $*</span><br><span class="line"><span class="keyword">ls</span>=<span class="keyword">ls</span> --show-control-chars --color=auto $*</span><br><span class="line"><span class="keyword">pwd</span>=<span class="keyword">cd</span></span><br><span class="line"><span class="keyword">clear</span>=cls</span><br></pre></td></tr></table></figure></p>
 <p>这个在公司电脑上总不成功；问题<code>无效的宏定义。</code>;在写到这里时候，还未查明缘由<strong>【待探究，待更新】</strong>。</p>
+<p>—-2016-01-14 20:05更新:<br>感谢@V友(zongwan)可以修改Cmder目录下<code>vendor\profile.ps1</code>文件，Like This：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="operator"><span class="keyword">Set</span>-Alias st <span class="string">"C:\Program Files\Sublime Text 3\sublime_text.exe"</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> Git-<span class="keyword">Status</span> &#123; git <span class="keyword">status</span> &#125; </span><br><span class="line"><span class="keyword">Set</span>-Alias gs Git-<span class="keyword">Status</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="keyword">go</span>-<span class="keyword">Work</span> &#123;cd E:\<span class="keyword">work</span>\web\cdn\&#125;</span><br><span class="line"><span class="keyword">Set</span>-Alias gw <span class="keyword">go</span>-<span class="keyword">Work</span></span></span><br></pre></td></tr></table></figure></p>
+<p><code>st xxx</code>就用实现以sublimeText打开xxx文件；<code>gw</code>下就能进入所设置的目录;<code>gs</code>相当于在使用git文件目录下用<code>git status</code>;凡此种种,为常用命令设置下简短别名,真心不错。</p>
 <p>Windows的cmd就是一个奇葩的存在…如果你愿意花时间去找，你能找到很多的可以替代它的软件，譬如：<code>Babun</code>, <code>Gow</code> ,<code>Conemu</code> , <code>clink</code>等等，任何一款都比原生Cmd来得快意。环境虽如是，体验却在你。</p>
 <p>大概就这样，折腾让生活更美好，不止于编程码字。还是那句话，与君共勉：<br>“<strong>过一个平凡无趣的人生实在太容易了，你可以不读书，不冒险，不运动，不写作，不外出，不折腾……但是，人生最后悔的事情就是：我本可以。</strong>”——陈素封。</p>
 <p>参考文章：<br><a href="http://cmder.net/" target="_blank" rel="external">Cmder官网</a><br><a href="https://phphub.org/topics/67" target="_blank" rel="external">利用 Chocolatey 快速在 Windows 下搭建一个开发环境</a><br><a href="http://blog.miniasp.com/post/2015/09/27/Useful-tool-Cmder.aspx" target="_blank" rel="external">介绍好用工具：Cmder ( 具有Linux 温度的Windows 命令提示字元工具 )</a></p>
@@ -109,7 +111,7 @@
     <link href="http://jeffjade.github.io/2016/01/10/2016-01-10-javaScript-setInterval/"/>
     <id>http://jeffjade.github.io/2016/01/10/2016-01-10-javaScript-setInterval/</id>
     <published>2016-01-10T10:30:00.000Z</published>
-    <updated>2016-01-10T16:12:26.000Z</updated>
+    <updated>2016-01-15T13:17:24.000Z</updated>
     <content type="html"><![CDATA[<p>在<a href="http://www.jeffjade.com/2016/01/10/2016-01-10-javacript-setTimeout/" target="_blank" rel="external">你所不知道的setTimeout</a>记载了下<strong>setTimeout</strong>相关,此篇则整理了下<strong>setInterval</strong>；作为拥有广泛应用场景(定时器，轮播图，动画效果，自动滚动等等)，而又充满各种不确定性的这setInterval，自当先洞悉它，才能很好的驾驭它。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/jiangXin.jpg" alt="你所不知道的setInterval"></p>
@@ -145,7 +147,7 @@
 <p>您可能会感兴趣的文章：<br><a href="http://www.jeffjade.com/2016/01/10/2016-01-10-javaScript-setInterval/" target="_blank" rel="external">你所不知道的setTimeout</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>在<a href="http://www.jeffjade.com/2016/01/10/2016-01-10-javacript-setTimeout/">你所不知道的setTimeout</a>记载了下<strong>setTimeout</strong>相关,此篇则整理了下<strong>setInterval</strong>；作为拥有广泛应用场景(定时器，轮播图，动画效果，自动滚动等等)，而又充满各种不确定性的这setInterval，自当先洞悉它，才能很好的驾驭它。</p>]]>
+    <![CDATA[setInterval详解]]>
     
     </summary>
     
@@ -160,7 +162,7 @@
     <link href="http://jeffjade.github.io/2016/01/10/2016-01-10-javacript-setTimeout/"/>
     <id>http://jeffjade.github.io/2016/01/10/2016-01-10-javacript-setTimeout/</id>
     <published>2016-01-10T06:30:00.000Z</published>
-    <updated>2016-01-10T17:50:40.000Z</updated>
+    <updated>2016-01-15T13:17:42.000Z</updated>
     <content type="html"><![CDATA[<p>JavaScript提供定时执行代码的功能，叫做定时器（timer），主要由setTimeout()和setInterval()这两个函数来完成。它们向任务队列添加定时任务。初始接触它的人都觉得好简单，实时上真的如此么？这里记载下，一路对其使用姿势变迁的历程。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/jiangXin1.jpg" alt="你所不知道的setTimeout"></p>
@@ -227,7 +229,7 @@
 <p>您可能感兴趣的文章：<br><a href="http://www.jeffjade.com/2016/01/10/2016-01-10-javaScript-setInterval/" target="_blank" rel="external">你所不知道的setInterval</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>JavaScript提供定时执行代码的功能，叫做定时器（timer），主要由setTimeout()和setInterval()这两个函数来完成。它们向任务队列添加定时任务。初始接触它的人都觉得好简单，实时上真的如此么？这里记载下，一路对其使用姿势变迁的历程。</p>]]>
+    <![CDATA[setTimeout详解]]>
     
     </summary>
     
