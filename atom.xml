@@ -3,9 +3,9 @@
   <title><![CDATA[晚晴幽草轩]]></title>
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://jeffjade.github.io/"/>
+  <link href="http://www.jeffjade.com/"/>
   <updated>2016-01-15T13:09:59.000Z</updated>
-  <id>http://jeffjade.github.io/</id>
+  <id>http://www.jeffjade.com/</id>
   
   <author>
     <name><![CDATA[jeffjade]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[Win下必备神器之Cmder]]></title>
-    <link href="http://jeffjade.github.io/2016/01/13/2016-01-13-windows-software-cmder/"/>
-    <id>http://jeffjade.github.io/2016/01/13/2016-01-13-windows-software-cmder/</id>
+    <link href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/"/>
+    <id>http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/</id>
     <published>2016-01-13T13:11:00.000Z</published>
     <updated>2016-01-15T13:09:59.000Z</updated>
     <content type="html"><![CDATA[<p>诚言，对于开发码字者，Mac和Linux果断要比Windows更贴心;但只要折腾下，Windows下也是有不少利器的。之前就有在<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/" target="_blank" rel="external">Windows下效率必备软件</a>一文中对此做了下记载；其虽没<code>oh-my-zsh</code>那么逆天的存在，却也甚是好用，至少要比Windows原生Cmd好出了天际。因为<strong>好用</strong>，所以<strong>“必备”</strong>。</p>
@@ -96,20 +96,20 @@
     
     </summary>
     
-      <category term="Efficiency" scheme="http://jeffjade.github.io/tags/Efficiency/"/>
+      <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
     
-      <category term="Share" scheme="http://jeffjade.github.io/tags/Share/"/>
+      <category term="Share" scheme="http://www.jeffjade.com/tags/Share/"/>
     
-      <category term="Toss" scheme="http://jeffjade.github.io/tags/Toss/"/>
+      <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
     
-      <category term="Toss" scheme="http://jeffjade.github.io/categories/Toss/"/>
+      <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[你所不知道的setInterval]]></title>
-    <link href="http://jeffjade.github.io/2016/01/10/2016-01-10-javaScript-setInterval/"/>
-    <id>http://jeffjade.github.io/2016/01/10/2016-01-10-javaScript-setInterval/</id>
+    <link href="http://www.jeffjade.com/2016/01/10/2016-01-10-javaScript-setInterval/"/>
+    <id>http://www.jeffjade.com/2016/01/10/2016-01-10-javaScript-setInterval/</id>
     <published>2016-01-10T10:30:00.000Z</published>
     <updated>2016-01-15T13:17:24.000Z</updated>
     <content type="html"><![CDATA[<p>在<a href="http://www.jeffjade.com/2016/01/10/2016-01-10-javacript-setTimeout/" target="_blank" rel="external">你所不知道的setTimeout</a>记载了下<strong>setTimeout</strong>相关,此篇则整理了下<strong>setInterval</strong>；作为拥有广泛应用场景(定时器，轮播图，动画效果，自动滚动等等)，而又充满各种不确定性的这setInterval，自当先洞悉它，才能很好的驾驭它。</p>
@@ -151,16 +151,16 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://www.jeffjade.com/tags/JavaScript/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[你所不知道的setTimeout]]></title>
-    <link href="http://jeffjade.github.io/2016/01/10/2016-01-10-javacript-setTimeout/"/>
-    <id>http://jeffjade.github.io/2016/01/10/2016-01-10-javacript-setTimeout/</id>
+    <link href="http://www.jeffjade.com/2016/01/10/2016-01-10-javacript-setTimeout/"/>
+    <id>http://www.jeffjade.com/2016/01/10/2016-01-10-javacript-setTimeout/</id>
     <published>2016-01-10T06:30:00.000Z</published>
     <updated>2016-01-15T13:17:42.000Z</updated>
     <content type="html"><![CDATA[<p>JavaScript提供定时执行代码的功能，叫做定时器（timer），主要由setTimeout()和setInterval()这两个函数来完成。它们向任务队列添加定时任务。初始接触它的人都觉得好简单，实时上真的如此么？这里记载下，一路对其使用姿势变迁的历程。</p>
@@ -233,16 +233,16 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://www.jeffjade.com/tags/JavaScript/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[所欢喜过的那些电影(2015下)]]></title>
-    <link href="http://jeffjade.github.io/2016/01/01/2016-01-01-movie2015/"/>
-    <id>http://jeffjade.github.io/2016/01/01/2016-01-01-movie2015/</id>
+    <link href="http://www.jeffjade.com/2016/01/01/2016-01-01-movie2015/"/>
+    <id>http://www.jeffjade.com/2016/01/01/2016-01-01-movie2015/</id>
     <published>2016-01-01T14:12:00.000Z</published>
     <updated>2016-01-05T12:13:47.000Z</updated>
     <content type="html"><![CDATA[<p>只要把美好的回忆珍藏,走到哪里就都不算流浪。然，回忆可以珍藏可以回味，但不要沉迷；走过缤纷万千的2015，悲伤也好，欢喜也罢，都将一去不返。记忆最是带有趋向性和淡忘性，习惯用文字和照片，将过往的美好珍藏，令老来可以按图文以索骥；也能使当下轻装而前行，开始书写一个全然不同的年份和结局…15年兴趣方面，除却听音乐，就是刷电影；这里整理下15年所欢喜过的那些电影，只为一份回忆以珍藏。</p>
@@ -317,16 +317,16 @@
     
     </summary>
     
-      <category term="Movie" scheme="http://jeffjade.github.io/tags/Movie/"/>
+      <category term="Movie" scheme="http://www.jeffjade.com/tags/Movie/"/>
     
-      <category term="Movie" scheme="http://jeffjade.github.io/categories/Movie/"/>
+      <category term="Movie" scheme="http://www.jeffjade.com/categories/Movie/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[写于2015年末的总结]]></title>
-    <link href="http://jeffjade.github.io/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/"/>
-    <id>http://jeffjade.github.io/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/</id>
+    <link href="http://www.jeffjade.com/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/"/>
+    <id>http://www.jeffjade.com/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/</id>
     <published>2015-12-26T06:30:00.000Z</published>
     <updated>2016-01-06T03:51:34.000Z</updated>
     <content type="html"><![CDATA[<p><strong>写作</strong>：是为了光阴流逝使我心安（源自知乎一话题），这一出发点鸣动我心；也是此刻键盘敲击动力源之一；兜兜辗转，2015年好或坏的都将成为历史，几近年关，俗念盘桓，免不了感慨总结一番，也算对新一年展望与期待。</p>
@@ -363,16 +363,16 @@
     
     </summary>
     
-      <category term="Thought" scheme="http://jeffjade.github.io/tags/Thought/"/>
+      <category term="Thought" scheme="http://www.jeffjade.com/tags/Thought/"/>
     
-      <category term="Thought" scheme="http://jeffjade.github.io/categories/Thought/"/>
+      <category term="Thought" scheme="http://www.jeffjade.com/categories/Thought/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[如何优雅地使用Sublime Text]]></title>
-    <link href="http://jeffjade.github.io/2015/12/15/2015-04-17-toss-sublime-text/"/>
-    <id>http://jeffjade.github.io/2015/12/15/2015-04-17-toss-sublime-text/</id>
+    <link href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/"/>
+    <id>http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/</id>
     <published>2015-12-15T04:50:00.000Z</published>
     <updated>2016-01-05T11:32:39.000Z</updated>
     <content type="html"><![CDATA[<p>Sublime Text：一款具有代码高亮、语法提示、自动完成且反应快速的编辑器软件，不仅具有华丽的界面，还支持插件扩展机制，用她来写代码，绝对是一种享受。相比于难于上手的Vim，浮肿沉重的Eclipse，VS，即便体积轻巧迅速启动的Editplus、Notepad++，在SublimeText面前大略显失色，无疑这款性感无比的编辑器是Coding和Writing最佳的选择，没有之一。</p>
@@ -538,16 +538,16 @@
     
     </summary>
     
-      <category term="SublimeText" scheme="http://jeffjade.github.io/tags/SublimeText/"/>
+      <category term="SublimeText" scheme="http://www.jeffjade.com/tags/SublimeText/"/>
     
-      <category term="Toss" scheme="http://jeffjade.github.io/categories/Toss/"/>
+      <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[jQuery VS JavaScript原生API]]></title>
-    <link href="http://jeffjade.github.io/2015/11/25/2015-11-31-jQuery-vs-javaScript/"/>
-    <id>http://jeffjade.github.io/2015/11/25/2015-11-31-jQuery-vs-javaScript/</id>
+    <link href="http://www.jeffjade.com/2015/11/25/2015-11-31-jQuery-vs-javaScript/"/>
+    <id>http://www.jeffjade.com/2015/11/25/2015-11-31-jQuery-vs-javaScript/</id>
     <published>2015-11-24T16:00:00.000Z</published>
     <updated>2015-12-07T13:16:49.000Z</updated>
     <content type="html"><![CDATA[<p>如今技术日新月异，各类框架库也是层次不穷。即便当年<strong>漫山红遍</strong>的JQuery（让开发者<code>write less, do more</code>，So Perfect!!）如今也有<code>被替代</code>的大势。但JS原生API写法依旧；并且有时候只不过小写一个Demo，或者产品中只有少量的前端效果或DOM操作，就去花时间&amp;空间引入jQuery，或者React？不免有取宰牛之刀以杀鸡之嫌。</p>
@@ -577,18 +577,18 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://www.jeffjade.com/tags/JavaScript/"/>
     
-      <category term="jQuery" scheme="http://jeffjade.github.io/tags/jQuery/"/>
+      <category term="jQuery" scheme="http://www.jeffjade.com/tags/jQuery/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Gulp探究折腾之路(I)]]></title>
-    <link href="http://jeffjade.github.io/2015/11/25/2015-11-25-toss-gulp/"/>
-    <id>http://jeffjade.github.io/2015/11/25/2015-11-25-toss-gulp/</id>
+    <link href="http://www.jeffjade.com/2015/11/25/2015-11-25-toss-gulp/"/>
+    <id>http://www.jeffjade.com/2015/11/25/2015-11-25-toss-gulp/</id>
     <published>2015-11-24T16:00:00.000Z</published>
     <updated>2015-11-25T13:18:27.000Z</updated>
     <content type="html"><![CDATA[<p><strong>前言:</strong> <code>gulp</code>是前端开发过程中对代码进行构建的工具，是自动化项目的构建利器；她不仅能对网站资源进行优化，而且在开发过程中很多重复的任务能够使用正确的工具自动完成；使用她，我们不仅可以很愉快的编写代码，而且大大提高我们的工作效率。相比于<code>grunt</code>的频繁 IO 操作，gulp的流操作，能更快地更便捷地完成构建工作。此处仅记录初步折腾中所遇点滴以及待解决的点。</p>
@@ -684,18 +684,18 @@
     
     </summary>
     
-      <category term="Gulp" scheme="http://jeffjade.github.io/tags/Gulp/"/>
+      <category term="Gulp" scheme="http://www.jeffjade.com/tags/Gulp/"/>
     
-      <category term="NodeJs" scheme="http://jeffjade.github.io/tags/NodeJs/"/>
+      <category term="NodeJs" scheme="http://www.jeffjade.com/tags/NodeJs/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[CSS实现水平|垂直居中漫谈]]></title>
-    <link href="http://jeffjade.github.io/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/"/>
-    <id>http://jeffjade.github.io/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/</id>
+    <link href="http://www.jeffjade.com/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/"/>
+    <id>http://www.jeffjade.com/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/</id>
     <published>2015-11-14T09:30:00.000Z</published>
     <updated>2016-01-06T13:19:46.000Z</updated>
     <content type="html"><![CDATA[<p>利用CSS进行元素的水平居中，比较简单，手到擒来：行级元素设置其父元素的text-align center，块级元素设置其本身的left 和 right margins为auto即可。而撸起垂直居中，相信于大多初撸者来说，与我相似，内心是抗拒的。于此，以我司同事一内部分享为基，加以搜集完善，得8种CSS垂直居中书写之法；个中有示例Demo，以及代码和优劣之评。<br><a id="more"></a></p>
@@ -720,16 +720,16 @@
     
     </summary>
     
-      <category term="CSS" scheme="http://jeffjade.github.io/tags/CSS/"/>
+      <category term="CSS" scheme="http://www.jeffjade.com/tags/CSS/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[聊聊心中功夫明星榜]]></title>
-    <link href="http://jeffjade.github.io/2015/11/07/2015-11-07-share-kungfu-star/"/>
-    <id>http://jeffjade.github.io/2015/11/07/2015-11-07-share-kungfu-star/</id>
+    <link href="http://www.jeffjade.com/2015/11/07/2015-11-07-share-kungfu-star/"/>
+    <id>http://www.jeffjade.com/2015/11/07/2015-11-07-share-kungfu-star/</id>
     <published>2015-11-07T10:30:00.000Z</published>
     <updated>2015-11-09T16:27:11.000Z</updated>
     <content type="html"><![CDATA[<p>见识浅薄，故此必然难以周全。仅以所晓明星作品和人生为基点，个人喜好为腔调来絮叨。耗一日之功来敲打，权作祭奠和分享逝去的功夫片陪伴的那些青葱岁月。若有不妥处，还请见谅。</p>
@@ -808,16 +808,16 @@
     
     </summary>
     
-      <category term="Share" scheme="http://jeffjade.github.io/tags/Share/"/>
+      <category term="Share" scheme="http://www.jeffjade.com/tags/Share/"/>
     
-      <category term="Share" scheme="http://jeffjade.github.io/categories/Share/"/>
+      <category term="Share" scheme="http://www.jeffjade.com/categories/Share/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[类数组借用数组方法]]></title>
-    <link href="http://jeffjade.github.io/2015/11/02/2015-11-02-likeArray-borrow-ArrayFun/"/>
-    <id>http://jeffjade.github.io/2015/11/02/2015-11-02-likeArray-borrow-ArrayFun/</id>
+    <link href="http://www.jeffjade.com/2015/11/02/2015-11-02-likeArray-borrow-ArrayFun/"/>
+    <id>http://www.jeffjade.com/2015/11/02/2015-11-02-likeArray-borrow-ArrayFun/</id>
     <published>2015-11-02T04:00:00.000Z</published>
     <updated>2015-11-02T07:19:11.000Z</updated>
     <content type="html"><![CDATA[<p>于JavaScript如何将对象转化为数组对象，其用法写法已经很常见且完善，比如JQuery中的<code>makeArray</code>函数对此的实现，也是跟大家想的差不多，只是考虑的周全些罢了,<a href="#3">看源码</a>；但对于<code>类数组借用数组方法</code>的写法，对其学习探究过程中大长了些许姿势，觉其倒是一个挺有趣问题。</p>
@@ -874,16 +874,16 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://www.jeffjade.com/tags/JavaScript/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[博客引入漂亮字体二三事]]></title>
-    <link href="http://jeffjade.github.io/2015/10/28/2015-10-28-css3-webfont/"/>
-    <id>http://jeffjade.github.io/2015/10/28/2015-10-28-css3-webfont/</id>
+    <link href="http://www.jeffjade.com/2015/10/28/2015-10-28-css3-webfont/"/>
+    <id>http://www.jeffjade.com/2015/10/28/2015-10-28-css3-webfont/</id>
     <published>2015-10-28T13:00:00.000Z</published>
     <updated>2015-11-16T09:37:36.000Z</updated>
     <content type="html"><![CDATA[<p>最近兴致上来，就想更换了那Blog标题字体(汉字的)；网上搜索了一番，发现<code>蘇新詩柳繁體</code>这款甚合我心；然后就着手搞将了起来，分分钟也算是替换了；但，这仅仅是此次折腾的开始；这就细细道来作为学习笔记记载。</p>
@@ -963,18 +963,18 @@
     
     </summary>
     
-      <category term="CSS" scheme="http://jeffjade.github.io/tags/CSS/"/>
+      <category term="CSS" scheme="http://www.jeffjade.com/tags/CSS/"/>
     
-      <category term="Toss" scheme="http://jeffjade.github.io/tags/Toss/"/>
+      <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Windows下效率必备软件]]></title>
-    <link href="http://jeffjade.github.io/2015/10/19/2015-10-18-Efficacious-win-software/"/>
-    <id>http://jeffjade.github.io/2015/10/19/2015-10-18-Efficacious-win-software/</id>
+    <link href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/"/>
+    <id>http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/</id>
     <published>2015-10-19T10:00:00.000Z</published>
     <updated>2015-11-02T07:06:22.000Z</updated>
     <content type="html"><![CDATA[<p>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！重而说三。</p>
@@ -1001,18 +1001,18 @@
     
     </summary>
     
-      <category term="Efficiency" scheme="http://jeffjade.github.io/tags/Efficiency/"/>
+      <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
     
-      <category term="Toss" scheme="http://jeffjade.github.io/tags/Toss/"/>
+      <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
     
-      <category term="Toss" scheme="http://jeffjade.github.io/categories/Toss/"/>
+      <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Vimium~让您的Chrome起飞]]></title>
-    <link href="http://jeffjade.github.io/2015/10/19/2015-10-18-chrome-vimium/"/>
-    <id>http://jeffjade.github.io/2015/10/19/2015-10-18-chrome-vimium/</id>
+    <link href="http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/"/>
+    <id>http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/</id>
     <published>2015-10-19T03:00:00.000Z</published>
     <updated>2015-10-19T10:26:55.000Z</updated>
     <content type="html"><![CDATA[<p><strong>工欲善其事，必先利其器！</strong>撸起Vimium,我的Chrome就这么起飞了。</p>
@@ -1049,20 +1049,20 @@
     
     </summary>
     
-      <category term="Chrome" scheme="http://jeffjade.github.io/tags/Chrome/"/>
+      <category term="Chrome" scheme="http://www.jeffjade.com/tags/Chrome/"/>
     
-      <category term="Efficiency" scheme="http://jeffjade.github.io/tags/Efficiency/"/>
+      <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
     
-      <category term="Toss" scheme="http://jeffjade.github.io/tags/Toss/"/>
+      <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
     
-      <category term="Toss" scheme="http://jeffjade.github.io/categories/Toss/"/>
+      <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[精美动画后宫苑]]></title>
-    <link href="http://jeffjade.github.io/2015/10/15/2015-10-15-nice-animation-collection/"/>
-    <id>http://jeffjade.github.io/2015/10/15/2015-10-15-nice-animation-collection/</id>
+    <link href="http://www.jeffjade.com/2015/10/15/2015-10-15-nice-animation-collection/"/>
+    <id>http://www.jeffjade.com/2015/10/15/2015-10-15-nice-animation-collection/</id>
     <published>2015-10-15T03:50:00.000Z</published>
     <updated>2015-10-15T10:16:25.000Z</updated>
     <content type="html"><![CDATA[<p>对于觉得美的事物，向来都怀有收藏之癖。迷恋精美网页动画已久，只是未能遇见娇藏她的“铜雀台”。直到一见钟情于她~<code>CodePen</code>站点地址：<a href="http://codepen.io/" target="_blank" rel="external">http://codepen.io/</a>。一款高效在线IDE，不仅站点是在墙内的，并且可免费使用其常用功能；并且功能体验俱佳，真是深得我心啊。至于关于CodePen可以参见：<a href="http://stoneydream.com/2015/09/19/%E4%BD%BF%E7%94%A8codepen%E5%88%86%E4%BA%AB%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81/" target="_blank" rel="external">使用codepen分享前端代码</a>和张鑫旭的<a href="http://www.zhangxinxu.com/wordpress/2012/07/codepen-jsfiddle/" target="_blank" rel="external">见多识广,CodePen项目网站简介</a>。当然，仅仅收藏之，倒无什么意义，待得空闲，须当一一深析以为己用方是正道。</p>
@@ -1076,16 +1076,16 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://www.jeffjade.com/tags/JavaScript/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Cleaver快速制作网页PPT]]></title>
-    <link href="http://jeffjade.github.io/2015/10/15/2015-10-16-cleaver-make-ppt/"/>
-    <id>http://jeffjade.github.io/2015/10/15/2015-10-16-cleaver-make-ppt/</id>
+    <link href="http://www.jeffjade.com/2015/10/15/2015-10-16-cleaver-make-ppt/"/>
+    <id>http://www.jeffjade.com/2015/10/15/2015-10-16-cleaver-make-ppt/</id>
     <published>2015-10-15T03:50:00.000Z</published>
     <updated>2015-11-17T12:34:30.000Z</updated>
     <content type="html"><![CDATA[<p>如今互联网时代，以浏览器作为入口，已经有越来越多的桌面应用被web应用所取代。微软最赚钱的Office办公软件，也正在被免费的web应用所吞噬。如今即便薄学如我就已然知晓<code>reveal.js</code> <code>impress.js</code>等各种轮子来制作体验优良的网页PPT。今天就来尝试下这Node.js的轮子<code>Cleaver</code>来制作网页PPT。</p>
@@ -1124,18 +1124,18 @@
     
     </summary>
     
-      <category term="Efficiency" scheme="http://jeffjade.github.io/tags/Efficiency/"/>
+      <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
     
-      <category term="NodeJs" scheme="http://jeffjade.github.io/tags/NodeJs/"/>
+      <category term="NodeJs" scheme="http://www.jeffjade.com/tags/NodeJs/"/>
     
-      <category term="Toss" scheme="http://jeffjade.github.io/categories/Toss/"/>
+      <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[JavaScript对象length]]></title>
-    <link href="http://jeffjade.github.io/2015/10/08/2015-10-08-js-object-length/"/>
-    <id>http://jeffjade.github.io/2015/10/08/2015-10-08-js-object-length/</id>
+    <link href="http://www.jeffjade.com/2015/10/08/2015-10-08-js-object-length/"/>
+    <id>http://www.jeffjade.com/2015/10/08/2015-10-08-js-object-length/</id>
     <published>2015-10-08T09:30:00.000Z</published>
     <updated>2015-10-09T07:10:58.000Z</updated>
     <content type="html"><![CDATA[<p>前几日有在<a href="http://www.jeffjade.com/2015/09/25/2015-09-25-js-array/#" target="_blank" rel="external">Javascript数组操作</a>一文中稍提及了数组的length属性；深入一点探究，就发现JS这length确有许多难为所知的特性。这就边学边探究下这朵奇葩属性;这里边深入边记载。</p>
@@ -1168,16 +1168,16 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://www.jeffjade.com/tags/JavaScript/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[精妙JS代码段搜集]]></title>
-    <link href="http://jeffjade.github.io/2015/10/06/2015-10-06-perfect-js-code/"/>
-    <id>http://jeffjade.github.io/2015/10/06/2015-10-06-perfect-js-code/</id>
+    <link href="http://www.jeffjade.com/2015/10/06/2015-10-06-perfect-js-code/"/>
+    <id>http://www.jeffjade.com/2015/10/06/2015-10-06-perfect-js-code/</id>
     <published>2015-10-06T09:00:00.000Z</published>
     <updated>2015-10-06T12:30:20.000Z</updated>
     <content type="html"><![CDATA[<p>现在到处都是JavaScript，倘若花点时间去体察，每次都能知道点新的东西。一旦你入了门，你总能从这里或是那里领悟到很多知识。一旦发现些许有意思的东西，总习惯先收藏起来。待到时技(时间＋技术)成熟，再去感觉他们的源代码，看一看它们是怎么办到的，览一览大牛们的“奇技淫巧”。这里便是关于所遇精妙JS代码的收藏室，愿随时间的渐行渐远，这里收集的日渐丰盈，技术也能“层林尽染”。</p>
@@ -1199,18 +1199,18 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://www.jeffjade.com/tags/JavaScript/"/>
     
-      <category term="jQuery" scheme="http://jeffjade.github.io/tags/jQuery/"/>
+      <category term="jQuery" scheme="http://www.jeffjade.com/tags/jQuery/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[〔转〕jQuery编程的最佳实践]]></title>
-    <link href="http://jeffjade.github.io/2015/10/04/2015-10-03-use-jquery-better/"/>
-    <id>http://jeffjade.github.io/2015/10/04/2015-10-03-use-jquery-better/</id>
+    <link href="http://www.jeffjade.com/2015/10/04/2015-10-03-use-jquery-better/"/>
+    <id>http://www.jeffjade.com/2015/10/04/2015-10-03-use-jquery-better/</id>
     <published>2015-10-04T04:00:00.000Z</published>
     <updated>2015-10-06T08:56:56.000Z</updated>
     <content type="html"><![CDATA[<p>前几日看到这篇关于jQuery的文章，至少如今还觉得很好，就忍将不住的转了来；以备之后深加探究。此文出自“刘哇勇的部落格”<a href="http://www.cnblogs.com/Wayou/p/jquery_best_practise.html" target="_blank" rel="external">jQuery编程的最佳实践</a>；原文出自<a href="http://lab.abhinayrathore.com/jquery-standards/" target="_blank" rel="external">Coding Standards &amp; Best Practices</a>。另有一篇关于jQuery的不错文章<a href="http://code.tutsplus.com/tutorials/14-helpful-jquery-tricks-notes-and-best-practices--net-14405" target="_blank" rel="external">14 Helpful jQuery Tricks, Notes, and Best Practices</a>，值得一览，译文在此<a href="http://www.iinterest.net/2010/09/27/%E8%BD%AC14%E6%9D%A1%E5%85%B3%E4%BA%8Ejquery%E7%9A%84%E7%9F%A5%E8%AF%86/" target="_blank" rel="external">14条关于jQuery的知识</a>。</p>
@@ -1362,16 +1362,16 @@
     
     </summary>
     
-      <category term="jQuery" scheme="http://jeffjade.github.io/tags/jQuery/"/>
+      <category term="jQuery" scheme="http://www.jeffjade.com/tags/jQuery/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Javascript数组操作]]></title>
-    <link href="http://jeffjade.github.io/2015/09/25/2015-09-25-js-array/"/>
-    <id>http://jeffjade.github.io/2015/09/25/2015-09-25-js-array/</id>
+    <link href="http://www.jeffjade.com/2015/09/25/2015-09-25-js-array/"/>
+    <id>http://www.jeffjade.com/2015/09/25/2015-09-25-js-array/</id>
     <published>2015-09-25T13:30:00.000Z</published>
     <updated>2015-10-08T13:34:49.000Z</updated>
     <content type="html"><![CDATA[<p>使用JS也算有段时日，然对于数组的使用，总局限于很初级水平，且每每使用总要查下API，或者写个小Demo测试下才算放心，一来二去，浪费不少时间；思虑下，堪能如此继续之？当狠心深学下方是正道。</p>
@@ -1479,9 +1479,9 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="http://jeffjade.github.io/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://www.jeffjade.com/tags/JavaScript/"/>
     
-      <category term="Front-End" scheme="http://jeffjade.github.io/categories/Front-End/"/>
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
