@@ -1222,6 +1222,8 @@ article .article-content img,
 article .article-content video,
 article .article-content figure img {
   max-width: 100%;
+  display: table-cell;
+  margin: 0 auto;
   height: auto;
   vertical-align: middle;
   padding-top: 0.5em;
@@ -1253,10 +1255,11 @@ article .article-content .caption {
   position: relative;
   font-size: 0.9em;
   padding-left: 1.3em;
+  text-align: center;
+  font-style: italic;
 }
 article .article-content figcaption:before,
 article .article-content .caption:before {
-  content: '\f040';
   position: absolute;
   font: 0.9em "FontAwesome";
   position: absolute;
