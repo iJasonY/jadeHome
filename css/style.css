@@ -386,7 +386,7 @@ body >header {
   -webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   background: url("../") center #2d2d2d;
-  background-color: #d3d7d4;
+  background-color: #f6f6f6;
   color: #009ad6;
   padding: 1em 0 0.8em;
 }
@@ -474,19 +474,19 @@ body >header a:hover {
   height: 2em;
 }
 #textlogo h2.blog-motto {
-  font-size: 1.8em;
+  font-size: 1.66em;
   font-weight: normal;
   margin: -0.1em 0 0.88em 1.1em;
   font-family: "rougescript-regular", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
 }
 @media only screen and (min-width: 768px) {
   #textlogo h2.blog-motto {
-    font-size: 1.3em;
+    font-size: 1.66em;
   }
 }
 @media only screen and (min-width: 1024px) {
   #textlogo h2.blog-motto {
-    font-size: 1.3em;
+    font-size: 1.66em;
   }
 }
 .navbar {
