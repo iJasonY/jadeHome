@@ -90,22 +90,13 @@ a img {
   border: none;
 }
 /* custom Font*/
-@font-face {
-  font-family: "covered_by_your_graceregular";
-  font-weight: normal;
-  font-style: normal;
-  src: url("../font/coveredbyyourgrace-webfont.eot");
-  src: url("../font/coveredbyyourgrace-webfont.eot?#iefix") format('embedded-opentype'), url("../font/coveredbyyourgrace-webfont.svg#covered_by_your_graceregular") format('svg'), url("../font/coveredbyyourgrace-webfont.woff") format('woff'), url("../font/coveredbyyourgrace-webfont.ttf") format('truetype');
-}
 /* customfont(font-squareCircleName,font-squareCircleName) */
 /* customfont(font-sxslRegularTh, font-sxslRegularTh) */
-@font-face {
-  font-family: "sxslregularth-webfont";
-  font-weight: normal;
-  font-style: normal;
-  src: url("../font/sxslregularth-webfont.eot");
-  src: url("../font/sxslregularth-webfont.eot?#iefix") format('embedded-opentype'), url("../font/sxslregularth-webfont.svg#sxslregularth-webfont") format('svg'), url("../font/sxslregularth-webfont.woff") format('woff'), url("../font/sxslregularth-webfont.ttf") format('truetype');
-}
+/* 屏蔽掉 苏新诗柳 繁体字体 (2016-03-03)*/
+/* 屏蔽掉 "As you think", 那种惰性字体（coveredbyyourgrace-webfont） */
+/* customfont(font-custom-family,font-custom-filename) */
+/* 屏蔽掉 苏新诗柳 繁体字体 (2016-03-03)*/
+/* customfont(font-sxslRegularTh-webfont , font-sxslRegularTh-webfont)*/
 @font-face {
   font-family: "rougescript-regular";
   font-weight: normal;
@@ -483,10 +474,10 @@ body >header a:hover {
   height: 2em;
 }
 #textlogo h2.blog-motto {
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: normal;
   margin: -0.1em 0 0.88em 1.1em;
-  font-family: sxslRegularTh-webfont, "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+  font-family: "rougescript-regular", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
 }
 @media only screen and (min-width: 768px) {
   #textlogo h2.blog-motto {
@@ -2157,7 +2148,7 @@ footer {
   }
 }
 .info {
-  font-family: "covered_by_your_graceregular";
+  font-family: "rougescript-regular", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 150%;
@@ -2260,7 +2251,7 @@ footer {
 .copyright {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "covered_by_your_graceregular";
+  font-family: "rougescript-regular", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
   width: 100%;
   color: #fff;
   text-align: center;
