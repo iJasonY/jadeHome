@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-04T06:10:03.000Z</updated>
+  <updated>2016-03-04T06:39:29.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Atom使用纪要]]></title>
+    <title><![CDATA[新编码神器Atom使用纪要]]></title>
     <link href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/"/>
     <id>http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/</id>
     <published>2016-03-03T10:00:00.000Z</published>
-    <updated>2016-03-04T06:10:03.000Z</updated>
+    <updated>2016-03-04T06:39:29.000Z</updated>
     <content type="html"><![CDATA[<p><strong><a href="https://atom.io/" target="_blank" rel="external">Atom</a></strong> 是 <code>Github</code> 专门为程序员推出的一个跨平台文本编辑器。她很大程度上继承了SublimeText的美，而又不仅如此。有费了蛮大力气总结了一篇关于SublimeText文章: <a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a>，这其中可以感受个人对于Sublime的钟爱。而如今试用了 <code>Atom</code> 一个多月以来，我被迫见异思迁了，幸好我不是一个喜新厌旧的男人～在编码砌字时，很多时候一款编辑器的标签不够用的，所以现在两款兼而用之。</p>
 <a id="more"></a>
 <h1 id="Atom与SublimeText3对比">Atom与SublimeText3对比</h1><ul>
@@ -38,21 +38,18 @@
 <li><p>可以在终端terminal中安装：</p>
 <ul>
 <li><p>Mac OS</p>
-<ul>
-<li><blockquote>
+<blockquote>
 <p>~ brew install Caskroom/cask/atom</p>
 </blockquote>
-</li>
-</ul>
 </li>
 <li><p>Window OS</p>
 <blockquote>
 <p>可以用管理员身份打开Powershell，然后用 choco install 去安装 Atom.</p>
 <figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">choco <span class="keyword">install</span> atom</span><br></pre></td></tr></table></figure>
 </blockquote>
+<p> 这一点具体可以参见文章： <a href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/" target="_blank" rel="external">Win下必备神器之Cmder</a></p>
 </li>
 </ul>
-<p>这一点具体可以参见文章： <a href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/" target="_blank" rel="external">Win下必备神器之Cmder</a></p>
 </li>
 </ol>
 <h2 id="Atom的插件安装">Atom的插件安装</h2><ol>
