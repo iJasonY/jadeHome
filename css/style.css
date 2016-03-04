@@ -605,7 +605,7 @@ header nav ul li a:hover {
   color: #666;
 }
 *:-moz-placeholder {
-  color: #666;
+  color: #333;
 }
 *:-ms-input-placeholder {
   color: #666;
