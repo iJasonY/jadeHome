@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-04T06:39:29.000Z</updated>
+  <updated>2016-03-06T07:45:13.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,16 +19,17 @@
     <link href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/"/>
     <id>http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/</id>
     <published>2016-03-03T10:00:00.000Z</published>
-    <updated>2016-03-04T06:39:29.000Z</updated>
+    <updated>2016-03-06T07:45:13.000Z</updated>
     <content type="html"><![CDATA[<p><strong><a href="https://atom.io/" target="_blank" rel="external">Atom</a></strong> 是 <code>Github</code> 专门为程序员推出的一个跨平台文本编辑器。她很大程度上继承了SublimeText的美，而又不仅如此。有费了蛮大力气总结了一篇关于SublimeText文章: <a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a>，这其中可以感受个人对于Sublime的钟爱。而如今试用了 <code>Atom</code> 一个多月以来，我被迫见异思迁了，幸好我不是一个喜新厌旧的男人～在编码砌字时，很多时候一款编辑器的标签不够用的，所以现在两款兼而用之。</p>
 <a id="more"></a>
 <h1 id="Atom与SublimeText3对比">Atom与SublimeText3对比</h1><ul>
-<li>Atom1.0之后，有比Sublime更美的UI，不输Sublime的插件包，比Sublime更加舒适的细节，比如：<code>cmd-\</code> 显示或隐藏目录树。</li>
+<li>Atom1.0之后，有比Sublime更美的UI，不输Sublime的插件包，比Sublime更加舒适的细节，比如：Atom下 <code>cmd-\</code> 显示或隐藏目录树；（Sublime默认是 <code>Ctrl＋K+B</code> ）。</li>
 <li>更为简洁人性化的设置/插件安装等（当然SublimeText也不太复杂）。</li>
 <li>Atom算是一款web app，源码都是 CoffeeScript 写的，连界面都可以用 CSS 来自定义，扩展可以用JS开发，完全可以深度定制打造自己的IDE。Sublime基于Python，两者扩展性都非常强。</li>
 <li><strong>Atom</strong> 暂时还是免费的。而SublimeText，额，一直会弹那个框(使用网上注册码？)。</li>
 <li>对 <code>Markdown</code>的支持更加完美(见下文)；这一点真心是赞的不要不要的。</li>
 <li>类Web App嘛，对各平台的支持更为有好；比如：在mac下打开xxx文件/文件夹，Atom：terminal下直接 <strong>atom xxx</strong> 即可。而SublimeText会相对繁琐很多，比如为其添加系统别名，可参见<a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a>。windows下，安装了 <strong>Atom</strong>，就已经在鼠标右键列表了。</li>
+<li><code>Atom</code>,类Web的年轻一代编辑神器，在打开软件速度上稍逊SublimeText3。相比之下，对大文件响应处理上相比之下，还需很大提升。不过潜力还是挺足的。</li>
 <li><strong>Atom</strong> 有友好的中文社区<a href="https://atom-china.org/" target="_blank" rel="external">Atom China</a>。</li>
 </ul>
 <p>关于如何初步使用Atom，可以参见 <a href="https://atom-china.org/t/guan-fang-shou-ce-atom-ji-chu-shi-yong/62" target="_blank" rel="external">官方手册：Atom 基础使用</a>。</p>
@@ -102,7 +103,107 @@
 <li>Web前端<br><a href="https://atom.io/packages/autoclose-html" target="_blank" rel="external">autoclose-html</a> 闭合html标签<br><a href="https://atom.io/packages/language-vue-component" target="_blank" rel="external">language-vue-component</a>  Atom编写Vue高亮<br><a href="https://atom.io/packages/vue-autocompile" target="_blank" rel="external">vue-autocompile</a> Auto compiles vue in atom<br><a href="https://atom.io/packages/language-vue" target="_blank" rel="external">language-vue</a> Syntax highlighting for vue component files</li>
 </ul>
 <p>其插件已相当丰满，可以在<a href="https://atom.io/packages" target="_blank" rel="external">这里</a>搜索查找。Packages make Atom do amazing things.</p>
-<h2 id="舒爽书写作(Markdown)"><strong>舒爽书写作(Markdown)</strong></h2><p>Atom有自带MarkdownPreview,支持<code>Ctrl＋Shift＋M</code>实时预览。装上<a href="https://atom.io/packages/markdown-writer" target="_blank" rel="external">markdown-writer</a>插件，根据其默认配置:<a href="https://github.com/zhuochun/md-writer/wiki/Settings-for-Keymaps" target="_blank" rel="external">Settings for Keymaps</a>，完美；想必之下比<code>SublimeText</code>下的书写爽很多；也比<code>简书</code>，<code>作业部落</code>要更为强大。 比如对已经写下的文字<strong>加粗</strong>，选中 <code>Command＋B</code>即可；如果文字还没写，空格下 <strong>Command＋B</strong> 就会生成 <code>**｜**</code>，光标在第二个<code>*</code>之后，很是方便。 当然这快捷是可以更改的， <code>cmd + shift + p</code>输入setting呼出设置界面自行更改。</p>
+<h2 id="舒爽书写作(Markdown)"><strong>舒爽书写作(Markdown)</strong></h2><p>Atom有自带MarkdownPreview,支持<code>Ctrl＋Shift＋M</code>实时预览。装上<a href="https://atom.io/packages/markdown-writer" target="_blank" rel="external">markdown-writer</a>插件，根据其默认配置:<a href="https://github.com/zhuochun/md-writer/wiki/Settings-for-Keymaps" target="_blank" rel="external">Settings for Keymaps</a>，完美；想必之下比<code>SublimeText</code>下的书写爽很多；也比<code>简书</code>，<code>作业部落</code>要更为强大。 比如对已经写下的文字<strong>加粗</strong>，选中 <code>Command＋B</code>即可；如果文字还没写，空格下 <strong>Command＋B</strong> 就会生成 <code>**｜**</code>，光标在第二个<code>*</code>之后，很是方便。 当然这快捷是可以更改的， <code>cmd + shift + p</code>输入setting呼出设置界面自行更改。 <code>markdown-writer</code>书写 <strong>Markdown</strong> 默认快捷键如下：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">快捷键操作</th>
+<th style="text-align:center">作用效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">“shift-cmd-K”:</td>
+<td style="text-align:center">“markdown-writer : <strong> insert-link”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“shift-cmd-I”:</td>
+<td style="text-align:center">“markdown-writer : <strong> insert-image”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“cmd-i”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-italic-text”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“cmd-b”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-bold-text”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“cmd-‘“:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-code-text”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“cmd-k”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-keystroke-text”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“cmd-h”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-strikethrough-text”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“ctrl-alt-1”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-h1”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“ctrl-alt-2”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-h2”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“ctrl-alt-3”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-h3”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“ctrl-alt-4”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-h4”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“ctrl-alt-5”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-h5”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“shift-cmd-O”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-ol”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“shift-cmd-U”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-ul”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“shift-cmd-&gt;”:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-blockquote”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">‘shift-cmd-“‘:</td>
+<td style="text-align:center">“markdown-writer : <strong> toggle-codeblock-text”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“cmd-j cmd-p”:</td>
+<td style="text-align:center">“markdown-writer : <strong> jump-to-previous-heading”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“cmd-j cmd-n”:</td>
+<td style="text-align:center">“markdown-writer : <strong> jump-to-next-heading”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“cmd-j cmd-d”:</td>
+<td style="text-align:center">“markdown-writer : <strong> jump-between-reference-definition”</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">“cmd-j cmd-t”:</td>
+<td style="text-align:center">“markdown-writer : <strong> jump-to-next-table-cell”</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>如果您觉得本文的内容，对您有所帮助，您可以<strong>微信</strong>(左)/<strong>支付宝</strong>(右)，1元支持一下 凸^-^凸。<br><img src="http://7xoosr.com1.z0.glb.clouddn.com/seekAward.png" alt="倾情资助"></p>
+<hr>
+<p><strong>您可能感兴趣(/有用)的文章：</strong></p>
+<ul>
+<li><a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a></li>
+<li><a href="http://www.cnblogs.com/jadeboy/p/4165449.html" target="_blank" rel="external">sublime text 下的Markdown写作</a></li>
+<li><a href="http://www.jeffjade.com/2015/08/28/2015-08-28-Write-Morkdown/" target="_blank" rel="external">SublimeText下写作利器之MarkdownEditing</a></li>
+<li><a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a></li>
+</ul>
 ]]></content>
     <summary type="html">
     <![CDATA[纪录如何使用Atom：Atom快捷键；Atom常见问题；Atom推荐插件。]]>
