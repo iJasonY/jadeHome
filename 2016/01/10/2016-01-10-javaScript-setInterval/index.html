@@ -104,7 +104,8 @@
 		<p>在<a href="http://www.jeffjade.com/2016/01/10/2016-01-10-javacript-setTimeout/" target="_blank" rel="external">你所不知道的setTimeout</a>记载了下<strong>setTimeout</strong>相关,此篇则整理了下<strong>setInterval</strong>；作为拥有广泛应用场景(定时器，轮播图，动画效果，自动滚动等等)，而又充满各种不确定性的这setInterval，自当先洞悉它，才能很好的驾驭它。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/jiangXin.jpg" alt="你所不知道的setInterval"></p>
-<h2 id="1-_setInterval()基础"><strong>1. setInterval()基础</strong></h2><p>setInterval函数的用法与setTimeout完全一致，区别仅仅在于setInterval指定某个任务每隔一段时间就执行一次，也就是无限次的定时执行。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=<span class="string">"button"</span> onclick=<span class="string">"clearInterval(timer)"</span> value=<span class="string">"stop"</span>&gt;</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript"></span><br><span class="line">  <span class="keyword">var</span> i = <span class="number">1</span></span><br><span class="line">  <span class="keyword">var</span> timer = setInterval(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure></p>
+<h2 id="1-_setInterval()基础"><strong>1. setInterval()基础</strong></h2><p>setInterval函数的用法与setTimeout完全一致，区别仅仅在于setInterval指定某个任务每隔一段时间就执行一次，也就是无限次的定时执行。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=<span class="string">"button"</span> onclick=<span class="string">"clearInterval(timer)"</span> value=<span class="string">"stop"</span>&gt;</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript"></span><br><span class="line">  <span class="keyword">var</span> i = <span class="number">1</span></span><br><span class="line">  <span class="keyword">var</span> timer = setInterval(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 <p>上面代码表示每隔1000毫秒就输出一个2，直到用户点击了停止按钮。</p>
 <p>与setTimeout一样，除了前两个参数，setInterval 方法还可以接受更多的参数，它们会传入回调函数，下面是一个例子。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;<span class="built_in">arguments</span>.length;i++)&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="built_in">arguments</span>[i]);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">setInterval(f, <span class="number">1000</span>, <span class="string">"Hello World"</span>);</span><br><span class="line"><span class="comment">// Hello World</span></span><br><span class="line"><span class="comment">// Hello World</span></span><br><span class="line"><span class="comment">// Hello World</span></span><br><span class="line"><span class="comment">// ...</span></span><br></pre></td></tr></table></figure></p>
 <p>如果网页不在浏览器的当前窗口（或tab），许多浏览器限制setInteral指定的反复运行的任务最多每秒执行一次。</p>
@@ -119,7 +120,11 @@
 <p>每一轮Event Loop时，都会将“任务队列”中需要执行的任务，一次执行完。setTimeout和setInterval都是把任务添加到“任务队列”的尾部。因此，它们实际上要等到当前脚本的所有同步任务执行完，然后再等到本次Event Loop的“任务队列”的所有任务执行完，才会开始执行。由于前面的任务到底需要多少时间执行完，是不确定的，所以没有办法保证，setTimeout和setInterval指定的任务，一定会按照预定时间执行。</p>
 <p>这一点对于setInterval影响尤其大。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">setInterval(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">&#125;,<span class="number">1000</span>);</span><br><span class="line"></span><br><span class="line">(<span class="function"><span class="keyword">function</span> <span class="params">()</span></span>&#123;</span><br><span class="line">  sleeping(<span class="number">3000</span>);</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure></p>
 <p>上面的第一行语句要求每隔1000毫秒，就输出一个2。但是，第二行语句需要3000毫秒才能完成，请问会发生什么结果？</p>
-<p>结果就是等到第二行语句运行完成以后，立刻连续输出三个2，然后开始每隔1000毫秒，输出一个2。也就是说，setIntervel具有<strong>累积效应</strong>，如果某个操作特别耗时，超过了setInterval的时间间隔，排在后面的操作会被累积起来，然后在很短的时间内连续触发，这可能或造成性能问题（比如集中发出Ajax请求）。</p>
+<p><del>结果就是等到第二行语句运行完成以后，立刻连续输出三个2，然后开始每隔1000毫秒，输出一个2。也就是说，setIntervel具有<strong>累积效应</strong>，如果某个操作特别耗时，超过了setInterval的时间间隔，排在后面的操作会被累积起来，然后在很短的时间内连续触发，这可能或造成性能问题（比如集中发出Ajax请求）。</del><br>上一示例，根据网友 @看吓不说话 指出，在Nodejs环境下测试，并不会连续输出三个2；理由：setInterval 在准备把回调函数加入到事件队列的时候，会判断队列中是否还有未执行的回调，如果有的话，它就不会再往队列中添加回调函数。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> count = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> countId = setInterval(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(count &gt;= <span class="number">5</span>)&#123;</span><br><span class="line">    clearInterval(countId)</span><br><span class="line">  &#125;</span><br><span class="line">  count++;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">2</span>+ <span class="string">" time: "</span> +<span class="built_in">Date</span>.now());</span><br><span class="line">&#125;, <span class="number">1000</span>);</span><br><span class="line"></span><br><span class="line">(<span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> start = <span class="built_in">Date</span>.now();</span><br><span class="line">  <span class="keyword">for</span>(i=<span class="number">1</span>; i&lt;=<span class="number">200000000</span>;i++)&#123;</span><br><span class="line">    <span class="keyword">if</span>(i==<span class="number">200000000</span>)&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(i);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Date</span>.now() - start);</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure></p>
+<p>打印测试结果，如下：</p>
+<blockquote>
+<p>200000000<br>1771<br>2 time: 1457495719375<br>2 time: 1457495720378<br>2 time: 1457495721380<br>2 time: 1457495722383<br>2 time: 1457495723395<br>2 time: 1457495724397<br>[Finished in 8.5s]</p>
+</blockquote>
 <p>为了进一步理解JavaScript的单线程模型，请看下面这段伪代码。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">init</span><span class="params">()</span></span>&#123;</span><br><span class="line">  &#123; 耗时<span class="number">5</span>ms的某个操作 &#125;</span><br><span class="line">  触发mouseClickEvent事件</span><br><span class="line">  &#123; 耗时<span class="number">5</span>ms的某个操作 &#125;</span><br><span class="line">  setInterval(timerTask,<span class="number">10</span>);</span><br><span class="line">  &#123; 耗时<span class="number">5</span>ms的某个操作 &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">handleMouseClick</span><span class="params">()</span></span>&#123;</span><br><span class="line">  耗时<span class="number">8</span>ms的某个操作</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">timerTask</span><span class="params">()</span></span>&#123;</span><br><span class="line">  耗时<span class="number">2</span>ms的某个操作</span><br><span class="line">&#125;</span><br><span class="line">init();</span><br></pre></td></tr></table></figure></p>
 <p>请问调用init函数后，这段代码的运行顺序是怎样的？</p>
 <blockquote>
@@ -291,7 +296,7 @@
 			
 		
 			
-				<li><a href="/tags/Android/" title="Android">Android<sup>7</sup></a></li>
+				<li><a href="/tags/Efficiency/" title="Efficiency">Efficiency<sup>7</sup></a></li>
 			
 		
 			
@@ -299,7 +304,7 @@
 			
 		
 			
-				<li><a href="/tags/Efficiency/" title="Efficiency">Efficiency<sup>7</sup></a></li>
+				<li><a href="/tags/Android/" title="Android">Android<sup>7</sup></a></li>
 			
 		
 			
@@ -315,6 +320,10 @@
 			
 		
 			
+				<li><a href="/tags/Mac/" title="Mac">Mac<sup>3</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/jQuery/" title="jQuery">jQuery<sup>3</sup></a></li>
 			
 		
@@ -327,11 +336,7 @@
 			
 		
 			
-				<li><a href="/tags/Mac/" title="Mac">Mac<sup>3</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/Music/" title="Music">Music<sup>2</sup></a></li>
+				<li><a href="/tags/SublimeText/" title="SublimeText">SublimeText<sup>3</sup></a></li>
 			
 		
 			
@@ -339,11 +344,7 @@
 			
 		
 			
-				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/SublimeText/" title="SublimeText">SublimeText<sup>2</sup></a></li>
+				<li><a href="/tags/Movie/" title="Movie">Movie<sup>2</sup></a></li>
 			
 		
 			
@@ -351,11 +352,15 @@
 			
 		
 			
-				<li><a href="/tags/Movie/" title="Movie">Movie<sup>2</sup></a></li>
+				<li><a href="/tags/Adb/" title="Adb">Adb<sup>2</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/Adb/" title="Adb">Adb<sup>2</sup></a></li>
+				<li><a href="/tags/Backbone/" title="Backbone">Backbone<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Music/" title="Music">Music<sup>2</sup></a></li>
 			
 		
 			
@@ -464,12 +469,6 @@
           <li>
             
             	<a href="http://www.cnblogs.com/jadeboy/" target="_blank" title="云轩奕鹤">云轩奕鹤</a>
-            
-          </li>
-        
-          <li>
-            
-            	<a href="http://saryxi.com/" target="_blank" title="sary小屋">sary小屋</a>
             
           </li>
         
