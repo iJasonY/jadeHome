@@ -793,7 +793,7 @@ header nav ul li a:hover {
   -webkit-border-radius: 15px;
   border-radius: 15px;
   background: #27342b;
-  color: #817c7c;
+  color: #f5f5f5;
   text-decoration: none;
 }
 #main article.post-expand .article-more-link a:hover {
