@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-09T10:24:30.000Z</updated>
+  <updated>2016-03-09T10:27:24.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/"/>
     <id>http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/</id>
     <published>2016-03-03T10:00:00.000Z</published>
-    <updated>2016-03-09T10:24:30.000Z</updated>
+    <updated>2016-03-09T10:27:24.000Z</updated>
     <content type="html"><![CDATA[<p><strong><a href="https://atom.io/" target="_blank" rel="external">Atom</a></strong> 是 <code>Github</code> 专门为程序员推出的一个跨平台文本编辑器。她很大程度上继承了SublimeText的美，而又不仅如此。有费了蛮大力气总结了一篇关于SublimeText文章: <a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a>，这其中可以感受个人对于Sublime的钟爱。而如今试用了 <code>Atom</code> 一个多月以来，我被迫见异思迁了，幸好我不是一个喜新厌旧的男人～在编码砌字时，很多时候一款编辑器的标签不够用的，所以现在两款兼而用之。</p>
 <a id="more"></a>
 <h1 id="Atom与SublimeText3对比">Atom与SublimeText3对比</h1><ul>
@@ -1361,24 +1361,33 @@
     <link href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/"/>
     <id>http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/</id>
     <published>2015-10-19T10:00:00.000Z</published>
-    <updated>2015-11-02T07:06:22.000Z</updated>
+    <updated>2016-03-10T03:35:52.000Z</updated>
     <content type="html"><![CDATA[<p>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！重而说三。</p>
 <a id="more"></a>
 <p><strong>AutoHotKey</strong>: 神器！神器！神器！当然也得看使用者咯(<em>^__^</em>) 嘻嘻……</p>
 <p><strong>Listary</strong>： 本地搜索<strong>神器</strong>，当然还有别的作用，More&amp;More。</p>
 <p><strong>Launchy</strong> : 快速启动安装的应用程序，老而弥坚，有丝Mac下Spotlight之风；</p>
 <p><strong>Chrome</strong>: Web世界里的神，的神，神。偏爱ing；</p>
-<p><strong>SublimeText3</strong>： 编码垒字的神器，还能览图/文件对比/…,偏爱ing；</p>
+<p><strong>SublimeText3</strong>： 编码垒字的神器，还能览图/文件对比/…,偏爱ing；自荐笔者总结一文： <strong><a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a></strong></p>
 <p><strong>Picasa3</strong>: 图片查看器中的佼佼者，偏爱ing。姑姑出品，必属精品！</p>
 <p><strong>Clover</strong>： 在Win下必备，谁让Win资源管理器太…QT，TotalCommand太重(⊙o⊙)…</p>
 <p><strong>Everything</strong>： 本来必备神器，无奈我移情别恋了—Listary。不过是不会忘了你。</p>
 <p><strong>Foxmail</strong>： 对比体验不多，不做评判，必备；反正不用win自带的。</p>
 <p><strong>Evernote</strong>: 纪录/收藏你想保存的文｜图｜网页;<strong>为知笔记</strong>～功能同丰满,身材更骨感😄。</p>
 <p><strong>Beyond Compare</strong> : 文件比较器; 此款为所接触中最佳。</p>
-<p><strong><a href="https://github.com/cmderdev/cmder/releases" title="CmderDownAdress" target="_blank" rel="external">Cmder</a></strong>:  windows下cmd的替换工具,支持PowerShell;同比还有PowerShell，<a href="https://github.com/Maximus5/ConEmu" title="ConEmuDownAdress" target="_blank" rel="external">ConEmu</a> 等。</p>
-<p><strong><a href="https://www.zybuluo.com/cmd/" target="_blank" rel="external">作业部落客户端</a></strong>:开启卓越写作之旅,支持全平台＋离线使用，一键发布文稿，社交化批注。身材苗条，面容姣好，免费Markdown书写平台的魅力战斗机。 </p>
-<p><strong>夜神模拟器</strong>: 经历了<code>BlueStacks</code>,<code>海马</code>，一遇这<code>夜神</code>,认你乃最佳！</p>
+<p><strong><a href="https://github.com/cmderdev/cmder/releases" title="CmderDownAdress" target="_blank" rel="external">Cmder</a></strong>:  windows下cmd的替换工具,支持PowerShell;同比还有PowerShell，<a href="https://github.com/Maximus5/ConEmu" title="ConEmuDownAdress" target="_blank" rel="external">ConEmu</a> 等。自荐笔者总结的：<a href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/#" target="_blank" rel="external">Win下必备神器之Cmder</a>。</p>
+<p><strong><a href="https://www.zybuluo.com/cmd/" target="_blank" rel="external">作业部落客户端</a></strong>:开启卓越写作之旅,支持全平台＋离线使用，一键发布文稿，社交化批注。身材苗条，面容姣好，免费Markdown书写平台的魅力战斗机。</p>
+<p><del><strong>夜神模拟器</strong>: 经历了<code>BlueStacks</code>,<code>海马</code>，一遇这<code>夜神</code>,认你乃最佳！</del>之后体验过程也没那么好，兼用海马(都不经常)。</p>
 <p><strong>网易云音乐</strong>: 初遇<code>QQ音乐</code>,处过<code>天天动听</code>,恋过<code>酷狗</code>，上过<code>酷我</code>，一夜情过<code>千千静听</code>,移情过<code>虾米</code>，和<code>豆瓣FM</code>好过，同<code>百度随心听</code>约过,最后，发现音乐的世界,还得是你～<strong>网易云音乐</strong>。</p>
+<hr>
+<p>[Update: 2016-03-09 ~ 2016-03-10]</p>
+<p><strong><a href="https://atom.io/" target="_blank" rel="external">Atom</a></strong>: 新一代编码写文神器；虽还在发展，却已惊艳。自荐笔者一文：<a href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/" target="_blank" rel="external">新编码神器Atom使用纪要</a>。</p>
+<p><strong><a href="https://git-for-windows.github.io" target="_blank" rel="external">Git for Windows</a></strong> : 打包好了，直接使用；Git 一族必备。</p>
+<p><strong><a href="https://nodejs.org" target="_blank" rel="external">Nodejs</a></strong>: 可以辅助让Sublime编译Js；可以做<strong>Web开发</strong>，<strong>REST开发**</strong>，<strong>Web聊天室/爬虫</strong>，<strong>Web博客</strong>(Hexo)，<strong>Web论坛</strong>等等，可参见<a href="http://www.nodejs.net/a/20141016/233306.html" target="_blank" rel="external">分享十五个NodeJS应用场景</a>；还可以利用Nodejs的包管理器<code>Npm</code> 安装<code>Gulp</code> <code>Webpack</code>等屌炸天工具～做大多你可以想到的东东；Web端必备。</p>
+<p><strong><a href="http://www.goodsync.com" target="_blank" rel="external">GoodSync</a></strong>: 文件同步好帮手。可以同步 <code>本地文件</code> <code>P2P</code> <code>云</code>(Dropbox,Google,OnDrive,FTP/SFTP等等)，还可以同步<strong>应用程序</strong> 以及各设备；强大且不失简洁。比如：<strong>SFTP</strong>同步，用过SublimeText的SFTP(最方便，却老弹框)，WinSCP(F5即可同步，设计却不人性化)，Gulp的SFTP(只是需要率先Watch)，Xftp4(老牌了，都是手动点来点去，额)。</p>
+<p><strong><a href="http://www.ghisler.com" target="_blank" rel="external">Total Commander</a></strong>: 资源管理器集大成者，只是快捷键太繁琐，用她需要花费些时间了解她先；个人还是用 <code>Clover</code>(虽然她很容易发脾气，简单就好)。</p>
+<p><strong><a href="https://getsharex.com" target="_blank" rel="external">ShareX</a></strong>: 截图、注释、上传，复制 URL 一条龙服务；免费，强大而简洁；自动存储；支持双屏；支持录制；还有给力有用的工具集…大有相见恨晚之感 (☆_☆)(唯一没中不足是：安装时需率先安装Steam桌面应用，不过无妨)。</p>
+<hr>
 <p><strong><a href="http://www.jeffjade.com/2015/05/26/2015-05-26-high-efficiency-tools-collecting/" target="_blank" rel="external">更多关于效率工具文章</a></strong></p>
 ]]></content>
     <summary type="html">
