@@ -90,11 +90,10 @@ a img {
   border: none;
 }
 /* custom Font*/
-/* customfont(font-squareCircleName,font-squareCircleName) */
-/* customfont(font-sxslRegularTh, font-sxslRegularTh) */
-/* 屏蔽掉 苏新诗柳 繁体字体 (2016-03-03)*/
 /* 屏蔽掉 "As you think", 那种惰性字体（coveredbyyourgrace-webfont） */
 /* customfont(font-custom-family,font-custom-filename) */
+/* customfont(font-squareCircleName,font-squareCircleName) */
+/* customfont(font-sxslRegularTh, font-sxslRegularTh) */
 /* 屏蔽掉 苏新诗柳 繁体字体 (2016-03-03)*/
 /* customfont(font-sxslRegularTh-webfont , font-sxslRegularTh-webfont)*/
 @font-face {
