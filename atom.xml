@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-11T04:00:59.000Z</updated>
+  <updated>2016-03-12T06:54:45.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -13,6 +13,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Win下最爱效率神器:AutoHotKey]]></title>
+    <link href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/"/>
+    <id>http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/</id>
+    <published>2016-03-11T10:00:00.000Z</published>
+    <updated>2016-03-12T06:54:45.000Z</updated>
+    <content type="html"><![CDATA[<p><strong><a href="https://autohotkey.com/" target="_blank" rel="external">AutoHotkey</a></strong>是一个windows下的开源、免费、自动化软件工具。它由最初旨在提供键盘快捷键的脚本语言驱动(称为：<strong>热键</strong>)，随着时间的推移演变成一个完整的脚本语言。但你不需要把它想得太深，你只需要知道它可以简化你的重复性工作，一键自动化启动或运行程序等等；以此提高我们的<strong>工作效率</strong>，改善<strong>生活品质</strong>；通过按键映射，鼠标模拟，定义宏等。</p>
+<a id="more"></a>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/AutoHotKeyBg.jpg" alt="图片来自：zoommyapp.com"></p>
+<p>如要问<strong>AutoHotKey</strong>是什么？这是一个仁者见仁，智者见智的问题。你可以将其看作是一个热键增添器，也可以当成改键器/屏幕录制器，或者是游戏热键外挂等等。你可以在<a href="https://autohotkey.com/boards/viewtopic.php?f=29&amp;t=4199" target="_blank" rel="external">AutoHotkey 擅长什么？</a>得到一个方向；笔者这里只是介绍一些粗浅却很实用的用法，与诸君分享。</p>
+<h2 id="下载安装AutoHotkey"><strong>下载安装AutoHotkey</strong></h2><p>在浏览器中输入网址 <a href="http://www.autohotkey.com/" target="_blank" rel="external">http://www.autohotkey.com/</a> 进入AutoHotkey的官网，点击“download”下载即可将AutoHotkey保存到本地磁盘。接着双击点击安装就可以了。</p>
+<h2 id="建立AutoHotkey脚本"><strong>建立AutoHotkey脚本</strong></h2><p>安装完成后默认会在系统盘的“本地文档”下创建一个”AutoHotkey.ahk”脚本，双击以后我们会看到任务栏右下角有个图标，就表示它在运行了[如下图标注处所示]。我们在里面写入相应的映射代码然后右击选择”<strong>reload this script</strong>“执行它就可以开始使用AutoHotkey里面设置好的功能了。<br><img src="http://7xoosr.com1.z0.glb.clouddn.com/autohotkey.jpg" alt="AutoHotKey"></p>
+<p>如果我们想在其他地方放置脚本怎么办呢？很简单，只要新建一个文本文档，将其后缀名改为.ahk然后执行它就行了。所以，在同一台电脑中，你甚至可以存放多个脚本。当用不到该脚本了只需要，鼠标移到该图标处，右键选择<strong>exit</strong>即可，很是方便。</p>
+<p>为了方便修改该脚本，你可以将其放置于你觉得方便的位置，丝毫不影响，双击可运行之。我们还可以为该脚本设置开机自启动，只需要将该脚本生成一个“快捷方式”，然后将此快捷方式放置到程序自启动文件夹之下即可,一般都在这儿：</p>
+<blockquote>
+<p>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp</p>
+</blockquote>
+<p>如此一开机，就可以使用脚本中所配置的功能，大为便捷。</p>
+<h2 id="简单实用的实例"><strong>简单实用的实例</strong></h2><p>这里简单说明下脚本中常用符号代表的含义：</p>
+<blockquote>
+<p><strong>#</strong> 号代表 <strong><em>Win</em></strong> 键；<br><strong>!</strong> 号代表 <strong><em>Alt</em></strong> 键；<br><strong>^</strong> 号代表 <strong><em>Alt</em></strong> 键；<br><strong>+</strong> 号代表 <strong><em>shift</em></strong> 键；<br><strong>::</strong> 号(两个英文冒号)起分隔作用；<br><strong>run</strong>，非常常用 的 AHK 命令之一;<br><strong>;</strong> 号代表 注释后面一行内容；</p>
+</blockquote>
+<p><strong>run</strong>它的后面是要运行的程序完整路径（比如我的<strong>Sublime</strong>的完整路径是：D:\Program Files (x86)\Sublime Text 3\sublime_text.exe）或网址。为什么第一行代码只是写着“notepad”，没有写上完整路径？因为“notepad”是“运行”对话框中的命令之一。</p>
+<p>如果你想按下“Ctrl + Alt + Shift + Win + Q”（这个快捷键真拉风啊。(￣▽￣)）来启动 QQ 的话，可以这样写：</p>
+<blockquote>
+<p>^!+#q::run  QQ所在完整路径地址。</p>
+</blockquote>
+<p><strong>AutoHotKey</strong>的强大，有类似Mac下的<strong>Alfred2</strong>之风，可以自我定制(当然啦，后者还是强大太多)。所以可以说，她强大与否，在于使用者的你爱或者不爱<code>折腾</code>。学以致用，如果简单的折腾下，可以使得我们工作效率大幅提升，何乐不为？况且，在见识的增长中，这可以给我们思维带来极大的营养。以下是笔者常用功能的脚本配置：</p>
+<h3 id="极速打开网页"><strong>极速打开网页</strong></h3><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">;<span class="string">Notes:</span> #==win !==Alt <span class="number">2015</span>-<span class="number">05</span>-<span class="number">20</span>  ^==Ctr  +==shift</span><br><span class="line"></span><br><span class="line">;=========================================================================</span><br><span class="line">#<span class="string">j:</span>:Run www.jeffjade.com</span><br><span class="line">#<span class="string">b:</span>:Run <span class="string">https:</span><span class="comment">//www.baidu.com/</span></span><br><span class="line">#<span class="string">c:</span>:Run <span class="string">https:</span><span class="comment">//www.google.com/</span></span><br><span class="line">#<span class="string">y:</span>:Run <span class="string">http:</span><span class="comment">//www.cnblogs.com/jadeboy/</span></span><br><span class="line">#<span class="number">0</span>::Run <span class="string">https:</span><span class="comment">//tinypng.com/</span></span><br><span class="line">#<span class="string">v:</span>:Run <span class="string">https:</span><span class="comment">//www.v2ex.com/</span></span><br><span class="line">;-------------------------------------------------------------------------</span><br></pre></td></tr></table></figure>
+<p>这是特常用的功能；如上脚本，<strong>Win+J</strong>即可打开自己个人博客，<strong>Win+0</strong>则打开熊猫网址去压缩图片… …。不管pc焦点何在，使用自己配置的快捷键，即可达到所想，方便而快捷，大慰我心。网上冲浪，自然选取了Chrome，配之以<strong>Vimium</strong>插件<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/" target="_blank" rel="external">Vimium~让您的Chrome起飞</a>，分分钟甩掉鼠标；生命聊聊不过百年，如此短暂，在鼠标经常性滑过去来做一些可以更高便捷的事儿，所不必要消耗的一秒半秒，我没那么慷慨(即使我会花费更多时间去发发呆)。 </p>
+<blockquote>
+<p><strong>温馨提示</strong>： 以下几个系统默认的 Win 快捷键：<br>Win + E：打开资源管理器；<br>Win + D：显示桌面；<br>Win + F：打开查找对话框；<br>Win + R：打开运行对话框；<br>Win + L：锁定电脑；<br>Win + PauseBreak：打开系统属性对话框;<br>Win + Q: 本地文件/网页等搜索;<br>Win + U: 打开控制面板－轻松使用设置中心;</p>
+</blockquote>
+<h3 id="便捷呼出程序"><strong>便捷呼出程序</strong></h3><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">!n::run notepad</span><br><span class="line">!c::run, D:<span class="command">\SoftwareKit</span><span class="command">\_</span>jade_new_soft<span class="command">\cmd</span>_markdown_win64<span class="command">\Cmd</span> Markdown.exe</span><br><span class="line">!r:: run, D:<span class="command">\SoftwareKit</span><span class="command">\_</span>jade_new_soft<span class="command">\cmder</span>_mini<span class="command">\Cmder</span>.exe</span><br><span class="line">!q::run, D:<span class="command">\Program</span> Files (x86)<span class="command">\Tencent</span><span class="command">\QQIntl</span><span class="command">\QQUninst</span>.exe</span><br><span class="line">!space::run, D:<span class="command">\Program</span> Files (x86)<span class="command">\Sublime</span> Text 3<span class="command">\sublime</span>_text.exe</span><br><span class="line">;==========================================================================</span><br></pre></td></tr></table></figure>
+<p>以上为<strong>Alt</strong>外加一些键来打开本地应用程序。即便完全可以自己配置<strong>热键</strong>，但是一旦多了，不常用的话记起来也略显麻烦。所以选择<strong>Alt</strong>键组合来打开本地应用程序。<strong>Win</strong>键来呼出网页。在有了<strong>Launchy</strong>这类软件之后，也就不怎么过为本地程序配置快捷键了。</p>
+<p>之前一段时间认为，珍爱生命，就当远离Windows。在给其配了SSD硬盘，在不断折腾应用一些软件，在不断了解&amp;熟悉Windows之后，这一想法倒也缓和了不少。Windows下的<strong>AutoHotKey</strong> + <strong>Listary</strong> + <strong>Launchy</strong> 组合，倒也有了点Mac下 <code>Alfred2</code>免费功能部分。这一点在<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/" target="_blank" rel="external">Windows下效率必备软件</a>中有过记载。</p>
+<h3 id="一键拷贝文件路径"><strong>一键拷贝文件路径</strong></h3><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">^+c::</span><br><span class="line">; null= </span><br><span class="line"><span class="keyword">send</span> ^c</span><br><span class="line"><span class="keyword">sleep</span>,<span class="number">200</span></span><br><span class="line">clipboard=<span class="variable">%clipboard</span>% ;<span class="variable">%null</span>%</span><br><span class="line">tooltip,<span class="variable">%clipboard</span>%</span><br><span class="line"><span class="keyword">sleep</span>,<span class="number">500</span></span><br><span class="line">tooltip,</span><br><span class="line"><span class="keyword">return</span></span><br></pre></td></tr></table></figure>
+<p>只需要<strong>Ctrl+shift+c</strong>即可拷贝文件路径；方便快捷，爽！。</p>
+<h3 id="改掉大写键为Enter"><strong>改掉大写键为Enter</strong></h3><figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">;replace CapsLock <span class="keyword">to</span> LeftEnter; CapsLock <span class="subst">=</span> Alt CapsLock</span><br><span class="line"><span class="variable">$CapsLock</span><span class="tag">::Enter</span></span><br><span class="line"></span><br><span class="line">LAlt <span class="subst">&amp;</span> Capslock<span class="tag">::SetCapsLockState</span>, <span class="subst">%</span> GetKeyState(<span class="string">"CapsLock"</span>, <span class="string">"T"</span>) <span class="subst">?</span> <span class="string">"Off"</span> : <span class="string">"On"</span></span><br><span class="line"></span><br><span class="line"><span class="subst">!</span>u<span class="tag">::Send</span> ^c <span class="subst">!</span>&#123;tab&#125; ^v</span><br></pre></td></tr></table></figure>
+<p>看网上朋友说<strong>CapsLock</strong>(大写切换按键)没怎么大用处；想来也是，个人每次需要输入大写字符，也是配合Shift来实现。那么此按键意义何在？那就改成<strong>Enter</strong>键好了。有时候右手需要操纵鼠标时候，左手小拇指按此键来实现换行，蛮好；既然大写切换不怎么常用，那么用<strong>Alt+CapsLock</strong>来组合实现也无不妥；以上脚本即为此意。</p>
+<h3 id="缩写快速打出常用语"><strong>缩写快速打出常用语</strong></h3><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">::/mail::gmail@gmail.com</span></span><br><span class="line"><span class="attribute">::/jeff::http://www.jeffjade.com/</span></span><br><span class="line"><span class="attribute">::/con::console.log();</span></span><br><span class="line"><span class="attribute">::/js::javascript:;</span></span><br><span class="line"><span class="attribute">::/fk::轩先生这会子肯定在忙，请骚后。thx。祝君：天天开心，日日欣悦。</span></span><br></pre></td></tr></table></figure>
+<p><strong>AutoHotKey</strong>一个很强大之处，在任何能正常显示 <strong>unicode</strong>字符的程序中（比如浏览器的地址栏、MS Word Rtx）；如以上代码，键入<code>/jeff</code> 后，再加<strong>空格</strong>、或 <strong>tab</strong>、或<strong>回车</strong>，就可以触发缩写；根据输入不同方式（空格，tab，回车）输出的内容后也相应附加了[空格/tab/回车，用起来很是舒爽]; 当然了这里<code>/jeff</code>也可以配置其他如<code>:jeff</code>，按照个人喜好了。</p>
+<h3 id="颜色神偷">颜色神偷</h3><figure class="highlight processing"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">^#c::</span><br><span class="line">MouseGetPos, <span class="variable">mouseX</span>, <span class="variable">mouseY</span></span><br><span class="line">; 获得鼠标所在坐标，把鼠标的 X 坐标赋值给变量 <span class="variable">mouseX</span> ，同理 <span class="variable">mouseY</span></span><br><span class="line">PixelGetColor, <span class="built_in">color</span>, %<span class="variable">mouseX</span>%, %<span class="variable">mouseY</span>%, RGB</span><br><span class="line">; 调用 PixelGetColor 函数，获得鼠标所在坐标的 RGB 值，并赋值给 <span class="built_in">color</span></span><br><span class="line">StringRight <span class="built_in">color</span>,<span class="built_in">color</span>,<span class="number">6</span></span><br><span class="line">; 截取 <span class="built_in">color</span>（第二个 <span class="built_in">color</span>）右边的<span class="number">6</span>个字符，因为获得的值是这样的：#RRGGBB，一般我们只需要 RRGGBB 部分。把截取到的值再赋给 <span class="built_in">color</span>（第一个 <span class="built_in">color</span>）。</span><br><span class="line">clipboard = %<span class="built_in">color</span>%</span><br><span class="line">; 把 <span class="built_in">color</span> 的值发送到剪贴板</span><br><span class="line"><span class="keyword">return</span></span><br></pre></td></tr></table></figure>
+<p>这个功能，搞Web端还是可以备着的。很好用，按下配置好快捷键，即可取得鼠标所在光标处颜色色值到剪切版中－爽啊。(个人用<code>Win+C</code>呼出了 <strong>Chrome</strong>，<code>Alt+C</code>调出作业部落客户端<strong>Cmd Markdown</strong>,所以这里就用了<code>Ctrl+Win+c</code>来取色，也还算方便)</p>
+<h2 id="折腾AutoHotKey总结"><strong>折腾AutoHotKey总结</strong></h2><p><strong>折腾</strong>是奔着实用才去做的，所以笔者也只是看下可以常用功能而已。其实<strong>AutoHotKey</strong>远不止如此；<a href="https://autohotkey.com/boards/viewtopic.php?t=1099" target="_blank" rel="external">AutoHotkey 学习指南</a>这里可见一斑。网络上也可以搜出<strong>AutoHotKey 懒人包</strong>，里面有二十余脚本，如：<em>“计时器”</em>，<em>“禁止Win键”</em>，<em>“秒杀窗口，左键加右键”</em>云云；需要的话下载即可使用；知乎有一专栏<a href="http://zhuanlan.zhihu.com/autohotkey" target="_blank" rel="external">取消关注AutoHotkey 之美</a>，粗略扫了下，算是一可以扩充见识之门，有兴趣更多了解<strong>AutoHotKey</strong>的朋友们，可参看下。</p>
+<p><strong>AutoHotKey</strong>定有很多好用的功能，此文仅作简单介绍，抛砖以引美玉。希望知道更多有用玩法的朋友可以慷慨分享，让我等Coder效率可以提一提，节省那么些时间：去学习，去把妹(/泡哥)，去享受生活。如果可以，也殷切希望，以此篇介绍给不怎么爱折腾的朋友带来一点参考。王小波在《思维的乐趣》中引用罗素一言：<strong>「须知参差多态，乃是幸福的本源」</strong>；如果您不喜欢折腾，这里并无勉强之意；生活之事，快乐就好。</p>
+<p>最后自荐简书一专题<a href="http://www.jianshu.com/collection/2f6a49e22121" target="_blank" rel="external">《折腾之美》</a>：工欲善其事，必先利其器。大道至简：<strong>因为折腾，所以简洁</strong>；为爱折腾的你而生，欢请你的入盟(专题起源可参见<a href="http://www.jeffjade.com/2016/02/22/2016-02-22-beautiful-of-toss/#more" target="_blank" rel="external">折腾之美-序</a>)。</p>
+<p>——-2016-03-11晚—-于深圳———</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[AutoHotkey教程：是一个windows下的开源、免费、自动化软件工具，它可以简化你的重复性工作，一键自动化启动或运行程序等等。]]>
+    
+    </summary>
+    
+      <category term="AutoHotKey" scheme="http://www.jeffjade.com/tags/AutoHotKey/"/>
+    
+      <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
+    
+      <category term="Share" scheme="http://www.jeffjade.com/tags/Share/"/>
+    
+      <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
+    
+      <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[新编码神器Atom使用纪要]]></title>
@@ -277,7 +343,7 @@
     <link href="http://www.jeffjade.com/2016/02/22/2016-02-22-beautiful-of-toss/"/>
     <id>http://www.jeffjade.com/2016/02/22/2016-02-22-beautiful-of-toss/</id>
     <published>2016-02-22T03:00:00.000Z</published>
-    <updated>2016-03-03T02:27:59.000Z</updated>
+    <updated>2016-03-12T06:25:35.000Z</updated>
     <content type="html"><![CDATA[<p>过一个平凡无趣的人生实在太容易了，你可以不读书，不冒险，不运动，不写作，不外出，不折腾……但是，人生最后悔的事情就是：我本可以。－－陈素封。工欲善其事，必先利其器。大道至简。因为折腾，所以简洁。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/beautigulOfToss.jpg" alt="因为折腾，所以简洁"></p>
@@ -285,7 +351,11 @@
 <p>作为一个在编码道路上的前行者，一路过来，越发体会到折腾之美；折腾Mac，使得编码得以便捷，见识得以增扩，审美得以提升(<a href="http://www.jeffjade.com/2015/07/24/2015-07-24-why-programmer-love-mac/" target="_blank" rel="external">Mac，无愧设备中优雅的情人</a>)；折腾Windows，使得对Windows固有的成见变得温和(<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/" target="_blank" rel="external">Windows下效率必备软件</a>)；折腾Kindle，让阅读得以成为一种享受；折腾SublimeText/Atom，使得编码变得高效而神勇(<a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a>)；折腾Markdown，Hexo，Jekyll，让码字和发布博客文章，变得异常简捷而美观… … 编码如是，生活亦同此理；从可以up｜down｜up｜down的拉链，到手机洗碗机，到汽车航天飞机，工具的存在让生活更便利；运用适宜，控制得当，短暂的光阴，却可以成就更多可能和美丽。</p>
 <p>本着高效做事和享受生活的理念，笔者先前在简书创建专题《<a href="http://www.jianshu.com/collection/2f6a49e22121" target="_blank" rel="external">折腾之美</a>》，这里着重搜集汇藏折腾之法，希望因此，可以使得日常事务(编码 /砌字 /设计 /旅行 /读写 /生活 /…)，更加简洁而丰美；于这些个事儿倘能有帮助，余心大慰。</p>
 <p><a href="http://www.jianshu.com/collection/2f6a49e22121" target="_blank" rel="external">折腾之美</a>：更多的是收藏了效率工具:(譬如: Mac ， SublimeText ， Kindle ， Chrome ， Windows ， Markdown ， Github ， Hexo ， Jekyll ， Atom/…]文章，当然也有关于读书 /人生 /成长的一些建议( 鸡汤)，还会有像～“如何优雅地携带安全套”这样实用类情趣脑洞。这里内容宽泛却也专一，只为能更好的生活＋成为更有见识的自己。</p>
-<p>创建这<a href="http://www.jianshu.com/collection/2f6a49e22121" target="_blank" rel="external">折腾之美</a>专题，主要是想借此平台，聚集简书干货文章以成教程，使得更多爱折腾同道者有方法可依，更多渴求成长的朋友有见识可寻；在一番折腾之后，能一劳永逸，给编码&amp;生活带来更多便捷和可能性，同时增长见闻，发散思维。期待我光大爱折腾的朋友们可以参与进来，一起折腾&amp;分享；笔者平时也会写些效率工具相关文章；一有闲暇就会去浏览阅读简书关于这些的文章，择取有用干货收藏之；更是期待各路爱分享的道兄不吝投稿，么么哒。</p>
+<p>创建这<a href="http://www.jianshu.com/collection/2f6a49e22121" target="_blank" rel="external">折腾之美</a>专题，主要是想借此平台，聚集简书干货文章以成教程，使得更多爱折腾同道者有方法可依，更多渴求成长的朋友有见识可寻；在一番折腾之后，能一劳永逸，给编码&amp;生活带来更多便捷和可能性，同时增长见闻，发散思维。期待我光大爱折腾的朋友们可以参与进来，一起折腾&amp;分享；笔者平时也会写些效率工具相关文章；一有闲暇就会去浏览阅读简书关于这些的文章，择取有用干货收藏之；更是期待各路爱分享的道兄不吝投稿，在此先行感谢。</p>
+<blockquote>
+<p>一头马、一头驴听说唐僧要去西天取经，驴觉得此行定困难重重，放弃；马却立刻追随而去，经九九八十一难 取回真经。驴问：兄弟，是不是很辛苦啊？马说：其实，在我去西天这段时间，你走的路一点不比我少！而且还被蒙住眼睛，被人抽打。</p>
+</blockquote>
+<p><strong>Keep Hungry Keep Foolish,There’s No Fucking Excuse: JUST DO IT </strong>.</p>
 <p>16年2月22日(元宵)于深圳。</p>
 ]]></content>
     <summary type="html">
@@ -975,9 +1045,10 @@
     <link href="http://www.jeffjade.com/2015/11/25/2015-11-25-toss-gulp/"/>
     <id>http://www.jeffjade.com/2015/11/25/2015-11-25-toss-gulp/</id>
     <published>2015-11-24T16:00:00.000Z</published>
-    <updated>2016-01-20T01:58:25.000Z</updated>
+    <updated>2016-03-12T06:29:00.000Z</updated>
     <content type="html"><![CDATA[<p><strong>前言:</strong> <code>gulp</code>是前端开发过程中对代码进行构建的工具，是自动化项目的构建利器；她不仅能对网站资源进行优化，而且在开发过程中很多重复的任务能够使用正确的工具自动完成；使用她，我们不仅可以很愉快的编写代码，而且大大提高我们的工作效率。相比于<code>grunt</code>的频繁 IO 操作，gulp的流操作，能更快地更便捷地完成构建工作。此处仅记录初步折腾中所遇点滴以及待解决的点。</p>
 <a id="more"></a>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/loveFlower.jpg" alt="题图来自女友摄影作品:16-03-12-清晨-深圳"></p>
 <h2 id="Gulp折腾之初探"><strong>Gulp折腾之初探</strong></h2><h3 id="折腾之战略上的藐视"><strong>折腾之战略上的藐视</strong></h3><p>回过头看Gulp的折腾历程，使用还是非常简易的。初步入门资料可参考<a href="#refer">这里</a>。所以战略上一定要藐视”她”;当然战术上要给予足够的重视。毕竟要依赖她以及其他各种插件and编辑器等实现前端<strong>工程化，组件化，模块化，便捷化</strong>是一个蛮复杂的过程。总之，折腾伊始需要自信就好，折腾过程带着耐心就好。譬如，想借助gulp压缩美化下js代码，写如下代码于gulpfile.js即可：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">'gulp'</span>),</span><br><span class="line">    uglify = <span class="built_in">require</span>(<span class="string">'gulp-uglify'</span>);</span><br><span class="line"><span class="keyword">var</span> gNeedDealJsFile = <span class="string">'./js/*.js'</span>; <span class="comment">//javascrip代码存放路径</span></span><br><span class="line"><span class="keyword">var</span> outPut = <span class="string">"./build/"</span>;  <span class="comment">//指定输出文件存放目录</span></span><br><span class="line">gulp.task(<span class="string">'scripts'</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp.src(gNeedDealJsFile)</span><br><span class="line">        .pipe(uglify())</span><br><span class="line">        .pipe(rename(&#123;</span><br><span class="line">            suffix: <span class="string">'.min'</span></span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(gulp.dest(outPut));</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
 <p>在gulpfile.js同级目录运行<code>gulp scripts</code>即可；PS:当然前提是您已经安装了nodejs，并且使用npm安装了代码中需要的插件<code>gulp</code>和<code>gulp-uglify</code>与本地。</p>
 <h3 id="摒弃了gulp-run()"><strong>摒弃了gulp.run()</strong></h3><p>gulp的API很简单，常用的也就几个：watch, task, dest, src；目前已经摒弃了run方法。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//创建Default Task:注册缺省任务</span></span><br><span class="line">gulp.task(<span class="string">'default'</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    gulp.run(<span class="string">'jshint'</span>, <span class="string">'scripts'</span>);</span><br><span class="line"></span><br><span class="line">    gulp.watch(workSpace, <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        gulp.run(<span class="string">'jshint'</span>, <span class="string">'scripts'</span>);</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
@@ -1450,29 +1521,6 @@
       <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
     
       <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[精美动画后宫苑]]></title>
-    <link href="http://www.jeffjade.com/2015/10/15/2015-10-15-nice-animation-collection/"/>
-    <id>http://www.jeffjade.com/2015/10/15/2015-10-15-nice-animation-collection/</id>
-    <published>2015-10-15T03:50:00.000Z</published>
-    <updated>2015-10-15T10:16:25.000Z</updated>
-    <content type="html"><![CDATA[<p>对于觉得美的事物，向来都怀有收藏之癖。迷恋精美网页动画已久，只是未能遇见娇藏她的“铜雀台”。直到一见钟情于她~<code>CodePen</code>站点地址：<a href="http://codepen.io/" target="_blank" rel="external">http://codepen.io/</a>。一款高效在线IDE，不仅站点是在墙内的，并且可免费使用其常用功能；并且功能体验俱佳，真是深得我心啊。至于关于CodePen可以参见：<a href="http://stoneydream.com/2015/09/19/%E4%BD%BF%E7%94%A8codepen%E5%88%86%E4%BA%AB%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81/" target="_blank" rel="external">使用codepen分享前端代码</a>和张鑫旭的<a href="http://www.zhangxinxu.com/wordpress/2012/07/codepen-jsfiddle/" target="_blank" rel="external">见多识广,CodePen项目网站简介</a>。当然，仅仅收藏之，倒无什么意义，待得空闲，须当一一深析以为己用方是正道。</p>
-<a id="more"></a>
-<p data-height="268" data-theme-id="0" data-slug-hash="YXQoQE" data-default-tab="result" data-user="nikrowell" class="codepen">See the Pen <a href="http://codepen.io/nikrowell/pen/YXQoQE/" target="_blank" rel="external">Scripted Heart</a> by Nik (<a href="http://codepen.io/nikrowell" target="_blank" rel="external">@nikrowell</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><br><p><script async src="http://codepen.io/assets/embed/ei.js"></script><span id="more-2017"></span></p>
-
-<hr>
-<p data-height="268" data-theme-id="20035" data-slug-hash="yYzyWQ" data-default-tab="result" data-user="natewiley" class="codepen">See the Pen <a href="http://codepen.io/natewiley/pen/yYzyWQ/" target="_blank" rel="external">Infinite Cubes CSS</a> by Nate Wiley (<a href="http://codepen.io/natewiley" target="_blank" rel="external">@natewiley</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p>]]></content>
-    <summary type="html">
-    <![CDATA[<p>对于觉得美的事物，向来都怀有收藏之癖。迷恋精美网页动画已久，只是未能遇见娇藏她的“铜雀台”。直到一见钟情于她~<code>CodePen</code>站点地址：<a href="http://codepen.io/">http://codepen.io/</a>。一款高效在线IDE，不仅站点是在墙内的，并且可免费使用其常用功能；并且功能体验俱佳，真是深得我心啊。至于关于CodePen可以参见：<a href="http://stoneydream.com/2015/09/19/%E4%BD%BF%E7%94%A8codepen%E5%88%86%E4%BA%AB%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81/">使用codepen分享前端代码</a>和张鑫旭的<a href="http://www.zhangxinxu.com/wordpress/2012/07/codepen-jsfiddle/">见多识广,CodePen项目网站简介</a>。当然，仅仅收藏之，倒无什么意义，待得空闲，须当一一深析以为己用方是正道。</p>]]>
-    
-    </summary>
-    
-      <category term="JavaScript" scheme="http://www.jeffjade.com/tags/JavaScript/"/>
-    
-      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
   </entry>
   
