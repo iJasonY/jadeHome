@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-12T06:54:45.000Z</updated>
+  <updated>2016-03-12T07:04:25.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/"/>
     <id>http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/</id>
     <published>2016-03-11T10:00:00.000Z</published>
-    <updated>2016-03-12T06:54:45.000Z</updated>
+    <updated>2016-03-12T07:04:25.000Z</updated>
     <content type="html"><![CDATA[<p><strong><a href="https://autohotkey.com/" target="_blank" rel="external">AutoHotkey</a></strong>是一个windows下的开源、免费、自动化软件工具。它由最初旨在提供键盘快捷键的脚本语言驱动(称为：<strong>热键</strong>)，随着时间的推移演变成一个完整的脚本语言。但你不需要把它想得太深，你只需要知道它可以简化你的重复性工作，一键自动化启动或运行程序等等；以此提高我们的<strong>工作效率</strong>，改善<strong>生活品质</strong>；通过按键映射，鼠标模拟，定义宏等。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/AutoHotKeyBg.jpg" alt="图片来自：zoommyapp.com"></p>
@@ -62,6 +62,9 @@
 <p><strong>AutoHotKey</strong>定有很多好用的功能，此文仅作简单介绍，抛砖以引美玉。希望知道更多有用玩法的朋友可以慷慨分享，让我等Coder效率可以提一提，节省那么些时间：去学习，去把妹(/泡哥)，去享受生活。如果可以，也殷切希望，以此篇介绍给不怎么爱折腾的朋友带来一点参考。王小波在《思维的乐趣》中引用罗素一言：<strong>「须知参差多态，乃是幸福的本源」</strong>；如果您不喜欢折腾，这里并无勉强之意；生活之事，快乐就好。</p>
 <p>最后自荐简书一专题<a href="http://www.jianshu.com/collection/2f6a49e22121" target="_blank" rel="external">《折腾之美》</a>：工欲善其事，必先利其器。大道至简：<strong>因为折腾，所以简洁</strong>；为爱折腾的你而生，欢请你的入盟(专题起源可参见<a href="http://www.jeffjade.com/2016/02/22/2016-02-22-beautiful-of-toss/#more" target="_blank" rel="external">折腾之美-序</a>)。</p>
 <p>——-2016-03-11晚—-于深圳———</p>
+<blockquote>
+<p>文章来源：<a href="http://www.jeffjade.com" target="_blank" rel="external">http://www.jeffjade.com</a><br>原文链接：<a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/#" target="_blank" rel="external">http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/#</a></p>
+</blockquote>
 ]]></content>
     <summary type="html">
     <![CDATA[AutoHotkey教程：是一个windows下的开源、免费、自动化软件工具，它可以简化你的重复性工作，一键自动化启动或运行程序等等。]]>
