@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-14T03:31:25.000Z</updated>
+  <updated>2016-03-14T09:49:23.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/"/>
     <id>http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/</id>
     <published>2016-03-11T10:00:00.000Z</published>
-    <updated>2016-03-14T03:31:25.000Z</updated>
+    <updated>2016-03-14T09:49:23.000Z</updated>
     <content type="html"><![CDATA[<p><strong><a href="https://autohotkey.com/" target="_blank" rel="external">AutoHotkey</a></strong>是一个windows下的开源、免费、自动化软件工具。它由最初旨在提供键盘快捷键的脚本语言驱动(称为：<strong>热键</strong>)，随着时间的推移演变成一个完整的脚本语言。但你不需要把它想得太深，你只需要知道它可以简化你的重复性工作，一键自动化启动或运行程序等等；以此提高我们的<strong>工作效率</strong>，改善<strong>生活品质</strong>；通过按键映射，鼠标模拟，定义宏等。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/AutoHotKeyBg.jpg" alt="图片来自：zoommyapp.com"></p>
@@ -34,7 +34,7 @@
 <p>如此一开机，就可以使用脚本中所配置的功能，大为便捷。</p>
 <h2 id="简单实用的实例"><strong>简单实用的实例</strong></h2><p>这里简单说明下脚本中常用符号代表的含义：</p>
 <blockquote>
-<p><strong>#</strong> 号代表 <strong><em>Win</em></strong> 键；<br><strong>!</strong> 号代表 <strong><em>Alt</em></strong> 键；<br><strong>^</strong> 号代表 <strong><em>Alt</em></strong> 键；<br><strong>+</strong> 号代表 <strong><em>shift</em></strong> 键；<br><strong>::</strong> 号(两个英文冒号)起分隔作用；<br><strong>run</strong>，非常常用 的 AHK 命令之一;<br><strong>;</strong> 号代表 注释后面一行内容；</p>
+<p><strong>#</strong> 号代表 <strong><em>Win</em></strong> 键；<br><strong>!</strong> 号代表 <strong><em>Alt</em></strong> 键；<br><strong>^</strong> 号代表 <strong><em>Ctrl</em></strong> 键；<br><strong>+</strong> 号代表 <strong><em>shift</em></strong> 键；<br><strong>::</strong> 号(两个英文冒号)起分隔作用；<br><strong>run</strong>，非常常用 的 AHK 命令之一;<br><strong>;</strong> 号代表 注释后面一行内容；</p>
 </blockquote>
 <p><strong>run</strong>它的后面是要运行的程序完整路径（比如我的<strong>Sublime</strong>的完整路径是：D:\Program Files (x86)\Sublime Text 3\sublime_text.exe）或网址。为什么第一行代码只是写着“notepad”，没有写上完整路径？因为“notepad”是“运行”对话框中的命令之一。</p>
 <p>如果你想按下“Ctrl + Alt + Shift + Win + Q”（这个快捷键真拉风啊。(￣▽￣)）来启动 QQ 的话，可以这样写：</p>
@@ -1447,7 +1447,7 @@
     <link href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/"/>
     <id>http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/</id>
     <published>2015-10-19T10:00:00.000Z</published>
-    <updated>2016-03-14T06:33:09.000Z</updated>
+    <updated>2016-03-15T04:57:08.000Z</updated>
     <content type="html"><![CDATA[<p>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！重而说三。</p>
 <a id="more"></a>
 <p><strong>AutoHotKey</strong>: 神器！神器！神器！当然也得看使用者咯(<em>^__^</em>) 嘻嘻……详情请参看：<strong><a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/" target="_blank" rel="external">Win下最爱效率神器:AutoHotKey</a></strong>。</p>
@@ -1463,7 +1463,7 @@
 <p><strong>Beyond Compare</strong> : 文件比较器; 此款为所接触中最佳。</p>
 <p><strong><a href="https://github.com/cmderdev/cmder/releases" title="CmderDownAdress" target="_blank" rel="external">Cmder</a></strong>:  windows下cmd的替换工具,支持PowerShell;同比还有PowerShell，<a href="https://github.com/Maximus5/ConEmu" title="ConEmuDownAdress" target="_blank" rel="external">ConEmu</a> 等。自荐笔者总结的：<a href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/#" target="_blank" rel="external">Win下必备神器之Cmder</a>。</p>
 <p><strong><a href="https://www.zybuluo.com/cmd/" target="_blank" rel="external">作业部落客户端</a></strong>:开启卓越写作之旅,支持全平台＋离线使用，一键发布文稿，社交化批注。身材苗条，面容姣好，免费Markdown书写平台的魅力战斗机。</p>
-<p><del><strong>夜神模拟器</strong>: 经历了<code>BlueStacks</code>,<code>海马</code>，一遇这<code>夜神</code>,认你乃最佳！</del>之后体验过程也没那么好，兼用海马(都不经常)。</p>
+<p><del><strong>夜神模拟器</strong>: 经历了<code>BlueStacks</code>,<code>海马</code>，一遇这<code>夜神</code>,认你乃最佳！</del><br>之后体验过程也没那么好，兼用海马(都不经常)。</p>
 <p><strong>网易云音乐</strong>: 初遇<code>QQ音乐</code>,处过<code>天天动听</code>,恋过<code>酷狗</code>，上过<code>酷我</code>，一夜情过<code>千千静听</code>,移情过<code>虾米</code>，和<code>豆瓣FM</code>好过，同<code>百度随心听</code>约过,最后，发现音乐的世界,还得是你～<strong>网易云音乐</strong>。</p>
 <hr>
 <p>[Update: 2016-03-09 ~ 2016-03-10]</p>
@@ -1474,7 +1474,22 @@
 <p><strong><a href="http://www.ghisler.com" target="_blank" rel="external">Total Commander</a></strong>: 资源管理器集大成者，只是快捷键太繁琐，用她需要花费些时间了解她先；个人还是用 <code>Clover</code>(虽然她很容易发脾气，简单就好)。</p>
 <p><strong><a href="https://getsharex.com" target="_blank" rel="external">ShareX</a></strong>: 截图、注释、上传，复制 URL 一条龙服务；免费，强大而简洁；自动存储；支持双屏；支持录制；还有给力有用的工具集…大有相见恨晚之感 (☆_☆)(唯一没中不足是：安装时需率先安装Steam桌面应用，不过无妨)。</p>
 <hr>
-<p><strong><a href="http://www.jeffjade.com/2015/05/26/2015-05-26-high-efficiency-tools-collecting/" target="_blank" rel="external">更多关于效率工具文章</a></strong></p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- GoogleJadeAdSense -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8586652723015758" data-ad-slot="8658226025" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr>
+<p><strong>您可能感兴趣(/有用)的文章：</strong></p>
+<ul>
+<li><a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/#" target="_blank" rel="external">Win下最爱效率神器:AutoHotKey</a></li>
+<li><a href="http://www.cnblogs.com/jadeboy/p/4165449.html" target="_blank" rel="external">sublime text 下的Markdown写作</a></li>
+<li><a href="http://www.jeffjade.com/2015/08/28/2015-08-28-Write-Morkdown/" target="_blank" rel="external">SublimeText下写作利器之MarkdownEditing</a></li>
+<li><a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a></li>
+<li><strong><a href="http://www.jeffjade.com/2015/05/26/2015-05-26-high-efficiency-tools-collecting/" target="_blank" rel="external">更多关于效率工具文章</a></strong></li>
+</ul>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！重而说三。</p>]]>
