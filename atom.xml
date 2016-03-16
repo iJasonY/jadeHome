@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-14T09:49:23.000Z</updated>
+  <updated>2016-03-16T13:23:59.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/"/>
     <id>http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/</id>
     <published>2016-03-11T10:00:00.000Z</published>
-    <updated>2016-03-14T09:49:23.000Z</updated>
+    <updated>2016-03-16T13:23:59.000Z</updated>
     <content type="html"><![CDATA[<p><strong><a href="https://autohotkey.com/" target="_blank" rel="external">AutoHotkey</a></strong>是一个windows下的开源、免费、自动化软件工具。它由最初旨在提供键盘快捷键的脚本语言驱动(称为：<strong>热键</strong>)，随着时间的推移演变成一个完整的脚本语言。但你不需要把它想得太深，你只需要知道它可以简化你的重复性工作，一键自动化启动或运行程序等等；以此提高我们的<strong>工作效率</strong>，改善<strong>生活品质</strong>；通过按键映射，鼠标模拟，定义宏等。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/AutoHotKeyBg.jpg" alt="图片来自：zoommyapp.com"></p>
@@ -67,6 +67,14 @@
 <blockquote>
 <p>文章来源：<a href="http://www.jeffjade.com" target="_blank" rel="external">http://www.jeffjade.com</a><br>原文链接：<a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/#" target="_blank" rel="external">http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/#</a></p>
 </blockquote>
+<h4 id="您可能感兴趣(/有用)的文章："><strong>您可能感兴趣(/有用)的文章：</strong></h4><ul>
+<li><a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a></li>
+<li><a href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/" target="_blank" rel="external">新编码神器Atom使用纪要</a></li>
+<li><a href="http://www.cnblogs.com/jadeboy/p/4165449.html" target="_blank" rel="external">sublime text 下的Markdown写作</a></li>
+<li><a href="http://www.jeffjade.com/2015/08/28/2015-08-28-Write-Morkdown/" target="_blank" rel="external">SublimeText下写作利器之MarkdownEditing</a></li>
+<li><a href="http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/" target="_blank" rel="external">Vimium~让您的Chrome起飞</a></li>
+<li><a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a></li>
+</ul>
 ]]></content>
     <summary type="html">
     <![CDATA[AutoHotkey教程：是一个windows下的开源、免费、自动化软件工具，它可以简化你的重复性工作，一键自动化启动或运行程序等等。]]>
@@ -826,7 +834,7 @@
     <link href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/"/>
     <id>http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/</id>
     <published>2015-12-15T04:50:00.000Z</published>
-    <updated>2016-03-14T02:18:57.000Z</updated>
+    <updated>2016-03-15T14:51:16.000Z</updated>
     <content type="html"><![CDATA[<p>Sublime Text：一款具有代码高亮、语法提示、自动完成且反应快速的编辑器软件，不仅具有华丽的界面，还支持插件扩展机制，用她来写代码，绝对是一种享受。相比于难于上手的Vim，浮肿沉重的Eclipse，VS，即便体积轻巧迅速启动的Editplus、Notepad++，在SublimeText面前大略显失色，无疑这款性感无比的编辑器是Coding和Writing最佳的选择，没有之一。</p>
 <a id="more"></a>
 <h2 id="如何优雅地使用Sublime_Text之目录："><strong>如何优雅地使用Sublime Text之目录：</strong></h2><ul>
@@ -998,6 +1006,7 @@
 <p><strong>您可能感兴趣(/有用)的文章：</strong></p>
 <ul>
 <li><a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/#" target="_blank" rel="external">Win下最爱效率神器:AutoHotKey</a></li>
+<li><a href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/" target="_blank" rel="external">新编码神器Atom使用纪要</a></li>
 <li><a href="http://www.cnblogs.com/jadeboy/p/4165449.html" target="_blank" rel="external">sublime text 下的Markdown写作</a></li>
 <li><a href="http://www.jeffjade.com/2015/08/28/2015-08-28-Write-Morkdown/" target="_blank" rel="external">SublimeText下写作利器之MarkdownEditing</a></li>
 <li><a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a></li>
@@ -1447,7 +1456,7 @@
     <link href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/"/>
     <id>http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/</id>
     <published>2015-10-19T10:00:00.000Z</published>
-    <updated>2016-03-15T04:57:08.000Z</updated>
+    <updated>2016-03-16T13:24:40.000Z</updated>
     <content type="html"><![CDATA[<p>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！重而说三。</p>
 <a id="more"></a>
 <p><strong>AutoHotKey</strong>: 神器！神器！神器！当然也得看使用者咯(<em>^__^</em>) 嘻嘻……详情请参看：<strong><a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/" target="_blank" rel="external">Win下最爱效率神器:AutoHotKey</a></strong>。</p>
@@ -1474,17 +1483,10 @@
 <p><strong><a href="http://www.ghisler.com" target="_blank" rel="external">Total Commander</a></strong>: 资源管理器集大成者，只是快捷键太繁琐，用她需要花费些时间了解她先；个人还是用 <code>Clover</code>(虽然她很容易发脾气，简单就好)。</p>
 <p><strong><a href="https://getsharex.com" target="_blank" rel="external">ShareX</a></strong>: 截图、注释、上传，复制 URL 一条龙服务；免费，强大而简洁；自动存储；支持双屏；支持录制；还有给力有用的工具集…大有相见恨晚之感 (☆_☆)(唯一没中不足是：安装时需率先安装Steam桌面应用，不过无妨)。</p>
 <hr>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- GoogleJadeAdSense -->
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8586652723015758" data-ad-slot="8658226025" data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<hr>
 <p><strong>您可能感兴趣(/有用)的文章：</strong></p>
 <ul>
 <li><a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/#" target="_blank" rel="external">Win下最爱效率神器:AutoHotKey</a></li>
+<li><a href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/" target="_blank" rel="external">新编码神器Atom使用纪要</a></li>
 <li><a href="http://www.cnblogs.com/jadeboy/p/4165449.html" target="_blank" rel="external">sublime text 下的Markdown写作</a></li>
 <li><a href="http://www.jeffjade.com/2015/08/28/2015-08-28-Write-Morkdown/" target="_blank" rel="external">SublimeText下写作利器之MarkdownEditing</a></li>
 <li><a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a></li>
