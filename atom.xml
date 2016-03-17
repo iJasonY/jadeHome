@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-17T11:43:32.000Z</updated>
+  <updated>2016-03-17T16:29:23.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,48 +19,93 @@
     <link href="http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/"/>
     <id>http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/</id>
     <published>2016-03-17T08:30:00.000Z</published>
-    <updated>2016-03-17T11:43:32.000Z</updated>
+    <updated>2016-03-17T16:29:23.000Z</updated>
     <content type="html"><![CDATA[<p>工作近三年，使用PC快六年，拥抱Mac整一年，投<code>具器</code>石榴裙三年。14年第一次被同事推荐<code>Everything</code>，开启了JeffJade对工具的折腾之旅，并乐此不疲。时去两年，这必然是消耗了一些时间，但对效率的提升，心情之保养，以及思维持续扩散，无疑是起了不可磨灭的功绩。是时候对这期间的热忱和折腾，做一个总结了。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/jiangXin.jpg" alt="www.jeffjade.com"></p>
-<h2 id="Win&amp;Mac方面"><strong>Win&amp;Mac方面</strong></h2><p><strong>SublimeText3</strong>： 编码垒字的神器，还能览图/文件对比/…,偏爱ing；有将其总结在： <strong><a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a></strong> 一文中。</p>
-<p><strong><a href="https://atom.io/" target="_blank" rel="external">Atom</a></strong>: 新一代编码写文神器；虽还在发展，却已惊艳；堪称用过最舒爽写 <strong>Markdown</strong>利器(除了会卡)。对于Atom有仿撰一文：<a href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/" target="_blank" rel="external">新编码神器Atom使用纪要</a>，予以总结。类Web App，缺点是会卡顿，坐等完善。</p>
-<p><strong>Chrome</strong>: Web世界里的神，里的神，的神，神。偏爱ing；无数强大插件，令其如虎添翼；<strong>Vimium</strong>插件，效率必备！早前有在<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/" target="_blank" rel="external">Vimium~让您的Chrome起飞</a>一篇中记载。</p>
-<p><strong>Evernote</strong>: 纪录/收藏你想保存的文｜图｜网页;Chrome有其插件，手机可掉其保存；很强大。</p>
-<p><strong>为知笔记</strong>: 功能同<strong>Evernote</strong>一般丰满,身材更骨感😄；在<strong>Evernote</strong> 日益过于丰盈之后，久转投于此，直到现在。</p>
-<p><strong>网易云音乐</strong>: 初遇<code>QQ音乐</code>,处过<code>天天动听</code>,恋过<code>酷狗</code>，上过<code>酷我</code>，一夜情过<code>千千静听</code>,移情过<code>虾米</code>，和<code>豆瓣FM</code>好过，同<code>百度随心听</code>约过,最后，发现音乐的世界,还得是你～<strong>网易云音乐</strong>。也许还有更好的，可是遇见她，已经满足了。</p>
-<p><strong><a href="https://www.zybuluo.com/cmd/" target="_blank" rel="external">作业部落客户端</a></strong>:开启卓越写作之旅,支持全平台＋离线使用，一键发布文稿，社交化批注。身材苗条，面容姣好，免费Markdown书写平台的魅力战斗机；现在转移到<strong>Atom</strong>了。</p>
-<p><strong><a href="https://nodejs.org" target="_blank" rel="external">Nodejs</a></strong>: 可以辅助让Sublime编译Js；可以做<strong>Web开发</strong>，<strong>REST开发**</strong>，<strong>Web聊天室/爬虫</strong>，<strong>Web博客</strong>(Hexo)，<strong>Web论坛</strong>等等，可参见<a href="http://www.nodejs.net/a/20141016/233306.html" target="_blank" rel="external">分享十五个NodeJS应用场景</a>；还可以利用Nodejs的包管理器<code>Npm</code> 安装<code>Gulp</code> <code>Webpack</code>等屌炸天工具～做大多你可以想到的东东；Web端必备。</p>
+<h2 id="Win&amp;Mac方面"><strong>Win&amp;Mac方面</strong></h2><ul>
+<li><p><strong>SublimeText3</strong>： 编码垒字的神器，还能览图/文件对比/…,15年很是偏爱；有将其使用经验总结在： <strong><a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a></strong> 一文中。</p>
+</li>
+<li><p><strong><a href="https://atom.io/" target="_blank" rel="external">Atom</a></strong>: 新一代编码写文神器；虽还在发展，却已惊艳；堪称用过最舒爽写 <strong>Markdown</strong>利器(除了会卡顿)。对于Atom有仿撰一文：<a href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/" target="_blank" rel="external">新编码神器Atom使用纪要</a>，予以总结。Atom乃类Web App，缺点是会卡顿，坐等完善。</p>
+</li>
+<li><p><strong>Chrome</strong>: Web世界里的神，里的神，的神，神。偏爱ing；无数强大插件，令其如虎添翼；<strong>Vimium</strong>插件，效率必备！早前有在<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/" target="_blank" rel="external">Vimium~让您的Chrome起飞</a>一篇中记载。</p>
+</li>
+<li><p><strong>Evernote</strong>: 纪录/收藏你想保存的文｜图｜网页;Chrome有其插件，手机可掉其保存；很强大。</p>
+</li>
+<li><p><strong>为知笔记</strong>: 功能同<strong>Evernote</strong>一般丰满,而身材更骨感些😄；在<strong>Evernote</strong> 日益过于丰盈之后，就转投于此，直到现在。</p>
+</li>
+<li><p><strong>网易云音乐</strong>: 初遇<code>QQ音乐</code>,处过<code>天天动听</code>,恋过<code>酷狗</code>，上过<code>酷我</code>，见过<code>千千静听</code>,移情过<code>虾米</code>，和<code>豆瓣FM</code>好过，同<code>百度随心听</code>约过,最后，发现音乐的世界,还得是你～<strong>网易云音乐</strong>。也许还有更好的，可是遇见她，已经满足了。</p>
+</li>
+<li><p><strong><a href="https://www.zybuluo.com/cmd/" target="_blank" rel="external">作业部落客户端</a></strong>:开启卓越写作之旅,支持全平台＋离线使用，一键发布文稿，社交化批注。身材苗条，面容姣好，免费Markdown书写平台的魅力战斗机；书写Markdown需多平台切换时，很好用。单平台写作已转移至<strong>Atom</strong>了。</p>
+</li>
+<li><p><strong><a href="https://nodejs.org" target="_blank" rel="external">Nodejs</a></strong>: 可以辅助让Sublime编译Js；可以做<strong>Web开发</strong>，<strong>REST开发</strong>，<strong>Web聊天室/爬虫</strong>，<strong>Web博客</strong>(Hexo)，<strong>Web论坛</strong>等等，可参见<a href="http://www.nodejs.net/a/20141016/233306.html" target="_blank" rel="external">分享十五个NodeJS应用场景</a>；还可以利用Nodejs的包管理器<code>Npm</code> 安装<code>Gulp</code> <code>Webpack</code>等屌炸天工具～做大多你可以想到的东东；Web端必备!!!</p>
+</li>
+</ul>
 <h2 id="Mac方面"><strong>Mac方面</strong></h2><p>坦白来讲，Mac对于不撸游戏的玩家，要比Windows出众太多；当然了也要贵太多。在此二者的比较上，只能说“一份价钱一分货”的理论，彰显的可谓淋漓尽致。不仅系统如此，软件亦如是：</p>
-<p><strong>Alfred</strong> : 这款神器，还用多讲么？仅其免费部分，已然拉远Windows下数款软件组合。</p>
-<p><strong>Homebrew</strong>: 虽然Mac下没有自带类似Linus下apt-get这样的功能，但是Mac有Homebrew(brew)，记载有<a href="http://www.jeffjade.com/2015/05/16/2015-05-16-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之Brew</a>。</p>
-<p><strong>oh my zsh</strong>：Mac下的原生Bash，其实还挺好用的。但是，谁让知道了有她的存在了呢？分分钟移情别恋了。这段移情史有在<a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a>记载。</p>
-<p><strong>iTerm</strong>: Mac这款终端，倘若要阐明，同上如出一撤。唯一出入是：没有为她拙文残撰以记载之。</p>
-<p><strong>CheatSheet</strong>: 优雅操作，就得搞起快捷键。Mac下热键，辣么多，得(Dei)亏这<strong>CheatSheet</strong>了。</p>
-<p><strong>Kindle</strong>: Mac下读书软件，没怎么折腾，就用了这<strong>Kindle</strong>，体验良好，且同手机，以及<strong>Kindle</strong>设备完好同步，没道理不用她。</p>
-<p><strong>TeamViewer</strong>：一款用着挺便捷的远程软件；觉得好，没有同类个工具对比过，也就不好说她究竟有多好。</p>
+<ul>
+<li><p><strong>Alfred</strong> : 这款神器，真心不用怎么讲。强大贴心。仅其免费部分，已然拉远Windows下数款软件组合几条街。</p>
+</li>
+<li><p><strong>Homebrew</strong>: 虽然Mac下没有自带类似Linus下apt-get这样的功能，但是Mac有Homebrew(brew)，记载有<a href="http://www.jeffjade.com/2015/05/16/2015-05-16-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之Brew</a>。</p>
+</li>
+<li><p><strong>oh my zsh</strong>：Mac下的原生Bash，其实还挺好用的。但是，谁让知道了有她的存在了呢？分分钟移情别恋了。这段移情史有在<a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a>记载。</p>
+</li>
+<li><p><strong>iTerm</strong>: Mac这款终端，倘若要阐明，同上如出一撤。唯一出入是：没有为她拙文残撰以记载之。</p>
+</li>
+<li><p><strong>CheatSheet</strong>: 优雅操作，就得搞起快捷键。Mac下热键，辣么多，得(Dei)亏这<strong>CheatSheet</strong>了。</p>
+</li>
+<li><p><strong>Kindle</strong>: Mac下读书软件，没怎么折腾，就用了这<strong>Kindle</strong>，体验良好，且同手机，以及<strong>Kindle</strong>设备完好同步，没道理不用她。</p>
+</li>
+<li><p><strong>TeamViewer</strong>：一款用着挺便捷的远程软件；觉得好，没有同类个工具对比过，也就不好说她究竟有多好。</p>
+</li>
+</ul>
 <h2 id="Windows方面"><strong>Windows方面</strong></h2><p>曾一度觉得：“真爱生命，当远离Windows(For Coder)”。在不得不使用Windows搞事儿期间，几番折腾过后，这略有的偏见倒改善不少；这多半要归功于以下利器：</p>
-<p><strong>AutoHotKey</strong>: 如果你愿意折腾，她真是一件神器；即便无意花费精力，网上随意搜索些脚本拿来用，至少也是Windows下一柄利器。具体有在 <strong><a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/" target="_blank" rel="external">Win下最爱效率神器:AutoHotKey</a></strong> 阐述。</p>
-<p><strong>Listary</strong>： 本地搜索<strong>神器</strong>，当然还有别的作用，More&amp;More；接触她后，直接导致我抛弃了<strong>Everything</strong> (申明：我真不是一个见异思迁的男人)。</p>
-<p><strong>Launchy</strong> : 快速启动安装的应用程序，老而弥坚，有丝Mac下Spotlight之风。据悉类似还有<strong>Rolan</strong> 和 <strong>Wox</strong>等。</p>
-<p><strong>Picasa3</strong>: 图片查看器中的佼佼者，偏爱ing。姑姑出品，必属精品！</p>
-<p><strong>Clover</strong>： 在Win下必备，谁让Win资源管理器太…QT，TotalCommand太重(⊙o⊙)…</p>
-<p><strong>Everything</strong>： 本来必备神器，无奈我移情别恋了—Listary。不过是不会忘了你。</p>
-<p><strong>Foxmail</strong>： 对比体验不多，不做评判，反正Win下就用此款(没给惹什么事儿)，不用其自带的。</p>
-<p><strong>Beyond Compare</strong> : 文件/夹比较利器; 此款为所接触同类中最佳。</p>
-<p><strong><a href="https://github.com/cmderdev/cmder/releases" title="CmderDownAdress" target="_blank" rel="external">Cmder</a></strong>:  windows下cmd的替换工具,支持PowerShell;同比还有PowerShell，<a href="https://github.com/Maximus5/ConEmu" title="ConEmuDownAdress" target="_blank" rel="external">ConEmu</a> 等。对于<strong>Cmder</strong>有在：<a href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/#" target="_blank" rel="external">Win下必备神器之Cmder</a> 一文中予以总结。</p>
-<p><strong><a href="https://git-for-windows.github.io" target="_blank" rel="external">Git for Windows</a></strong> : 打包好了，直接使用；Git 一族必备。</p>
-<p><strong><a href="http://www.goodsync.com" target="_blank" rel="external">GoodSync</a></strong>: 文件同步好帮手。可以同步 <code>本地文件</code> <code>P2P</code> <code>云</code>(Dropbox,Google,OnDrive,FTP/SFTP等等)，还可以同步<strong>应用程序</strong> 以及各设备；强大且不失简洁。比如：<strong>SFTP</strong>同步，用过SublimeText的SFTP(最方便，却老弹框)，WinSCP(F5即可同步，设计却不人性化)，Gulp的SFTP(只是需要率先Watch)，Xftp4(老牌了，都是手动点来点去，额)。</p>
-<p><strong><a href="http://www.ghisler.com" target="_blank" rel="external">Total Commander</a></strong>: 资源管理器集大成者，只是快捷键太繁琐，用她需要花费些时间了解她先；个人还是用 <code>Clover</code>(虽然她很容易发脾气，简单就好)。</p>
-<p><strong><a href="https://getsharex.com" target="_blank" rel="external">ShareX</a></strong>: 截图、注释、上传，复制 URL 一条龙服务；免费，强大而简洁；自动存储；支持双屏；支持录制；还有给力有用的工具集…大有相见恨晚之感 (☆_☆)(唯一没中不足是：安装时需率先安装Steam桌面应用，不过无妨)。</p>
-<h2 id="手机方面"><strong>手机方面</strong></h2><p>除却微信，秋秋，<strong>为知</strong>，知乎 常用的有以下几款软件倒可以一叙：<br><strong>Chrome</strong>： 手机浏览器，最后还是拥抱<strong>Chrome</strong>了，还是你干净可人。谁让那UC，360等不是弹窗，就是自作聪明乱推荐嘞？</p>
-<p><strong>简书</strong>：集读写于一体的阅读社区，现在已大名在外；主用来在零碎时间读写文章，增长些见闻(额，现在鸡汤尤多)；自建一专题 <a href="http://www.jianshu.com/collection/2f6a49e22121" target="_blank" rel="external">折腾之美</a>，以做汇集折腾见识之用（^_^，这是赤裸裸的广告）。</p>
-<p><strong>Kindle</strong>： 手机上阅读软件蛮多，但Kindle有依托于挺有格调的亚马逊，很自然各个设备都有她软件的存在了。</p>
-<p><strong>开眼视频</strong>： 这款视频软件真心不错；多在5左右分钟，涉及剧情/音乐/创意/动画/旅行等等；多为精品，堪称佳作，类似的还有：<strong>魔力盒</strong>。</p>
-<p><strong>锤子便签</strong>：这里真没有广告的意思，坦言，锤子便签为所用便签体验之最，没有之一。</p>
-<p><strong>SegmentFault</strong>：专注于程序员开发者的社区平台,提供开发相关的高质量问答,专栏,笔记，文章等服务。零碎时间看下问答or文章；偶尔也会作答or求教。</p>
-<p><strong>VST全聚合</strong>： 这款为Tv量身定做的视频软件，可了不得了（手机端也可用），高清，海量，快速，更新迅速；那些没在电影刷的电影，基本都在这里给享受了，这在<a href="http://www.jeffjade.com/2016/01/01/2016-01-01-movie2015/" target="_blank" rel="external">所欢喜过的那些电影(2015下)</a>有过见证。</p>
-<p><strong>奇妙清单</strong>：在这里为自己计划做下ToDoList，类同网页上的番茄土豆，轻量清新，偶尔会用下。</p>
+<ul>
+<li><p><strong>AutoHotKey</strong>: 如果你愿意折腾，她真是一件神器；即便无意花费精力，网上随意搜索些脚本拿来用，至少也是Windows下一柄利器。具体有在 <strong><a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/" target="_blank" rel="external">Win下最爱效率神器:AutoHotKey</a></strong> 阐述。</p>
+</li>
+<li><p><strong>Listary</strong>： 本地搜索<strong>神器</strong>，当然还有别的作用，More&amp;More；接触她后，直接导致我抛弃了<strong>Everything</strong> (申明：我真不是一个见异思迁的男人)。</p>
+</li>
+<li><p><strong>Launchy</strong> : 快速启动安装的应用程序，老而弥坚，有丝Mac下Spotlight之风。据悉类似还有<strong>Rolan</strong> 和 <strong>Wox</strong>等。</p>
+</li>
+<li><p><strong>Picasa3</strong>: 图片查看器中的佼佼者，偏爱ing。姑姑出品，必属精品！</p>
+</li>
+<li><p><strong>Clover</strong>： 在Win下必备，谁让Win资源管理器太…QT，TotalCommand太重(⊙o⊙)…</p>
+</li>
+<li><p><strong>Everything</strong>： 本来必备神器，无奈我移情别恋了—Listary。不过是不会忘了你。</p>
+</li>
+<li><p><strong>Foxmail</strong>： 对比体验不多，不做评判，反正Win下就用此款(没给惹什么事儿)，不用其自带的。</p>
+</li>
+<li><p><strong>Beyond Compare</strong> : 文件/夹比较利器; 此款为所接触同类中最佳。</p>
+</li>
+<li><p><strong><a href="https://github.com/cmderdev/cmder/releases" title="CmderDownAdress" target="_blank" rel="external">Cmder</a></strong>:  windows下cmd的替换工具,支持PowerShell;同比还有PowerShell，<a href="https://github.com/Maximus5/ConEmu" title="ConEmuDownAdress" target="_blank" rel="external">ConEmu</a> 等。对于<strong>Cmder</strong>有在：<a href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/#" target="_blank" rel="external">Win下必备神器之Cmder</a> 一文中予以总结。</p>
+</li>
+<li><p><strong><a href="https://git-for-windows.github.io" target="_blank" rel="external">Git for Windows</a></strong> : 打包好了，直接使用；Git 一族必备。</p>
+</li>
+<li><p><strong><a href="http://www.goodsync.com" target="_blank" rel="external">GoodSync</a></strong>: 文件同步好帮手。可以同步 <code>本地文件</code> <code>P2P</code> <code>云</code>(Dropbox,Google,OnDrive,FTP/SFTP等等)，还可以同步<strong>应用程序</strong> 以及各设备；强大且不失简洁。比如：<strong>SFTP</strong>同步，用过SublimeText的SFTP(最方便，却老弹框)，WinSCP(F5即可同步，设计却不人性化)，Gulp的SFTP(只是需要率先Watch)，Xftp4(老牌了，都是手动点来点去，额)。</p>
+</li>
+<li><p><strong><a href="http://www.ghisler.com" target="_blank" rel="external">Total Commander</a></strong>: 资源管理器集大成者，只是快捷键太繁琐，用她需要花费些时间了解她先；个人还是用 <code>Clover</code>(虽然她很容易发脾气，简单就好)。</p>
+</li>
+<li><p><strong><a href="https://getsharex.com" target="_blank" rel="external">ShareX</a></strong>: 截图、注释、上传，复制 URL 一条龙服务；免费，强大而简洁；自动存储；支持双屏；支持录制；还有给力有用的工具集…大有相见恨晚之感 (☆_☆)(唯一没中不足是：安装时需率先安装Steam桌面应用，不过无妨)。</p>
+</li>
+</ul>
+<h2 id="手机方面"><strong>手机方面</strong></h2><p>除却微信，秋秋，<strong>为知</strong>，知乎 常用的有以下几款软件倒可以一叙：</p>
+<ul>
+<li><p><strong>Chrome</strong>： 手机浏览器，最后还是拥抱<strong>Chrome</strong>了，还是你干净可人。谁让那UC，360等不是弹窗，就是自作聪明乱推荐嘞？</p>
+</li>
+<li><p><strong>简书</strong>：集读写于一体的阅读社区，现在已大名在外；主用来在零碎时间读写文章，增长些见闻(额，现在鸡汤尤多)；自建一专题 <a href="http://www.jianshu.com/collection/2f6a49e22121" target="_blank" rel="external">折腾之美</a>，以做汇集折腾见识之用（^_^，这是赤裸裸的广告）。</p>
+</li>
+<li><p><strong>Kindle</strong>： 手机上阅读软件蛮多，但Kindle有依托于挺有格调的亚马逊，很自然各个设备都有她软件的存在了。</p>
+</li>
+<li><p><strong>开眼视频</strong>： 这款视频软件真心不错；多在5左右分钟，涉及剧情/音乐/创意/动画/旅行等等；多为精品，堪称佳作，类似的还有：<strong>魔力盒</strong>。</p>
+</li>
+<li><p><strong>锤子便签</strong>：这里真没有广告的意思，坦言，锤子便签为所用便签体验之最，没有之一。</p>
+</li>
+<li><p><strong>SegmentFault</strong>：专注于程序员开发者的社区平台,提供开发相关的高质量问答,专栏,笔记，文章等服务。零碎时间看下问答or文章；偶尔也会作答or求教。</p>
+</li>
+<li><p><strong>VST全聚合</strong>： 这款为Tv量身定做的视频软件，可了不得了（手机端也可用），高清，海量，快速，更新迅速；那些没在电影刷的电影，基本都在这里给享受了，这在<a href="http://www.jeffjade.com/2016/01/01/2016-01-01-movie2015/" target="_blank" rel="external">所欢喜过的那些电影(2015下)</a>有过见证。</p>
+</li>
+<li><p><strong>奇妙清单</strong>：在这里为自己计划做下ToDoList，类同网页上的番茄土豆，轻量清新，偶尔会用下。</p>
+</li>
+</ul>
 <h2 id="外设方面"><strong>外设方面</strong></h2><p><strong>Mac</strong>（主要负责优雅和爽了） ；<strong>Kindle</strong>（偶尔读读书） ；<strong>机械键盘</strong>（如果编码垒字较多的话，最好备着）；<strong>ipod Shuffle</strong>（跑步听歌利器）。</p>
 <blockquote>
 <p>文章来源：<a href="http://www.jeffjade.com" target="_blank" rel="external">http://www.jeffjade.com</a><br>原文链接：<a href="http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/#" target="_blank" rel="external">http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/#</a></p>
