@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-16T13:23:59.000Z</updated>
+  <updated>2016-03-17T11:26:51.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -13,6 +13,65 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[JeffJade的利器回顾]]></title>
+    <link href="http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/"/>
+    <id>http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/</id>
+    <published>2016-03-17T08:30:00.000Z</published>
+    <updated>2016-03-17T11:26:51.000Z</updated>
+    <content type="html"><![CDATA[<p>工作近三年，使用PC快六年，拥抱Mac整一年，投<code>具器</code>石榴裙三年。14年第一次被同事推荐<code>Everything</code>，开启了JeffJade对工具的折腾之旅，并乐此不疲。时去两年，这必然是消耗了一些时间，但对效率的提升，心情之保养，以及思维持续扩散，无疑是起了不可磨灭的功绩。是时候对这期间的热忱和折腾，做一个总结了。</p>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/jiangXin.jpg" alt="www.jeffjade.com"></p>
+<h2 id="Win&amp;Mac方面"><strong>Win&amp;Mac方面</strong></h2><p><strong>SublimeText3</strong>： 编码垒字的神器，还能览图/文件对比/…,偏爱ing；有将其总结在： <strong><a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a></strong> 一文中。</p>
+<p><strong><a href="https://atom.io/" target="_blank" rel="external">Atom</a></strong>: 新一代编码写文神器；虽还在发展，却已惊艳；堪称用过最舒爽写 <strong>Markdown</strong>利器(除了会卡)。对于Atom有仿撰一文：<a href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/" target="_blank" rel="external">新编码神器Atom使用纪要</a>，予以总结。类Web App，缺点是会卡顿，坐等完善。</p>
+<p><strong>Chrome</strong>: Web世界里的神，里的神，的神，神。偏爱ing；无数强大插件，令其如虎添翼；<strong>Vimium</strong>插件，效率必备！早前有在<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/" target="_blank" rel="external">Vimium~让您的Chrome起飞</a>一篇中记载。</p>
+<p><strong>Evernote</strong>: 纪录/收藏你想保存的文｜图｜网页;Chrome有其插件，手机可掉其保存；很强大。</p>
+<p><strong>为知笔记</strong>: 功能同<strong>Evernote</strong>一般丰满,身材更骨感😄；在<strong>Evernote</strong> 日益过于丰盈之后，久转投于此，直到现在。</p>
+<p><strong>网易云音乐</strong>: 初遇<code>QQ音乐</code>,处过<code>天天动听</code>,恋过<code>酷狗</code>，上过<code>酷我</code>，一夜情过<code>千千静听</code>,移情过<code>虾米</code>，和<code>豆瓣FM</code>好过，同<code>百度随心听</code>约过,最后，发现音乐的世界,还得是你～<strong>网易云音乐</strong>。也许还有更好的，可是遇见她，已经满足了。</p>
+<p><strong><a href="https://www.zybuluo.com/cmd/" target="_blank" rel="external">作业部落客户端</a></strong>:开启卓越写作之旅,支持全平台＋离线使用，一键发布文稿，社交化批注。身材苗条，面容姣好，免费Markdown书写平台的魅力战斗机；现在转移到<strong>Atom</strong>了。</p>
+<p><strong><a href="https://nodejs.org" target="_blank" rel="external">Nodejs</a></strong>: 可以辅助让Sublime编译Js；可以做<strong>Web开发</strong>，<strong>REST开发**</strong>，<strong>Web聊天室/爬虫</strong>，<strong>Web博客</strong>(Hexo)，<strong>Web论坛</strong>等等，可参见<a href="http://www.nodejs.net/a/20141016/233306.html" target="_blank" rel="external">分享十五个NodeJS应用场景</a>；还可以利用Nodejs的包管理器<code>Npm</code> 安装<code>Gulp</code> <code>Webpack</code>等屌炸天工具～做大多你可以想到的东东；Web端必备。</p>
+<h2 id="Mac方面"><strong>Mac方面</strong></h2><p>坦白来讲，Mac对于不撸游戏的玩家，要比Windows出众太多；当然了也要贵太多。在此二者的比较上，只能说“一份价钱一分货”的理论，彰显的可谓淋漓尽致。不仅系统如此，软件亦如是：</p>
+<p><strong>Alfred</strong> : 这款神器，还用多讲么？仅其免费部分，已然拉远Windows下数款软件组合。</p>
+<p><strong>Homebrew</strong>: 虽然Mac下没有自带类似Linus下apt-get这样的功能，但是Mac有Homebrew(brew)，记载有<a href="http://www.jeffjade.com/2015/05/16/2015-05-16-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之Brew</a>。</p>
+<p><strong>oh my zsh</strong>：Mac下的原生Bash，其实还挺好用的。但是，谁让知道了有她的存在了呢？分分钟移情别恋了。这段移情史有在<a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a>记载。</p>
+<p><strong>iTerm</strong>: Mac这款终端，倘若要阐明，同上如出一撤。唯一出入是：没有为她拙文残撰以记载之。</p>
+<p><strong>CheatSheet</strong>: 优雅操作，就得搞起快捷键。Mac下热键，辣么多，得(Dei)亏这<strong>CheatSheet</strong>了。</p>
+<p><strong>Kindle</strong>: Mac下读书软件，没怎么折腾，就用了这<strong>Kindle</strong>，体验良好，且同手机，以及<strong>Kindle</strong>设备完好同步，没道理不用她。</p>
+<p><strong>TeamViewer</strong>：一款用着挺便捷的远程软件；觉得好，没有同类个工具对比过，也就不好说她究竟有多好。</p>
+<h2 id="Windows方面"><strong>Windows方面</strong></h2><p>曾一度觉得：“真爱生命，当远离Windows(For Coder)”。在不得不使用Windows搞事儿期间，几番折腾过后，这略有的偏见倒改善不少；这多半要归功于以下利器：</p>
+<p><strong>AutoHotKey</strong>: 如果你愿意折腾，她真是一件神器；即便无意花费精力，网上随意搜索些脚本拿来用，至少也是Windows下一柄利器。具体有在 <strong><a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/" target="_blank" rel="external">Win下最爱效率神器:AutoHotKey</a></strong> 阐述。</p>
+<p><strong>Listary</strong>： 本地搜索<strong>神器</strong>，当然还有别的作用，More&amp;More；接触她后，直接导致我抛弃了<strong>Everything</strong> (申明：我真不是一个见异思迁的男人)。</p>
+<p><strong>Launchy</strong> : 快速启动安装的应用程序，老而弥坚，有丝Mac下Spotlight之风。据悉类似还有<strong>Rolan</strong> 和 <strong>Wox</strong>等。</p>
+<p><strong>Picasa3</strong>: 图片查看器中的佼佼者，偏爱ing。姑姑出品，必属精品！</p>
+<p><strong>Clover</strong>： 在Win下必备，谁让Win资源管理器太…QT，TotalCommand太重(⊙o⊙)…</p>
+<p><strong>Everything</strong>： 本来必备神器，无奈我移情别恋了—Listary。不过是不会忘了你。</p>
+<p><strong>Foxmail</strong>： 对比体验不多，不做评判，反正Win下就用此款(没给惹什么事儿)，不用其自带的。</p>
+<p><strong>Beyond Compare</strong> : 文件/夹比较利器; 此款为所接触同类中最佳。</p>
+<p><strong><a href="https://github.com/cmderdev/cmder/releases" title="CmderDownAdress" target="_blank" rel="external">Cmder</a></strong>:  windows下cmd的替换工具,支持PowerShell;同比还有PowerShell，<a href="https://github.com/Maximus5/ConEmu" title="ConEmuDownAdress" target="_blank" rel="external">ConEmu</a> 等。对于<strong>Cmder</strong>有在：<a href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/#" target="_blank" rel="external">Win下必备神器之Cmder</a> 一文中予以总结。</p>
+<p><strong><a href="https://git-for-windows.github.io" target="_blank" rel="external">Git for Windows</a></strong> : 打包好了，直接使用；Git 一族必备。</p>
+<p><strong><a href="http://www.goodsync.com" target="_blank" rel="external">GoodSync</a></strong>: 文件同步好帮手。可以同步 <code>本地文件</code> <code>P2P</code> <code>云</code>(Dropbox,Google,OnDrive,FTP/SFTP等等)，还可以同步<strong>应用程序</strong> 以及各设备；强大且不失简洁。比如：<strong>SFTP</strong>同步，用过SublimeText的SFTP(最方便，却老弹框)，WinSCP(F5即可同步，设计却不人性化)，Gulp的SFTP(只是需要率先Watch)，Xftp4(老牌了，都是手动点来点去，额)。</p>
+<p><strong><a href="http://www.ghisler.com" target="_blank" rel="external">Total Commander</a></strong>: 资源管理器集大成者，只是快捷键太繁琐，用她需要花费些时间了解她先；个人还是用 <code>Clover</code>(虽然她很容易发脾气，简单就好)。</p>
+<p><strong><a href="https://getsharex.com" target="_blank" rel="external">ShareX</a></strong>: 截图、注释、上传，复制 URL 一条龙服务；免费，强大而简洁；自动存储；支持双屏；支持录制；还有给力有用的工具集…大有相见恨晚之感 (☆_☆)(唯一没中不足是：安装时需率先安装Steam桌面应用，不过无妨)。</p>
+<h2 id="手机方面"><strong>手机方面</strong></h2><p>除却微信，秋秋，<strong>为知</strong>，知乎 常用的有以下几款软件倒可以一叙：<br><strong>Chrome</strong>： 手机浏览器，最后还是拥抱<strong>Chrome</strong>了，还是你干净可人。谁让那UC，360等不是弹窗，就是自作聪明乱推荐嘞？</p>
+<p><strong>简书</strong>：集读写于一体的阅读社区，现在已大名在外；主用来在零碎时间读写文章，增长些见闻(额，现在鸡汤尤多)；自建一专题 <a href="http://www.jianshu.com/collection/2f6a49e22121" target="_blank" rel="external">折腾之美</a>，以做汇集折腾见识之用（^_^，这是赤裸裸的广告）。</p>
+<p><strong>Kindle</strong>： 手机上阅读软件蛮多，但Kindle有依托于挺有格调的亚马逊，很自然各个设备都有她软件的存在了。</p>
+<p><strong>开眼视频</strong>： 这款视频软件真心不错；多在5左右分钟，涉及剧情/音乐/创意/动画/旅行等等；多为精品，堪称佳作，类似的还有：<strong>魔力盒</strong>。</p>
+<p><strong>锤子便签</strong>：这里真没有广告的意思，坦言，锤子便签为所用便签体验之最，没有之一。</p>
+<p><strong>SegmentFault</strong>：专注于程序员开发者的社区平台,提供开发相关的高质量问答,专栏,笔记，文章等服务。零碎时间看下问答or文章；偶尔也会作答or求教。</p>
+<p><strong>VST全聚合</strong>： 这款为Tv量身定做的视频软件，可了不得了（手机端也可用），高清，海量，快速，更新迅速；那些没在电影刷的电影，基本都在这里给享受了，这在<a href="http://www.jeffjade.com/2016/01/01/2016-01-01-movie2015/" target="_blank" rel="external">所欢喜过的那些电影(2015下)</a>有过见证。</p>
+<p><strong>奇妙清单</strong>：在这里为自己计划做下ToDoList，类同网页上的番茄土豆，轻量清新，偶尔会用下。</p>
+<h2 id="外设方面"><strong>外设方面</strong></h2><p><strong>Mac</strong>（主要负责优雅和爽了） ；<strong>Kindle</strong>（偶尔读读书） ；<strong>机械键盘</strong>（如果编码垒字较多的话，最好备着）；<strong>ipod Shuffle</strong>（跑步听歌利器）。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[晚晴幽草轩；对个人所使用工具总结:Sublime Text,Atom,Chrome,Evernote,为知笔记,Alfred,AutoHotKey等等。]]>
+    
+    </summary>
+    
+      <category term="Tool" scheme="http://www.jeffjade.com/tags/Tool/"/>
+    
+      <category term="Share" scheme="http://www.jeffjade.com/categories/Share/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Win下最爱效率神器:AutoHotKey]]></title>
@@ -834,7 +893,7 @@
     <link href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/"/>
     <id>http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/</id>
     <published>2015-12-15T04:50:00.000Z</published>
-    <updated>2016-03-15T14:51:16.000Z</updated>
+    <updated>2016-03-17T08:34:33.000Z</updated>
     <content type="html"><![CDATA[<p>Sublime Text：一款具有代码高亮、语法提示、自动完成且反应快速的编辑器软件，不仅具有华丽的界面，还支持插件扩展机制，用她来写代码，绝对是一种享受。相比于难于上手的Vim，浮肿沉重的Eclipse，VS，即便体积轻巧迅速启动的Editplus、Notepad++，在SublimeText面前大略显失色，无疑这款性感无比的编辑器是Coding和Writing最佳的选择，没有之一。</p>
 <a id="more"></a>
 <h2 id="如何优雅地使用Sublime_Text之目录："><strong>如何优雅地使用Sublime Text之目录：</strong></h2><ul>
@@ -1013,7 +1072,7 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Sublime Text：一款具有代码高亮、语法提示、自动完成且反应快速的编辑器软件，不仅具有华丽的界面，还支持插件扩展机制，用她来写代码，绝对是一种享受。相比于难于上手的Vim，浮肿沉重的Eclipse，VS，即便体积轻巧迅速启动的Editplus、Notepad++，在SublimeText面前大略显失色，无疑这款性感无比的编辑器是Coding和Writing最佳的选择，没有之一。</p>]]>
+    <![CDATA[如何优雅地使用Sublime Text；Sublime Text详细教程。]]>
     
     </summary>
     
@@ -1497,56 +1556,6 @@
     <![CDATA[<p>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！重而说三。</p>]]>
     
     </summary>
-    
-      <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
-    
-      <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
-    
-      <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Vimium~让您的Chrome起飞]]></title>
-    <link href="http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/"/>
-    <id>http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/</id>
-    <published>2015-10-19T03:00:00.000Z</published>
-    <updated>2015-10-19T10:26:55.000Z</updated>
-    <content type="html"><![CDATA[<p><strong>工欲善其事，必先利其器！</strong>撸起Vimium,我的Chrome就这么起飞了。</p>
-<a id="more"></a>
-<p>如今PC和Mac端安装的Chrome插件(偏前端)：<br><strong>Vimium</strong>：黑客级别的Chrome插件，此文主记载的<strong>主角~(The Hacker’s Browser )</strong>；<br><strong>ABP</strong>： 有她在，WEB的世界就可以清静点了.<br><strong>infinity</strong>：没有最好，只有更好，此款新标签页，如今最爱。<br><strong>crxMouse</strong>: 如果用鼠标操作Chrome,必备=充分发掘鼠标的所有操作。<br><strong>JASN-handle</strong>：Json解析，所用之中综合体验最优者；<br><strong>OK记</strong>： 一键记录你想记载的，体验一流！<br><strong>Pocket</strong>: 轻松保存文章，视频等供以后查看。<br><strong>QR码生成器</strong>： PC阅读-URL转移手机的桥梁，用的不多。<br><strong>WEB前端助手</strong>： 功能虽不少，用的却也少。<br><strong>Website Ip Option</strong>：获取了每个网页Ip显示于屏幕下方。<br><strong>Web Design Tester</strong>：Installed,web Devolop，暂时用的不多。<br><strong>Web Developer</strong>：Installed,web Devolop，暂时用的不多。<br><strong>CssViewer</strong>：Installed,web Devolop，暂时用的不多。<br><strong>PerfectPixel</strong>+<strong>EmmetLiveStyle</strong>: 更便捷精准还原设计图于网页设计，利弊兼有，偶尔用。</p>
-<p>更多插件请参见知乎<a href="http://www.zhihu.com/question/19594682" target="_blank" rel="external">你极力推荐的Chrome 扩展有哪些？</a>问题的各种回复。</p>
-<hr>
-<p>学起(了解几个快捷键即可)And撸起<strong>Vimium</strong>,想黑客一般在Chrome上飞起。<br><strong>Vimium常用快捷键</strong>(注：区分大小写)<br><strong>j</strong>, <c-e> : 向下移动 Scroll down<br><strong>k</strong>, <c-y> : 向上移动Scroll upi<br><strong>h</strong> : 左移 Scroll left<br><strong>l</strong> : 右移 Scroll right</c-y></c-e></p>
-<p><strong>H</strong>：回到上一个历史页面<br><strong>L</strong>：回到下一个历史页面<br><strong>J</strong>：跳到左边标签页<br><strong>K</strong>：跳到右边标签页<br><strong>t</strong>：创建新的标签页（ctrl+t）</p>
-<p><strong>d</strong> : 向下移动一个页面 Scroll a page down<br><strong>u</strong> : 向上移动一个页面 Scroll a page up</p>
-<p><strong>gg</strong> : 移到页面顶部 Scroll to the top of the page<br><strong>G</strong> : 移到页面底部 Scroll to the bottom of the page</p>
-<p><strong>x</strong>：关闭当前标签页<br><strong>X</strong>：恢复关闭的标签页</p>
-<p><strong>r</strong> : 刷新 Reload the page<br><strong>gs</strong> : 查看网页源码 View page source<br><strong>yy</strong> : copy当前页面url Copy the current URL to the clipboard<br><strong>yf</strong> : 拷贝当前页面的连接到剪切板 Copy a link URL to the clipboard<br><strong>yt</strong> : 创建当前页面的一个副本(copy当前路径在新Tab中打开)-Duplicate current tab<br><strong>YT</strong> : 罗列出当前所有Tab页(并提供索引)，可任你选择性跳转，帅；</p>
-<p><strong>p</strong> : 在当前标签页中打开剪切板中的链接 Open the clipboard’s URL in the current tab<br><strong>P</strong> : 在新的标签页中打开剪切板中的链接Open the clipboard’s URL in a new tab</p>
-<p><strong>gu</strong> : Go up the URL hierarchy（例如，URL为<a href="http://blog.net/article/8021689" target="_blank" rel="external">http://blog.net/article/8021689</a> ，按下gu后，转到<a href="http://blog.net/article/，回到该网站该访问者主页）" target="_blank" rel="external">http://blog.net/article/，回到该网站该访问者主页）</a><br><strong>gU</strong> : Go to root of current URL hierarchy (类似gu，回到根URL页 <a href="http://blog.net" target="_blank" rel="external">http://blog.net</a>)</p>
-<hr>
-<p><strong>f</strong> : 在当前标签页中打开链接 Open a link in the current tab<br><strong>F</strong> : 在新标签页中打开链接 Open a link in a new tab</p>
-<p>YES: (几乎)所有的操作都是通过键盘的快捷键来操作。如果想点击页面上的某个连接时，在命令模式下，按 f 键之后就会对页面上所有可点击的连接或按钮进行编码，然后再<strong>输入相应的编码完成点击</strong>或者复制连接操作，包含常见的a标签，button标签，input标签中type=button/submit/reset，不过有些也无法识别（flash); 见证如下图：。<br><img src="http://linxg-wordpress.stor.sinaapp.com/uploads/2014/04/viumclik.png" alt="Vimium-F-Link"></p>
-<hr>
-<p><strong>o</strong> : 在当前页面中打开URL，书签和历史记录 Open URL, bookmark, or history entry<br><strong>O</strong> : 在新标签页中打开URL，书签和历史记录Open URL, bookmark, history entry, in a new tab<br><strong>T</strong> : 搜索打开的标签页 Search through your open tabs</p>
-<p><strong>b</strong> : 打开书签 Open a bookmark<br><strong>B</strong> : 在新标签中打开书签 Open a bookmark in a new tab<br>在命令行模式，按下b(B)，可以对标签进行检索，检索结果通过tab键进行选择，回车即可打开标签。</p>
-<p><img src="http://linxg-wordpress.stor.sinaapp.com/uploads/2014/04/vimbookmap.png" alt="Vimium-bB"></p>
-<p>/：查找（ctrl+f）<br><strong>i</strong> : 进入输入模式 Enter insert mode<br><strong>esc</strong>：退出</p>
-<hr>
-<p>还有些还不怎么常用的，比如：<br><strong>zH</strong> : Scroll all the way to the left<br><strong>zL</strong> : Scroll all the way to the right<br><strong>m</strong> : Create a new mark</p>
-<p>最后，任何时候你需要帮助的时候可以按？(shilft+/)来调出帮助菜单，同时显示了所有快捷键的说明,again(shilft+/)即可Close之，如下图：<br><img src="http://images.cnitblog.com/blog/431064/201403/141813348554340.png" alt="vimium-help"></p>
-<p>切记(to myself)：<strong>熟能生巧，至巧了，即可夺天之工</strong>。</p>
-<p>未完待续…</p>
-<p>参考文章链接：<br><a href="http://lin.xiaogang.me/?p=315" target="_blank" rel="external">chrome的vim模式</a><br><a href="http://blog.csdn.net/xiajian2010/article/details/23931273" target="_blank" rel="external">关于vim化浏览器</a></p>
-<p>推荐阅读(对于有待更熟悉Win下快捷操作的同志)：<br><a href="http://www.cnblogs.com/wayou/p/shortcuts.html" target="_blank" rel="external">没有鼠标的日子多亏了我精湛的手操，各种快捷键分享</a><br><a href="http://www.jianshu.com/p/3cb5c6f2421c" target="_blank" rel="external">如何优雅地使用Sublime Text3</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><strong>工欲善其事，必先利其器！</strong>撸起Vimium,我的Chrome就这么起飞了。</p>]]>
-    
-    </summary>
-    
-      <category term="Chrome" scheme="http://www.jeffjade.com/tags/Chrome/"/>
     
       <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
     
