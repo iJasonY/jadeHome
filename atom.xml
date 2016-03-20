@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-17T16:29:23.000Z</updated>
+  <updated>2016-03-20T06:32:24.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/"/>
     <id>http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/</id>
     <published>2016-03-17T08:30:00.000Z</published>
-    <updated>2016-03-17T16:29:23.000Z</updated>
+    <updated>2016-03-20T06:32:24.000Z</updated>
     <content type="html"><![CDATA[<p>工作近三年，使用PC快六年，拥抱Mac整一年，投<code>具器</code>石榴裙三年。14年第一次被同事推荐<code>Everything</code>，开启了JeffJade对工具的折腾之旅，并乐此不疲。时去两年，这必然是消耗了一些时间，但对效率的提升，心情之保养，以及思维持续扩散，无疑是起了不可磨灭的功绩。是时候对这期间的热忱和折腾，做一个总结了。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/jiangXin.jpg" alt="www.jeffjade.com"></p>
@@ -101,6 +101,10 @@
 </li>
 <li><p><strong>SegmentFault</strong>：专注于程序员开发者的社区平台,提供开发相关的高质量问答,专栏,笔记，文章等服务。零碎时间看下问答or文章；偶尔也会作答or求教。</p>
 </li>
+<li><p><strong>开发者头条</strong>： 一个基于程序员阅读和分享的社交平台；程序员可以分享感兴趣的内容、订阅感兴趣的主题和关注感兴趣的人。拥有这个缘起于一次这里刊登自己一篇文章，一时给带来了很多流量；继续拥有，倒是因为其内容可以一读。</p>
+</li>
+<li><p><strong>同行说</strong>：介绍是：“真诚的同行互动社区! 这儿只有你的同行,随时随地了解同行的吐槽爆料、行业干货、精彩问答”。留用它是因为可方便在上面分享自己文章链接；也偶尔会读一些，因多半是自行分享，内容质量上倒缺少了一道保障。</p>
+</li>
 <li><p><strong>VST全聚合</strong>： 这款为Tv量身定做的视频软件，可了不得了（手机端也可用），高清，海量，快速，更新迅速；那些没在电影刷的电影，基本都在这里给享受了，这在<a href="http://www.jeffjade.com/2016/01/01/2016-01-01-movie2015/" target="_blank" rel="external">所欢喜过的那些电影(2015下)</a>有过见证。</p>
 </li>
 <li><p><strong>奇妙清单</strong>：在这里为自己计划做下ToDoList，类同网页上的番茄土豆，轻量清新，偶尔会用下。</p>
@@ -129,7 +133,7 @@
     <link href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/"/>
     <id>http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/</id>
     <published>2016-03-11T10:00:00.000Z</published>
-    <updated>2016-03-16T13:23:59.000Z</updated>
+    <updated>2016-03-20T06:36:09.000Z</updated>
     <content type="html"><![CDATA[<p><strong><a href="https://autohotkey.com/" target="_blank" rel="external">AutoHotkey</a></strong>是一个windows下的开源、免费、自动化软件工具。它由最初旨在提供键盘快捷键的脚本语言驱动(称为：<strong>热键</strong>)，随着时间的推移演变成一个完整的脚本语言。但你不需要把它想得太深，你只需要知道它可以简化你的重复性工作，一键自动化启动或运行程序等等；以此提高我们的<strong>工作效率</strong>，改善<strong>生活品质</strong>；通过按键映射，鼠标模拟，定义宏等。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/AutoHotKeyBg.jpg" alt="图片来自：zoommyapp.com"></p>
@@ -197,6 +201,8 @@
     
       <category term="Share" scheme="http://www.jeffjade.com/tags/Share/"/>
     
+      <category term="Tools" scheme="http://www.jeffjade.com/tags/Tools/"/>
+    
       <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
     
       <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
@@ -208,7 +214,7 @@
     <link href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/"/>
     <id>http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/</id>
     <published>2016-03-03T10:00:00.000Z</published>
-    <updated>2016-03-14T01:55:50.000Z</updated>
+    <updated>2016-03-20T06:32:50.000Z</updated>
     <content type="html"><![CDATA[<p><strong><a href="https://atom.io/" target="_blank" rel="external">Atom</a></strong> 是 <code>Github</code> 专门为程序员推出的一个跨平台文本编辑器。她很大程度上继承了SublimeText的美，而又不仅如此。有费了蛮大力气总结了一篇关于SublimeText文章: <a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a>，这其中可以感受个人对于Sublime的钟爱。而如今试用了 <code>Atom</code> 一个多月以来，我被迫见异思迁了，幸好我不是一个喜新厌旧的男人～在编码砌字时，很多时候一款编辑器的标签不够用的，所以现在两款兼而用之。</p>
 <a id="more"></a>
 <h1 id="Atom与SublimeText3对比">Atom与SublimeText3对比</h1><ul>
@@ -408,6 +414,8 @@
       <category term="Atom" scheme="http://www.jeffjade.com/tags/Atom/"/>
     
       <category term="Share" scheme="http://www.jeffjade.com/tags/Share/"/>
+    
+      <category term="Tools" scheme="http://www.jeffjade.com/tags/Tools/"/>
     
       <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
     
@@ -944,7 +952,7 @@
     <link href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/"/>
     <id>http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/</id>
     <published>2015-12-15T04:50:00.000Z</published>
-    <updated>2016-03-17T08:34:33.000Z</updated>
+    <updated>2016-03-20T06:34:26.000Z</updated>
     <content type="html"><![CDATA[<p>Sublime Text：一款具有代码高亮、语法提示、自动完成且反应快速的编辑器软件，不仅具有华丽的界面，还支持插件扩展机制，用她来写代码，绝对是一种享受。相比于难于上手的Vim，浮肿沉重的Eclipse，VS，即便体积轻巧迅速启动的Editplus、Notepad++，在SublimeText面前大略显失色，无疑这款性感无比的编辑器是Coding和Writing最佳的选择，没有之一。</p>
 <a id="more"></a>
 <h2 id="如何优雅地使用Sublime_Text之目录："><strong>如何优雅地使用Sublime Text之目录：</strong></h2><ul>
@@ -1127,7 +1135,11 @@
     
     </summary>
     
+      <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
+    
       <category term="SublimeText" scheme="http://www.jeffjade.com/tags/SublimeText/"/>
+    
+      <category term="Tools" scheme="http://www.jeffjade.com/tags/Tools/"/>
     
       <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
     
@@ -1566,7 +1578,7 @@
     <link href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/"/>
     <id>http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/</id>
     <published>2015-10-19T10:00:00.000Z</published>
-    <updated>2016-03-17T11:42:48.000Z</updated>
+    <updated>2016-03-20T06:33:25.000Z</updated>
     <content type="html"><![CDATA[<p>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！<br>工欲善其事，必先利其器！重而说三。</p>
 <a id="more"></a>
 <p><strong>AutoHotKey</strong>: 神器！神器！神器！当然也得看使用者咯(<em>^__^</em>) 嘻嘻……详情请参看：<strong><a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/" target="_blank" rel="external">Win下最爱效率神器:AutoHotKey</a></strong>。</p>
@@ -1609,6 +1621,8 @@
     </summary>
     
       <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
+    
+      <category term="Tools" scheme="http://www.jeffjade.com/tags/Tools/"/>
     
       <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
     
