@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-24T14:04:29.000Z</updated>
+  <updated>2016-03-26T19:15:11.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -15,35 +15,65 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[微信公众号：静晴轩]]></title>
-    <link href="http://www.jeffjade.com/2016/03/17/2016-03-23-toss-wechat-public_no/"/>
-    <id>http://www.jeffjade.com/2016/03/17/2016-03-23-toss-wechat-public_no/</id>
-    <published>2016-03-17T08:30:00.000Z</published>
-    <updated>2016-03-24T14:04:29.000Z</updated>
-    <content type="html"><![CDATA[<p>多少有些跟风之举，终于也还是开通了这<strong>微信公众号</strong>: <a href="http://mp.weixin.qq.com/s?__biz=MzI5MDIwMzM2Mg==&amp;mid=403050786&amp;idx=1&amp;sn=c7ee09c85f2e8c7254c952fad2ce95a0#rd" target="_blank" rel="external"><strong><em>静晴轩</em></strong></a>。这事儿，一如当年从秋秋（QQ）渐转微信，开始内心都是拒绝的。不一样的是，这地儿定然不会成为个人写文砌字的嫡系阵地。依旧坚信：<strong>独立的才是自己的</strong>；对于“即便是再小的个体，也当有自己的品牌”这一观点，也很是赞同；所以，<a href="http://jeffjade.com" target="_blank" rel="external">晚晴幽草轩</a>~依旧会很用心的来经营你的，还有你~ <a href="http://nicejade.github.io/" target="_blank" rel="external">天意人间舫</a>。</p>
+    <title><![CDATA[Rake让Jekyll写博更优雅]]></title>
+    <link href="http://www.jeffjade.com/2016/03/26/2016-03-26-rakefile-for-jekyll/"/>
+    <id>http://www.jeffjade.com/2016/03/26/2016-03-26-rakefile-for-jekyll/</id>
+    <published>2016-03-26T08:30:00.000Z</published>
+    <updated>2016-03-26T19:15:11.000Z</updated>
+    <content type="html"><![CDATA[<p>于想拥有个人站点品牌的人来讲，现如今是一个很好的时期。至少 <strong>Hexo</strong>、<strong>Jekyll</strong>、<strong>Leanote</strong>、<code>WordPress</code> 、<code>FarBox</code>  Octopress、ghost、marboo、Medium、Logdown、prose.io 等诸多层出不穷的好工具，让建站写文已经变得异常简洁方便。分分钟可搭建起美观大方的个人博客，这样的教程已经充盈网络，在此不提。这篇要分享的是，以<strong>Rake</strong>一键生成<strong>Jekyll</strong>文章模版，一键预览效果，一键发布等等。</p>
 <a id="more"></a>
-<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/Sunset.jpg" alt="微信公众号：静晴轩"></p>
-<h3 id="开通公众号初衷"><strong>开通公众号初衷</strong></h3><p>上面提及开通 微信公众号，多少有跟风成分；比如 <code>颜海镜</code>同学有写到的<a href="http://yanhaijing.com/other/2016/02/29/why-i-open-weixin-public/" target="_blank" rel="external">我为什么开通微信公众号</a>。同为90后，对于不管是微信还是微信公众号，有着跟他一致的<strong>抵触情绪</strong>。并且，对于大多人都玩的我还未熟悉事物，内心自带一丢不屑的叛逆。各种有的没的缘由，反正这才迟迟开通了它。</p>
-<p>谈及为何要开通微信公众号？不得不说，此乃<strong>无奈之举</strong>。这是可以一个很好&amp;很好的时代，于个人博客，也是如此。<code>WordPress</code>  <code>FarBox</code> 、<strong>Hexo</strong>、<strong>Jekyll</strong>、<strong>Leanote</strong> Octopress、ghost、marboo、、Medium、Logdown、prose.io 等诸多层出不穷的好工具，让建站写博变的简洁高效；而信息过载，聚合黑帽等也让个人博客衍生出诸多无奈来。</p>
-<p>“写作是为了光阴流逝是我心安，分享是为了让自己和这个尘世可以更好”，所以才有了我这<a href="http://jeffjade.com" target="_blank" rel="external"><strong>晚晴幽草轩</strong></a>。经营这个已然颇为麻烦，可我真是一懒人，哪儿还有那多闲情去折腾公众号？虽然，有折腾很多软件/工具，简书更是有创建一专题<a href="http://www.jianshu.com/collection/2f6a49e22121" target="_blank" rel="external">《折腾之美》</a>，这正是我懒得体现：只是想让欢喜事物做起来可以变得简洁，即便为此花费些精力。</p>
-<p>话说回来，活在这多彩尘世，没点虚荣心，可怎么好意思？博客撰文分享些经验想法，这其中就略带些虚荣的味道。然而，百度搜索的不给力(这点共识就不多谈了)，聚合网的无情抓取等，着实让人略显无奈。对于博客，因个人强迫症，更在意内容实用性以及阅读体验。而聚合网的抓取，有些不仅未留原链，可气的是网页排版杂乱，广告还纵横交错！初创小站，权重自然敌不过那些聚合网，弄不好姑姑(Google)还会“认为”原创是做了弊的。@<code>Phodal</code> 在<a href="https://www.phodal.com/blog/fighting-for-origin-creative/" target="_blank" rel="external">从个人博客到公众号：与聚合网站抗争的无奈辛酸史</a>，详细阐明这一无奈和斗争。虽然闲来也会学习下如何优化SEO(这个正在学习总结中)，可毕竟分享纪录才是目的，而不是斗争or迎合度娘。所以，当写完值得分享的博文，会在<code>简书</code> or <code>博客园</code> or <code>SegmentFault</code> 主动予以同步，留下原链；然而这么做，于在博客中内容，本就缺乏搜索引擎关顾，这般倒更有些雪上加霜。如此，微信公众号就被无奈开通了，写完了，能第一时间以飨读者，吾之所望。</p>
-<h3 id="将如何经营微信公众号"><strong>将如何经营微信公众号</strong></h3><p>到目前有在公众号群发过两篇文章；话说，公众号写文的体验不怎么好(当然也可能是没找到对的打开方式：复制博客页面内容，粘贴在其富文本中，预览时保留跟博客几乎一致样式(类似360个人图书馆)，发布后样式存留却只一半，链接也全无)，阅读体验更显一般(链接只能以文本形式出现了)；并且从自身体验来讲，出于好奇，对于有提醒的消息，总有消掉的冲动。所以，为不至于浪费订阅者时间和精力，会选取自认对读者有价值文字，予以分享在公众号。如此也是渴望作为看官的您，能亲临博客阅读，虽然目前加载速度有些小慢，不过读来体验倒好很多。作为分享者，以<code>Markdown</code> + <code>Hexo</code>/<code>Jekyll</code> + <code>Github</code>便捷来写些文字和发布，也是能节省不少时间。</p>
-<h3 id="微信公众号分享内容"><strong>微信公众号分享内容</strong></h3><p>对于博客这个人地盘，想怎么折腾倒可以随便些；<a href="http://jeffjade.com" target="_blank" rel="external">晚晴幽草轩</a>会用心经营，但也会纪录些个人成长等等；像<a href="http://nicejade.github.io/" target="_blank" rel="external">天意人间舫</a>就不会刻意考究原创，虽也是以有其实用价值为宗旨，但内容会更宽泛而任性，不会单调拘泥于一事物。但<strong>微信公众号</strong>就不会如此了，毕竟一经发布，就会推送到读者那里，对于内容实质和排版，当更加谨慎些（客观的缘由是：它那边也不太方便修正）。所以，目前会在微信公众号这边分享关于<code>工具</code> <code>前端</code>，时机成熟，也会分享些关于<code>读书</code> <code>旅行</code> <code>美食</code> <code>人生思考</code> 等。</p>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/niceStar.jpg" alt="Rake让Jekyll写博更优雅"></p>
+<p>个人博客，目前主用这<strong>Hexo</strong>和<strong><a href="http://jekyllrb.com/" target="_blank" rel="external">jekyll</a></strong>，两者都很是轻量便捷。<strong>Hexo</strong>是一个开源的静态博客生成器,由以为台湾大学生用node.js开发而成，<a href="http://www.jeffjade.com" target="_blank" rel="external">晚晴幽草轩</a>就是用<strong>Hexo</strong>搭建而成。<strong>jekyll</strong>是Ruby写的一个轻量级的博客系统，也是Github Page默认搭配，而<a href="http://nicejade.github.io" target="_blank" rel="external">天意人间舫</a>则是以<strong>Jekyll</strong>创造出的；(题外话，Hexo发布前需要运行<code>Hexo g</code>本地生成下，文章多了，速度上也会慢些；发布后更新速度也没Jekyll那么快；其他常用体验倒差不太多)。</p>
+<p>在设计上，jekyll框架将博客模块化，比如有负责网页显示样式的部分（即模板），有负责博客内容的部分，也就是我们使用<strong>markdown</strong>语言来写的内容。其次，它通过一定的规则，又将各个模块的内容组织起来，并创建各个页面之间的联系。如此是它可以使我们在写作的时候，尽最大的精力去集中在内容的创作上，而不用太在意格式以及排版。并且借助于git这个相当流行的分布式版本控制系统，可很有效的管理所写的文章，完全可以做到在没有网络的情况下写作｜预览，待有网络时再将内容同步。</p>
+<p>使用<strong>Jekyll</strong>本已经非常方便了，不管是本地测试还是发布线上。但还是不够简洁，对于渴望极致的懒人来讲。比如发布文章到线上：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .&#10;git commit -m &#34;commit massge&#34;&#10;git push origin master</span><br></pre></td></tr></table></figure></p>
+<p>如果能够敲击一个命令完成，就不能忍受搞三行；虽然三行只多余费了不到半分钟。撰文写字，本就不易，一篇下来，已是很累；欲长久此好，必须尽可能减轻完成这事儿之成本；否则累觉不爱之后，爱好这种事儿，会在累烦的跌宕种被阉割抛弃的。在操纵<strong>Jekll</strong>博客方面，有很多可以利用的脚本，比如<strong>bash</strong>,<strong>Makefile</strong>,win下的<strong>bat</strong>等等； 朋友@<a href="http://pizida.com" target="_blank" rel="external">痞子达</a> 向我推荐了<strong>Rake</strong>，这些日子用了下很是方便，改写也颇为简单，就此录下一篇推荐给大家。</p>
+<p>何为<a href="http://rake.rubyforge.org" target="_blank" rel="external">Rake</a>？: Ruby Make，一个用ruby开发的代码构建工具，要了解更多Rake可以参看其官网，抑或是这里整理的<a href="http://nicejade.github.io/2016/03/26/nice-rake.html" target="_blank" rel="external">简洁强大如斯：Rake</a>。</p>
+<p>下载安装<strong>Rake</strong>，可以使用 <strong>gem</strong>：</p>
 <blockquote>
-<p>微注：鉴于以上所述，也不好按所享内容给这公众号命一个贴切的名字。干脆任性点：<strong>静晴轩</strong>，这里<code>晴</code>字可通<code>情</code>字；那么赋予这名字的是什么含义呢？『窃喜』。</p>
+<p>gem install rake</p>
 </blockquote>
-<p>Okay，这大概就是<strong>静晴轩</strong>的来由了。需求Coding多了，书籍读的少了，文字描述心中所想越发捉襟见肘，『苦笑』。寥寥百贫言，欲证我心，斯可云证？</p>
-<p>虽然积淀尚且浅薄，可对于分享这事儿，我是认真的，美好正在路上努力奔袭。<strong>静晴轩</strong>，期待您的关注 『16-03-23 记于深圳』。</p>
-<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/qrcode_jqx.jpg" alt="微信公众号：静晴轩"></p>
+<p>如何使用<strong>Rake</strong>，只需要写一个<strong>Rakefile</strong>为名的Rake脚本放置在Blog项目的根目录下，同时做一点简单的配置即可。<a href="https://github.com/gummesson/jekyll-rake-boilerplate" target="_blank" rel="external">Jekyll Rake Boilerplate</a>是一个功能很完善的脚本，有以下诸多方式可供使用：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rake post[&#34;Title&#34;]&#10;rake draft[&#34;Title&#34;]&#10;rake publish&#10;rake page[&#34;Title&#34;]&#10;    rake page[&#34;Title&#34;,&#34;Path/to/folder&#34;]&#10;rake build&#10;rake watch&#10;    rake watch[number]&#10;    rake watch[&#34;drafts&#34;]&#10;rake preview&#10;rake deploy[&#34;Commit message&#34;]&#10;rake transfer</span><br></pre></td></tr></table></figure>
+<p>这意味着使用<strong>Jekyll</strong>写文的流程可简化为：</p>
+<blockquote>
+<ul>
+<li>写草稿：rake draft[“Title”]</li>
+<li>将草稿发表：rake publish</li>
+<li>直接写博文：rake post[“Title”]</li>
+<li>做页面：rake page[“Title”]</li>
+<li>写完后发布，rake deploy[“Commit message”]</li>
+</ul>
+</blockquote>
+<p>那这个脚本目测是国外人编写的，于我们的需求还是需要调整的。并且这里采用 <code>rake draft[&quot;Title&quot;]</code> 这样命令行来写，对于使用 <code>zsh</code>的人，就颇为有点蛋疼了。”[]”在<code>zsh</code>这里会被转义，所以需要这样 <code>rake post\[&quot;TitleName&quot;\]</code>，否则会报如下错误：</p>
+<blockquote>
+<p>zsh: no matches found: post[TitleName]</p>
+</blockquote>
+<p>伊始用这个老报错，不懂的<strong>Ruby</strong>，去查看了下，用环境变量做参数可以，没报错（ENV[“Title”]来接收消息）。这是费了点功夫才找到的原因，参见<a href="https://ihower.tw/blog/archives/3546" target="_blank" rel="external">傳參數到 Rake 中</a>。所以这边自己更改了下原有的写法，比如新建一篇文章：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># Add 2016-03&#65293;01(rake post title=&#34;xx&#34;)&#10;desc &#34;Create a post in _posts&#34;&#10;task :new do&#10;    puts &#34;Input File Path(book/life/resource/tech/tool,default _posts Root)&#65306;&#34;&#10;    @dir = STDIN.gets.chomp&#10;    puts &#34;Input File Name(for Url)&#65306;&#34;&#10;&#9;@url = STDIN.gets.chomp&#10;&#9;puts &#34;Input Article Title(for Article)&#65306;&#34;&#10;&#9;@name = STDIN.gets.chomp&#10;&#9;puts &#34;Input Article Categories(&#24037;&#20855;&#65372;&#36164;&#28304;&#65372;&#29983;&#27963;&#65372;&#25216;&#26415;&#65372;&#35835;&#20070; Separated By Spaces)&#65306;&#34;&#10;&#9;@categories = STDIN.gets.chomp&#10;    puts &#34;Input Article Tags(Separated By ,)&#34;&#10;    @tags = STDIN.gets.chomp&#10;    puts &#34;Input Article Keywords(Separated By ,)&#34;&#10;    @keywords = STDIN.gets.chomp&#10;    puts &#34;Input Article Description(Article Desc)&#65306;&#34;&#10;&#9;@description = STDIN.gets.chomp&#10;&#10;&#9;@slug = &#34;#&#123;@url&#125;&#34;&#10;&#9;@slug = @slug.downcase.strip.gsub(&#39; &#39;, &#39;-&#39;)&#10;&#9;@date = Time.now.strftime(&#34;%F&#34;)&#10;    @post_url = (@dir==&#34;&#34;) ? &#34;&#34; : (&#34;/&#34; + &#34;#&#123;@dir&#125;&#34;);&#10;&#9;@post_name = &#34;_posts#&#123;@post_url&#125;/#&#123;@date&#125;-#&#123;@slug&#125;.md&#34;&#10;&#9;if File.exist?(@post_name)&#10;&#9;   abort(&#34;Failed to create the file name already exists !&#34;)&#10;&#9;end&#10;&#9;FileUtils.touch(@post_name)&#10;&#9;open(@post_name, &#39;a&#39;) do |file|&#10;&#9;    file.puts &#34;---&#34;&#10;&#9;&#9;file.puts &#34;layout: post&#34;&#10;&#9;&#9;file.puts &#34;title: #&#123;@name&#125;&#34;&#10;&#9;&#9;file.puts &#34;date: #&#123;Time.now&#125;&#34;&#10;&#9;&#9;file.puts &#34;categories: #&#123;@categories&#125;&#34;&#10;        file.puts &#34;tags: #&#123;@tags&#125;&#34;&#10;        file.puts &#34;keywords: #&#123;@keywords&#125;&#34;&#10;        file.puts &#34;description: #&#123;@description&#125;&#34;&#10;&#9;    file.puts &#34;---&#34;&#10;&#9;end&#10;&#9;exec &#34;vi #&#123;@post_name&#125;&#34;&#10;end</span><br></pre></td></tr></table></figure>
+<p>运用的话，只需要<code>rake new</code>开启命令，按照其提示的一步步输入：title categories tags keywords description 等<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">➜  nicejade.github.io git:(master) ✗ rake new</span><br><span class="line">Input File Path(book/life/resource/tech/tool,default _posts Root)：</span><br><span class="line">life</span><br><span class="line">Input File Name(<span class="keyword">for</span> Url)：</span><br><span class="line">the pleasure of thinking</span><br><span class="line">Input Article Title(<span class="keyword">for</span> Article)：</span><br><span class="line">思维的的乐趣</span><br><span class="line">Input Article Categories(工具｜资源｜生活｜技术｜读书 Separated By Spaces)：</span><br><span class="line">生活</span><br><span class="line">Input Article Tags(Separated By ,)</span><br><span class="line">Thinking,Essay</span><br><span class="line">Input Article Keywords(Separated By ,)</span><br><span class="line">思维的乐趣</span><br><span class="line">Input Article Description(Article Desc)：</span><br><span class="line">王小波散文随笔：思维的录乐趣</span><br></pre></td></tr></table></figure></p>
+<p><strong>Rake</strong>即可帮着在 <code>_posts/life</code>目录下创建命名为“2016-03-26-the-pleasure-of-thinking.md”的文件，并根据所输入的生成以下内容：</p>
+<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">---</span><br><span class="line"></span>layout: post</span><br><span class="line">title: 思维的乐趣</span><br><span class="line">date: 2016-03-26 00:22:39 +0800</span><br><span class="line">categories: 生活</span><br><span class="line">tags: Thinking,Essay</span><br><span class="line">keywords: 思维的乐趣</span><br><span class="line"><span class="header">description: 王小波散文随笔：思维的乐趣</span><br><span class="line">---</span></span><br></pre></td></tr></table></figure>
+<p>接下来只管产出内容即可。当然了，之前提到需要一点配置，就是需要在<code>_config.yml</code>种对template,page,git等进行配置，譬如：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post:&#10;  template: _post.txt&#10;  extension: md&#10;page:&#10;  template: _page.txt&#10;  extension: md&#10;editor: atom&#10;git:&#10;  branch: master&#10;transfer:&#10;  command: rsync&#10;  settings: -av&#10;  source: _site/&#10;  destination: ~/Git/yourGithubName.github.com/</span><br></pre></td></tr></table></figure></p>
+<p>对应可以按需在<code>_config.yml</code>目录下 创建<strong>_post.txt</strong> <strong>_page.txt</strong>即可；根据Html种<strong>Meta</strong>对于<strong>SEO</strong>的重要，以及站点分类需要，个人配置内容如下：<br><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">---</span><br><span class="line"></span>title:</span><br><span class="line">date:</span><br><span class="line">categories:</span><br><span class="line">tags:</span><br><span class="line">keywords:</span><br><span class="line"><span class="header">description:</span><br><span class="line">---</span></span><br></pre></td></tr></table></figure></p>
+<p>如此配置完毕，即可运行如下命令：</p>
+<blockquote>
+<p>rake new  // 新建文章<br>rake post[“TitleName”] // 生成纯净文章模版配置<br>rake deploy “message”=”Commit Message” //一键发布文章<br>rake preview   //一键预览(还会自主协助打开浏览器)<br>rake build      //Build the site<br>rake post[“Title”] //创建文章(tags,keywords等洁净的)</p>
+</blockquote>
+<p>以上改写脚本已上传这里<a href="https://github.com/nicejade/jadeScriptCollect" target="_blank" rel="external">jadeScriptCollect</a>，会根据需要持续更新。</p>
+<p>折腾不是为折腾而折腾，只为偷懒而勤奋；简洁才是王道。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[讲述为何要为什么开通微信公众号，以及个人博客相关相关论述。]]>
+    <![CDATA[编写Rakefile让Jekyll写博更便捷，一键生成/预览/发布...]]>
     
     </summary>
     
-      <category term="Share" scheme="http://www.jeffjade.com/tags/Share/"/>
+      <category term="Jekyll" scheme="http://www.jeffjade.com/tags/Jekyll/"/>
     
-      <category term="Share" scheme="http://www.jeffjade.com/categories/Share/"/>
+      <category term="Rake" scheme="http://www.jeffjade.com/tags/Rake/"/>
+    
+      <category term="Tools" scheme="http://www.jeffjade.com/tags/Tools/"/>
+    
+      <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
     
   </entry>
   
@@ -157,6 +187,39 @@
       <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
     
       <category term="Tools" scheme="http://www.jeffjade.com/tags/Tools/"/>
+    
+      <category term="Share" scheme="http://www.jeffjade.com/categories/Share/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[微信公众号：静晴轩]]></title>
+    <link href="http://www.jeffjade.com/2016/03/17/2016-03-23-toss-wechat-public_no/"/>
+    <id>http://www.jeffjade.com/2016/03/17/2016-03-23-toss-wechat-public_no/</id>
+    <published>2016-03-17T08:30:00.000Z</published>
+    <updated>2016-03-24T14:04:29.000Z</updated>
+    <content type="html"><![CDATA[<p>多少有些跟风之举，终于也还是开通了这<strong>微信公众号</strong>: <a href="http://mp.weixin.qq.com/s?__biz=MzI5MDIwMzM2Mg==&amp;mid=403050786&amp;idx=1&amp;sn=c7ee09c85f2e8c7254c952fad2ce95a0#rd" target="_blank" rel="external"><strong><em>静晴轩</em></strong></a>。这事儿，一如当年从秋秋（QQ）渐转微信，开始内心都是拒绝的。不一样的是，这地儿定然不会成为个人写文砌字的嫡系阵地。依旧坚信：<strong>独立的才是自己的</strong>；对于“即便是再小的个体，也当有自己的品牌”这一观点，也很是赞同；所以，<a href="http://jeffjade.com" target="_blank" rel="external">晚晴幽草轩</a>~依旧会很用心的来经营你的，还有你~ <a href="http://nicejade.github.io/" target="_blank" rel="external">天意人间舫</a>。</p>
+<a id="more"></a>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/Sunset.jpg" alt="微信公众号：静晴轩"></p>
+<h3 id="开通公众号初衷"><strong>开通公众号初衷</strong></h3><p>上面提及开通 微信公众号，多少有跟风成分；比如 <code>颜海镜</code>同学有写到的<a href="http://yanhaijing.com/other/2016/02/29/why-i-open-weixin-public/" target="_blank" rel="external">我为什么开通微信公众号</a>。同为90后，对于不管是微信还是微信公众号，有着跟他一致的<strong>抵触情绪</strong>。并且，对于大多人都玩的我还未熟悉事物，内心自带一丢不屑的叛逆。各种有的没的缘由，反正这才迟迟开通了它。</p>
+<p>谈及为何要开通微信公众号？不得不说，此乃<strong>无奈之举</strong>。这是可以一个很好&amp;很好的时代，于个人博客，也是如此。<code>WordPress</code>  <code>FarBox</code> 、<strong>Hexo</strong>、<strong>Jekyll</strong>、<strong>Leanote</strong> Octopress、ghost、marboo、、Medium、Logdown、prose.io 等诸多层出不穷的好工具，让建站写博变的简洁高效；而信息过载，聚合黑帽等也让个人博客衍生出诸多无奈来。</p>
+<p>“写作是为了光阴流逝是我心安，分享是为了让自己和这个尘世可以更好”，所以才有了我这<a href="http://jeffjade.com" target="_blank" rel="external"><strong>晚晴幽草轩</strong></a>。经营这个已然颇为麻烦，可我真是一懒人，哪儿还有那多闲情去折腾公众号？虽然，有折腾很多软件/工具，简书更是有创建一专题<a href="http://www.jianshu.com/collection/2f6a49e22121" target="_blank" rel="external">《折腾之美》</a>，这正是我懒得体现：只是想让欢喜事物做起来可以变得简洁，即便为此花费些精力。</p>
+<p>话说回来，活在这多彩尘世，没点虚荣心，可怎么好意思？博客撰文分享些经验想法，这其中就略带些虚荣的味道。然而，百度搜索的不给力(这点共识就不多谈了)，聚合网的无情抓取等，着实让人略显无奈。对于博客，因个人强迫症，更在意内容实用性以及阅读体验。而聚合网的抓取，有些不仅未留原链，可气的是网页排版杂乱，广告还纵横交错！初创小站，权重自然敌不过那些聚合网，弄不好姑姑(Google)还会“认为”原创是做了弊的。@<code>Phodal</code> 在<a href="https://www.phodal.com/blog/fighting-for-origin-creative/" target="_blank" rel="external">从个人博客到公众号：与聚合网站抗争的无奈辛酸史</a>，详细阐明这一无奈和斗争。虽然闲来也会学习下如何优化SEO(这个正在学习总结中)，可毕竟分享纪录才是目的，而不是斗争or迎合度娘。所以，当写完值得分享的博文，会在<code>简书</code> or <code>博客园</code> or <code>SegmentFault</code> 主动予以同步，留下原链；然而这么做，于在博客中内容，本就缺乏搜索引擎关顾，这般倒更有些雪上加霜。如此，微信公众号就被无奈开通了，写完了，能第一时间以飨读者，吾之所望。</p>
+<h3 id="将如何经营微信公众号"><strong>将如何经营微信公众号</strong></h3><p>到目前有在公众号群发过两篇文章；话说，公众号写文的体验不怎么好(当然也可能是没找到对的打开方式：复制博客页面内容，粘贴在其富文本中，预览时保留跟博客几乎一致样式(类似360个人图书馆)，发布后样式存留却只一半，链接也全无)，阅读体验更显一般(链接只能以文本形式出现了)；并且从自身体验来讲，出于好奇，对于有提醒的消息，总有消掉的冲动。所以，为不至于浪费订阅者时间和精力，会选取自认对读者有价值文字，予以分享在公众号。如此也是渴望作为看官的您，能亲临博客阅读，虽然目前加载速度有些小慢，不过读来体验倒好很多。作为分享者，以<code>Markdown</code> + <code>Hexo</code>/<code>Jekyll</code> + <code>Github</code>便捷来写些文字和发布，也是能节省不少时间。</p>
+<h3 id="微信公众号分享内容"><strong>微信公众号分享内容</strong></h3><p>对于博客这个人地盘，想怎么折腾倒可以随便些；<a href="http://jeffjade.com" target="_blank" rel="external">晚晴幽草轩</a>会用心经营，但也会纪录些个人成长等等；像<a href="http://nicejade.github.io/" target="_blank" rel="external">天意人间舫</a>就不会刻意考究原创，虽也是以有其实用价值为宗旨，但内容会更宽泛而任性，不会单调拘泥于一事物。但<strong>微信公众号</strong>就不会如此了，毕竟一经发布，就会推送到读者那里，对于内容实质和排版，当更加谨慎些（客观的缘由是：它那边也不太方便修正）。所以，目前会在微信公众号这边分享关于<code>工具</code> <code>前端</code>，时机成熟，也会分享些关于<code>读书</code> <code>旅行</code> <code>美食</code> <code>人生思考</code> 等。</p>
+<blockquote>
+<p>微注：鉴于以上所述，也不好按所享内容给这公众号命一个贴切的名字。干脆任性点：<strong>静晴轩</strong>，这里<code>晴</code>字可通<code>情</code>字；那么赋予这名字的是什么含义呢？『窃喜』。</p>
+</blockquote>
+<p>Okay，这大概就是<strong>静晴轩</strong>的来由了。需求Coding多了，书籍读的少了，文字描述心中所想越发捉襟见肘，『苦笑』。寥寥百贫言，欲证我心，斯可云证？</p>
+<p>虽然积淀尚且浅薄，可对于分享这事儿，我是认真的，美好正在路上努力奔袭。<strong>静晴轩</strong>，期待您的关注 『16-03-23 记于深圳』。</p>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/qrcode_jqx.jpg" alt="微信公众号：静晴轩"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[讲述为何要为什么开通微信公众号，以及个人博客相关相关论述。]]>
+    
+    </summary>
+    
+      <category term="Share" scheme="http://www.jeffjade.com/tags/Share/"/>
     
       <category term="Share" scheme="http://www.jeffjade.com/categories/Share/"/>
     
@@ -1511,97 +1574,6 @@
     </summary>
     
       <category term="JavaScript" scheme="http://www.jeffjade.com/tags/JavaScript/"/>
-    
-      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[博客引入漂亮字体二三事]]></title>
-    <link href="http://www.jeffjade.com/2015/10/28/2015-10-28-css3-webfont/"/>
-    <id>http://www.jeffjade.com/2015/10/28/2015-10-28-css3-webfont/</id>
-    <published>2015-10-28T13:00:00.000Z</published>
-    <updated>2015-11-16T09:37:36.000Z</updated>
-    <content type="html"><![CDATA[<p>最近兴致上来，就想更换了那Blog标题字体(汉字的)；网上搜索了一番，发现<code>蘇新詩柳繁體</code>这款甚合我心；然后就着手搞将了起来，分分钟也算是替换了；但，这仅仅是此次折腾的开始；这就细细道来作为学习笔记记载。</p>
-<p><img src="http://www.jeffjade.com/img/toss/blogTitleStyle.png" alt=""></p>
-<a id="more"></a>
-<h2 id="CSS3_@font-face"><strong>CSS3 @font-face</strong></h2><p>当然要使用自定义字体，就得借助下@font-face：CSS3中的一个模块，他主要是把自己定义的Web字体嵌入到你的网页中；@font-face的语法规则如下：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="at_rule">@<span class="keyword">font-face</span></span> <span class="rules">&#123;</span><br><span class="line">     <span class="rule"><span class="attribute">font-family</span>:<span class="value"> &lt;YourWebFontName&gt;</span></span>;</span><br><span class="line">     <span class="rule"><span class="attribute">src</span>:<span class="value"> &lt;source&gt; [&lt;format&gt;][,&lt;source&gt; [&lt;format&gt;]]*</span></span>;</span><br><span class="line">     <span class="rule">[<span class="attribute">font-weight</span>:<span class="value"> &lt;weight&gt;]</span></span>;</span><br><span class="line">     <span class="rule">[<span class="attribute">font-style</span>:<span class="value"> &lt;style&gt;]</span></span>;</span><br><span class="line">   <span class="rule">&#125;</span></span></span><br></pre></td></tr></table></figure></p>
-<p><strong>其取值说明：</strong></p>
-<ol>
-<li><p>YourWebFontName:此值指的就是你自定义的字体名称，最好是使用你下载的默认字体，他将被引用到你的Web元素中的font-family。如“font-family:”YourWebFontName”;”</p>
-</li>
-<li><p>source:此值指的是你自定义的字体的存放路径，可以是相对路径也可以是绝路径；</p>
-</li>
-<li><p>format：此值指的是你自定义的字体的格式，主要用来帮助浏览器识别，其值主要有以下几种类型：truetype,opentype,truetype-aat,embedded-opentype,avg等；</p>
-</li>
-<li><p>weight和style:这两个值大家一定很熟悉，weight定义字体是否为粗体，style主要定义字体样式，如斜体。</p>
-</li>
-</ol>
-<p>在@font-face网络字体技术之前，浏览器显示网页上文字使用的字体只能限制在电脑里已经安装的几款字体里。而且每个人的电脑里安装的字体是因人而异的。@font-face的作用是从网上下载并使用自定义字体，使页面显示字体不依赖用户的操作系统字体环境。</p>
-<p>好吧，这里涉及到一个字体format的问题，因为不同的浏览器对字体格式支持是不一致的。使用CSS3自定义字体的时候，为了兼容所有浏览器，服务器需要输出4种格式的字体，分别是eot、svg、ttf和woff。所以，若要尽量更全的支持不同浏览器，那么这里就得这样搞了：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="at_rule">@<span class="keyword">font-face</span></span> <span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">font-family</span>:<span class="value"> ‘MyFontFamily’</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">src</span>:<span class="value"> <span class="function">url</span>(‘myfont-webfont.eot?#iefix’) <span class="function">format</span>(‘embedded-opentype’),</span><br><span class="line">         <span class="function">url</span>(‘myfont-webfont.woff’) <span class="function">format</span>(‘woff’),</span><br><span class="line">         <span class="function">url</span>(‘myfont-webfont.ttf’)  <span class="function">format</span>(‘truetype’),</span><br><span class="line">         <span class="function">url</span>(‘myfont-webfont.svg#svgFontName’) <span class="function">format</span>(‘svg’)</span></span>;</span><br><span class="line"><span class="rule">&#125;</span></span></span><br></pre></td></tr></table></figure></p>
-<p>使用@font-face只是申明&amp;定义了一种字体；使用时还是得根据<em>font-family</em>特性加入些默认字体以留后路。即便如此，之后也会有些问题。W3C中描述如下：</p>
-<blockquote>
-<p><strong>font-family</strong>： <strong>规定元素的字体系列</strong>。可以把多个字体名称作为一个“回退”系统来保存。如果浏览器不支持第一个字体，则会尝试下一个。也就是说，font-family 属性的值是用于某个元素的字体族名称或/及类族名称的一个优先表。浏览器会使用它可识别的第一个值。<br><strong>注意</strong>：使用某种特定的字体系列（Geneva）完全取决于用户机器上该字体系列是否可用；这个属性没有指示任何字体下载。因此，强烈推荐使用一个通用字体系列名作为后路。</p>
-</blockquote>
-<h2 id="网络字体(Web_font)文件格式"><strong>网络字体(Web font)文件格式</strong></h2><p><strong>WOFF</strong>：Web Open Font Format<br>这种字体格式专门用于网上，由Mozilla联合其它几大组织共同开发。WOFF字体通常比其它字体加载的要快些，因为使用了OpenType (OTF)和TrueType (TTF)字体里的存储结构和压缩算法。这种字体格式还可以加入元信息和授权信息。这种字体格式有君临天下的趋势，因为所有的现代浏览器都开始支持这种字体格式。</p>
-<p>支持这种字体的浏览器有【IE9+,Firefox3.5+,Chrome6+,Safari3.6+,Opera11.1+】；</p>
-<p><strong>SVG / SVGZ</strong>：Scalable Vector Graphics (Font).<br>SVG是一种用矢量图格式改进的字体格式，体积上比矢量图更小，适合在手机设备上使用。只有iPhone上的Safari(4.1)之前的版本支持它。目前火狐、IE都不支持SVG字体格式。火狐推迟对SVG字体的支持，重点放在WOFF格式上。SVGZ是压缩版的SVG。</p>
-<p>支持这种字体的浏览器有【Chrome4+,Safari3.1+,Opera10.0+,iOS Mobile Safari3.2+】。</p>
-<p><strong>OTF / TTF</strong>：OpenType Font 和 TrueTypeFont。<br>.ttf字体是Windows和Mac的最常见的字体，是一种RAW格式，因此他不为网站优化。部分的因为这种格式容易被复制(非法的)，这才催生了WOFF字体格式。然而，OpenType有很多独特的地方，受到很多设计者的喜爱。</p>
-<p>【IE9+,Firefox3.5+,Chrome4+,Safari3+,Opera10+,iOS Mobile Safari4.2+】；</p>
-<p><strong>EOT</strong>：Embedded Open Type。<br>这是微软创造的字体格式(是微软在15年前发明了网络字体@font-face)。这种格式只在IE6/IE8里使用。</p>
-<p>.woff字体是Web字体中最佳格式，他是一个开放的TrueType/OpenType的压缩版本。即：最起码要支持下这种格式吧。而网上下载的只有.ttf;所以就开始了字体格式转换。</p>
-<h2 id="获取@font-face所需字体格式"><strong>获取@font-face所需字体格式</strong></h2><p>这个阶段折腾的老久了。毕竟是汉字的，网络上搜索的一些在线工具尝试了不少，很好工作的却也不多。<br>最后在这个网站<a href="https://onlinefontconverter.com/" target="_blank" rel="external">https://onlinefontconverter.com/</a>,得到了.woff 和 .svg格式的转换。<a href="http://www.jucelin.cn/archiver/view.asp?id=153" target="_blank" rel="external">Here</a>有介绍。</p>
-<p>这里插说一段，在即将放弃的时候，发现了这个网站<a href="http://www.fontsquirrel.com/tools/webfont-generator" target="_blank" rel="external">http://www.fontsquirrel.com/tools/webfont-generator</a>;国外的人士，做事就是认真，一键上传我的.tff格式的字体，它就可以帮助生成对应的4种格式外加.woff2;并且给出CSS以及对应的Demo实例(使用的是 <strong>OPTIMAL</strong>模式)。而且文件还相当的小（5种格式字体加起来就有不到150KB）。惊喜之余，不太相信，一经测试，果然，将汉字给过滤掉了。使<strong>用BASIC模式</strong>确实可以不破坏内容的生成各种格式字体，但难免的，也很大(.woff格式3528KB)。不过，对于英文的转换，还是相当可取的。如何使用?可<a href="http://www.w3cplus.com/content/css3-font-face" target="_blank" rel="external">ClickHere</a>查看。</p>
-<p>搞到此处，于大部分浏览器，渲染出<code>蘇新詩柳繁體</code>的标题，是没问题了。即便在Chrome浏览器上一开始是字体未显示，到被默认字体替代了，加载完毕后才重新以<code>蘇新詩柳繁體</code>渲染出来；而Safari则是，从不显示直到加载完毕才渲染出来。手机上能够渲染出来需要的时间就更长了(Android由空白到请求完成后渲染)。(<em>@ο@</em>) 哇～，如此体验着实好*啊。<br>导致这种现象，必然是各大浏览器渲染时存在的差异所致；@w3ctech<a href="http://www.w3ctech.com/topic/693" target="_blank" rel="external">在响应式网站中，提升加载webfonts的性能</a>一文中有过详尽的叙述：</p>
-<blockquote>
-<p>A. 如果请求字体还不可用，IE 会立即使用后备字体呈现，并在字体下载完成之后马上重新呈现；<br>B. Firefox 和 Chrome 35+ 会首先下载3秒钟的字体，如果超过3秒钟后，会使用后备字体渲染网页，等到指定字体下载完成后再重新渲染网页；<br>C. Safari 和 Chrome 35之前的版本，会等到指定字体下载完成后再渲染网页（PS：就是不会使用后备字体）。</p>
-<blockquote>
-<p><strong>注：</strong>以上说明中没有表示IE的版本以及Safari的版本号，所以需要自己测试才能算正确。<br>因此，如果网络连接缓慢，在大多数浏览器中将延迟超过3秒的文本渲染。在最坏的情况下，如果你的字体加载带有时间限制（由于一些连接很慢的移动设备），Safari 用户将不会再展示文本，剩下一个空白网页。如果网页请求超时，最终将只会呈现一个空白网页。</p>
-</blockquote>
-</blockquote>
-<p>毕竟用的是较全汉字繁体： .ttf格式5735KB;.woff格式3534KB,.svg格式竟然11622KB,有点醉了，555。根据@张鑫旭这篇<a href="http://www.zhangxinxu.com/wordpress/2011/11/fontforge%e8%87%aa%e5%ae%9a%e4%b9%89%e6%89%8b%e6%9c%ba%e5%ad%97%e4%bd%93/" target="_blank" rel="external">fontforge制作自定义字体及在手机上应用举例</a>文中提到的，可以采取软件(Eg:fontforge)提取出自己想要的部分,从而减小字体文件的大小，来增强体验；但是我这边是汉字，折腾起来不容易啊，555。如此，就牵扯到了：网络字体(Web font)的效率问题了。</p>
-<h2 id="网络字体(Web_font)的效率"><strong>网络字体(Web font)的效率</strong></h2><p>字体文件的体积可能非常的大(尤其是对于汉字)，而且需要额外的HTTP连接，这些都会降低网站页面的加载速度。所以，在使用网络字体@font-face前，根据网络上的说法：需要清楚它的利与弊，判断网络字体是否真的有必要用在你的网站页面上。</p>
-<blockquote>
-<p>如果你决定使用个性化自定义字体，可以采用一个非常灵活的方法，就是只加载尽量少的字体字符数和尽量少的字体风格(粗体/斜体)。例如，如果你使用谷歌字体，你可以只加载指定的字体风格组合：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="at_rule">@<span class="keyword">import</span> <span class="function">url</span>(http://fonts.googleapis.com/css?family=Averia+Sans+Libre:<span class="number">400</span>,<span class="number">300</span>italic,<span class="number">700</span>)</span>;</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p>以下是@<a href="http://www.w3cplus.com/content/css3-font-face" target="_blank" rel="external">Airen的博客</a>对于使用@font-face的写于提醒：</p>
-<blockquote>
-<ol>
-<li>如果你的项目中是英文网站，而且项目中的Logo，Tags等应用到较多的这种特殊字体效果，我建议你不要使用图片效果，而使用@font-face，但是你是中文网站，我觉得还是使用图片比较合适，因为加载英文字体和图片没有多大区别，但是你加载中文字体，那就不一样了，因为中文字体太大了，这样会影响到项目的某些性能的优化；</li>
-<li>致命的错误，你在@font-face中定义时，文件路径没有载对；</li>
-<li>你只定义了@font-face，但并没有应用到你的项目中的DOM元素上；</li>
-</ol>
-</blockquote>
-<p>就目前我的需求而言，Blog用到这字体，仅是在于标题那5个汉字而已。如不能优化至流畅之境，倒不如采用加载经过Ps处理的图片呢;毕竟之于体验和炫酷间抉择，还是前者更为重要些。然，还是得为此探究一番，万一已经好的解决办法了呢？一查，果真有!喜不自胜。</p>
-<h2 id="base64编码字体，自定义你的网站字体！"><strong>base64编码字体，自定义你的网站字体！</strong></h2><p>CSS3给我们带来了@font-face,网页中可以展现的字体就不局限于电脑中已安装的几款字体。@font-face的作用是从网上下载并使用自定义字体，使页面显示字体不依赖用户的操作系统字体环境。</p>
-<p>然而：字体文件的体积一般都比较大，而且需要额外的http请求连接，而且需要兼容多种浏览器的话，往往需要三四个或者更多格式的字体文件。尤其是汉字字体文件；于是乎就有了，WebFont (Web Open Font Format)这个技术，极大滴有针对性的压缩了字体文件的体积，压缩了体积就解决了个大问题，很实用。WebFont的字体转换成base64编码，直接放在样式表里面，哇哦，完美。要实现这个，首先我们得<strong>生成下载需要的字体</strong>;毕竟，整个汉字库辣(那)么大，即便生成base64，其体积也不小哇。</p>
-<h3 id="生成下载需要的字体"><strong>生成下载需要的字体</strong></h3><p>先设置我们要使用的文字，使用WebFont，推荐阿里妈妈WebFont平台<a href="http://www.iconfont.cn/webfont/#!/webfont/index" target="_blank" rel="external">http://www.iconfont.cn/webfont/#!/webfont/index</a>和有字库<a href="http://www.youziku.com/" target="_blank" rel="external">http://www.youziku.com/</a>，使用简单粗暴，输入你要的文字，下载就完了，代码都给你生成好了。<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="at_rule">@<span class="keyword">font-face</span></span> <span class="rules">&#123;<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">'webfont'</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">src</span>:<span class="value"> <span class="function">url</span>(<span class="string">'//at.alicdn.com/t/glgkzeyrgbonu3di.eot'</span>)</span></span>; <span class="comment">/* IE9*/</span></span><br><span class="line">  <span class="rule"><span class="attribute">src</span>:<span class="value"> <span class="function">url</span>(<span class="string">'//at.alicdn.com/t/glgkzeyrgbonu3di.eot?#iefix'</span>) <span class="function">format</span>(<span class="string">'embedded-opentype'</span>), <span class="comment">/* IE6-IE8 */</span></span><br><span class="line">  <span class="function">url</span>(<span class="string">'//at.alicdn.com/t/glgkzeyrgbonu3di.woff'</span>) <span class="function">format</span>(<span class="string">'woff'</span>), <span class="comment">/* chrome、firefox */</span></span><br><span class="line">  <span class="function">url</span>(<span class="string">'//at.alicdn.com/t/glgkzeyrgbonu3di.ttf'</span>) <span class="function">format</span>(<span class="string">'truetype'</span>), <span class="comment">/* chrome、firefox、opera、Safari, Android, iOS 4.2+*/</span></span><br><span class="line">  <span class="function">url</span>(<span class="string">'//at.alicdn.com/t/glgkzeyrgbonu3di.svg#NotoSansHans-Black'</span>) <span class="function">format</span>(<span class="string">'svg'</span>)</span></span>; <span class="comment">/* iOS 4.1- */</span></span><br><span class="line"><span class="rule">&#125;</span></span></span><br></pre></td></tr></table></figure></p>
-<p>ctrl+c ctrl+v 就解决了需求，在需要的地方使用即可（这里可以直接使用它给你生成的在线字体woff格式等文件【只有你输入的那些汉字喔】），兼容至BT的IE6，简直碉堡。但，好吧，世间没有那么完美的事儿喔。<code>阿里妈妈webfont</code>平台只有思源系的5种不同字体而已，哭晕，没有我倾爱的<code>蘇新詩柳</code>啊。</p>
-<h3 id="base64编码字体"><strong>base64编码字体</strong></h3><p>经过譬如上面操作，得到字体文件之后，即可运用一些软件（譬如<a href="http://www.giftofspeed.com/base64-encoder/" target="_blank" rel="external">http://www.giftofspeed.com/base64-encoder/</a>编码之，使之生成base64编码string。<strong>使用：</strong>把处理好了的base64编码放在下面代码中(直接替代xxxxx即可)，然后调用<code>webfont-base</code>这个定义好的字体，大功告成！</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">@font-face &#123;</span><br><span class="line">    font-family: 'webfont-base';</span><br><span class="line">    src: url(data:font/truetype;charset=utf-8;base64,XXXXXXXXXXXXXXXXX) format('truetype');</span><br><span class="line">    font-weight: normal;</span><br><span class="line">    font-style: normal</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>额，好吧，使用这个网站生成的base64也是奇葩的－－有很多空格换行，base64文件蛮大的话，就需要想点办法予以处理下才好。</p>
-<p></p><p data-height="268" data-theme-id="20035" data-slug-hash="MaQOOM" data-default-tab="result" data-user="jeffjade" class="codepen">See the Pen <a href="http://codepen.io/jeffjade/pen/MaQOOM/" target="_blank" rel="external">MaQOOM</a> by jeffjade (<a href="http://codepen.io/jeffjade" target="_blank" rel="external">@jeffjade</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-<h3 id="字体文件加载优化"><strong>字体文件加载优化</strong></h3><p>之前已经探明，可以使用字体base64编码信息的CSS字体文件，来替代请求woff格式字体下载；但该CSS文件的大小取决于你选择的字符集合以及相关方面，也许该文件相当的大（最高可达100~300KB）。因此，使用gzip压缩以及设置强缓存的方式对于用户来说是很重要的。</p>
-<p>不过幸运的是只有当你网页的浏览者第一次访问该CSS文件的时候会发出请求。由于在第一次的时候，用户本地没有该字体文件，所以浏览器就会去异步加载他们，并且存储在localStorage中。当用户的网络环境较慢的情况下，能够看到后备字体以及webfonts渲染过程，不过这些只会发生在用户第一次访问你网页的时候。大多数用户不会太在意这一细节。</p>
-<p>当用户第二次网页页面的时候，浏览器将从localStorage中加载CSS文件内容，这种方式相当的快速（5~50ms）。在这种情况下用户看不到任何的闪烁，因为所有的操作将是同步进行的，这仅仅只需要几毫秒的时间。具体可参见@<a href="http://www.w3ctech.com/topic/693" target="_blank" rel="external">在响应式网站中，提升加载webfonts的性能</a>一文所书。</p>
-<p><strong>体验至上，优化不止，且学且究，渐探渐优。</strong></p>
-<hr>
-<p>写在最后，纵使有阿里妈妈这样的平台，但其所针对的汉字字体也太有限。最后还是以图片形式呈现出<code>蘇新詩柳</code>字体的标题(这里采用艺术字体在线转换<a href="http://www.qt86.com/" target="_blank" rel="external">Qt86</a>生成，可惜这个生成的仅是图片，若能成就base64编码，就太棒了。不过它所提供的字体三百余种，可谓丰富)；此处待之后有合适的法子，再继续折腾(Update: 15-11-16)。</p>
-<hr>
-<p>参考文章链接：<br><a href="http://www.webhek.com/font-face" target="_blank" rel="external">@font-face的用法</a><br><a href="http://guoshuang.com/css/font-face-type/" target="_blank" rel="external">Font-face 字体文件格式</a><br><a href="http://www.w3cplus.com/content/css3-font-face" target="_blank" rel="external">CSS3 @font-face</a><br><a href="http://www.lccky.com/166.html" target="_blank" rel="external">base64编码字体，自定义你的网站字体！</a><br><a href="http://www.w3ctech.com/topic/693" target="_blank" rel="external">在响应式网站中，提升加载webfonts的性能</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>最近兴致上来，就想更换了那Blog标题字体(汉字的)；网上搜索了一番，发现<code>蘇新詩柳繁體</code>这款甚合我心；然后就着手搞将了起来，分分钟也算是替换了；但，这仅仅是此次折腾的开始；这就细细道来作为学习笔记记载。</p>
-<p><img src="http://www.jeffjade.com/img/toss/blogTitleStyle.png" alt=""></p>]]>
-    
-    </summary>
-    
-      <category term="CSS" scheme="http://www.jeffjade.com/tags/CSS/"/>
-    
-      <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
     
       <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
     
