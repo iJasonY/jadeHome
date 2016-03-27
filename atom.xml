@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-26T19:23:25.000Z</updated>
+  <updated>2016-03-27T11:56:30.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,20 +19,20 @@
     <link href="http://www.jeffjade.com/2016/03/26/2016-03-26-rakefile-for-jekyll/"/>
     <id>http://www.jeffjade.com/2016/03/26/2016-03-26-rakefile-for-jekyll/</id>
     <published>2016-03-26T08:30:00.000Z</published>
-    <updated>2016-03-26T19:23:25.000Z</updated>
-    <content type="html"><![CDATA[<p>于想拥有个人站点品牌的人来讲，现如今是一个很好的时期。至少 <strong>Hexo</strong>、<strong>Jekyll</strong>、<strong>Leanote</strong>、<code>WordPress</code> 、<code>FarBox</code>  Octopress、ghost、marboo、Medium、Logdown、prose.io 等诸多层出不穷的好工具，让建站写文已经变得异常简洁方便。分分钟可搭建起美观大方的个人博客，这样的教程已经充盈网络，在此不提。这篇要分享的是，以<strong>Rake</strong>一键生成<strong>Jekyll</strong>文章模版，一键预览效果，一键发布等等。</p>
+    <updated>2016-03-27T11:56:30.000Z</updated>
+    <content type="html"><![CDATA[<p>于想拥有个人站点品牌的人来讲，现如今是一个很好的时期。至少 <strong>Hexo</strong>、<strong>Jekyll</strong>、<strong>Leanote</strong>、<code>WordPress</code> 、<code>FarBox</code>  Octopress、ghost、marboo、Medium、Logdown、prose.io 等诸多层出不穷的好工具，让建站写文已经变得异常简洁方便。分分钟可搭建起美观大方的个人博客，这样的教程已经充盈网络，在此不提。这里要谈及的是，以<strong>Rake</strong>一键生成<strong>Jekyll</strong>文章模版，一键预览效果，一键发布等等；Rake让Jekyll写博更优雅。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/niceStar.jpg" alt="Rake让Jekyll写博更优雅"></p>
-<p>个人博客，目前主用这<strong>Hexo</strong>和<strong><a href="http://jekyllrb.com/" target="_blank" rel="external">jekyll</a></strong>，两者都很是轻量便捷。<strong>Hexo</strong>是一个开源的静态博客生成器,由以为台湾大学生用node.js开发而成，<a href="http://www.jeffjade.com" target="_blank" rel="external">晚晴幽草轩</a>就是用<strong>Hexo</strong>搭建而成。<strong>jekyll</strong>是Ruby写的一个轻量级的博客系统，也是Github Page默认搭配，而<a href="http://nicejade.github.io" target="_blank" rel="external">天意人间舫</a>则是以<strong>Jekyll</strong>创造出的；(题外话，Hexo发布前需要运行<code>Hexo g</code>本地生成下，文章多了，速度上也会慢些(百篇文章，5s左右)；发布后更新速度也没Jekyll那么快；其他常用体验倒差不太多)。</p>
+<p>个人博客，目前主用这<strong>Hexo</strong>和<strong><a href="http://jekyllrb.com/" target="_blank" rel="external">jekyll</a></strong>，两者都很是轻量便捷。<strong>Hexo</strong>是一个开源的静态博客生成器,由一位台湾大学生用node.js开发而成，<a href="http://www.jeffjade.com" target="_blank" rel="external">晚晴幽草轩</a>就是用<strong>Hexo</strong>搭建而成。<strong>jekyll</strong>是Ruby写的一个轻量级的博客系统，也是Github Page默认搭配，<a href="http://nicejade.github.io" target="_blank" rel="external">天意人间舫</a>则是以<strong>Jekyll</strong>创造出的；(题外话，Hexo发布前需要运行<code>Hexo g</code>本地生成下，文章多了，速度上也会慢些(百篇文章，5s左右)；发布后更新速度也没Jekyll那么快；其他常用体验倒差不太多)。</p>
 <p>在设计上，jekyll框架将博客模块化，比如有负责网页显示样式的部分（即模板），有负责博客内容的部分，也就是我们使用<strong>markdown</strong>语言来写的内容。其次，它通过一定的规则，又将各个模块的内容组织起来，并创建各个页面之间的联系。如此是它可以使我们在写作的时候，尽最大的精力去集中在内容的创作上，而不用太在意格式以及排版。并且借助于git这个相当流行的分布式版本控制系统，可很有效的管理所写的文章，完全可以做到在没有网络的情况下写作｜预览，待有网络时再将内容同步。</p>
 <p>使用<strong>Jekyll</strong>本已经非常方便了，不管是本地测试还是发布线上。但还是不够简洁，对于渴望极致的懒人来讲。比如发布文章到线上：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .&#10;git commit -m &#34;commit massge&#34;&#10;git push origin master</span><br></pre></td></tr></table></figure></p>
-<p>如果能够敲击一个命令完成，就不能忍受搞三行；虽然三行只多余费了不到半分钟。撰文写字，本就不易，一篇下来，已是很累；欲长久此好，必须尽可能减轻完成这事儿之成本；否则累觉不爱之后，爱好这种事儿，会在累烦的跌宕种被阉割抛弃的。在操纵<strong>Jekll</strong>博客方面，有很多可以利用的脚本，比如<strong>bash</strong>,<strong>Makefile</strong>,win下的<strong>bat</strong>等等； 朋友@<a href="http://pizida.com" target="_blank" rel="external">痞子达</a> 向我推荐了<strong>Rake</strong>，这些日子用了下很是方便，改写也颇为简单，就此录下一篇推荐给大家。</p>
-<p>何为<a href="http://rake.rubyforge.org" target="_blank" rel="external">Rake</a>？: Ruby Make，一个用ruby开发的代码构建工具，要了解更多Rake可以参看其官网，抑或是这里整理的<a href="http://nicejade.github.io/2016/03/26/nice-rake.html" target="_blank" rel="external">简洁强大如斯：Rake</a>。</p>
+<p>如果能够敲击一个命令完成，就不能忍受搞三行；虽然三行只多余费了不到半分钟。撰文写字，本就不易，一篇下来，已是很累；欲长久此好，必须尽可能减轻完成这事儿之成本；否则累觉不爱之后，爱好这种事儿，会在累烦的折腾种被阉割抛弃的。在操纵<strong>Jekll</strong>博客方面，有很多可以利用的脚本，比如<strong>bash</strong>,<strong>Makefile</strong>,win下的<strong>bat</strong>等等； 朋友@<a href="http://pizida.com" target="_blank" rel="external">痞子达</a> 向我推荐了<strong>Rake</strong>，这些日子用了下着实很方便，改写也颇为简单，就此录下一篇推荐给大家。</p>
+<p>何为<a href="http://rake.rubyforge.org" target="_blank" rel="external">Rake</a>？: 即Ruby Make，一个用ruby开发的代码构建工具，要了解更多Rake可以参看其官网，抑或是这里整理的<a href="http://nicejade.github.io/2016/03/26/nice-rake.html" target="_blank" rel="external">简洁强大如斯：Rake</a>。</p>
 <p>下载安装<strong>Rake</strong>，可以使用 <strong>gem</strong>：</p>
 <blockquote>
 <p>gem install rake</p>
 </blockquote>
-<p>如何使用<strong>Rake</strong>，只需要写一个<strong>Rakefile</strong>为名的Rake脚本放置在Blog项目的根目录下，同时做一点简单的配置即可。<a href="https://github.com/gummesson/jekyll-rake-boilerplate" target="_blank" rel="external">Jekyll Rake Boilerplate</a>是一个功能很完善的脚本，有以下诸多方式可供使用：</p>
+<p>如何使用<strong>Rake</strong>来优雅Jekyll写博文流程？，只需要写一个<strong>Rakefile</strong>为名的Rake脚本放置在Blog项目的根目录下，同时做一点简单的配置即可。<a href="https://github.com/gummesson/jekyll-rake-boilerplate" target="_blank" rel="external">Jekyll Rake Boilerplate</a>是一个功能很完善的脚本，有以下诸多方法可供使用：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rake post[&#34;Title&#34;]&#10;rake draft[&#34;Title&#34;]&#10;rake publish&#10;rake page[&#34;Title&#34;]&#10;    rake page[&#34;Title&#34;,&#34;Path/to/folder&#34;]&#10;rake build&#10;rake watch&#10;    rake watch[number]&#10;    rake watch[&#34;drafts&#34;]&#10;rake preview&#10;rake deploy[&#34;Commit message&#34;]&#10;rake transfer</span><br></pre></td></tr></table></figure>
 <p>这意味着使用<strong>Jekyll</strong>写文的流程可简化为：</p>
 <blockquote>
@@ -44,7 +44,7 @@
 <li>写完后发布，rake deploy[“Commit message”]</li>
 </ul>
 </blockquote>
-<p>那这个脚本目测是国外人编写的，于我们的需求还是需要调整的。并且这里采用 <code>rake draft[&quot;Title&quot;]</code> 这样命令行来写，对于使用 <code>zsh</code>的人，就颇为有点蛋疼了。”[]”在<code>zsh</code>这里会被转义，所以需要这样 <code>rake post\[&quot;TitleName&quot;\]</code>，否则会报如下错误：</p>
+<p>这个脚本目测为国外人编写的，于个人需求还是得调整下的。并且这里采用 <code>rake draft[&quot;Title&quot;]</code> 这样命令行来运行，对于使用 <code>zsh</code> 作为终端的朋友，就颇为有点蛋疼了。”[]”在<code>zsh</code>这里会被转义，所以运行命令就得这样 <code>rake post\[&quot;TitleName&quot;\]</code>，否则会报如下错误：</p>
 <blockquote>
 <p>zsh: no matches found: post[TitleName]</p>
 </blockquote>
@@ -60,8 +60,12 @@
 <blockquote>
 <p>rake new  // 新建文章<br>rake post[“TitleName”] // 生成纯净文章模版配置<br>rake deploy “message”=”Commit Message” //一键发布文章<br>rake preview   //一键预览(还会自主协助打开浏览器)<br>rake build      //Build the site<br>rake post[“Title”] //创建文章(tags,keywords等洁净的)</p>
 </blockquote>
-<p>以上改写脚本已上传这里<a href="https://github.com/nicejade/jadeScriptCollect" target="_blank" rel="external">jadeScriptCollect</a>，会根据需要持续更新。</p>
+<p>当然Rake强大远非如此，完全可以用它来编出些强大的脚本，以此节省人力；并且比之于晦涩难记的Makefile，Bat，它的学习成本也小了很多。这里这是浅显的记载它能为Jekyll写博带来的便利。以上改写脚本已上传这里<a href="https://github.com/nicejade/jadeScriptCollect" target="_blank" rel="external">jadeScriptCollect</a>，会根据需要持续更新。</p>
 <p>折腾不是为折腾而折腾，只为偷懒而勤奋；简洁才是王道。</p>
+<p>2016-03-26 于深圳。</p>
+<blockquote>
+<p>原文出自: <a href="http://www.jeffjade.com" target="_blank" rel="external">http://www.jeffjade.com</a><br>原文链接：<a href="http://www.jeffjade.com/2016/03/26/2016-03-26-rakefile-for-jekyll/#" target="_blank" rel="external">http://www.jeffjade.com/2016/03/26/2016-03-26-rakefile-for-jekyll/#</a></p>
+</blockquote>
 ]]></content>
     <summary type="html">
     <![CDATA[编写Rakefile让Jekyll写博更便捷，一键生成/预览/发布...]]>
