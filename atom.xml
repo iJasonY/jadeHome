@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-30T17:33:07.000Z</updated>
+  <updated>2016-03-30T17:49:02.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -15,17 +15,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[『转』最全的资源教程]]></title>
+    <title><![CDATA[『转』前端资源教程全集]]></title>
     <link href="http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/"/>
     <id>http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</id>
     <published>2016-03-30T11:55:00.000Z</published>
-    <updated>2016-03-30T17:33:07.000Z</updated>
+    <updated>2016-03-30T17:49:02.000Z</updated>
     <content type="html"><![CDATA[<p>前晚从<a href="http://www.zhangxinxu.com/" target="_blank" rel="external">@张鑫旭</a>微博处得一份推荐(<a href="https://github.com/AutumnsWind/Front-end-tutorial" target="_blank" rel="external">Front-end-tutorial</a>)，号称<strong>最全的资源教程</strong>－前端涉及的所有知识体系；有粗略查看，果然“叹为观止”，至少比想象中涉猎丰富许多；果断有Fork了来：<a href="https://github.com/nicejade/Front-end-tutorial" target="_blank" rel="external">Front-end-tutorial</a>;本就有收藏&amp;分享欲，这种事儿早期也想做了，勘叹见识未广而深；幸遇这良心收集，得以借他人之酒杯，一浇我心之夙愿块垒。毕竟人为收集，并未臻于不可附加之境，还是有许多可以补充的点；因此，有特转于博客，将酌情适当<strong>增</strong>删些内容，一来做自己查纠探索之源，二来分享给更多朋友；好文章好工具，很多时候都<strong>被</strong>隐藏于犄角旮旯了，有居干货，欢请分享。</p>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/sharp-weapon.jpg" alt="前端资源教程"></p>
+<a id="more"></a>
 <blockquote>
 <p>微注：可两次点击文章右边<strong>开启侧边栏</strong>图标，查看全文目录。</p>
 </blockquote>
-<a id="more"></a>
 <h2 id="综合类"><strong>综合类</strong></h2><table>
 <thead>
 <tr>
@@ -3777,6 +3777,9 @@
 </tr>
 </tbody>
 </table>
+<blockquote>
+<p>转载请保留原链接：<a href="http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/" target="_blank" rel="external">http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</a></p>
+</blockquote>
 ]]></content>
     <summary type="html">
     <![CDATA[最全的资源教程-前端涉及的所有知识体系;]]>
