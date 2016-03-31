@@ -3902,7 +3902,7 @@
     <link href="http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/"/>
     <id>http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/</id>
     <published>2016-03-17T08:30:00.000Z</published>
-    <updated>2016-03-22T12:54:33.000Z</updated>
+    <updated>2016-03-31T02:22:33.000Z</updated>
     <content type="html"><![CDATA[<p>工作近三年，使用PC快六年，拥抱Mac整一年，投<code>具器</code>石榴裙三年。14年第一次被同事推荐<code>Everything</code>，开启了JeffJade对工具的折腾之旅，并乐此不疲。时去两年，这必然是消耗了一些时间，但对效率的提升，心情之保养，以及思维持续扩散，无疑是起了不可磨灭的功绩。是时候对这期间的热忱和折腾，做一个总结了。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/jiangXin.jpg" alt="www.jeffjade.com"></p>
@@ -3938,6 +3938,8 @@
 </li>
 <li><p><strong>Kindle</strong>: Mac下读书软件，没怎么折腾，就用了这<strong>Kindle</strong>，体验良好，且同手机，以及<strong>Kindle</strong>设备完好同步，没道理不用她。</p>
 </li>
+<li><p><strong>Safari</strong> : 安装<strong>vimari</strong>(类Chrome下的Vimium), <strong>YOUKUhtml5player</strong>(中文名：不发热。可解析flash格式视频为Html5~不仅速度快，使Mac不发热，还能协助过滤60S＋的广告，值得拥有)。</p>
+</li>
 <li><p><strong>TeamViewer</strong>：一款用着挺便捷的远程软件；觉得好，没有同类个工具对比过，也就不好说她究竟有多好。</p>
 </li>
 </ul>
@@ -3960,6 +3962,8 @@
 <li><p><strong>Beyond Compare</strong> : 文件/夹比较利器; 此款为所接触同类中最佳。</p>
 </li>
 <li><p><strong><a href="https://github.com/cmderdev/cmder/releases" title="CmderDownAdress" target="_blank" rel="external">Cmder</a></strong>:  windows下cmd的替换工具,支持PowerShell;同比还有PowerShell，<a href="https://github.com/Maximus5/ConEmu" title="ConEmuDownAdress" target="_blank" rel="external">ConEmu</a> 等。对于<strong>Cmder</strong>有在：<a href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/#" target="_blank" rel="external">Win下必备神器之Cmder</a> 一文中予以总结。</p>
+</li>
+<li><p><strong>MacType</strong> : 字体设置，假设你用过Mac后回到Windows，那很有必要安装她来美化下字体渲染。</p>
 </li>
 <li><p><strong><a href="https://git-for-windows.github.io" target="_blank" rel="external">Git for Windows</a></strong> : 打包好了，直接使用；Git 一族必备。</p>
 </li>
