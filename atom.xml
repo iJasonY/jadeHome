@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-03-30T17:49:02.000Z</updated>
+  <updated>2016-04-05T14:06:34.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -15,16 +15,16 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[『转』前端资源教程全集]]></title>
+    <title><![CDATA[『引』最全前端资源汇集]]></title>
     <link href="http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/"/>
     <id>http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</id>
     <published>2016-03-30T11:55:00.000Z</published>
-    <updated>2016-03-30T17:49:02.000Z</updated>
-    <content type="html"><![CDATA[<p>前晚从<a href="http://www.zhangxinxu.com/" target="_blank" rel="external">@张鑫旭</a>微博处得一份推荐(<a href="https://github.com/AutumnsWind/Front-end-tutorial" target="_blank" rel="external">Front-end-tutorial</a>)，号称<strong>最全的资源教程</strong>－前端涉及的所有知识体系；有粗略查看，果然“叹为观止”，至少比想象中涉猎丰富许多；果断有Fork了来：<a href="https://github.com/nicejade/Front-end-tutorial" target="_blank" rel="external">Front-end-tutorial</a>;本就有收藏&amp;分享欲，这种事儿早期也想做了，勘叹见识未广而深；幸遇这良心收集，得以借他人之酒杯，一浇我心之夙愿块垒。毕竟人为收集，并未臻于不可附加之境，还是有许多可以补充的点；因此，有特转于博客，将酌情适当<strong>增</strong>删些内容，一来做自己查纠探索之源，二来分享给更多朋友；好文章好工具，很多时候都<strong>被</strong>隐藏于犄角旮旯了，有居干货，欢请分享。</p>
-<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/sharp-weapon.jpg" alt="前端资源教程"></p>
+    <updated>2016-04-05T14:06:34.000Z</updated>
+    <content type="html"><![CDATA[<p>前晚从<a href="http://www.zhangxinxu.com/" target="_blank" rel="external">@张鑫旭</a>微博处得一份推荐(<a href="https://github.com/AutumnsWind/Front-end-tutorial" target="_blank" rel="external">Front-end-tutorial</a>)，号称<strong>最全的资源教程</strong>－前端涉及的所有知识体系；有粗略查看，果然“叹为观止”，至少比想象中涉猎丰富许多；果断有Fork了来：<a href="https://github.com/nicejade/Front-end-tutorial" target="_blank" rel="external">Front-end-tutorial</a>;本就有收藏&amp;分享欲，这种事儿早期也想做了，勘叹见识未广而深；幸遇这良心收集，得以借他人之酒杯，一浇我心之夙愿块垒。毕竟人为收集，并未臻于不可附加之境，还是有许多可以补充的点；因此，有特引于博客，将酌情适当<strong>增</strong>删些内容，一来做自己查纠探索之源，二来分享给更多朋友；好文章好工具，很多时候都<strong>被</strong>隐藏于犄角旮旯了，有居干货，欢请分享。</p>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/sharp-weapon.jpg" alt="最全前端资源汇集"></p>
 <a id="more"></a>
 <blockquote>
-<p>微注：可两次点击文章右边<strong>开启侧边栏</strong>图标，查看全文目录。</p>
+<p>微注：可两次点击文章右边<strong>开启侧边栏</strong>图标，查看全文目录。至于文章命名～嗯哼，最全？“呵呵”，坦率而言，世间哪有那么些之“最”呢？不过是寄托了不断完善之顾念而已。</p>
 </blockquote>
 <h2 id="综合类"><strong>综合类</strong></h2><table>
 <thead>
@@ -182,31 +182,75 @@
 <td style="text-align:center">Grunt-beginner前端自动化工具</td>
 <td style="text-align:center"><a href="http://www.imooc.com/learn/30" target="_blank" rel="external">http://www.imooc.com/learn/30</a></td>
 </tr>
+<tr>
+<td style="text-align:center">IntelliJ IDEA 简体中文专题教程</td>
+<td style="text-align:center"><a href="https://github.com/judasn/IntelliJ-IDEA-Tutorial" target="_blank" rel="external">https://github.com/judasn/IntelliJ-IDEA-Tutorial</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Webstorm,InterllIdea,Phpstorm</td>
+<td style="text-align:center"><a href="http://t.cn/8kZZ1Uy" target="_blank" rel="external">http://t.cn/8kZZ1Uy</a></td>
+</tr>
+<tr>
+<td style="text-align:center">SublimeText</td>
+<td style="text-align:center"><a href="https://github.com/jikeytang/sublime-text" target="_blank" rel="external">https://github.com/jikeytang/sublime-text</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Atom</td>
+<td style="text-align:center"><a href="https://atom.io" target="_blank" rel="external">https://atom.io</a></td>
+</tr>
+<tr>
+<td style="text-align:center">visual studio code</td>
+<td style="text-align:center"><a href="https://code.visualstudio.com" target="_blank" rel="external">https://code.visualstudio.com</a></td>
+</tr>
 </tbody>
 </table>
-<h2 id="慕课专题"><strong>慕课专题</strong></h2><table>
+<h2 id="综合效果搜索平台"><strong>综合效果搜索平台</strong></h2><table>
 <thead>
 <tr>
-<th style="text-align:center">慕课专题</th>
+<th style="text-align:center">综合效果搜索平台</th>
 <th style="text-align:center">地址</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">张鑫旭 - 慕课系列</td>
-<td style="text-align:center"><a href="http://www.imooc.com/space/teacher/id/197450" target="_blank" rel="external">http://www.imooc.com/space/teacher/id/197450</a></td>
+<td style="text-align:center">zoommyapp.com</td>
+<td style="text-align:center"><a href="http://zoommyapp.com/" target="_blank" rel="external">http://zoommyapp.com/</a> 高质量图库</td>
 </tr>
 <tr>
-<td style="text-align:center">lyn - 慕课系列</td>
-<td style="text-align:center"><a href="http://www.imooc.com/space/teacher/id/104593" target="_blank" rel="external">http://www.imooc.com/space/teacher/id/104593</a></td>
+<td style="text-align:center">unsplash.com</td>
+<td style="text-align:center"><a href="https://unsplash.com/" target="_blank" rel="external">https://unsplash.com/</a> 高质量图库</td>
 </tr>
 <tr>
-<td style="text-align:center">艾伦 - 慕课系列</td>
-<td style="text-align:center"><a href="http://www.imooc.com/space/teacher/id/290139" target="_blank" rel="external">http://www.imooc.com/space/teacher/id/290139</a></td>
+<td style="text-align:center">www.pinterest.com</td>
+<td style="text-align:center"><a href="https://www.pinterest.com/" target="_blank" rel="external">https://www.pinterest.com/</a> 图库</td>
 </tr>
 <tr>
-<td style="text-align:center">碧仔 - Hello，移动WEB</td>
-<td style="text-align:center"><a href="http://www.imooc.com/view/494" target="_blank" rel="external">http://www.imooc.com/view/494</a></td>
+<td style="text-align:center">效果网</td>
+<td style="text-align:center"><a href="http://www.jq22.com" target="_blank" rel="external">http://www.jq22.com</a></td>
+</tr>
+<tr>
+<td style="text-align:center">花瓣网</td>
+<td style="text-align:center"><a href="http://huaban.com/" target="_blank" rel="external">http://huaban.com/</a></td>
+</tr>
+<tr>
+<td style="text-align:center">优美图</td>
+<td style="text-align:center"><a href="http://www.topit.me/" target="_blank" rel="external">http://www.topit.me/</a></td>
+</tr>
+<tr>
+<td style="text-align:center">codepen</td>
+<td style="text-align:center"><a href="http://codepen.io/" target="_blank" rel="external">http://codepen.io/</a></td>
+</tr>
+<tr>
+<td style="text-align:center">17素材</td>
+<td style="text-align:center"><a href="http://www.17sucai.com" target="_blank" rel="external">http://www.17sucai.com</a></td>
+</tr>
+<tr>
+<td style="text-align:center">摄图网</td>
+<td style="text-align:center"><a href="http://699pic.com/" target="_blank" rel="external">http://699pic.com/</a></td>
+</tr>
+<tr>
+<td style="text-align:center">常用的JavaScript代码片段</td>
+<td style="text-align:center"><a href="http://microjs.com" target="_blank" rel="external">http://microjs.com</a></td>
 </tr>
 </tbody>
 </table>
@@ -221,6 +265,14 @@
 <tr>
 <td style="text-align:center"><strong>奇舞周刊</strong></td>
 <td style="text-align:center"><a href="http://old.75team.com/weekly/" target="_blank" rel="external">http://old.75team.com/weekly/</a></td>
+</tr>
+<tr>
+<td style="text-align:center">码农周刊</td>
+<td style="text-align:center"><a href="http://weekly.manong.io" target="_blank" rel="external">http://weekly.manong.io</a></td>
+</tr>
+<tr>
+<td style="text-align:center">WEB前端开发</td>
+<td style="text-align:center"><a href="http://www.css88.com" target="_blank" rel="external">http://www.css88.com</a></td>
 </tr>
 <tr>
 <td style="text-align:center">A JS tip per day!</td>
@@ -356,10 +408,10 @@
 </tr>
 </tbody>
 </table>
-<h2 id="综合搜索"><strong>综合搜索</strong></h2><table>
+<h2 id="综合API"><strong>综合API</strong></h2><table>
 <thead>
 <tr>
-<th style="text-align:center">综合搜索</th>
+<th style="text-align:center">综合API</th>
 <th style="text-align:center">地址</th>
 </tr>
 </thead>
@@ -370,18 +422,8 @@
 </tr>
 <tr>
 <td style="text-align:center">各种流行库搜索</td>
-<td style="text-align:center"><a href="http://microjs.com" target="_blank" rel="external">http://microjs.com</a></td>
+<td style="text-align:center"><a href="http://microjs.com" target="_blank" rel="external">http://microjs.com</a>    </td>
 </tr>
-</tbody>
-</table>
-<h2 id="综合API"><strong>综合API</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">综合API</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <td style="text-align:center">runoob.com-包含各种API集合</td>
 <td style="text-align:center"><a href="http://www.runoob.com" target="_blank" rel="external">http://www.runoob.com</a></td>
@@ -807,46 +849,6 @@
 <tr>
 <td style="text-align:center">移动开发大杂烩</td>
 <td style="text-align:center"><a href="https://github.com/hoosin/mobile-web-favorites" target="_blank" rel="external">https://github.com/hoosin/mobile-web-favorites</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="框架"><strong>框架</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">框架</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">特色的HTML框架可以创建精美的iOS应用</td>
-<td style="text-align:center"><a href="http://framework7.taobao.org" target="_blank" rel="external">http://framework7.taobao.org</a></td>
-</tr>
-<tr>
-<td style="text-align:center">淘宝SUI</td>
-<td style="text-align:center"><a href="http://m.sui.taobao.org" target="_blank" rel="external">http://m.sui.taobao.org</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="avalon"><strong>avalon</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">avalon</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">avalonjs</td>
-<td style="text-align:center"><a href="http://avalonjs.github.io" target="_blank" rel="external">http://avalonjs.github.io</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Avalon新一代UI库： OniUI</td>
-<td style="text-align:center"><a href="http://ued.qunar.com/oniui/index.html" target="_blank" rel="external">http://ued.qunar.com/oniui/index.html</a></td>
-</tr>
-<tr>
-<td style="text-align:center">avalon.oniui-基于avalon的组件库</td>
-<td style="text-align:center"><a href="https://github.com/RubyLouvre/avalon.oniui" target="_blank" rel="external">https://github.com/RubyLouvre/avalon.oniui</a></td>
 </tr>
 </tbody>
 </table>
@@ -1444,24 +1446,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="Android"><strong>Android</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">Android</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">【敏捷开发】Android团队开发规范</td>
-<td style="text-align:center"><a href="http://www.cnblogs.com/lcw/p/3619181.html" target="_blank" rel="external">http://www.cnblogs.com/lcw/p/3619181.html</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Android 开发规范与应用</td>
-<td style="text-align:center"><a href="http://www.jianshu.com/p/4390f4fe19b3" target="_blank" rel="external">http://www.jianshu.com/p/4390f4fe19b3</a></td>
-</tr>
-</tbody>
-</table>
 <h2 id="各大公司开源项目"><strong>各大公司开源项目</strong></h2><table>
 <thead>
 <tr>
@@ -1611,6 +1595,14 @@
 <tr>
 <td style="text-align:center">no-click-delay</td>
 <td style="text-align:center"><a href="https://github.com/mmastrac/jquery-noclickdelay" target="_blank" rel="external">https://github.com/mmastrac/jquery-noclickdelay</a></td>
+</tr>
+<tr>
+<td style="text-align:center">【敏捷开发】Android团队开发规范</td>
+<td style="text-align:center"><a href="http://www.cnblogs.com/lcw/p/3619181.html" target="_blank" rel="external">http://www.cnblogs.com/lcw/p/3619181.html</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Android 开发规范与应用</td>
+<td style="text-align:center"><a href="http://www.jianshu.com/p/4390f4fe19b3" target="_blank" rel="external">http://www.jianshu.com/p/4390f4fe19b3</a></td>
 </tr>
 </tbody>
 </table>
@@ -1820,28 +1812,6 @@
 <tr>
 <td style="text-align:center">wangEditor</td>
 <td style="text-align:center"><a href="https://github.com/wangfupeng1988/wangEditor" target="_blank" rel="external">https://github.com/wangfupeng1988/wangEditor</a> </td>
-</tr>
-</tbody>
-</table>
-<h2 id="综合效果搜索平台"><strong>综合效果搜索平台</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">综合效果搜索平台</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">效果网</td>
-<td style="text-align:center"><a href="http://www.jq22.com" target="_blank" rel="external">http://www.jq22.com</a></td>
-</tr>
-<tr>
-<td style="text-align:center">17素材</td>
-<td style="text-align:center"><a href="http://www.17sucai.com" target="_blank" rel="external">http://www.17sucai.com</a></td>
-</tr>
-<tr>
-<td style="text-align:center">常用的JavaScript代码片段</td>
-<td style="text-align:center"><a href="http://microjs.com" target="_blank" rel="external">http://microjs.com</a></td>
 </tr>
 </tbody>
 </table>
@@ -2967,36 +2937,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="前端开发工具"><strong>前端开发工具</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">前端开发工具</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">IntelliJ IDEA 简体中文专题教程</td>
-<td style="text-align:center"><a href="https://github.com/judasn/IntelliJ-IDEA-Tutorial" target="_blank" rel="external">https://github.com/judasn/IntelliJ-IDEA-Tutorial</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Webstorm,InterllIdea,Phpstorm</td>
-<td style="text-align:center"><a href="http://t.cn/8kZZ1Uy" target="_blank" rel="external">http://t.cn/8kZZ1Uy</a></td>
-</tr>
-<tr>
-<td style="text-align:center">SublimeText</td>
-<td style="text-align:center"><a href="https://github.com/jikeytang/sublime-text" target="_blank" rel="external">https://github.com/jikeytang/sublime-text</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Atom</td>
-<td style="text-align:center"><a href="https://atom.io" target="_blank" rel="external">https://atom.io</a></td>
-</tr>
-<tr>
-<td style="text-align:center">visual studio code</td>
-<td style="text-align:center"><a href="https://code.visualstudio.com" target="_blank" rel="external">https://code.visualstudio.com</a></td>
-</tr>
-</tbody>
-</table>
 <h2 id="Fiddler"><strong>Fiddler</strong></h2><table>
 <thead>
 <tr>
@@ -3628,6 +3568,26 @@
 <tr>
 <td style="text-align:center">Mock.js 是一款模拟数据生成器</td>
 <td style="text-align:center"><a href="http://mockjs.com" target="_blank" rel="external">http://mockjs.com</a></td>
+</tr>
+<tr>
+<td style="text-align:center">特色的HTML框架可以创建精美的iOS应用</td>
+<td style="text-align:center"><a href="http://framework7.taobao.org" target="_blank" rel="external">http://framework7.taobao.org</a></td>
+</tr>
+<tr>
+<td style="text-align:center">淘宝SUI</td>
+<td style="text-align:center"><a href="http://m.sui.taobao.org" target="_blank" rel="external">http://m.sui.taobao.org</a></td>
+</tr>
+<tr>
+<td style="text-align:center">avalonjs</td>
+<td style="text-align:center"><a href="http://avalonjs.github.io" target="_blank" rel="external">http://avalonjs.github.io</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Avalon新一代UI库： OniUI</td>
+<td style="text-align:center"><a href="http://ued.qunar.com/oniui/index.html" target="_blank" rel="external">http://ued.qunar.com/oniui/index.html</a></td>
+</tr>
+<tr>
+<td style="text-align:center">avalon.oniui-基于avalon的组件库</td>
+<td style="text-align:center"><a href="https://github.com/RubyLouvre/avalon.oniui" target="_blank" rel="external">https://github.com/RubyLouvre/avalon.oniui</a></td>
 </tr>
 </tbody>
 </table>
