@@ -548,13 +548,13 @@ header nav ul li a {
   padding: 0.1em 0 0.2em 0.2em;
   margin: 0 1em 0 0;
   font-family: "rougescript-regular", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
-  font-size: 1.8em;
+  font-size: 1.7em;
   letter-spacing: 0px;
   text-align: center;
 }
 @media only screen and (min-width: 1024px) {
   header nav ul li a {
-    padding: 0.1em 1.2em;
+    padding: 0.1em 0.2em;
   }
 }
 header nav ul li a:hover {
