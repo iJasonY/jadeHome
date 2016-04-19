@@ -61,10 +61,51 @@
     <link href="http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/"/>
     <id>http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</id>
     <published>2016-03-30T11:55:00.000Z</published>
-    <updated>2016-04-05T14:37:59.000Z</updated>
+    <updated>2016-04-19T01:44:48.000Z</updated>
     <content type="html"><![CDATA[<p>前晚从<a href="http://www.zhangxinxu.com/" target="_blank" rel="external">@张鑫旭</a>微博处得一份推荐(<a href="https://github.com/AutumnsWind/Front-end-tutorial" target="_blank" rel="external">Front-end-tutorial</a>)，号称<strong>最全的资源教程</strong>－前端涉及的所有知识体系；有粗略查看，果然“叹为观止”，至少比想象中涉猎丰富许多；果断有Fork了来：<a href="https://github.com/nicejade/Front-end-tutorial" target="_blank" rel="external">Front-end-tutorial</a>;本就有收藏&amp;分享欲，这种事儿早期也想做了，勘叹见识未广而深；幸遇这良心收集，得以借他人之酒杯，一浇我心之夙愿块垒。毕竟人为收集，并未臻于不可附加之境，还是有许多可以补充的点；因此，有特引于博客，将酌情适当<strong>增</strong>删些内容，一来做自己查纠探索之源，二来分享给更多朋友；好文章好工具，很多时候都<strong>被</strong>隐藏于犄角旮旯了，有居干货，欢请分享。</p>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/sharp-weapon.jpg" alt="最全前端资源汇集"></p>
 <a id="more"></a>
+<div class="BlogAnchor"><p><b id="AnchorContentToggle" title="收起" style="cursor:pointer;">文章之目录[-]</b></p><div class="AnchorContent" id="AnchorContent"></div></div>
+
+<style>
+/*导航*/
+.BlogAnchor {
+    background: #d3d7d4;
+    padding: 10px;
+    line-height: 180%;
+    margin: .3em 0;
+}
+.BlogAnchor p {
+    font-size: 18px;
+    color: #15a230;
+    margin: .8em;
+}
+.BlogAnchor .AnchorContent {
+    padding: 5px 0px;
+}
+.BlogAnchor li{
+    text-indent: 20px;
+    font-size: 16px;
+}
+#AnchorContentToggle {
+    font-size: 18px;
+    font-weight: normal;
+    color: #FFF;
+    display: inline-block;
+    line-height: 20px;
+    background: #65c294;
+    font-style: normal;
+    padding: 1px 8px;
+    margin-right: 10px;
+}
+.BlogAnchor a:hover {
+    color: #65c294;
+}
+.BlogAnchor a {
+    text-decoration: none;
+}    
+</style>
+
 <blockquote>
 <p>微注：可两次点击文章右边<strong>开启侧边栏</strong>图标，查看全文目录。至于文章命名～嗯哼，最全？“呵呵”，坦率而言，世间哪有那么些之“最”呢？不过是寄托了不断完善之顾念而已。</p>
 </blockquote>
@@ -484,40 +525,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="jQuery"><strong>jQuery</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">jQuery</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">jQuery API 中文文档</td>
-<td style="text-align:center"><a href="http://www.jquery123.com" target="_blank" rel="external">http://www.jquery123.com</a></td>
-</tr>
-<tr>
-<td style="text-align:center">hemin 在线版</td>
-<td style="text-align:center"><a href="http://hemin.cn/jq" target="_blank" rel="external">http://hemin.cn/jq</a></td>
-</tr>
-<tr>
-<td style="text-align:center">css88 jq api</td>
-<td style="text-align:center"><a href="http://www.css88.com/jqapi-1.9/on" target="_blank" rel="external">http://www.css88.com/jqapi-1.9/on</a></td>
-</tr>
-<tr>
-<td style="text-align:center">css88 jqui api</td>
-<td style="text-align:center"><a href="http://www.css88.com/jquery-ui-api" target="_blank" rel="external">http://www.css88.com/jquery-ui-api</a></td>
-</tr>
-<tr>
-<td style="text-align:center">学习jquery</td>
-<td style="text-align:center"><a href="http://learn.jquery.com" target="_blank" rel="external">http://learn.jquery.com</a></td>
-</tr>
-<tr>
-<td style="text-align:center">jquery 源码查找</td>
-<td style="text-align:center"><a href="http://james.padolsey.com/jquery" target="_blank" rel="external">http://james.padolsey.com/jquery</a></td>
-</tr>
-</tbody>
-</table>
 <h2 id="Ecmascript"><strong>Ecmascript</strong></h2><table>
 <thead>
 <tr>
@@ -844,6 +851,36 @@
 </tr>
 </tbody>
 </table>
+<h2 id="vue"><strong>vue</strong></h2><table>
+<thead>
+<tr>
+<th style="text-align:center">vue</th>
+<th style="text-align:center">地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Vue</td>
+<td style="text-align:center"><a href="http://cn.vuejs.org" target="_blank" rel="external">http://cn.vuejs.org</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Vue 论坛</td>
+<td style="text-align:center"><a href="http://forum.vuejs.org" target="_blank" rel="external">http://forum.vuejs.org</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Vue 入门指南</td>
+<td style="text-align:center"><a href="http://www.cnblogs.com/aaronjs/p/3660102.html" target="_blank" rel="external">http://www.cnblogs.com/aaronjs/p/3660102.html</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Vue 的一些资源索引</td>
+<td style="text-align:center"><a href="http://segmentfault.com/a/1190000000411057" target="_blank" rel="external">http://segmentfault.com/a/1190000000411057</a></td>
+</tr>
+<tr>
+<td style="text-align:center">awesome-vue</td>
+<td style="text-align:center"><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="external">https://github.com/vuejs/awesome-vue</a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="移动端API"><strong>移动端API</strong></h2><table>
 <thead>
 <tr>
@@ -895,6 +932,70 @@
 <tr>
 <td style="text-align:center">移动开发大杂烩</td>
 <td style="text-align:center"><a href="https://github.com/hoosin/mobile-web-favorites" target="_blank" rel="external">https://github.com/hoosin/mobile-web-favorites</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="jQuery"><strong>jQuery</strong></h2><table>
+<thead>
+<tr>
+<th style="text-align:center">jQuery</th>
+<th style="text-align:center">地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">jQuery API 中文文档</td>
+<td style="text-align:center"><a href="http://www.jquery123.com" target="_blank" rel="external">http://www.jquery123.com</a></td>
+</tr>
+<tr>
+<td style="text-align:center">hemin 在线版</td>
+<td style="text-align:center"><a href="http://hemin.cn/jq" target="_blank" rel="external">http://hemin.cn/jq</a></td>
+</tr>
+<tr>
+<td style="text-align:center">css88 jq api</td>
+<td style="text-align:center"><a href="http://www.css88.com/jqapi-1.9/on" target="_blank" rel="external">http://www.css88.com/jqapi-1.9/on</a></td>
+</tr>
+<tr>
+<td style="text-align:center">css88 jqui api</td>
+<td style="text-align:center"><a href="http://www.css88.com/jquery-ui-api" target="_blank" rel="external">http://www.css88.com/jquery-ui-api</a></td>
+</tr>
+<tr>
+<td style="text-align:center">学习jquery</td>
+<td style="text-align:center"><a href="http://learn.jquery.com" target="_blank" rel="external">http://learn.jquery.com</a></td>
+</tr>
+<tr>
+<td style="text-align:center">jquery 源码查找</td>
+<td style="text-align:center"><a href="http://james.padolsey.com/jquery" target="_blank" rel="external">http://james.padolsey.com/jquery</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="D3"><strong>D3</strong></h2><table>
+<thead>
+<tr>
+<th style="text-align:center">D3</th>
+<th style="text-align:center">地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">d3 Tutorials</td>
+<td style="text-align:center"><a href="https://github.com/mbostock/d3/wiki/Tutorials" target="_blank" rel="external">https://github.com/mbostock/d3/wiki/Tutorials</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Gallery</td>
+<td style="text-align:center"><a href="https://github.com/mbostock/d3/wiki/Gallery" target="_blank" rel="external">https://github.com/mbostock/d3/wiki/Gallery</a></td>
+</tr>
+<tr>
+<td style="text-align:center">lofter</td>
+<td style="text-align:center"><a href="http://datavisual.lofter.com/post/40cf3a_188e535" target="_blank" rel="external">http://datavisual.lofter.com/post/40cf3a_188e535</a></td>
+</tr>
+<tr>
+<td style="text-align:center">iteye</td>
+<td style="text-align:center"><a href="http://alanland.iteye.com/blog/1878595" target="_blank" rel="external">http://alanland.iteye.com/blog/1878595</a></td>
+</tr>
+<tr>
+<td style="text-align:center">ruanyifeng</td>
+<td style="text-align:center"><a href="http://javascript.ruanyifeng.com/library/d3.html" target="_blank" rel="external">http://javascript.ruanyifeng.com/library/d3.html</a></td>
 </tr>
 </tbody>
 </table>
@@ -1036,35 +1137,9 @@
 <td style="text-align:center">markdown-editor</td>
 <td style="text-align:center"><a href="https://github.com/jbt/markdown-editor" target="_blank" rel="external">https://github.com/jbt/markdown-editor</a></td>
 </tr>
-</tbody>
-</table>
-<h2 id="D3"><strong>D3</strong></h2><table>
-<thead>
 <tr>
-<th style="text-align:center">D3</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">d3 Tutorials</td>
-<td style="text-align:center"><a href="https://github.com/mbostock/d3/wiki/Tutorials" target="_blank" rel="external">https://github.com/mbostock/d3/wiki/Tutorials</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Gallery</td>
-<td style="text-align:center"><a href="https://github.com/mbostock/d3/wiki/Gallery" target="_blank" rel="external">https://github.com/mbostock/d3/wiki/Gallery</a></td>
-</tr>
-<tr>
-<td style="text-align:center">lofter</td>
-<td style="text-align:center"><a href="http://datavisual.lofter.com/post/40cf3a_188e535" target="_blank" rel="external">http://datavisual.lofter.com/post/40cf3a_188e535</a></td>
-</tr>
-<tr>
-<td style="text-align:center">iteye</td>
-<td style="text-align:center"><a href="http://alanland.iteye.com/blog/1878595" target="_blank" rel="external">http://alanland.iteye.com/blog/1878595</a></td>
-</tr>
-<tr>
-<td style="text-align:center">ruanyifeng</td>
-<td style="text-align:center"><a href="http://javascript.ruanyifeng.com/library/d3.html" target="_blank" rel="external">http://javascript.ruanyifeng.com/library/d3.html</a></td>
+<td style="text-align:center">作业部落</td>
+<td style="text-align:center"><a href="https://www.zybuluo.com" target="_blank" rel="external">https://www.zybuluo.com</a> 功能强大，速度流畅，全平台同步</td>
 </tr>
 </tbody>
 </table>
@@ -1172,20 +1247,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="HTTP"><strong>HTTP</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">HTTP</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">HTTP API 设计指南</td>
-<td style="text-align:center"><a href="http://segmentfault.com/bookmark/1230000002521721" target="_blank" rel="external">http://segmentfault.com/bookmark/1230000002521721</a></td>
-</tr>
-</tbody>
-</table>
 <h2 id="其它API"><strong>其它API</strong></h2><table>
 <thead>
 <tr>
@@ -1194,6 +1255,10 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:center">HTTP API 设计指南</td>
+<td style="text-align:center"><a href="http://segmentfault.com/bookmark/1230000002521721" target="_blank" rel="external">http://segmentfault.com/bookmark/1230000002521721</a></td>
+</tr>
 <tr>
 <td style="text-align:center">javascript流行库汇总</td>
 <td style="text-align:center">javascriptoo</td>
@@ -1298,36 +1363,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="vue"><strong>vue</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">vue</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Vue</td>
-<td style="text-align:center"><a href="http://cn.vuejs.org" target="_blank" rel="external">http://cn.vuejs.org</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Vue 论坛</td>
-<td style="text-align:center"><a href="http://forum.vuejs.org" target="_blank" rel="external">http://forum.vuejs.org</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Vue 入门指南</td>
-<td style="text-align:center"><a href="http://www.cnblogs.com/aaronjs/p/3660102.html" target="_blank" rel="external">http://www.cnblogs.com/aaronjs/p/3660102.html</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Vue 的一些资源索引</td>
-<td style="text-align:center"><a href="http://segmentfault.com/a/1190000000411057" target="_blank" rel="external">http://segmentfault.com/a/1190000000411057</a></td>
-</tr>
-<tr>
-<td style="text-align:center">awesome-vue</td>
-<td style="text-align:center"><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="external">https://github.com/vuejs/awesome-vue</a></td>
-</tr>
-</tbody>
-</table>
 <h2 id="正则"><strong>正则</strong></h2><table>
 <thead>
 <tr>
@@ -1366,20 +1401,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="ionic"><strong>ionic</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">ionic</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">ionic</td>
-<td style="text-align:center"><a href="https://github.com/ychow/ionic-guide" target="_blank" rel="external">https://github.com/ychow/ionic-guide</a></td>
-</tr>
-</tbody>
-</table>
 <h2 id="前端"><strong>前端</strong></h2><table>
 <thead>
 <tr>
@@ -1398,7 +1419,7 @@
 </tr>
 <tr>
 <td style="text-align:center">团队合作的css命名规范-腾讯AlloyTeam前端团队</td>
-<td style="text-align:center"><a href="http://www.alloyteam.com/2011/10/107" target="_blank" rel="external">http://www.alloyteam.com/2011/10/107</a></td>
+<td style="text-align:center"><a href="http://www.alloyteam.com/2011/10/css-on-team-naming/" target="_blank" rel="external">http://www.alloyteam.com/2011/10/css-on-team-naming/</a></td>
 </tr>
 <tr>
 <td style="text-align:center">前端编码规范之js - by yuwenhui</td>
@@ -1650,6 +1671,10 @@
 <td style="text-align:center">Android 开发规范与应用</td>
 <td style="text-align:center"><a href="http://www.jianshu.com/p/4390f4fe19b3" target="_blank" rel="external">http://www.jianshu.com/p/4390f4fe19b3</a></td>
 </tr>
+<tr>
+<td style="text-align:center"><strong>ionic</strong></td>
+<td style="text-align:center"><a href="https://github.com/ychow/ionic-guide" target="_blank" rel="external">https://github.com/ychow/ionic-guide</a></td>
+</tr>
 </tbody>
 </table>
 <h2 id="JSON"><strong>JSON</strong></h2><table>
@@ -1667,20 +1692,6 @@
 <tr>
 <td style="text-align:center">返回跨域JSONAPI</td>
 <td style="text-align:center"><a href="http://jsonp.afeld.me" target="_blank" rel="external">http://jsonp.afeld.me</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="Html5"><strong>Html5</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">Html5</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">HTML5 有哪些让你惊艳的 demo？</td>
-<td style="text-align:center"><a href="http://www.zhihu.com/question/24398907" target="_blank" rel="external">http://www.zhihu.com/question/24398907</a></td>
 </tr>
 </tbody>
 </table>
@@ -2321,34 +2332,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="Html5播放器"><strong>Html5播放器</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">Html5播放器</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Html5 VideoPlayer</td>
-<td style="text-align:center"><a href="https://github.com/zmmbreeze/DeadSimpleVideoPlayer" target="_blank" rel="external">https://github.com/zmmbreeze/DeadSimpleVideoPlayer</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="粒子动画"><strong>粒子动画</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">粒子动画</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Proton 烟花</td>
-<td style="text-align:center"><a href="http://a-jie.github.io/Proton/#example" target="_blank" rel="external">http://a-jie.github.io/Proton/#example</a></td>
-</tr>
-</tbody>
-</table>
 <h2 id="常规优化"><strong>常规优化</strong></h2><table>
 <thead>
 <tr>
@@ -2753,19 +2736,17 @@
 <td style="text-align:center">fromone</td>
 <td style="text-align:center"><a href="http://yansm.github.io/fromone/index.html" target="_blank" rel="external">http://yansm.github.io/fromone/index.html</a></td>
 </tr>
-</tbody>
-</table>
-<h2 id="国外大牛精品"><strong>国外大牛精品</strong></h2><table>
-<thead>
-<tr>
-<th style="text-align:center">国外大牛精品</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <td style="text-align:center">pazguille</td>
 <td style="text-align:center"><a href="http://pazguille.me" target="_blank" rel="external">http://pazguille.me</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Html5 VideoPlayer</strong></td>
+<td style="text-align:center"><a href="https://github.com/zmmbreeze/DeadSimpleVideoPlayer" target="_blank" rel="external">https://github.com/zmmbreeze/DeadSimpleVideoPlayer</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Proton 烟花</strong></td>
+<td style="text-align:center"><a href="http://a-jie.github.io/Proton/#example" target="_blank" rel="external">http://a-jie.github.io/Proton/#example</a></td>
 </tr>
 </tbody>
 </table>
@@ -3320,6 +3301,14 @@
 <td style="text-align:center"><a href="http://js8.in/2013/11/16/%E6%8E%A8%E8%8D%90nodeppt%EF%BC%9A%E4%BD%BF%E7%94%A8markdown%E8%AF%AD%E6%B3%95%E6%9D%A5%E5%86%99%E7%BD%91%E9%A1%B5ppt" target="_blank" rel="external">nodePPT</a></td>
 </tr>
 <tr>
+<td style="text-align:center"><strong>Cleaver快速制作网页PPT</strong></td>
+<td style="text-align:center"><a href="http://www.jeffjade.com/2015/10/15/2015-10-16-cleaver-make-ppt/" target="_blank" rel="external">http://www.jeffjade.com/2015/10/15/2015-10-16-cleaver-make-ppt/</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>impress.js</strong></td>
+<td style="text-align:center"><a href="http://www.cnblogs.com/Darren_code/archive/2013/01/04/impressjs.html" target="_blank" rel="external">http://www.cnblogs.com/Darren_code/archive/2013/01/04/impressjs.html</a></td>
+</tr>
+<tr>
 <td style="text-align:center">PPT</td>
 <td style="text-align:center"><a href="https://github.com/ksky521/nodePPT" target="_blank" rel="external">https://github.com/ksky521/nodePPT</a></td>
 </tr>
@@ -3653,6 +3642,10 @@
 <td style="text-align:center">焦点图轮播特效</td>
 <td style="text-align:center"><a href="http://www.imooc.com/learn/18" target="_blank" rel="external">http://www.imooc.com/learn/18</a></td>
 </tr>
+<tr>
+<td style="text-align:center"><strong>HTML5 有哪些让你惊艳的 demo？</strong></td>
+<td style="text-align:center"><a href="http://www.zhihu.com/question/24398907" target="_blank" rel="external">http://www.zhihu.com/question/24398907</a></td>
+</tr>
 </tbody>
 </table>
 <h2 id="弹出层"><strong>弹出层</strong></h2><table>
@@ -3786,7 +3779,34 @@
 <blockquote>
 <p>转载请保留原链接：<a href="http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/" target="_blank" rel="external">http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</a></p>
 </blockquote>
-]]></content>
+<script>
+        $(".article-content").find("h2").each(function(i,item){
+            var tag = $(item).get(0).localName;
+            $(item).attr("id","wow"+i);
+            $("#AnchorContent").append('<li><a class="new'+tag+' anchor-link" onclick="return false;" href="#" link="#wow'+i+'">'+(i+1)+" · "+$(this).text()+'</a></li>');
+            $(".newh2").css("margin-left",0);
+            $(".newh3").css("margin-left",20);
+            $(".newh4").css("margin-left",40);
+            $(".newh5").css("margin-left",60);
+            $(".newh6").css("margin-left",80);
+        });
+
+        $(".anchor-link").click(function(){
+            $("html,body").animate({scrollTop: $($(this).attr("link")).offset().top}, 1000);
+        }); 
+
+    $("#AnchorContentToggle").click(function(){
+        var text = $(this).html();
+        if(text=="文章之目录[-]"){
+            $(this).html("文章之目录[+]");
+            $(this).attr({"title":"展开"});
+        }else{
+            $(this).html("文章之目录[-]");
+            $(this).attr({"title":"收起"});
+        }
+        $("#AnchorContent").toggle();
+    });   
+</script>]]></content>
     <summary type="html">
     <![CDATA[最全的资源教程-前端涉及的所有知识体系;]]>
     
