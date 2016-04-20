@@ -61,11 +61,11 @@
     <link href="http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/"/>
     <id>http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</id>
     <published>2016-03-30T11:55:00.000Z</published>
-    <updated>2016-04-19T14:09:54.000Z</updated>
+    <updated>2016-04-20T02:36:09.000Z</updated>
     <content type="html"><![CDATA[<p>前晚从<a href="http://www.zhangxinxu.com/" target="_blank" rel="external">@张鑫旭</a>微博处得一份推荐，号称<strong>最全的资源教程</strong>－前端涉及的所有知识体系；有粗略查看，果然“叹为观止”，至少比想象中涉猎丰富许多；果断有Fork了来：<a href="https://github.com/nicejade/Front-end-tutorial" target="_blank" rel="external">Front-end-tutorial</a>;本就有收藏&amp;分享欲，这种事儿早期也想做了，勘叹见识未广而深；幸遇这良心收集，得以借他人之酒杯，一浇我心之夙愿块垒。毕竟人为收集，并未臻于不可附加之境，还是有许多可以补充的点；因此，有特引于博客，将酌情适当<strong>增</strong>删些内容，一来做自己查纠探索之源，二来分享给更多朋友；好文章好工具，很多时候都<strong>被</strong>隐藏于犄角旮旯了，有居干货，欢请分享。</p>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/sharp-weapon.jpg" alt="最全前端资源汇集"></p>
 <a id="more"></a>
-<p><strong>感谢声明：</strong> 方才晓得这份良心分类清单，很大程度上得益于：<a href="http://www.kancloud.cn/jikeytang/qq/87646" target="_blank" rel="external">JS前端开发群规 - 492107297</a>。这<code>492107297</code>是 <strong>Vuejs</strong> 分享学习QQ群号，氛围大好。此份清单已征得其群主 @<a href="http://www.cnblogs.com/jikey/" target="_blank" rel="external">豪情</a> 同意，会在这基础上予以修改增减；各位看官也可移步<a href="http://www.kancloud.cn/jikeytang/qq/87646" target="_blank" rel="external">JS前端开发群规 - 492107297</a>：这寄存于 <code>看云</code>，分类清晰，也在持续更新中。(更新于2016-04-19夜)。</p>
+<p><strong><code>文章声明：</code></strong> 方才晓得这份良心分类清单，很大程度上得益于：<a href="http://www.kancloud.cn/jikeytang/qq/87646" target="_blank" rel="external">JS前端开发群规 - 492107297</a>；其 Github 在线地址为 <a href="http://t.cn/RL2NtqX" target="_blank" rel="external">http://t.cn/RL2NtqX</a>。这<code>492107297</code>是 <strong>Vuejs</strong> 分享学习QQ群号，氛围大好，十分难得。此份清单已征得其群主 @<a href="http://www.cnblogs.com/jikey/" target="_blank" rel="external">豪情</a> 同意，会在这基础上予以修改增减。各位看官也可移步<a href="http://www.kancloud.cn/jikeytang/qq/87646" target="_blank" rel="external">JS前端开发群规 - 492107297</a>：这寄存于 <code>看云</code>，分类清晰，也在持续更新中。(更新于2016-04-19夜)。</p>
 <div class="BlogAnchor"><p><b id="AnchorContentToggle" title="收起" style="cursor:pointer;">文章之目录[-]</b></p><div class="AnchorContent" id="AnchorContent"></div></div>
 
 <style>
@@ -3780,6 +3780,18 @@
 <blockquote>
 <p>转载请保留原链接：<a href="http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/" target="_blank" rel="external">http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</a></p>
 </blockquote>
+<hr>
+<p>对您可能有用(/感兴趣)的文章：</p>
+<ul>
+<li><a href="http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/" target="_blank" rel="external">那些所倚靠的利器记载</a></li>
+<li><a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a></li>
+<li><a href="http://www.cnblogs.com/jadeboy/p/4165449.html" target="_blank" rel="external">sublime text 下的Markdown写作</a></li>
+<li><a href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/" target="_blank" rel="external">新编码神器Atom使用纪要</a></li>
+<li><a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/" target="_blank" rel="external">Win下最爱效率神器:AutoHotKey</a></li>
+<li><a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a></li>
+<li><a href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/" target="_blank" rel="external">Win下必备神器之Cmder</a></li>
+<li><a href="http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/" target="_blank" rel="external">Vimium~让您的Chrome起飞</a></li>
+</ul>
 <script>
         $(".article-content").find("h2").each(function(i,item){
             var tag = $(item).get(0).localName;
