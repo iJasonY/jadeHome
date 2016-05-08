@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-05-08T14:40:37.000Z</updated>
+  <updated>2016-05-08T14:45:04.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.jeffjade.com/2016/05/08/106-vue-es6-jade-scss-webpack-gulp/"/>
     <id>http://www.jeffjade.com/2016/05/08/106-vue-es6-jade-scss-webpack-gulp/</id>
     <published>2016-05-08T11:40:00.000Z</published>
-    <updated>2016-05-08T14:40:37.000Z</updated>
+    <updated>2016-05-08T14:45:04.000Z</updated>
     <content type="html"><![CDATA[<p>一直以来非常庆幸曾经有翻过《代码大全2》；这使我崎岖编程之路少了很多不必要的坎坷。它在<strong>软件工艺的话题</strong>中有写到一篇：“首先是为人写程序，其次才是机器”(<strong>Write Programs for People First, Computers Second</strong>)。虽然这是针对代码<strong>可读性</strong>来谈及的，但这间接昭示了<strong>开发效率</strong>之重要不是？此次以 <code>Vue</code> , <code>Es6</code>, <code>Jade</code>, <code>Scss</code> , <code>Webpack</code>, <code>Gulp</code>等一套强大组合来改善我团工作流，首因即出于这个理念。 </p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/vue-webpack-sharp-sword.jpg" alt="Vue ES6 Jade Scss Webpack Gulp"></p>
@@ -32,8 +32,8 @@
 <p><code>**Jade**</code>：用了<strong>Vue</strong>，最大的好处在于可以组件化来开发各个SPA；由此，就得编写大量的组件，达到各个功能代码可以公用&amp;复用，如此也方便统一维护。虽然<strong>html</strong>的标签就那么多，然而写她的人确实层次不齐的。很是希望每位写组件的队友能够写好，然而发现这是事儿，还是提供一种机制令其不能写得太糟糕更容易些。当然，实施过程中，这个跟<strong>Scss</strong>，<strong>Es6</strong>一样，都没有强制使用。</p>
 <p><code>**Scss**</code>：用它比较好的优势在于：使写CSS有了编程得感觉，这对于大型应用也的确很有用，可对于SPA应用，优劣几乎相抵；在机制中推荐出来，最大得目的在于使想让队友们可以多一项技能。可根据使用得情形来看，只是让我更明白两点：学习是看个人得；人类得大脑思考方式更趋向于懒。</p>
 <p><code>**Webpack**</code>：用这款强大的打包工具，主因是官方推荐它。后来证明它的确强大异常，同样的学习成本也最大。在折腾这套机制时候，消耗时间最多的就是在这块。并且类如图片打包路径问题，首次开启Webpack巨慢等问题，如今都没很好的解决，只得采取写兼容办法。</p>
-<p><code>**Gulp**</code>：Gulp在15年就有使用。将其列入新机制完全是出于高效开发的目的。团队工作，需要先行在内网测试ok，方才可以发布外网。而<code>webpack</code>打包部署在本地，这就需要采用ftp工具上传打包内容。先前使用所<code>xFtp</code>，后来试用过<strong>WinScp</strong>，以及<strong>GoodSync</strong>，感觉都不是很理想；SublimeText下的<code>sftp</code>插件倒不错，却作用于激活而变动的tab，对打包生成出来的不能work。而Gulp下的<code>gulp-sftp</code>却很好适用这一场景，监测本地某文件下指定文件变化，指定内容上传。因此必用<strong>Gulp</strong>，更有。更有<code>gulp-tinypng</code>（熊猫一键压图），<code>gulp-spritesmith</code>（一键生成雪碧图）等等可用的插件，大大提高开发成本。</p>
-<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/vue-gulp-webpack-plugn.jpg" alt="Vue ES6 Jade Scss Webpack Gulp"></p>
+<p><code>**Gulp**</code>：Gulp在15年就有使用。将其列入新机制完全是出于高效开发的目的。团队工作，需要先行在内网测试ok，方才可以发布外网。而<code>webpack</code>打包部署在本地，这就需要采用ftp工具上传打包内容。先前使用所<code>xFtp</code>，后来试用过<strong>WinScp</strong>，以及<strong>GoodSync</strong>，感觉都不是很理想；SublimeText下的<code>sftp</code>插件倒不错，却作用于激活而变动的tab，对打包生成出来的不能work。而Gulp下的<code>gulp-sftp</code>却很好适用这一场景，监测本地某文件下指定文件变化，指定内容上传。因此必用<strong>Gulp</strong>，更有。更有<code>gulp-tinypng</code>（熊猫一键压图），<code>gulp-spritesmith</code>（一键生成雪碧图）等等可用的插件，一键以为之，大大节约开发时间成本。</p>
+<p>下图为 Vue＋ES6＋Jade＋Scss＋Webpack＋Gulp 开发项目机制所涉及到的<strong>npm</strong>插件：<br><img src="http://7xoosr.com1.z0.glb.clouddn.com/vue-gulp-webpack-plugn.jpg" alt="Vue ES6 Jade Scss Webpack Gulp"></p>
 <p><code>**总结**</code>：以上些许唠叨，即为这段时间折腾的由头。如今，团队开发机制，也正全面向这套过渡；常用组件也已完善不少；开发效率在之后越发将得到提高；因Vue本身自带其他各方面优质特性，产出的作品各个方面也都大有改进，幸甚。如此，编程才是充满积极意义的。下一步，当朝着前端自动化方向前进，而这块儿，另一队友目前也正在践行的路上，Fighting。以下为一路折腾过来的学习参考：</p>
 <hr>
 <p><strong>Vue篇</strong><br><a href="http://www.csdn.net/article/2015-08-11/2825439-vue" target="_blank" rel="external">Vue.js：轻量高效的前端组件化方案</a> 来自Vue作者<strong>尤雨溪</strong><br><a href="http://cn.vuejs.org/guide/" target="_blank" rel="external">Vue官方教程</a><br><a href="http://jiongks.name/blog/vue-code-review/" target="_blank" rel="external">Vue.js 源码学习笔记</a>来自<strong>囧克斯</strong><br><a href="http://vuejs.github.io/vue-router/zh-cn/index.html" target="_blank" rel="external">vue-router文档</a><br><a href="http://gold.xitu.io/entry/55f77eb460b28e6a6f0f4f86" target="_blank" rel="external">Vue 组件化开发实践</a><br><a href="http://www.alloyteam.com/2015/06/mvvm-xue-xi-vue-shi-jian-xiao-jie/" target="_blank" rel="external">mvvm学习&amp;vue实践小结</a></p>
@@ -46,6 +46,9 @@
 <p><strong>Sass篇</strong><br><a href="http://www.kancloud.cn/kancloud/sass-tutorial/48502" target="_blank" rel="external">Sass中文教程</a></p>
 <hr>
 <p><strong>Jade篇</strong><br><a href="http://blog.jayself.com/2014/07/28/Jade/" target="_blank" rel="external">Jade中文教程</a></p>
+<blockquote>
+<p>原文出处：http:www.jeffjade.com<br>原文链接：<a href="http://www.jeffjade.com/2016/05/08/106-vue-es6-jade-scss-webpack-gulp/" target="_blank" rel="external">http://www.jeffjade.com/2016/05/08/106-vue-es6-jade-scss-webpack-gulp/</a></p>
+</blockquote>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>一直以来非常庆幸曾经有翻过《代码大全2》；这使我崎岖编程之路少了很多不必要的坎坷。它在<strong>软件工艺的话题</strong>中有写到一篇：“首先是为人写程序，其次才是机器”(<strong>Write Programs for People First, Computers Second</strong>)。虽然这是针对代码<strong>可读性</strong>来谈及的，但这间接昭示了<strong>开发效率</strong>之重要不是？此次以 <code>Vue</code> , <code>Es6</code>, <code>Jade</code>, <code>Scss</code> , <code>Webpack</code>, <code>Gulp</code>等一套强大组合来改善我团工作流，首因即出于这个理念。 </p>]]>
