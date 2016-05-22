@@ -154,6 +154,67 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/2014/12/22/2014-12-24-lua-codepart/" class= title="Lua代码片段收集" itemprop="url">Lua代码片段收集</a>
+    
+  </h1>
+  <p class="article-author">By
+       
+		<a href="http://www.jeffjade.com/about" title="jeffjade" target="_blank" itemprop="author">jeffjade</a>
+		
+  <p class="article-time">
+    <time datetime="2014-12-22T04:00:00.000Z" itemprop="datePublished"> 发表于 2014-12-22</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <h3 id="Lua实现闭包">Lua实现闭包</h3><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">--[[@Func :实现闭包</span><br><span class="line">    @Desc : 当一个函数内部嵌套另一个函数定义时，内部的函数体可以访问外部的函数的局部变量，这种特征我们称作词法定界]]</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fuck</span><span class="params">()</span></span></span><br><span class="line">    <span class="keyword">local</span> i = <span class="number">0</span></span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">        i = i + <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> i</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">c1 = fuck()</span><br><span class="line"><span class="built_in">print</span>(c1())</span><br><span class="line"><span class="built_in">print</span>(c1())</span><br></pre></td></tr></table></figure>
+        
+        
+        <p class="article-more-link">
+          
+            <a href="/2014/12/22/2014-12-24-lua-codepart/#more">Read More</a>
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/Lua/">Lua</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Lua/">Lua</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2014/12/22/2014-12-24-lua-codepart/#comments" class="ds-thread-count comments-count-link" data-thread-key="2014/12/22/2014-12-24-lua-codepart/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/2014/12/22/2014-12-22-gitmemo/" class= title="Git常用命令备忘" itemprop="url">Git常用命令备忘</a>
     
   </h1>
@@ -584,7 +645,7 @@
 		  
 		
 		  
-			<li><a href="/categories/Toss/" title="Toss">Toss<sup>20</sup></a></li>
+			<li><a href="/categories/Toss/" title="Toss">Toss<sup>21</sup></a></li>
 		  
 		
 		  
@@ -626,7 +687,7 @@
 			
 		
 			
-				<li><a href="/tags/Efficiency/" title="Efficiency">Efficiency<sup>10</sup></a></li>
+				<li><a href="/tags/Efficiency/" title="Efficiency">Efficiency<sup>11</sup></a></li>
 			
 		
 			
