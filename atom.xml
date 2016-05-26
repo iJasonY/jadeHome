@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-05-23T03:24:48.000Z</updated>
+  <updated>2016-05-26T08:48:11.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.jeffjade.com/2016/05/22/108-Listary-Everything-Wox-Launch/"/>
     <id>http://www.jeffjade.com/2016/05/22/108-Listary-Everything-Wox-Launch/</id>
     <published>2016-05-22T12:00:00.000Z</published>
-    <updated>2016-05-23T03:24:48.000Z</updated>
+    <updated>2016-05-26T08:48:11.000Z</updated>
     <content type="html"><![CDATA[<p>人生即在于<strong>体验</strong>，而体验源于去尝试，去折腾，去改变，去塑新。要知道：“过一个平凡无趣的人生实在太容易了，你可以不读书，不冒险，不运动，不写作，不外出，不折腾……但是，人生最后悔的事情就是：我本可以”。生活也好，职场也罢，亦同此理；编程则更如其是。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/high-efficiency.jpg" alt="www.jeffjade.com"></p>
@@ -75,7 +75,7 @@
     
       <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
     
-      <category term="Windows" scheme="http://www.jeffjade.com/tags/Windows/"/>
+      <category term="Tools" scheme="http://www.jeffjade.com/tags/Tools/"/>
     
       <category term="Toss" scheme="http://www.jeffjade.com/categories/Toss/"/>
     
@@ -240,7 +240,7 @@
     <link href="http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/"/>
     <id>http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</id>
     <published>2016-03-30T11:55:00.000Z</published>
-    <updated>2016-05-09T02:25:49.000Z</updated>
+    <updated>2016-05-26T11:06:11.000Z</updated>
     <content type="html"><![CDATA[<p>前晚从<a href="http://www.zhangxinxu.com/" target="_blank" rel="external">@张鑫旭</a>微博处得一份推荐，号称<strong>最全的资源教程</strong>－前端涉及的所有知识体系；有粗略查看，果然“叹为观止”，至少比想象中涉猎丰富许多；果断有Fork了来：<a href="https://github.com/nicejade/Front-end-tutorial" target="_blank" rel="external">Front-end-tutorial</a>;本就有收藏&amp;分享欲，这种事儿早期也想做了，勘叹见识未广而深；幸遇这良心收集，得以借他人之酒杯，一浇我心之夙愿块垒。毕竟人为收集，并未臻于不可附加之境，还是有许多可以补充的点；因此，有特引于博客，将酌情适当<strong>增</strong>删些内容，一来做自己查纠探索之源，二来分享给更多朋友；好文章好工具，很多时候都<strong>被</strong>隐藏于犄角旮旯了，有居干货，欢请分享。</p>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/sharp-weapon.jpg" alt="最全前端资源汇集"></p>
 <a id="more"></a>
@@ -508,10 +508,6 @@
 <td style="text-align:center"><a href="http://codepen.io/" target="_blank" rel="external">http://codepen.io/</a></td>
 </tr>
 <tr>
-<td style="text-align:center">17素材</td>
-<td style="text-align:center"><a href="http://www.17sucai.com" target="_blank" rel="external">http://www.17sucai.com</a></td>
-</tr>
-<tr>
 <td style="text-align:center">摄图网</td>
 <td style="text-align:center"><a href="http://699pic.com/" target="_blank" rel="external">http://699pic.com/</a></td>
 </tr>
@@ -521,7 +517,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="周报类"><strong>周报类</strong></h2><table>
+<h2 id="团队Blog|周报类"><strong>团队Blog|周报类</strong></h2><table>
 <thead>
 <tr>
 <th style="text-align:center">周报类</th>
@@ -544,6 +540,10 @@
 <tr>
 <td style="text-align:center">A JS tip per day!</td>
 <td style="text-align:center"><a href="http://www.jstips.co" target="_blank" rel="external">http://www.jstips.co</a></td>
+</tr>
+<tr>
+<td style="text-align:center">腾讯全端 AlloyTeam</td>
+<td style="text-align:center"><a href="http://www.alloyteam.com/webdevelop/" target="_blank" rel="external">http://www.alloyteam.com/webdevelop/</a></td>
 </tr>
 <tr>
 <td style="text-align:center">平安科技移动开发二队技术周报</td>
@@ -1146,6 +1146,10 @@
 <tr>
 <td style="text-align:center">jquery 源码查找</td>
 <td style="text-align:center"><a href="http://james.padolsey.com/jquery" target="_blank" rel="external">http://james.padolsey.com/jquery</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Web前端资源汇总(jQuery,Js,Css3等)</td>
+<td style="text-align:center"><a href="http://www.cnblogs.com/jihua/p/webfront.html" target="_blank" rel="external">http://www.cnblogs.com/jihua/p/webfront.html</a></td>
 </tr>
 </tbody>
 </table>
@@ -3406,7 +3410,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="img"><strong>img</strong></h2><table>
+<h2 id="Image"><strong>Image</strong></h2><table>
 <thead>
 <tr>
 <th style="text-align:center">img</th>
@@ -3426,19 +3430,9 @@
 <td style="text-align:center">在线png优化</td>
 <td style="text-align:center"><a href="https://tinypng.com" target="_blank" rel="external">https://tinypng.com</a></td>
 </tr>
-</tbody>
-</table>
-<h2 id="生成二维码"><strong>生成二维码</strong></h2><table>
-<thead>
 <tr>
-<th style="text-align:center">生成二维码</th>
-<th style="text-align:center">地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">生成二维码</td>
-<td style="text-align:center"><a href="http://cli.im" target="_blank" rel="external">http://cli.im</a></td>
+<td style="text-align:center">Qchan图床</td>
+<td style="text-align:center"><a href="http://tuchuang.org/" target="_blank" rel="external">http://tuchuang.org/</a></td>
 </tr>
 </tbody>
 </table>
@@ -3493,8 +3487,12 @@
 <td style="text-align:center"><a href="https://github.com/ksky521/nodePPT" target="_blank" rel="external">https://github.com/ksky521/nodePPT</a></td>
 </tr>
 <tr>
-<td style="text-align:center">reveal</td>
+<td style="text-align:center"><strong>reveal</strong></td>
 <td style="text-align:center"><a href="https://github.com/hakimel/reveal.js" target="_blank" rel="external">https://github.com/hakimel/reveal.js</a></td>
+</tr>
+<tr>
+<td style="text-align:center">bespoke-fx</td>
+<td style="text-align:center"><a href="https://github.com/ebow/bespoke-fx" target="_blank" rel="external">https://github.com/ebow/bespoke-fx</a></td>
 </tr>
 <tr>
 <td style="text-align:center">slippy</td>
@@ -3803,6 +3801,10 @@
 <tr>
 <td style="text-align:center">avalon.oniui-基于avalon的组件库</td>
 <td style="text-align:center"><a href="https://github.com/RubyLouvre/avalon.oniui" target="_blank" rel="external">https://github.com/RubyLouvre/avalon.oniui</a></td>
+</tr>
+<tr>
+<td style="text-align:center">生成二维码(草料)</td>
+<td style="text-align:center"><a href="http://cli.im" target="_blank" rel="external">http://cli.im</a></td>
 </tr>
 </tbody>
 </table>
@@ -4700,7 +4702,7 @@
     <link href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/"/>
     <id>http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/</id>
     <published>2016-01-13T13:11:00.000Z</published>
-    <updated>2016-02-03T02:29:17.000Z</updated>
+    <updated>2016-05-26T08:47:19.000Z</updated>
     <content type="html"><![CDATA[<p>诚言，对于开发码字者，Mac和Linux果断要比Windows更贴心;但只要折腾下，Windows下也是有不少利器的。之前就有在<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/" target="_blank" rel="external">Windows下效率必备软件</a>一文中对此做了下记载；其虽没<code>oh-my-zsh</code>那么逆天的存在，却也甚是好用，至少要比Windows原生Cmd好出了天际。因为<strong>好用</strong>，所以<strong>“必备”</strong>。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/cmder.jpg" alt="Cmder"></p>
@@ -4780,6 +4782,8 @@
       <category term="Efficiency" scheme="http://www.jeffjade.com/tags/Efficiency/"/>
     
       <category term="Share" scheme="http://www.jeffjade.com/tags/Share/"/>
+    
+      <category term="Tools" scheme="http://www.jeffjade.com/tags/Tools/"/>
     
       <category term="Toss" scheme="http://www.jeffjade.com/tags/Toss/"/>
     
