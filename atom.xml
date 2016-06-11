@@ -240,7 +240,7 @@
     <link href="http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/"/>
     <id>http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</id>
     <published>2016-03-30T11:55:00.000Z</published>
-    <updated>2016-06-03T15:28:55.000Z</updated>
+    <updated>2016-06-11T15:27:13.000Z</updated>
     <content type="html"><![CDATA[<p>前晚从<a href="http://www.zhangxinxu.com/" target="_blank" rel="external">@张鑫旭</a>微博处得一份推荐，号称<strong>最全的资源教程</strong>－前端涉及的所有知识体系；有粗略查看，果然“叹为观止”，至少比想象中涉猎丰富许多；果断有Fork了来：<a href="https://github.com/nicejade/Front-end-tutorial" target="_blank" rel="external">Front-end-tutorial</a>;本就有收藏&amp;分享欲，这种事儿早期也想做了，勘叹见识未广而深；幸遇这良心收集，得以借他人之酒杯，一浇我心之夙愿块垒。毕竟人为收集，并未臻于不可附加之境，还是有许多可以补充的点；因此，有特引于博客，将酌情适当<strong>增</strong>删些内容，一来做自己查纠探索之源，二来分享给更多朋友；好文章好工具，很多时候都<strong>被</strong>隐藏于犄角旮旯了，有居干货，欢请分享。</p>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/sharp-weapon.jpg" alt="最全前端资源汇集"></p>
 <a id="more"></a>
@@ -475,6 +475,10 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:center"><strong>JavaScript 资源大全中文版</strong></td>
+<td style="text-align:center"><a href="https://github.com/jobbole/awesome-javascript-cn" target="_blank" rel="external">https://github.com/jobbole/awesome-javascript-cn</a></td>
+</tr>
 <tr>
 <td style="text-align:center">zoommyapp.com</td>
 <td style="text-align:center"><a href="http://zoommyapp.com/" target="_blank" rel="external">http://zoommyapp.com/</a> 高质量图库</td>
@@ -2977,10 +2981,6 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">不错的个人简历</td>
-<td style="text-align:center"><a href="http://learnshare.github.io/about/index.html" target="_blank" rel="external">http://learnshare.github.io/about/index.html</a></td>
-</tr>
-<tr>
 <td style="text-align:center">简历</td>
 <td style="text-align:center"><a href="http://hcy2367.github.io/resume" target="_blank" rel="external">http://hcy2367.github.io/resume</a></td>
 </tr>
@@ -3455,6 +3455,14 @@
 <tr>
 <td style="text-align:center">在线png优化</td>
 <td style="text-align:center"><a href="https://tinypng.com" target="_blank" rel="external">https://tinypng.com</a></td>
+</tr>
+<tr>
+<td style="text-align:center">SM.MS(图床工具～简易好用)</td>
+<td style="text-align:center"><a href="https://sm.ms/" target="_blank" rel="external">https://sm.ms/</a></td>
+</tr>
+<tr>
+<td style="text-align:center">yutuku：极简图床</td>
+<td style="text-align:center"><a href="http://yotuku.cn/" target="_blank" rel="external">http://yotuku.cn/</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Qchan图床</td>
