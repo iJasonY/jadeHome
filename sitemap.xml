@@ -1,999 +1,935 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://www.jeffjade.com/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/About/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Toss/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Atom/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Share/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Toss/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2016/02/29/2016-02-25-where-do-you-writing/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2016/02/22/2016-02-22-beautiful-of-toss/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2016/01/22/2016-01-22-jeffjade-and-nicejade/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2016/01/19/2016-01-19-toss-gulp/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Front-End/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Gulp/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/NodeJs/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Efficiency/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2016/01/10/2016-01-10-javaScript-setInterval/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2016/01/10/2016-01-10-javacript-setTimeout/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/JavaScript/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2016/01/01/2016-01-01-movie2015/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Movie/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Movie/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Thought/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Thought/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/page/2/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/page/3/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/page/10/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Android/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Health/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Internet/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Java/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Lua/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Program/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Read/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Share/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Travel/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Android/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Lua/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Java/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/CSS/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/jQuery/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Travel/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Read/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Mac/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Music/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Health/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Backbone/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/SublimeText/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Adb/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Hexo/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Markdown/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Git/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Chrome/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Http/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/SSH/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Bat/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Regex/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Html/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2016/03/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2016/02/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2016/01/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/12/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/11/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/10/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/09/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/08/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/07/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/06/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/05/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/04/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/03/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/02/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/01/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2014/12/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2014/11/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2014/09/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/page/2/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/page/3/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/page/10/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/About/index.html</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/special/jeffjade.html</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/08/28/2015-08-28-Write-Morkdown/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2014/12/25/2014-12-25-regular-expression/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/11/25/2015-11-31-jQuery-vs-javaScript/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/10/15/2015-10-16-cleaver-make-ppt/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Toss/page/2/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/11/07/2015-11-07-share-kungfu-star/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/07/24/2015-07-24-why-programmer-love-mac/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/07/21/2015-07-21-muisc-of-wukong/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/07/19/2015-07-19-movie-about-MonkeyKing-HeroisBack/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/07/05/2015-07-05-thought-of-life/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/06/18/2015-06-18-perfect-music/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/06/14/2015-06-14-programer-health/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Share/page/2/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/10/28/2015-10-28-css3-webfont/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/09/07/2015-09-07-jadetodos/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Toss/page/2/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/11/25/2015-11-25-toss-gulp/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/11/02/2015-11-02-likeArray-borrow-ArrayFun/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/10/15/2015-10-15-nice-animation-collection/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/10/08/2015-10-08-js-object-length/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Front-End/page/2/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Front-End/page/3/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/05/26/2015-05-26-high-efficiency-tools-collecting/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/10/06/2015-10-06-perfect-js-code/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/09/25/2015-09-25-js-array/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/09/06/2015-09-06-ios8-safari-jitbug-record/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/08/28/2015-09-02-js-string-compare/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/JavaScript/page/2/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/02/01/2015-02-01-recommended-article/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/06/05/2015-06-05-Share-Filco/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/05/23/2015-05-23-advie-from-oldprogramer/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/12/2015-04-12-thought-choose-effort/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/08/2015-04-08-thought-basying-and-living/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/03/2015-04-03-thought-poor-son-rich-gril-education/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/02/2015-04-01-thought-do/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/02/02/2015-02-02-thoughtof-overtime-work/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/30/2015-01-30-leijun-lecture2beida/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/10/2015-01-10-why-indulge/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/categories/Thought/page/2/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/03/28/2015-03-28-thought-weishang/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/03/19/2015-03-19-famouswords-brucelee/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/tags/Thought/page/2/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/page/4/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/10/04/2015-10-03-use-jquery-better/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/jadeTodo/index.html</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/08/15/2015-08-15-html-a-href/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/page/5/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2014/12/22/2014-12-24-lua-codepart/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2014/12/22/2014-12-22-lua-weaktable/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2014/12/22/2014-12-22-gitmemo/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2014/12/17/2014-12-17-manage-technique/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2014/12/15/2014-12-15-markdown/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2014/12/15/2014-12-15-make-githubblg/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/03/14/2015-03-14-hexo-blog/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2014/11/22/2014-11-22-tour-nanxiong/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2014/09/20/2014-09-20-java-concurrency/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/page/9/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/page/8/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/22/2015-04-22-Android-error-codes/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/11/2015-04-11-android-studio-shortcut/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/03/21/2015-03-21-android-adb/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/03/19/2015-03-19-android-webview/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/03/19/2015-03-19-android-save-image/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/02/09/2015-02-09-bitmap-matrix-paint-drawable/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/02/09/2015-02-09-android-intent/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/02/06/2015-02-06-adb-cmd/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/08/2015-01-09-android-sdcard/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/02/02/2015-02-02-health-mustread/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/03/28/2015-03-27-http-https/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/05/11/2015-05-11-java-extends-implement/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/06/2015-04-06-java-thread/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/07/2015-01-07-java-study/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/06/2015-01-06-hashmap-work-principle/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/25/2015-04-25-lua-skill/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/24/2015-04-24-lua-tablesort/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/12/2015-01-12-generate-lua/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/08/2015-01-08-lua-standard-libraries/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/03/20/2015-03-20-bat/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/29/2015-01-29-advice2youngman/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/22/2015-01-30-programmer-invest/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/16/2015-01-16-handler-deal-ui/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/26/2015-04-26-cherish-wangguozhen/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/22/2015-01-22-book-share/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2014/12/27/2014-12-27-readbook-thoughts/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/05/03/2015-05-03-tour-chenzhou/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/03/22/2015-03-22-tour-songshanhu-ride/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/05/17/2015-05-17-lua-ldoc/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/06/29/2015-06-29-css-background/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/06/24/2015-06-24-css-block-inline/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/05/16/2015-05-16-mac-musthave-software/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/06/18/2015-06-18-backbone-events/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/19/2015-04-19-toss-bind-domainname/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/06/26/2015-06-26-ssh-setting/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/08/03/2015-08-03-javascript-this/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/04/16/2015-04-16-deal-url-special-char/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/04/page/2/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/2015/01/page/2/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/page/4/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/page/5/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/page/9/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/page/8/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/special/md2pptViaCleaver.html</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/special/horizontal_center-methods.html</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/special/vertical_center_methods.html</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/special/textVerticalCenter.html</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/2015/01/03/2015-01-03-principles-of-economics/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/page/6/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/page/7/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/page/6/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.jeffjade.com/archives/page/7/</loc>
-  <lastmod>2016-03-09T04:08:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/05/08/106-vue-es6-jade-scss-webpack-gulp/</loc>
+    
+    <lastmod>2016-06-20T06:34:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/</loc>
+    
+    <lastmod>2016-06-19T15:29:43.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/Links/index.html</loc>
+    
+    <lastmod>2016-06-14T18:45:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</loc>
+    
+    <lastmod>2016-06-13T07:59:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/06/14/2015-06-14-programer-health/</loc>
+    
+    <lastmod>2016-06-11T15:27:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/05/22/108-Listary-Everything-Wox-Launch/</loc>
+    
+    <lastmod>2016-05-27T05:44:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/</loc>
+    
+    <lastmod>2016-05-26T08:47:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/02/01/2015-02-01-recommended-article/</loc>
+    
+    <lastmod>2016-05-24T15:03:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/05/14/106-front-end-learning-record/</loc>
+    
+    <lastmod>2016-05-23T04:15:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/</loc>
+    
+    <lastmod>2016-05-23T00:56:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/</loc>
+    
+    <lastmod>2016-05-23T00:52:50.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/08/03/2015-08-03-javascript-this/</loc>
+    
+    <lastmod>2016-05-05T14:15:25.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/</loc>
+    
+    <lastmod>2016-04-27T16:07:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/04/16/105-talk-about-chuanqidazhanggui/</loc>
+    
+    <lastmod>2016-04-17T13:36:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/About/index.html</loc>
+    
+    <lastmod>2016-04-17T10:08:49.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/special/jeffjade.html</loc>
+    
+    <lastmod>2016-04-17T10:06:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/03/26/2016-03-26-rakefile-for-jekyll/</loc>
+    
+    <lastmod>2016-03-27T11:56:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/03/23/2016-03-23-toss-wechat-public_no/</loc>
+    
+    <lastmod>2016-03-26T19:23:34.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/</loc>
+    
+    <lastmod>2016-03-20T06:36:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/02/06/2015-02-06-adb-cmd/</loc>
+    
+    <lastmod>2016-03-20T06:36:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2014/12/15/2014-12-15-markdown/</loc>
+    
+    <lastmod>2016-03-20T06:35:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/06/05/2015-06-05-Share-Filco/</loc>
+    
+    <lastmod>2016-03-20T06:35:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/</loc>
+    
+    <lastmod>2016-03-20T06:33:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/05/16/2015-05-16-mac-musthave-software/</loc>
+    
+    <lastmod>2016-03-20T06:14:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/</loc>
+    
+    <lastmod>2016-03-14T03:30:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/11/25/2015-11-25-toss-gulp/</loc>
+    
+    <lastmod>2016-03-12T06:29:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/02/22/2016-02-22-beautiful-of-toss/</loc>
+    
+    <lastmod>2016-03-12T06:25:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2014/11/22/2014-11-22-tour-nanxiong/</loc>
+    
+    <lastmod>2016-03-09T07:28:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2014/12/25/2014-12-25-regular-expression/</loc>
+    
+    <lastmod>2016-03-09T07:26:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2014/09/20/2014-09-20-java-concurrency/</loc>
+    
+    <lastmod>2016-03-09T07:21:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2014/12/15/2014-12-15-make-githubblg/</loc>
+    
+    <lastmod>2016-03-09T07:21:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/01/10/2016-01-10-javaScript-setInterval/</loc>
+    
+    <lastmod>2016-03-09T07:20:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/02/29/2016-02-25-where-do-you-writing/</loc>
+    
+    <lastmod>2016-03-09T07:08:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/07/2015-01-07-java-study/</loc>
+    
+    <lastmod>2016-03-09T06:53:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/12/2015-01-12-generate-lua/</loc>
+    
+    <lastmod>2016-03-09T06:52:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/google21c733509a589aaa.html</loc>
+    
+    <lastmod>2016-03-09T04:04:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/02/02/2015-02-02-health-mustread/</loc>
+    
+    <lastmod>2016-02-19T07:20:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2014/12/27/2014-12-27-readbook-thoughts/</loc>
+    
+    <lastmod>2016-02-19T07:12:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/</loc>
+    
+    <lastmod>2016-01-22T04:24:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/01/22/2016-01-22-jeffjade-and-nicejade/</loc>
+    
+    <lastmod>2016-01-22T04:22:14.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/01/19/2016-01-19-toss-gulp/</loc>
+    
+    <lastmod>2016-01-20T01:58:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/01/10/2016-01-10-javacript-setTimeout/</loc>
+    
+    <lastmod>2016-01-15T13:17:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/08/28/2015-08-28-Write-Morkdown/</loc>
+    
+    <lastmod>2016-01-13T13:22:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/special/horizontal_center-methods.html</loc>
+    
+    <lastmod>2016-01-09T16:54:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/special/vertical_center_methods.html</loc>
+    
+    <lastmod>2016-01-09T16:53:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/special/textVerticalCenter.html</loc>
+    
+    <lastmod>2016-01-09T16:53:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/11/14/2015-11-14-css-achieve-horizontal_vertical_center/</loc>
+    
+    <lastmod>2016-01-06T13:19:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/404.html</loc>
+    
+    <lastmod>2016-01-06T05:31:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/assets/scriptalizer.js</loc>
+    
+    <lastmod>2016-01-06T05:27:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/assets/404.css</loc>
+    
+    <lastmod>2016-01-06T02:48:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/01/01/2016-01-01-movie2015/</loc>
+    
+    <lastmod>2016-01-05T12:13:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/11/25/2015-11-31-jQuery-vs-javaScript/</loc>
+    
+    <lastmod>2015-12-07T13:16:49.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/10/15/2015-10-16-cleaver-make-ppt/</loc>
+    
+    <lastmod>2015-11-17T12:34:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/02/09/2015-02-09-android-intent/</loc>
+    
+    <lastmod>2015-11-17T12:32:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/02/09/2015-02-09-bitmap-matrix-paint-drawable/</loc>
+    
+    <lastmod>2015-11-17T12:32:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/10/28/2015-10-28-css3-webfont/</loc>
+    
+    <lastmod>2015-11-16T09:37:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/11/07/2015-11-07-share-kungfu-star/</loc>
+    
+    <lastmod>2015-11-09T16:27:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/11/02/2015-11-02-likeArray-borrow-ArrayFun/</loc>
+    
+    <lastmod>2015-11-02T07:19:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/05/26/2015-05-26-high-efficiency-tools-collecting/</loc>
+    
+    <lastmod>2015-10-19T10:14:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/special/md2pptViaCleaver.html</loc>
+    
+    <lastmod>2015-10-16T05:20:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/10/15/2015-10-15-nice-animation-collection/</loc>
+    
+    <lastmod>2015-10-15T10:16:25.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/10/08/2015-10-08-js-object-length/</loc>
+    
+    <lastmod>2015-10-09T07:10:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/09/25/2015-09-25-js-array/</loc>
+    
+    <lastmod>2015-10-08T13:34:49.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/10/06/2015-10-06-perfect-js-code/</loc>
+    
+    <lastmod>2015-10-06T12:30:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/09/06/2015-09-06-ios8-safari-jitbug-record/</loc>
+    
+    <lastmod>2015-10-06T10:28:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/08/28/2015-09-02-js-string-compare/</loc>
+    
+    <lastmod>2015-10-06T10:28:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/06/18/2015-06-18-backbone-events/</loc>
+    
+    <lastmod>2015-10-06T10:27:43.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/05/31/2015-05-31-javascript-operational%EF%BC%8Dsymbol/</loc>
+    
+    <lastmod>2015-10-06T10:27:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/16/2015-04-16-deal-url-special-char/</loc>
+    
+    <lastmod>2015-10-06T10:27:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/10/04/2015-10-03-use-jquery-better/</loc>
+    
+    <lastmod>2015-10-06T08:56:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/03/14/2015-03-14-hexo-blog/</loc>
+    
+    <lastmod>2015-10-06T06:14:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/06/29/2015-06-29-css-background/</loc>
+    
+    <lastmod>2015-09-24T13:36:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/09/07/2015-09-07-jadetodos/</loc>
+    
+    <lastmod>2015-09-24T13:35:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/06/24/2015-06-24-css-block-inline/</loc>
+    
+    <lastmod>2015-09-24T13:34:43.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/08/15/2015-08-15-html-a-href/</loc>
+    
+    <lastmod>2015-09-24T13:34:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/index.html</loc>
+    
+    <lastmod>2015-09-07T08:51:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/todomvc-common/base.js</loc>
+    
+    <lastmod>2015-09-07T07:52:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/jquery/dist/jquery.js</loc>
+    
+    <lastmod>2015-09-07T07:49:41.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/underscore/underscore.js</loc>
+    
+    <lastmod>2015-09-06T14:26:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/03/19/2015-03-19-android-webview/</loc>
+    
+    <lastmod>2015-08-28T02:15:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/todomvc-app-css/index.css</loc>
+    
+    <lastmod>2015-08-09T13:06:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/js/views/todo-view.js</loc>
+    
+    <lastmod>2015-08-09T13:06:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/js/views/app-view.js</loc>
+    
+    <lastmod>2015-08-08T16:09:43.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/js/routers/router.js</loc>
+    
+    <lastmod>2015-08-08T15:36:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/js/collections/todos.js</loc>
+    
+    <lastmod>2015-08-08T13:48:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/js/models/todo.js</loc>
+    
+    <lastmod>2015-08-08T10:36:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/backbone.localstorage/backbone.localStorage.js</loc>
+    
+    <lastmod>2015-08-08T09:45:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/backbone/backbone.js</loc>
+    
+    <lastmod>2015-08-08T09:45:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/todomvc-common/base.css</loc>
+    
+    <lastmod>2015-08-08T09:45:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/js/app.js</loc>
+    
+    <lastmod>2015-08-08T09:45:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/07/24/2015-07-24-why-programmer-love-mac/</loc>
+    
+    <lastmod>2015-07-27T12:17:25.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/06/18/2015-06-18-perfect-music/</loc>
+    
+    <lastmod>2015-07-24T16:48:06.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/07/21/2015-07-21-muisc-of-wukong/</loc>
+    
+    <lastmod>2015-07-21T15:44:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/07/19/2015-07-19-movie-about-MonkeyKing-HeroisBack/</loc>
+    
+    <lastmod>2015-07-21T13:30:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/07/05/2015-07-05-thought-of-life/</loc>
+    
+    <lastmod>2015-07-08T15:46:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/06/26/2015-06-26-ssh-setting/</loc>
+    
+    <lastmod>2015-06-28T17:13:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/03/19/2015-03-19-famouswords-brucelee/</loc>
+    
+    <lastmod>2015-06-28T17:13:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/03/22/2015-03-22-tour-songshanhu-ride/</loc>
+    
+    <lastmod>2015-06-28T17:12:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/19/2015-04-19-toss-bind-domainname/</loc>
+    
+    <lastmod>2015-06-28T17:12:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/05/03/2015-05-03-tour-chenzhou/</loc>
+    
+    <lastmod>2015-06-28T17:12:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/05/17/2015-05-17-lua-ldoc/</loc>
+    
+    <lastmod>2015-06-28T17:12:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/22/2015-01-22-book-share/</loc>
+    
+    <lastmod>2015-06-18T05:02:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/05/23/2015-05-23-advie-from-oldprogramer/</loc>
+    
+    <lastmod>2015-05-23T15:52:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/05/11/2015-05-11-java-extends-implement/</loc>
+    
+    <lastmod>2015-05-11T07:27:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/26/2015-04-26-cherish-wangguozhen/</loc>
+    
+    <lastmod>2015-04-26T07:38:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/25/2015-04-25-lua-skill/</loc>
+    
+    <lastmod>2015-04-25T14:59:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/24/2015-04-24-lua-tablesort/</loc>
+    
+    <lastmod>2015-04-25T14:56:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2014/12/22/2014-12-24-lua-codepart/</loc>
+    
+    <lastmod>2015-04-25T14:15:41.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/08/2015-01-08-lua-standard-libraries/</loc>
+    
+    <lastmod>2015-04-25T01:19:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2014/12/22/2014-12-22-lua-weaktable/</loc>
+    
+    <lastmod>2015-04-25T01:19:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/22/2015-04-22-Android-error-codes/</loc>
+    
+    <lastmod>2015-04-24T12:27:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/11/2015-04-11-android-studio-shortcut/</loc>
+    
+    <lastmod>2015-04-14T00:21:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/12/2015-04-12-thought-choose-effort/</loc>
+    
+    <lastmod>2015-04-13T15:05:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/08/2015-04-08-thought-basying-and-living/</loc>
+    
+    <lastmod>2015-04-08T05:13:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/06/2015-01-06-hashmap-work-principle/</loc>
+    
+    <lastmod>2015-04-06T04:36:34.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/06/2015-04-06-java-thread/</loc>
+    
+    <lastmod>2015-04-06T04:35:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/03/2015-04-03-thought-poor-son-rich-gril-education/</loc>
+    
+    <lastmod>2015-04-03T13:30:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/04/02/2015-04-01-thought-do/</loc>
+    
+    <lastmod>2015-04-01T16:43:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/03/28/2015-03-28-thought-weishang/</loc>
+    
+    <lastmod>2015-03-28T13:35:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/03/28/2015-03-27-http-https/</loc>
+    
+    <lastmod>2015-03-27T16:49:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/03/20/2015-03-20-bat/</loc>
+    
+    <lastmod>2015-03-20T17:45:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/03/21/2015-03-21-android-adb/</loc>
+    
+    <lastmod>2015-03-20T17:44:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/03/19/2015-03-19-android-save-image/</loc>
+    
+    <lastmod>2015-03-19T13:14:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/08/2015-01-09-android-sdcard/</loc>
+    
+    <lastmod>2015-03-18T12:29:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/30/2015-01-30-leijun-lecture2beida/</loc>
+    
+    <lastmod>2015-03-14T11:26:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2014/12/22/2014-12-22-gitmemo/</loc>
+    
+    <lastmod>2015-03-14T11:23:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2014/12/17/2014-12-17-manage-technique/</loc>
+    
+    <lastmod>2015-03-14T11:23:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/22/2015-01-30-programmer-invest/</loc>
+    
+    <lastmod>2015-03-14T11:22:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/29/2015-01-29-advice2youngman/</loc>
+    
+    <lastmod>2015-03-14T11:21:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/16/2015-01-16-handler-deal-ui/</loc>
+    
+    <lastmod>2015-03-14T11:19:41.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/10/2015-01-10-why-indulge/</loc>
+    
+    <lastmod>2015-03-14T11:18:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/01/03/2015-01-03-principles-of-economics/</loc>
+    
+    <lastmod>2015-03-14T11:15:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/02/02/2015-02-02-thoughtof-overtime-work/</loc>
+    
+    <lastmod>2015-03-14T07:16:09.000Z</lastmod>
+    
+  </url>
+  
 </urlset>

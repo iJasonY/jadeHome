@@ -138,7 +138,7 @@
     <link href="http://www.jeffjade.com/2016/05/08/106-vue-es6-jade-scss-webpack-gulp/"/>
     <id>http://www.jeffjade.com/2016/05/08/106-vue-es6-jade-scss-webpack-gulp/</id>
     <published>2016-05-08T11:40:00.000Z</published>
-    <updated>2016-05-13T03:57:37.000Z</updated>
+    <updated>2016-06-20T06:34:22.000Z</updated>
     <content type="html"><![CDATA[<p>一直以来非常庆幸曾经有翻过《代码大全2》；这使我崎岖编程之路少了很多不必要的坎坷。它在<strong>软件工艺的话题</strong>中有写到一篇：“首先是为人写程序，其次才是机器(<strong>Write Programs for People First, Computers Second</strong>)”。虽然这是针对代码<strong>可读性</strong>来谈及的，但这间接昭示了<strong>开发效率</strong>之重要不是？此次以 <code>Vue</code> , <code>Es6</code>, <code>Jade</code>, <code>Scss</code> , <code>Webpack</code>, <code>Gulp</code>等一套强大组合来改善团队前端工作流，首因即出于这个理念。 </p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/vue-webpack-sharp-sword.jpg" alt="Vue ES6 Jade Scss Webpack Gulp"></p>
