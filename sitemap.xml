@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.jeffjade.com/baidu_verify_UlT8ikKMNR.html</loc>
+    
+    <lastmod>2016-06-20T06:54:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.jeffjade.com/2016/05/08/106-vue-es6-jade-scss-webpack-gulp/</loc>
     
     <lastmod>2016-06-20T06:34:22.000Z</lastmod>
@@ -618,14 +625,14 @@
   </url>
   
   <url>
-    <loc>http://www.jeffjade.com/jadeTodo/node_modules/todomvc-common/base.css</loc>
+    <loc>http://www.jeffjade.com/jadeTodo/js/app.js</loc>
     
     <lastmod>2015-08-08T09:45:10.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.jeffjade.com/jadeTodo/js/app.js</loc>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/todomvc-common/base.css</loc>
     
     <lastmod>2015-08-08T09:45:10.000Z</lastmod>
     
