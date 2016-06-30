@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-06-30T13:42:16.000Z</updated>
+  <updated>2016-06-30T13:54:45.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.jeffjade.com/2016/06/29/109-blog-seo-optimization/"/>
     <id>http://www.jeffjade.com/2016/06/29/109-blog-seo-optimization/</id>
     <published>2016-06-29T14:30:00.000Z</published>
-    <updated>2016-06-30T13:42:16.000Z</updated>
+    <updated>2016-06-30T13:54:45.000Z</updated>
     <content type="html"><![CDATA[<p>15年底，有开始利用闲暇时光，刻意学习些Seo优化相关知识；这本身也是一件需要漫长积淀积累的事儿，况且也没有足够充裕的时间和知识量。那么，就且行且歌，且学习且优化好了；所以很多需要做和提升的点，就想着将列出来，一方面记录所做过的努力；也提醒还有哪些优化的点。经年过后，希冀这些浅薄的经验，可以帮助新进博主们；毕竟打心底认为，<strong>分享是一种美德</strong>；我愿为此：“推其波而助微澜”。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/seo-optimization.jpg" alt="seo-optimization"></p>
@@ -50,11 +50,11 @@
 <p>当然也会有针对于百度搜索引擎的插件 hexo-generator-baidu-sitemap，使用方式类似，不过生成的 baidusitemap.xml 在百度站长平台那边，总是抓取不到；利用网上针对百度搜索工具尝试，依旧如此；鉴于时间缘由（近期需要忙的事儿真多），未更加深入探究个中问题所在。</p>
 <p>—以下内容于 2016/06/30 更新：</p>
 <h3 id="推广の那点事儿"><strong>推广の那点事儿</strong></h3><p>如今小众品牌，这点想必是如何也绕不过去的；对于个人微站，起初总得如此作为一番。写博这事儿，从13年就有开始仿效，起始于<strong>博客园</strong>；渐渐受<strong>“即便是再小的个体，也当有自己的品牌”</strong>之侵蚀，渐而有陆续折腾个人博客，之后才有了这<a href="http://www.jeffjade.com/" target="_blank" rel="external">晚晴幽草轩</a> 以及 <a href="http://nicejade.github.io/" target="_blank" rel="external">天意人间舫</a>。即便不处于利益驱使，也很希望这微站可以有些访问量，一来行分享交流之美德，二来又想满足下那小小虚荣之心；这便是笔者自恋推广的起源。</p>
-<p>伊始，博客发布博文之后，会同步<strong>博客园</strong>，<strong>简书</strong>，<strong>SegmentFault</strong>等平台，也会在 <strong><a href="http://www.v2ex.com/?r=jeffjade" target="_blank" rel="external">V2EX</a></strong> 做些推广；从统计来看：<code>博客园</code>那边上了首页之后，短时间还是能带来蛮多流量的；<code>V2EX</code>如果引诱得当，一时间也是能带来爆炸的流量。<code>简书</code>，虽不突猛，但那里会持续带来一些流量。这中间不得不提到，<a href="http://toutiao.io/" target="_blank" rel="external">开发者头条</a>，<a href="https://gold.xitu.io/" target="_blank" rel="external">稀土掘金</a>，偶尔会有文章被推荐再这样平台，因为文章链接直指博客，加上这两个平台已具规模。一时间所带流量，比于平时，堪称洪水猛兽；之后索性在<code>开发者头条</code>那边有创建 <a href="http://toutiao.io/subjects/79906" target="_blank" rel="external">Web前端静轩苑</a>，用来分享些Web相关东西，嗯，主要也都是出自个人博客(囧)。</p>
+<p>伊始，博客发布博文之后，会同步<strong>博客园</strong>，<strong>简书</strong>，<strong>SegmentFault</strong>等平台，也会在 <strong><a href="http://www.v2ex.com/?r=jeffjade" target="_blank" rel="external">V2EX</a></strong> 做些推广；从统计来看：<code>博客园</code>那边上了首页之后，短时间还是能带来蛮多流量的；<code>V2EX</code>如果引诱得当，一时间也是能带来爆炸的流量。<code>简书</code>，虽不突猛，但那里会持续带来一些流量。这中间不得不提到，<a href="http://toutiao.io/" target="_blank" rel="external">开发者头条</a>，<a href="https://gold.xitu.io/" target="_blank" rel="external">稀土掘金</a>，偶尔会有文章被推荐在这样平台，因为文章链接直指博客，加上这两个平台已具规模，一时间所带流量比于平时，堪称洪水猛兽；之后索性在<code>开发者头条</code>那边有创建 <a href="http://toutiao.io/subjects/79906" target="_blank" rel="external">Web前端静轩苑</a>，用来分享些Web相关东西，嗯，这多半也都是出自个人博客(😂)。</p>
 <p>当然博客推广这事儿，本就一柄双刃剑，搞不好就弄巧成拙了(比如同步到其他平台的文章，搜索引擎当然更“青睐”于各大平台了，何况还有蛮多聚合网)，但早期这也是没有办法的事儿。如今，虽也有这做法，也是带有选择性同步推广了，时间上也会延迟些——给搜索引擎一点时间，先抓取这边的。</p>
-<h3 id="运营：内容至上！"><strong>运营：内容至上！</strong></h3><p>同上，这一点绕不过去，也最为重要。如今时代，信息何止浩如烟海？故而，酒香也怕巷子深。然，酒若真香，怎么着也能飘进好酒者的心扉。所以在整个SEO优化过程中，也是最重此道，也最应该重此道。在笔者看来，这内容主集于：<strong>文章有用度</strong>，<strong>网站颜值度</strong>，<strong>网站访问速度</strong>。</p>
-<p>对于第一点：一直有秉承，写文分享，也是处于个人觉得对读者有用的目的；有用程度略低的，个人又想分享出来的，如有时间，都放于<a href="http://nicejade.github.io/" target="_blank" rel="external">天意人间舫</a>了。对于第二点：也是非常看重，毕竟自己在网络上搜索之时，网页凌乱，广告纵横，内心总是抗拒的；这一点先前有过持续优化，奈何设计能力着实需要提升，渐行渐善之。对于第三点：看重有余，行动不足；这也有些客观因素：网站为了体验用了蛮多插件，其本身也是部署于<strong>Github</strong>，网速不佳时，访问起来总不那流畅；当然这也不是没有解决之法，只是鉴于时间关系，一直未有折腾，汗颜！</p>
-<p>以上。</p>
+<h3 id="运营：内容至上！"><strong>运营：内容至上！</strong></h3><p>同上，这一点绕不过去，也最为重要。如今时代，信息何止浩如烟海？故而，酒香也怕巷子深。然，酒若真香，怎么着也能飘进好酒者的心扉。所以在整个SEO优化过程中，也是最重此道，也最应该重此道。在笔者看来，除了要持续产出分享外，这内容主集于：<strong>文章有用度</strong>，<strong>网站颜值度</strong>，<strong>网站访问速度</strong>。</p>
+<p>对于第一点：一直有秉承，写文分享，也是处于个人觉得对读者有用的目的；有用程度略低的，个人又想分享出来的，如有时间，都放于<a href="http://nicejade.github.io/" target="_blank" rel="external">天意人间舫</a>了。对于第二点：也是非常看重，毕竟自己在网络上搜索之时，页面系凌乱，广告勤纵横，内心总是抗拒的；这一点先前有过些优化，奈何设计能力着实需要提升，渐行渐善之。对于第三点：看重有余，行动不足；当然这中间也有些客观因素：网站为了体验所需用了蛮多插件，其本身也是部署于<strong>Github</strong>，网速不佳时，访问起来总不那流畅；当然这也不是没有解决之法，只是鉴于时间关系，一直未有折腾，汗颜！</p>
+<p>以上，未完待续。</p>
 <p>Last Modify @2016-06-30.</p>
 ]]></content>
     <summary type="html">
