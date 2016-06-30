@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.jeffjade.com/2016/06/29/109-blog-seo-optimization/</loc>
+    
+    <lastmod>2016-06-30T12:58:49.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</loc>
+    
+    <lastmod>2016-06-28T03:23:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.jeffjade.com/2015/08/03/2015-08-03-javascript-this/</loc>
     
     <lastmod>2016-06-23T16:10:53.000Z</lastmod>
@@ -33,13 +47,6 @@
     <loc>http://www.jeffjade.com/Links/index.html</loc>
     
     <lastmod>2016-06-14T18:45:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.jeffjade.com/2016/03/30/104-front-end-tutorial/</loc>
-    
-    <lastmod>2016-06-13T07:59:04.000Z</lastmod>
     
   </url>
   
@@ -618,6 +625,13 @@
   </url>
   
   <url>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/todomvc-common/base.css</loc>
+    
+    <lastmod>2015-08-08T09:45:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.jeffjade.com/jadeTodo/node_modules/backbone/backbone.js</loc>
     
     <lastmod>2015-08-08T09:45:10.000Z</lastmod>
@@ -626,13 +640,6 @@
   
   <url>
     <loc>http://www.jeffjade.com/jadeTodo/js/app.js</loc>
-    
-    <lastmod>2015-08-08T09:45:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.jeffjade.com/jadeTodo/node_modules/todomvc-common/base.css</loc>
     
     <lastmod>2015-08-08T09:45:10.000Z</lastmod>
     
