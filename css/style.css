@@ -1314,6 +1314,16 @@ article .article-content .right {
   margin-left: 1em;
   float: right;
 }
+.article-content table {
+  margin: auto;
+  border: 1px solid #dbdbdb;
+}
+.article-content table>thead {
+  background-color: #dbdbdb;
+}
+blockquote p {
+  font-size: 16px;
+}
 footer.article-footer {
   background: #f8f8fd;
   padding: 0 4%;
