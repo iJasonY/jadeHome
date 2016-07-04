@@ -1298,6 +1298,11 @@ article .article-content table td {
   padding: 0.5em;
   line-height: 1.3em;
 }
+@media only screen and (max-width: 568px) {
+  article .article-content table {
+    min-width: 456px;
+  }
+}
 article .article-content .pullquote {
   text-align: left;
   width: 45%;
@@ -1317,6 +1322,9 @@ article .article-content .right {
 .article-content table {
   margin: auto;
   border: 1px solid #dbdbdb;
+}
+.article-content .highlight>table {
+  border: none;
 }
 .article-content table>thead {
   background-color: #dbdbdb;
