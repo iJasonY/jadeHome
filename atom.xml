@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-07-01T10:52:33.000Z</updated>
+  <updated>2016-07-06T11:29:10.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -13,6 +13,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Vue Webpack 组件化开发实践]]></title>
+    <link href="http://www.jeffjade.com/2016/07/06/110-vue-webpack-component-develop/"/>
+    <id>http://www.jeffjade.com/2016/07/06/110-vue-webpack-component-develop/</id>
+    <published>2016-07-06T07:30:00.000Z</published>
+    <updated>2016-07-06T11:29:10.000Z</updated>
+    <content type="html"><![CDATA[<p>两千年余前，子贡问为仁，子曰：“<strong>工欲善其事，必先利其器</strong>。居是邦也。事其大夫之贤者，友其士之仁者”——语出《论语·卫灵公》。时隔这许久，欲问从业者，何以堪高效之为事，有时以把妹（/泡哥）？也无非这十字而已，倘若体会得真切，U Get It。人们总是低估工具对自己心智模式的影响，请记住，<strong>好工具是好思想的容器；好工具也会蕴含好知识</strong>；对于从业纷繁杂乱前端的我等而言，这一点尤显重要；而 <strong>Vue</strong>、<strong>Webpack</strong> 在如今这时节，它所能带给你的，超乎你的想象。</p>
+<a id="more"></a>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/vue-common-components.jpg" alt="vue-common-components"></p>
+<p>聊及这 vue, gulp, webpack，网络上已是充盈着对她们的溢美之词；笔者很是钟爱这<code>vue</code>，除过她简单易学，文档完善，对<code>Angular</code> <code>React</code>取长去短等等之外；更在于她双向数据绑定，数据驱动视图，如此沉重<code>jQuery</code>在不那么复杂的 SPA 中完全可以予以摒除；最兴奋的是户界面完全可以用嵌套的组件树来描述，再也不用写重复代码or拷贝(如果撸好组件封装)，生活原来可以如此美好，这是我不得不欢喜非常。而且，她渲染极快；实现了<span style="color:purple">scoped</span>，防止组件样式污染；error/warn信息完善，易于调试；轮子丰富（vue-router、vue-loader…）功能强悍，基于依赖收集的观测机制，高效精准…… 在不就之后就要发布的 <strong><a href="https://github.com/vuejs/vue/wiki/2.0-features" target="_blank" rel="external">vue2.0</a></strong>，将更轻，更快! Virtual-DOM？Templates, JSX, or Hyperscript? 组件缓存？…..擦，好多东西需要学习！哇，好多好东西可以运用！痛并幸福着，生活就是这样。</p>
+<p>先前在 <a href="http://www.jeffjade.com/2016/05/08/106-vue-es6-jade-scss-webpack-gulp/#" target="_blank" rel="external">Vue ES6 Jade Scss Webpack Gulp</a> 和 <a href="http://www.jeffjade.com/2016/05/14/106-front-end-learning-record/" target="_blank" rel="external">所历前端“姿势”更替记(其一)</a> 两篇杂言中，分别叙述了如今撸起 SPA 的姿势即：<strong>Vue</strong>、<strong>ES6</strong> 、<strong>Jade</strong> 、<strong>Scss</strong>、<strong>Webpack</strong>等一套组合，以及所经历的姿势变换历程；这 <strong>Vue</strong> 的使用确立了前端之路新的里程碑；而 <code>Gulp</code>，<code>Webpack</code> 的学习更使得对<strong>工具</strong>有了新的认识——只有你想不到，没有做不到。此一篇絮叨，是对过去 <strong>Vue</strong> + <strong>Webpack</strong> 组件化开发实践的一些总结和分享。</p>
+<p>谈及分享这个，倒是很倾向信奉<code>Linus Torvalds</code>那句名言：<strong>Talk is cheap show me the code</strong>；所以有将所写的常用组件，有忝享于 Github，地址如是： <a href="https://github.com/nicejade/vue-common-components" target="_blank" rel="external">https://github.com/nicejade/vue-common-components</a>。伊始有用 <code>gitbook</code> 对如何使用这组件以作说明；后来鉴于仅仅说明不够明晰周到，干脆用 Vue 来实现一 SPA 专门承载组件 demo 以及 description，这能直观的了解组件用途以及表现，所以就有了 <a href="http://nicejade.github.io/jade/vue-jade-components-demo.html#/" target="_blank" rel="external">Vue Component Desc And Demo</a>，其模样大致如下图：</p>
+<p><img src="http://7xoosr.com1.z0.glb.clouddn.com/vue-common-components-demo.jpg" alt="vue-common-components-demo"></p>
+<p>对于组件的封装，因项目需求的差异，而各不相同；因此，这份尚在路上的组件库，并不是界定在工作生产环境予以作用，这也非分享的初衷（当然，如果需要这其中部分组件，直接拿来用未尝不可）。首先，可以用它作为 <code>vue</code> <code>webpack</code> <code>es6</code> <code>sass</code> <code>jade</code>等入坑参考，借机体验这些联合来塑造出的<code>组件化</code>开发，或多或少会有所获。其次，也可以基于此对 <code>vue</code> 开发前端项目，做更为深入细节探讨；譬如组件设计，热加载，路由以及 vue2.0 那别致的 Virtual-DOM 等等。其更重要的在于，分享一种思维，为前端者，应该更多(*N)去学习去折腾，打造一套适宜的完善机制，优化开发工作流，提升开发速度；要知道只有在完成需求的基础前提下，才有时间去优化体验and学习更多；<strong>天下武功，唯快不破</strong>，这话不假！</p>
+<p>上述言论，还有些补充；对于 <code>vue</code> 入门，这是一件非常容易的事儿；但到现实协作中开发，诸多东西都是挺需要探讨一番的；譬如使用 <code>vue-resource</code> 来替代 <code>JQuery-Ajax</code>；再比如 <code>vue</code> 虽然为组件style实现了<span style="color:purple">scoped</span>，但这也存在局限(Eg: 如果 A 组件包含了 B 组件，A 的 scoped css 就不应该试图定义 B 组件内部的元素样式，这不能很好的工作)；如此，解决 css 命名污染，<code>CSS Modules</code>(可参见<a href="http://www.ruanyifeng.com/blog/2016/06/css_modules.html" target="_blank" rel="external">CSS Modules 用法教程</a>） 看起来是一个挺不错的解决办法，这就使得可以继续实践探讨的方向和必要。其次要谈及的是对工作流的设计，懒为要决，善用具器；这在<a href="https://github.com/nicejade/vue-common-components" target="_blank" rel="external">vue-common-components</a>，有些许推荐，也在持续探讨学习之中。</p>
+<p>学习“知识”与“工具”，都理应重视，可须有重前忽后的道理？话说，计算机(抑或说知识)本身，即为工具。而这计算机所能认知的也就0和1(谁让流行起来的是双级管嘞)，其上所衍生出的打孔，汇编，C，Java，Javascript 也都是计算机语言(不也是工具？)；而前端所当需的JavaScript, Html5, Css 也好，流行的框架 <code>React</code> <code>Vue</code> 也罢，还是协助高效工作的工具诸如 <code>Gulp</code> <code>Webpack</code> <code>Sublime Text</code> <code>Atom</code>，理当学习，用之以精；争得时间，方有更多实践；何谓<strong>技术</strong>？不就是驾驭各种工具来解决实际问题的能力么？</p>
+<p>加班学习&amp;折腾，让明天更加高效；还是加班搞需求，让明天后天继续加班到更晚？如何抉择，这无关乎谁对谁错，<code>这只是你的选择</code>；请记住，<strong>好工具是好思想的容器；好工具也会蕴含好知识</strong>。</p>
+<p>Last Modify: @2016-07-06</p>
+<blockquote>
+<p>原文出处: <a href="http://www.jeffjade.com" target="_blank" rel="external">http://www.jeffjade.com</a></p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[分享 Vue Webpack 组件化开发实践]]>
+    
+    </summary>
+    
+      <category term="Vue" scheme="http://www.jeffjade.com/tags/Vue/"/>
+    
+      <category term="Webpack" scheme="http://www.jeffjade.com/tags/Webpack/"/>
+    
+      <category term="Front-End" scheme="http://www.jeffjade.com/categories/Front-End/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[博客之SEO优化记录]]></title>
@@ -5128,52 +5163,6 @@
       <category term="Movie" scheme="http://www.jeffjade.com/tags/Movie/"/>
     
       <category term="Movie" scheme="http://www.jeffjade.com/categories/Movie/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[写于2015年末的总结]]></title>
-    <link href="http://www.jeffjade.com/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/"/>
-    <id>http://www.jeffjade.com/2015/12/26/2015-12-26-sum_up-in-the-end-of-year/</id>
-    <published>2015-12-26T06:30:00.000Z</published>
-    <updated>2016-01-22T04:24:04.000Z</updated>
-    <content type="html"><![CDATA[<p><strong>写作</strong>：是为了光阴流逝使我心安（源自知乎一话题），这一出发点鸣动我心；也是此刻键盘敲击动力源之一；兜兜辗转，2015年好或坏的都将成为历史，几近年关，俗念盘桓，免不了感慨总结一番，也算对新一年展望与期待。</p>
-<a id="more"></a>
-<p>在唠叨之前分享一段，今年一直游走在口边心里的激励，与君共勉：</p>
-<blockquote>
-<p>“过一个平凡无趣的人生实在太容易了，你可以不读书，不冒险，不运动，不写作，不外出，不折腾……但是，人生最后悔的事情就是：我本可以。”————陈素封.</p>
-</blockquote>
-<h2 id="关于经历"><strong>关于经历</strong></h2><p>13年毕业后就南下深圳，于一家互联网公司手游开发，一逗留就到了如今；随岁月流走，经环境迁变，回头看主要龄岁被增加了些，附带的增加了些不太通用的工作经验和衍生出痛苦思考后的想法；人开始一旦有了各式各样想法,烦恼便会随之接踵而至～如果想法的背后没有与之匹配的应对之策；15年初期因为这些想法和那些程序员<strong>固有</strong>原因，造就了“世界那么大，想去看看”的浮躁与冲动。</p>
-<p>想必，很多不够成熟的程序员都会有同样的困惑：觉得应当要出去看看了，然而对自己实力又不够自信等缘由，如此就有了即使出去了也仍是如此境遇的顾忌；但继续留下，依旧是整日被重复需求所累，成长缓慢（当然也可以分秒必争，惜时效法，熬夜闭关，但这种不明代价的博取不是谁都可以轻易能够而为之的）；如此，一个恶性循环就此诞生了。年初的自己就被束缚在这种漩涡中不能自制。最终，是在5月底转投于了本公司中一从事Web开发的支持部门麾下；零基础学习Web前端，从一点不知道，到知道一点，到知道不知道；一路多艰，幸好裹挟着喜欢，即便不懂，也还热忱不减，乐此不彼地在渴求着成长；如今尚好，学以致用，反促力学，至少确立了日后一段职业生涯为之奋斗的个方向。</p>
-<p>最近喜欢上莎士比亚那句名言：”一个人思虑太多，就会失去做人的乐趣 “。warfalcon有一篇<a href="http://chuansong.me/n/2080036" target="_blank" rel="external">如何保持你的积极性</a>，其中有讲到:<strong>正确还是快乐？</strong>“你更愿意正确，还是快乐？你内心对正确的需要，反而让自己产生了消极的想法，因为你不愿意放过任何有可能发生的问题。保持积极，有时候是对是错并不重要”。岂非如此？世上事，本就难分对错正确与否，何苦要为那虚无苦了那颗心？有时候如果没有非在乎不可的顾忌，那么思考清楚的事儿，就去跟随内心走选择呗；走的通亮了，欣喜吧。走的若不顺，也是一段经历；并且也比于当下见识了更广袤的世界，不是么？</p>
-<h2 id="关于博客"><strong>关于博客</strong></h2><p><strong>博客目的</strong>: 谈及这个，率先得说下写作(是为了光阴流逝使我心安);也就其他诸多因素,有一个蛮重要正如胡适在《怎样读书》中阐述的</p>
-<blockquote>
-<p>我們平時所說的吸收進來的思想，無論是聽來的，或是看來的，不過在腦子裏有壹點好或壞的模糊而又零碎的東西罷了。倘若費壹番工夫，把他芟除的芟除，整理的整理，綜合起來作做成劄記，然後那經過整理和綜合的思想，就永久留在腦中；於是這思想，就屬於自己的了。</p>
-</blockquote>
-<p>那么为何要亦博客来呈现？关于这个很多前辈大牛早已总结，很久之前在<a href="http://www.jeffjade.com/2015/02/01/2015-02-01-recommended-article/" target="_blank" rel="external">墙裂推荐文章集锦</a>一文关于“写作”部分有过收录。个人也觉得从网络获得过很多问题解决办法的我们，在力所能及之时也当奉献一份自己的力量；而要不误人子弟，对于所述之文也有一份责任，这反过来也会促进对于该事务的认知和理解；如果写文和读文中能和他人有交互，彼此都能获取一份开阔和提升，何乐不为？当然，浮躁的年代，年轻的我们谁还没点虚荣心呢？</p>
-<p><strong>博客变迁</strong>: 最早期用的是<code>博客园</code>；14年底有在Github 下以<code>Jekyll</code>搭建一个练手之用；15年入手Mac之后有用<code>Hexo</code>“搭建”（其实是用了<code>@jacman</code>主题，按照自己喜好修修改改了而已）如今这个，并购买域名<code>jeffjade.com</code>;一度迁移到国内<code>gitcafe</code>，虽然免费，服务也好，速度也快，就是不很稳定，后来还是回归github的怀抱；当然前段时间也fork出一份jekyll博客，只为看下其设计，这是题外话了；一路折腾过来，算是对当下个人博客搭建等有了些了解。</p>
-<p><strong>博客内容</strong>： 写作这事儿，谁天生都行呢？技术这事儿，岂不也需要磨砺！很多事儿，其实都是从模仿开始的。即便今时今日，写得几点心得，也是颇多参考网络上故有的见解（互联网真好）。目前见识知识还亟待提升，所苟留内容难免只是一个搬运工而已，即便偶尔写的一些<code>游记</code> <code>想法</code> <code>音乐</code>等也不尽我意，但成长只是路上而已；并且在以<strong>用心分享</strong>的虔诚之下，也不至于贻祸他人；往后的日子中会尽量自己原创，除过技术经验心得总结外，<code>写写影评</code> <code>嘀嗒些经验</code> 或者<code>搬运些自我放松大法</code>（这有别于“鸡汤”，在微信里阅尽鸡汤，听过无数道理，依旧过不好一生；我想说，端上“鸡汤”好人儿，请换行“春药”也好～，😂）等；让技术和写作共舞，令专业同兴趣齐飞；倘能如愿，幸甚至哉。</p>
-<h2 id="关于工具"><strong>关于工具</strong></h2><p>作为火影迷的话，都知道<strong>多重影分身</strong>对与早期早期鸣人来讲，是其最为薄弱的技能；后来因缘造化有短致长，，很长时间却成为他的主流技能；在14年偶然接触Win下<code>Everything</code>工具(可见笔者那时候见识多么浅薄，其实现在也是)之后，便走上了伪工具控的道路；只因她带给自己很早惊喜，节省很多时间；同时于思维也是一个颇大的转换：<strong>工欲善其事，必先利其器</strong>；除此外，无论编程还是人生享受，也亦如此，生命有限，能够抽象出一些重复之事，交付与可利用的工具，节省出来更多时间，除了享受本身，其实还可以早就更多可能性，何乐不为？</p>
-<ul>
-<li>3月初有国行入手一台MacBook Pro(关于价格：如果可以还是买港行；近2千大洋的差价可以感受下天朝关税之猛烈么？<strong>土豪请无视</strong>)；有她真好。9个月来没怎么关机，坐下打开，合上就走；虽没怎用她工作，却由她见证了很多欢喜；早先也有感慨道：<a href="http://www.jeffjade.com/2015/07/24/2015-07-24-why-programmer-love-mac/" target="_blank" rel="external">Mac，无愧设备中优雅的情人</a>。公司戴尔即便又加了内存，怎么给自己的感觉还是：<strong>珍爱生命，远离Windows</strong>(当然这很有偏见，高配Window必然有其可取处，只是还没机会拥有而已)。</li>
-<li>6月初有一台日本产的<strong>青轴Filco</strong>；只能说处于健康和享受来讲，机械键盘值得拥有，这真不是“装B”的说；关于这个在<a href="http://www.jeffjade.com/2015/06/05/2015-06-05-Share-Filco/" target="_blank" rel="external">码字者的倚天剑</a>有比较详尽的叙述。</li>
-<li>7月份有入手两件Ipod Shuffle;读书用Kindle，听歌手机活着Mac，运动时候，一个人行走在路上（这个要注意安全），就得用她，玲珑小巧，却精致够用；重要的是便捷&amp;续航能力，喜之不尽。</li>
-<li>9月份公司windows有加了SSD，用起来稍有些；关键是发现并用上了<code>AutohotKey</code> <code>Listary</code> <code>Cmder</code> <code>Clover</code>等软件之后，即便几个软件加起来也不如Mac下的<code>Alfred</code>，但满满的也都是欢喜啊。这在<a href="http://www.jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/" target="_blank" rel="external">Windows下效率必备软件</a>和  <a href="http://www.jeffjade.com/2015/05/26/2015-05-26-high-efficiency-tools-collecting/" target="_blank" rel="external">追寻高效工作的一路折腾</a> 等文章中有过记载;今年也是将使用SublimeText的经验经验升华了下，并做梳理有载于<a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a>;</li>
-</ul>
-<p><strong>工具</strong>，也不能仅限于这些机器，硬件，软件；开发可以是框架，轮子,工具库或是脚本等等；码字可以有一些语言Markdown或是Wiki；更可以是思考事情的一种分析思维，一种处理处理事务技法云云，2015年在这里有所投入，也就有些收获和启发，大概就这样。</p>
-<h2 id="关于感慨"><strong>关于感慨</strong></h2><p>人生历程中，让人改变成长于大多人来讲都是情感；只有直击心灵深入，才能唤起最透彻的领悟。今年最多的感触也是在于这情感二字上，谁又能逃得掉？这里不宜多写(会悄悄在<strong>为知</strong>中哭与笑)；金庸先生在《书剑恩仇录》中有话用《尚书》一句，倒是很贴切现在的心境的，贴于此处与君共勉：“<strong>慧极必伤，情深不寿，强极则辱，谦谦君子，温润如玉</strong>”。世间烦恼，几乎无外出于两点：有了<strong>执念</strong>；抑或<strong>执念</strong>不够坚定（写到此处，网易云音乐正播放至～《天龙八部》插曲思君黯然，额，引喜勾伤潺潺，温润咽喉和心窗～）罢了，幸好，世间事，还有时间这块良药不是么？豁达以朗，渐渐而放，一切都还好。</p>
-<p>生活不如意事情，十有八九；有了不如意才能品味<strong>如意之事</strong>；职场亦如是,撇此不提。倒是对于求知的路上，热忱有余，却有了这里本不该有的<strong>“见异思迁”</strong>，不能做到专注,很早就认识到这一点，却不能自制，这也是16年特需修正的一个点。前段时间有看到@前端早读课<a href="http://wx.h5.vc/post/translations/2015-12-14" target="_blank" rel="external">2016年你应该学习的语言和框架</a>,知道下“深似海的前端”需要折腾的还很多，但也当冷静对待，适当取舍，逐一而破。另一件亟待修正的是：无休止的不规律作息和缺乏身体锻炼；毕竟朝九晚六的工作之后，又逗留公司做些有的没的，回去已是晚十点左右；一日单调生活，总觉这一日没过够过好，必需些娱乐和兴趣予以调解，不觉间在睡时多半在凌晨一点以后了；这点得从意识和行动中逐步规划和改善。</p>
-<p>15年列了些清单，关于<strong>待刷装备</strong>，<strong>待学技艺</strong>，<strong>待旅行之地</strong>等等，完成的情况离满意尚有段距离；而关于<strong>待读书籍</strong>则相去甚远，整年竟没好好读几本好书，大憾事！！电影动漫倒是刷了好些(尤其电影，几乎刷尽今年有名气片子，感触良多)，也追了几部不错电视剧，以及听了很多歌曲；这话题先按下不提。新的一年须在此尚能更好的历程后，重新审视规划List，让16年行走的更为充实开心，新颖有致。零散的写了些有的没的，算是年末对这360多天过往的一个小交代；不忘过去，也为更好的将来；希望16年的自己，不忘初心，不失热忱，趋于稳重，日臻成熟。</p>
-<p>大概就这样，明年此时，期待字里行间多一分自信与从容，洒脱和无憾。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><strong>写作</strong>：是为了光阴流逝使我心安（源自知乎一话题），这一出发点鸣动我心；也是此刻键盘敲击动力源之一；兜兜辗转，2015年好或坏的都将成为历史，几近年关，俗念盘桓，免不了感慨总结一番，也算对新一年展望与期待。</p>]]>
-    
-    </summary>
-    
-      <category term="Thought" scheme="http://www.jeffjade.com/tags/Thought/"/>
-    
-      <category term="Thought" scheme="http://www.jeffjade.com/categories/Thought/"/>
     
   </entry>
   
