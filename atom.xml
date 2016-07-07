@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's only too late if you decide it is. Get busy living. or get busy dying!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.jeffjade.com/"/>
-  <updated>2016-07-06T11:29:10.000Z</updated>
+  <updated>2016-07-07T04:18:38.000Z</updated>
   <id>http://www.jeffjade.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.jeffjade.com/2016/07/06/110-vue-webpack-component-develop/"/>
     <id>http://www.jeffjade.com/2016/07/06/110-vue-webpack-component-develop/</id>
     <published>2016-07-06T07:30:00.000Z</published>
-    <updated>2016-07-06T11:29:10.000Z</updated>
+    <updated>2016-07-07T04:18:38.000Z</updated>
     <content type="html"><![CDATA[<p>两千年余前，子贡问为仁，子曰：“<strong>工欲善其事，必先利其器</strong>。居是邦也。事其大夫之贤者，友其士之仁者”——语出《论语·卫灵公》。时隔这许久，欲问从业者，何以堪高效之为事，有时以把妹（/泡哥）？也无非这十字而已，倘若体会得真切，U Get It。人们总是低估工具对自己心智模式的影响，请记住，<strong>好工具是好思想的容器；好工具也会蕴含好知识</strong>；对于从业纷繁杂乱前端的我等而言，这一点尤显重要；而 <strong>Vue</strong>、<strong>Webpack</strong> 在如今这时节，它所能带给你的，超乎你的想象。</p>
 <a id="more"></a>
 <p><img src="http://7xoosr.com1.z0.glb.clouddn.com/vue-common-components.jpg" alt="vue-common-components"></p>
@@ -33,8 +33,21 @@
 <p>加班学习&amp;折腾，让明天更加高效；还是加班搞需求，让明天后天继续加班到更晚？如何抉择，这无关乎谁对谁错，<code>这只是你的选择</code>；请记住，<strong>好工具是好思想的容器；好工具也会蕴含好知识</strong>。</p>
 <p>Last Modify: @2016-07-06</p>
 <blockquote>
-<p>原文出处: <a href="http://www.jeffjade.com" target="_blank" rel="external">http://www.jeffjade.com</a></p>
+<p>原文出处: <a href="http://www.jeffjade.com" target="_blank" rel="external">http://www.jeffjade.com</a><br>原文链接: <a href="http://www.jeffjade.com/2016/07/06/110-vue-webpack-component-develop/#" target="_blank" rel="external">http://www.jeffjade.com/2016/07/06/110-vue-webpack-component-develop/#</a></p>
 </blockquote>
+<hr>
+<p><strong>猜你喜欢（/有用）</strong></p>
+<p>对您可能有用(/感兴趣)的文章：</p>
+<ul>
+<li><a href="http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/" target="_blank" rel="external">那些所倚靠的利器记载</a></li>
+<li><a href="http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/" target="_blank" rel="external">如何优雅地使用Sublime Text</a></li>
+<li><a href="http://www.cnblogs.com/jadeboy/p/4165449.html" target="_blank" rel="external">sublime text 下的Markdown写作</a></li>
+<li><a href="http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/" target="_blank" rel="external">新编码神器Atom使用纪要</a></li>
+<li><a href="http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/" target="_blank" rel="external">Win下最爱效率神器:AutoHotKey</a></li>
+<li><a href="http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/" target="_blank" rel="external">Mac必备软件渐集之ZSH－终极Shell</a></li>
+<li><a href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/" target="_blank" rel="external">Win下必备神器之Cmder</a></li>
+<li><a href="http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/" target="_blank" rel="external">Vimium~让您的Chrome起飞</a></li>
+</ul>
 ]]></content>
     <summary type="html">
     <![CDATA[分享 Vue Webpack 组件化开发实践]]>
