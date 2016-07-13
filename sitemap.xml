@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.jeffjade.com/2016/07/13/2015-03-20-bat/</loc>
+    
+    <lastmod>2016-07-13T10:07:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.jeffjade.com/Links/index.html</loc>
     
     <lastmod>2016-07-13T03:25:19.000Z</lastmod>
@@ -632,13 +639,6 @@
   </url>
   
   <url>
-    <loc>http://www.jeffjade.com/jadeTodo/node_modules/backbone/backbone.js</loc>
-    
-    <lastmod>2015-08-08T09:45:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.jeffjade.com/jadeTodo/js/app.js</loc>
     
     <lastmod>2015-08-08T09:45:10.000Z</lastmod>
@@ -654,6 +654,13 @@
   
   <url>
     <loc>http://www.jeffjade.com/jadeTodo/node_modules/backbone.localstorage/backbone.localStorage.js</loc>
+    
+    <lastmod>2015-08-08T09:45:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/backbone/backbone.js</loc>
     
     <lastmod>2015-08-08T09:45:10.000Z</lastmod>
     
@@ -866,13 +873,6 @@
     <loc>http://www.jeffjade.com/2015/03/28/2015-03-27-http-https/</loc>
     
     <lastmod>2015-03-27T16:49:52.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.jeffjade.com/2015/03/20/2015-03-20-bat/</loc>
-    
-    <lastmod>2015-03-20T17:45:18.000Z</lastmod>
     
   </url>
   
