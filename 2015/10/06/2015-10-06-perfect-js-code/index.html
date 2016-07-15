@@ -113,8 +113,23 @@
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">1.234567890</span>;</span><br><span class="line"><span class="keyword">var</span> b = <span class="number">0.000000001</span>;</span><br><span class="line">~~a == <span class="number">0</span>|a == <span class="built_in">parseInt</span>(a, <span class="number">10</span>) == <span class="number">1</span></span><br><span class="line">~~b == <span class="number">0</span>|b == <span class="built_in">parseInt</span>(b, <span class="number">10</span>) == <span class="number">0</span></span><br></pre></td></tr></table></figure>
 <p><code>toString(16)</code>使用数字类型的toString方法进行十进制到16进制的转换。至此我们得到了一个 0 到 16777215之间的随机数，然后使用toString(16)转换成16进制，将此值赋予到页面上所有元素节点的outline附加属性上，就有了如图效果，它就是这样工作的。精致巧妙而实用非常，顶一个。</p>
 <p>参考文章<a href="http://ourjs.com/detail/54be0a98232227083e000012" target="_blank" rel="external">从一行CSS调试代码中学到的JavaScript知识</a></p>
-  
+
 	</div>
+		<a href="#reward-modal-container" aria-label="Open Reward" id="open-reward-modal-a">打赏</a>
+<div id="reward-modal-container">
+		<div class="modal-div">
+			<h1 class='reward-title-h1'>倾情打赏</h1>
+			<a href="javascript:history.go(-1)" aria-label="Close Modal" class="close-modal-a"></a>
+			<p class="reward-thx-p">感谢您的支持，我会继续努力！</p>
+			<div class="reward-img-div">
+				<img class="reward-qr-img" src="http://7xoosr.com1.z0.glb.clouddn.com/encourage.png" alt="打赏赞助" />
+			</div>
+			<div class="reward-text-div">扫码打赏，建议金额1-10元</div>
+			<p class="reward-tip-p">
+				提醒：打赏金额将直接进此方账号，无法退款，请您谨慎操作。
+			</p>
+		</div>
+</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 

@@ -144,8 +144,23 @@ lua之使用json">
 <li>方法一：用lua的cjson包：<br>下载地址在这里 <a href="http://www.kyne.com.au/~mark/software/lua-cjson.php" target="_blank" rel="external">http://www.kyne.com.au/~mark/software/lua-cjson.php</a><br>安装的话，make&amp;make install就行了。<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">local</span> cjson = <span class="built_in">require</span>(<span class="string">"cjson"</span>)</span><br><span class="line"> </span><br><span class="line"><span class="keyword">local</span> str = <span class="string">'["a", "b", "c"]'</span></span><br><span class="line"><span class="keyword">local</span> j = cjson.decode(str)</span><br><span class="line"><span class="keyword">for</span> i,v <span class="keyword">in</span> <span class="built_in">ipairs</span>(j) <span class="keyword">do</span></span><br><span class="line">    <span class="built_in">print</span>(v)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"> </span><br><span class="line">str = <span class="string">'&#123;"A":1, "B":2&#125;'</span></span><br><span class="line">j = cjson.decode(str)</span><br><span class="line"><span class="keyword">for</span> k,v <span class="keyword">in</span> <span class="built_in">pairs</span>(j) <span class="keyword">do</span></span><br><span class="line">    <span class="built_in">print</span>(k..<span class="string">":"</span>..v)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">j[<span class="string">'C'</span>]=<span class="string">'c'</span></span><br><span class="line">new_str = cjson.encode(j)</span><br><span class="line"><span class="built_in">print</span>(new_str)</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-  
+
 	</div>
+		<a href="#reward-modal-container" aria-label="Open Reward" id="open-reward-modal-a">打赏</a>
+<div id="reward-modal-container">
+		<div class="modal-div">
+			<h1 class='reward-title-h1'>倾情打赏</h1>
+			<a href="javascript:history.go(-1)" aria-label="Close Modal" class="close-modal-a"></a>
+			<p class="reward-thx-p">感谢您的支持，我会继续努力！</p>
+			<div class="reward-img-div">
+				<img class="reward-qr-img" src="http://7xoosr.com1.z0.glb.clouddn.com/encourage.png" alt="打赏赞助" />
+			</div>
+			<div class="reward-text-div">扫码打赏，建议金额1-10元</div>
+			<p class="reward-tip-p">
+				提醒：打赏金额将直接进此方账号，无法退款，请您谨慎操作。
+			</p>
+		</div>
+</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 

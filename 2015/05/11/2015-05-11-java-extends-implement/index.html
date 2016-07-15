@@ -125,8 +125,23 @@
 <p>　　implements是一个类实现一个接口用的关键字，他是用来实现接口中定义的抽象方法。比如：people是一个接口，他里面有say这个方法。public interface people(){ public say();}但是接口没有方法体。只能通过一个具体的类去实现其中的方法体。比如chinese这个类，就实现了people这个接口。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">chinese</span> <span class="keyword">implements</span> <span class="title">people</span></span>&#123; </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">say</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"你好！"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>　　在java中implements表示子类实现父类，如类A实现类B写成 class A implements B{}<br>与Extends的不同. extends， 可以实现父类，也可以调用父类初始化 this.parent()。而且会覆盖父类定义的变量或者函数。这样的好处是：架构师定义好接口，让工程师实现就可以了。整个项目开发效率和开发成本大大降低。<br>　　implements，实现父类，子类不可以覆盖父类的方法或者变量。即使子类定义与父类相同的变量或者函数，也会被父类取代掉。<br>　　这两种实现的具体使用，是要看项目的实际情况，需要实现，不可以修改implements，只定义接口需要具体实现，或者可以被修改扩展性好，用extends。</p>
 <p><a href="http://www.jb51.net/article/34512.htm" target="_blank" rel="external">原文链接</a></p>
-  
+
 	</div>
+		<a href="#reward-modal-container" aria-label="Open Reward" id="open-reward-modal-a">打赏</a>
+<div id="reward-modal-container">
+		<div class="modal-div">
+			<h1 class='reward-title-h1'>倾情打赏</h1>
+			<a href="javascript:history.go(-1)" aria-label="Close Modal" class="close-modal-a"></a>
+			<p class="reward-thx-p">感谢您的支持，我会继续努力！</p>
+			<div class="reward-img-div">
+				<img class="reward-qr-img" src="http://7xoosr.com1.z0.glb.clouddn.com/encourage.png" alt="打赏赞助" />
+			</div>
+			<div class="reward-text-div">扫码打赏，建议金额1-10元</div>
+			<p class="reward-tip-p">
+				提醒：打赏金额将直接进此方账号，无法退款，请您谨慎操作。
+			</p>
+		</div>
+</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 

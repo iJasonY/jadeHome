@@ -147,8 +147,23 @@
 <p>@JQuery的v2.1.4版本对makeArray方法实现源码：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// results is for internal usage only</span></span><br><span class="line">	makeArray: <span class="function"><span class="keyword">function</span><span class="params">( arr, results )</span> </span>&#123;</span><br><span class="line">		<span class="keyword">var</span> ret = results || [];</span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> ( arr != <span class="literal">null</span> ) &#123;</span><br><span class="line">			<span class="keyword">if</span> ( isArraylike( <span class="built_in">Object</span>(arr) ) ) &#123;</span><br><span class="line">				jQuery.merge( ret,</span><br><span class="line">					<span class="keyword">typeof</span> arr === <span class="string">"string"</span> ?</span><br><span class="line">					[ arr ] : arr</span><br><span class="line">				);</span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				push.call( ret, arr );</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> ret;</span><br><span class="line">	&#125;,</span><br><span class="line"></span><br><span class="line">	merge: <span class="function"><span class="keyword">function</span><span class="params">( first, second )</span> </span>&#123;</span><br><span class="line">		<span class="keyword">var</span> len = +second.length,</span><br><span class="line">			j = <span class="number">0</span>,</span><br><span class="line">			i = first.length;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">for</span> ( ; j &lt; len; j++ ) &#123;</span><br><span class="line">			first[ i++ ] = second[ j ];</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		first.length = i;</span><br><span class="line">		<span class="keyword">return</span> first;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure></p>
 <p>其中<code>isArraylike()</code>代码实现可以参见<a href="http://www.jeffjade.com/2015/09/06/2015-09-06-ios8-safari-jitbug-record/" target="_blank" rel="external">这里</a>。</p>
 <p><strong>参考出处</strong>：@曾探 所著的《JavaScript设计模式与开发实践》第三章~高阶函数.</p>
-  
+
 	</div>
+		<a href="#reward-modal-container" aria-label="Open Reward" id="open-reward-modal-a">打赏</a>
+<div id="reward-modal-container">
+		<div class="modal-div">
+			<h1 class='reward-title-h1'>倾情打赏</h1>
+			<a href="javascript:history.go(-1)" aria-label="Close Modal" class="close-modal-a"></a>
+			<p class="reward-thx-p">感谢您的支持，我会继续努力！</p>
+			<div class="reward-img-div">
+				<img class="reward-qr-img" src="http://7xoosr.com1.z0.glb.clouddn.com/encourage.png" alt="打赏赞助" />
+			</div>
+			<div class="reward-text-div">扫码打赏，建议金额1-10元</div>
+			<p class="reward-tip-p">
+				提醒：打赏金额将直接进此方账号，无法退款，请您谨慎操作。
+			</p>
+		</div>
+</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 

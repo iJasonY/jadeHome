@@ -136,8 +136,23 @@
 <p><strong>总结：</strong><code>#</code>包含了一个位置信息默认的锚是#top 也就是网页的上端;<br>而<code>javascript:void(0)</code>仅仅表示一个死链接，没有任何信息。作用类同～javascript:;<br>而<code>javascript:</code>会导致不必要的触发window.onbeforeunload事件等。<br>故此：此处当不依靠href属性做页面跳转时候，最好还是用<code>javascript:;</code>更优一点。</p>
 <hr>
 <p>Gui求指点，欢求吐槽！</p>
-  
+
 	</div>
+		<a href="#reward-modal-container" aria-label="Open Reward" id="open-reward-modal-a">打赏</a>
+<div id="reward-modal-container">
+		<div class="modal-div">
+			<h1 class='reward-title-h1'>倾情打赏</h1>
+			<a href="javascript:history.go(-1)" aria-label="Close Modal" class="close-modal-a"></a>
+			<p class="reward-thx-p">感谢您的支持，我会继续努力！</p>
+			<div class="reward-img-div">
+				<img class="reward-qr-img" src="http://7xoosr.com1.z0.glb.clouddn.com/encourage.png" alt="打赏赞助" />
+			</div>
+			<div class="reward-text-div">扫码打赏，建议金额1-10元</div>
+			<p class="reward-tip-p">
+				提醒：打赏金额将直接进此方账号，无法退款，请您谨慎操作。
+			</p>
+		</div>
+</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 

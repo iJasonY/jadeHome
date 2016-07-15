@@ -143,8 +143,23 @@
 <h3 id="Es6箭头函数中的_this"><strong>Es6箭头函数中的 this</strong></h3><p>随着时间的推移，Es6越发会成为新的主流，当然在之后肯定又有新的譬如正在制定的Es7等等；而对于本文<br>this 相关的，这Es6备受关注的的箭头函数( 例如()=&gt;{} )，就很有必要谈及了。这种很简洁的使用，让函数内部this具有了上下文相同的执行环境；再也不写 var that = this 这样蹩脚的东东了（当然 that 在很多童鞋笔下可能是 _this , self等等，我的天哪）。也不用借助 eval 或者 $proxy(obj.xx ,obj) 这样蹩脚的第三方替代办法，酷爽。至于这箭头函数内部的this到底为何物，一两句也谈不清楚，可参见 <a href="http://www.cnblogs.com/vajoy/p/4902935.html" target="_blank" rel="external">ES6 箭头函数中的 this？你可能想多了（翻译）</a>，一探究竟。[update: 16-04-27]</p>
 <p><strong>后记：</strong>由于javascript的动态性（解释执行，当然也有简单的预编译过程），this的指向在运行时才确定，因此在只要足够留心其运行时的上下文，即可无痛挥霍this的强大。上面列举了这么些许，也是要说明另一个问题：即便知道了这个本质，到底还是需要了解各种环境的差异，方可运用自如。比如这篇<a href="http://segmentfault.com/a/1190000002675091" target="_blank" rel="external">JavaScript:万恶的this拿命来（一）</a>文章还谈及：node脚本，还有<code>REPL</code>(“读取-求值-输出”循环（Read-Eval-Print Loop，简称REPL）)中使用this的些许区别，可以一览。</p>
 <p>参考A<a href="http://gaohaoyang.github.io/2015/06/12/JavaScript-this/" target="_blank" rel="external">JavaScript 中的 this</a><br>参考B<a href="http://www.cnblogs.com/liyunhua/p/4509888.html" target="_blank" rel="external">JavaScript中this的一些怪异现象</a><br>参考C<a href="http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html" target="_blank" rel="external">Javascript的this用法-阮一峰</a><br>参考D<a href="http://www.ibm.com/developerworks/cn/web/1207_wangqf_jsthis/" target="_blank" rel="external">深入浅出 JavaScript 中的 this</a></p>
-  
+
 	</div>
+		<a href="#reward-modal-container" aria-label="Open Reward" id="open-reward-modal-a">打赏</a>
+<div id="reward-modal-container">
+		<div class="modal-div">
+			<h1 class='reward-title-h1'>倾情打赏</h1>
+			<a href="javascript:history.go(-1)" aria-label="Close Modal" class="close-modal-a"></a>
+			<p class="reward-thx-p">感谢您的支持，我会继续努力！</p>
+			<div class="reward-img-div">
+				<img class="reward-qr-img" src="http://7xoosr.com1.z0.glb.clouddn.com/encourage.png" alt="打赏赞助" />
+			</div>
+			<div class="reward-text-div">扫码打赏，建议金额1-10元</div>
+			<p class="reward-tip-p">
+				提醒：打赏金额将直接进此方账号，无法退款，请您谨慎操作。
+			</p>
+		</div>
+</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 

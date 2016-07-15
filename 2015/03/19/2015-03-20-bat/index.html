@@ -141,8 +141,23 @@
 <h3 id="37-_for"><strong>37. for</strong></h3><p>循环命令<br>这个比较复杂，请对照 for/? 来看<br>for %%i in (c: d: e: f:) do echo %%i<br>依次调用小括号里的每个字符串，执行 do 后面的命令<br>注意%%i，在批处理中 for 语句调用参数用2个%<br>默认的字符串分隔符是””空格键””，””Tab键””，””回车键””<br>for %%i in (<em>.txt) do find “”abc”” %%i<br>对当前目录里所有的txt文件执行 find 命令<br>for /r . %%i in (</em>.txt) do find “”abc”” %%i<br>在当前目录和子目录里所有的.txt文件中搜索包含 abc 字符串的行<br>for /r . %%i in (.) do echo %%~pni<br>显示当前目录名和所有子目录名，包括路径，不包括盘符<br>for /r d:”mp3 %%i in (<em>.mp3) do echo %%i&gt;&gt;d:”mp3.txt<br>把 d:”mp3 及其子目录里的mp3文件的文件名都存到 d:”mp3.txt 里去<br>for /l %%i in (2,1,8) do echo %%i<br>生成2345678的一串数字，2是数字序列的开头，8是结尾，1表示每次加1<br>for /f %%i in (‘set’) do echo %%i<br>对 set 命令的输出结果循环调用，每行一个<br>for /f “”eol=P”” %%i in (‘set’) do echo %%i<br>取 set 命令的输出结果，忽略以 P 开头的那几行<br>for /f %%i in (d:”mp3.txt) do echo %%i<br>显示 d:”mp3.txt 里的每个文件名，每行一个，不支持带空格的名称<br>for /f “”delims=”” %%i in (d:”mp3.txt) do echo %%i<br>显示 d:”mp3.txt 里的每个文件名，每行一个，支持带空格的名称<br>for /f “”skip=5 tokens=4”” %%a in (‘dir’) do echo %%a<br>对 dir 命令的结果，跳过前面5行，余下的每行取第4列<br>每列之间的分隔符为默认的””空格””<br>可以注意到 dir 命令输出的前5行是没有文件名的<br>for /f “”tokens=1,2,3 delims=- “” %%a in (‘date /t’) do (<br>      echo %%a<br>      echo %%b<br>      echo %%c<br>      )<br>对 date /t 的输出结果，每行取1、2、3列<br>第一列对应指定的 %%a ，后面的 %%b 和 %%c 是派生出来的，对应其它列<br>分隔符指定为 - 和””空格””，注意 delims=- 后面有个””空格””<br>其中 tokens=1,2,3 若用 tokens=1-3 替换，效果是一样的<br>for /f “”tokens=2</em> delims=- “” %%a in (‘date /t’) do echo %%b<br>取第2列给 %%a ，其后的列都给 %%b</p>
 <h3 id="38-_subst_(外部命令)"><strong>38. subst (外部命令)</strong></h3><p>映射磁盘。<br>subst z: “server”d       #这样输入z:就可以访问”server”d了<br>subst z: /d               #取消该映射<br>subst                     #显示目前所有的映时</p>
 <h3 id="39-_xcopy_(外部命令)"><strong>39.    xcopy (外部命令)</strong></h3><p>文件拷贝<br>xcopy d:”mp3 e:”mp3 /s/e/i/y<br>复制 d:”mp3 文件夹、所有子文件夹和文件到 e:” ，覆盖已有文件<br>加 /i 表示如果 e:” 没有 mp3 文件夹就自动新建一个，否则会有询问</p>
-  
+
 	</div>
+		<a href="#reward-modal-container" aria-label="Open Reward" id="open-reward-modal-a">打赏</a>
+<div id="reward-modal-container">
+		<div class="modal-div">
+			<h1 class='reward-title-h1'>倾情打赏</h1>
+			<a href="javascript:history.go(-1)" aria-label="Close Modal" class="close-modal-a"></a>
+			<p class="reward-thx-p">感谢您的支持，我会继续努力！</p>
+			<div class="reward-img-div">
+				<img class="reward-qr-img" src="http://7xoosr.com1.z0.glb.clouddn.com/encourage.png" alt="打赏赞助" />
+			</div>
+			<div class="reward-text-div">扫码打赏，建议金额1-10元</div>
+			<p class="reward-tip-p">
+				提醒：打赏金额将直接进此方账号，无法退款，请您谨慎操作。
+			</p>
+		</div>
+</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 

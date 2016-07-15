@@ -167,8 +167,23 @@ mWebView.loadData(data, <span class="string">"text/html"</span>, <span class="st
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="annotation">@Override</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">shouldOverrideUrlLoading</span><span class="params">(WebView view, String url)</span> </span>&#123;</span><br><span class="line">    LogUtil.i(<span class="keyword">this</span>, <span class="string">"url="</span>   url);</span><br><span class="line">    <span class="keyword">if</span> ( url.contains(<span class="string">"eoe.cn"</span>) == <span class="keyword">true</span>)&#123;</span><br><span class="line">        view.loadUrl(url);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        Intent in = <span class="keyword">new</span> Intent (Intent.ACTION_VIEW , Uri.parse(url));</span><br><span class="line">        startActivity(in);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="android:scrollbarStyle控制滚动条位置">android:scrollbarStyle控制滚动条位置</h3><p>WebView有一个设置滚动条位置的属性：android:scrollbarStyle 可以是insideOverlay可以是outsideOverlay，两个的区别是SCROLLBARS_INSIDE_OVERLAY的样式是滚动条在整个page里，类似css中的padding.<br>mWebView.setScrollBarStyle(View.SCROLLBARS_OUTSIDE_OVERLAY);<br>mWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY</p>
 <p>参考文章链接：<br><a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2013/1010/1569.html" target="_blank" rel="external">Click Here查看原文</a><br><a href="http://blog.csdn.net/t12x3456/article/details/13769731/" target="_blank" rel="external"> Android WebView常见问题及解决方案汇总</a></p>
-  
+
 	</div>
+		<a href="#reward-modal-container" aria-label="Open Reward" id="open-reward-modal-a">打赏</a>
+<div id="reward-modal-container">
+		<div class="modal-div">
+			<h1 class='reward-title-h1'>倾情打赏</h1>
+			<a href="javascript:history.go(-1)" aria-label="Close Modal" class="close-modal-a"></a>
+			<p class="reward-thx-p">感谢您的支持，我会继续努力！</p>
+			<div class="reward-img-div">
+				<img class="reward-qr-img" src="http://7xoosr.com1.z0.glb.clouddn.com/encourage.png" alt="打赏赞助" />
+			</div>
+			<div class="reward-text-div">扫码打赏，建议金额1-10元</div>
+			<p class="reward-tip-p">
+				提醒：打赏金额将直接进此方账号，无法退款，请您谨慎操作。
+			</p>
+		</div>
+</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 

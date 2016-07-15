@@ -114,8 +114,23 @@
 <h2 id="创建远程仓库">创建远程仓库</h2><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">git clone --bare robbin_site robbin_site.git  <span class="comment"># 用带版本的项目创建纯版本仓库</span></span><br><span class="line">scp -r my_project.git git<span class="variable">@git</span>.csdn.net:~      <span class="comment"># 将纯仓库上传到服务器上</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">mkdir</span> robbin_site.git &amp;&amp; cd robbin_site.git &amp;&amp; git --bare init <span class="comment"># 在服务器创建纯仓库</span></span><br><span class="line">git remote add origin git<span class="variable">@github</span>.com:robbin/robbin_site.git    <span class="comment"># 设置远程仓库地址</span></span><br><span class="line">git <span class="keyword">push</span> -u origin master                                      <span class="comment"># 客户端首次提交</span></span><br><span class="line">git <span class="keyword">push</span> -u origin develop    <span class="comment"># 首次将本地develop分支提交到远程develop分支，并且track</span></span><br><span class="line"></span><br><span class="line">git remote set-head origin master   <span class="comment"># 设置远程仓库的HEAD指向master分支</span></span><br></pre></td></tr></table></figure>
 <h2 id="也可以命令设置跟踪远程库和本地库">也可以命令设置跟踪远程库和本地库</h2><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git branch --<span class="keyword">set</span>-upstream master origin/master</span><br><span class="line">git branch --<span class="keyword">set</span>-upstream develop origin/develop</span><br></pre></td></tr></table></figure>
 <p><a href="http://robbinfan.com/blog/34/git-common-command" target="_blank" rel="external">原文参考链接HERE</a></p>
-  
+
 	</div>
+		<a href="#reward-modal-container" aria-label="Open Reward" id="open-reward-modal-a">打赏</a>
+<div id="reward-modal-container">
+		<div class="modal-div">
+			<h1 class='reward-title-h1'>倾情打赏</h1>
+			<a href="javascript:history.go(-1)" aria-label="Close Modal" class="close-modal-a"></a>
+			<p class="reward-thx-p">感谢您的支持，我会继续努力！</p>
+			<div class="reward-img-div">
+				<img class="reward-qr-img" src="http://7xoosr.com1.z0.glb.clouddn.com/encourage.png" alt="打赏赞助" />
+			</div>
+			<div class="reward-text-div">扫码打赏，建议金额1-10元</div>
+			<p class="reward-tip-p">
+				提醒：打赏金额将直接进此方账号，无法退款，请您谨慎操作。
+			</p>
+		</div>
+</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 

@@ -121,8 +121,23 @@
 <font color="blue">最后需要说明的是，Lua中的弱引用表只是作用于table类型的变量，对于其他类型的变量，如数值和字符串等，弱引用表并不起任何作用。</font>
 
 <h2 id="备忘录(memoize)函数：">备忘录(memoize)函数：</h2><p>用“空间换时间”是一种通用的程序运行效率优化手段，比如：对于一个普通的Server，它接受到的请求中包含Lua代码，每当其收到请求后都会调用Lua的loadstring函数来动态解析请求中的Lua代码，如果这种操作过于频率，就会导致Server的执行效率下降。要解决该问题，我们可以将每次解析的结果缓存到一个table中，下次如果接收到相同的Lua代码，就不需要调用loadstirng来动态解析了，而是直接从table中获取解析后的函数直接执行即可。这样在有大量重复Lua代码的情况下，可以极大的提高Server的执行效率。反之，如果有相当一部分的Lua代码只是出现一次，那么再使用这种机制，就将会导致大量的内存资源被占用而得不到有效的释放。在这种情况下，如果使用弱引用表，不仅可以在一定程度上提升程序的运行效率，内存资源也会得到有效的释放。见如下代码：</p>
-<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">local</span> results = &#123;&#125;</span><br><span class="line"><span class="built_in">setmetatable</span>(results,&#123;__mode = <span class="string">"v"</span>&#125;) <span class="comment">--results表中的key是字符串形式的Lua代码</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">mem_loadstring</span><span class="params">(s)</span></span></span><br><span class="line">    <span class="keyword">local</span> res = results[s]</span><br><span class="line">    <span class="keyword">if</span> res == <span class="keyword">nil</span> <span class="keyword">then</span></span><br><span class="line">        res = <span class="built_in">assert</span>(<span class="built_in">loadstring</span>(s))</span><br><span class="line">        results[s] = res</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">return</span> res</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>  
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">local</span> results = &#123;&#125;</span><br><span class="line"><span class="built_in">setmetatable</span>(results,&#123;__mode = <span class="string">"v"</span>&#125;) <span class="comment">--results表中的key是字符串形式的Lua代码</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">mem_loadstring</span><span class="params">(s)</span></span></span><br><span class="line">    <span class="keyword">local</span> res = results[s]</span><br><span class="line">    <span class="keyword">if</span> res == <span class="keyword">nil</span> <span class="keyword">then</span></span><br><span class="line">        res = <span class="built_in">assert</span>(<span class="built_in">loadstring</span>(s))</span><br><span class="line">        results[s] = res</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">return</span> res</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
 	</div>
+		<a href="#reward-modal-container" aria-label="Open Reward" id="open-reward-modal-a">打赏</a>
+<div id="reward-modal-container">
+		<div class="modal-div">
+			<h1 class='reward-title-h1'>倾情打赏</h1>
+			<a href="javascript:history.go(-1)" aria-label="Close Modal" class="close-modal-a"></a>
+			<p class="reward-thx-p">感谢您的支持，我会继续努力！</p>
+			<div class="reward-img-div">
+				<img class="reward-qr-img" src="http://7xoosr.com1.z0.glb.clouddn.com/encourage.png" alt="打赏赞助" />
+			</div>
+			<div class="reward-text-div">扫码打赏，建议金额1-10元</div>
+			<p class="reward-tip-p">
+				提醒：打赏金额将直接进此方账号，无法退款，请您谨慎操作。
+			</p>
+		</div>
+</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 

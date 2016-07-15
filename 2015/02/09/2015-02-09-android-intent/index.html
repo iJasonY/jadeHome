@@ -124,8 +124,23 @@
 <p>[代码] 安装和卸载程序</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Uri uri = Uri.fromParts(<span class="string">"package"</span>, <span class="string">"com.demo.app"</span>, <span class="keyword">null</span>); </span><br><span class="line">Intent intent = <span class="keyword">new</span> Intent(Intent.ACTION_DELETE, uri); </span><br><span class="line">startActivity(intent);</span><br></pre></td></tr></table></figure>
 <p>[代码] 进入设置界面</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 进入无线网络设置界面（其它可以举一反三） </span></span><br><span class="line">Intent intent = <span class="keyword">new</span> Intent(android.provider.Settings.ACTION_WIRELESS_SETTINGS);</span><br><span class="line">startActivityForResult(intent, <span class="number">0</span>);</span><br></pre></td></tr></table></figure>  
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 进入无线网络设置界面（其它可以举一反三） </span></span><br><span class="line">Intent intent = <span class="keyword">new</span> Intent(android.provider.Settings.ACTION_WIRELESS_SETTINGS);</span><br><span class="line">startActivityForResult(intent, <span class="number">0</span>);</span><br></pre></td></tr></table></figure>
 	</div>
+		<a href="#reward-modal-container" aria-label="Open Reward" id="open-reward-modal-a">打赏</a>
+<div id="reward-modal-container">
+		<div class="modal-div">
+			<h1 class='reward-title-h1'>倾情打赏</h1>
+			<a href="javascript:history.go(-1)" aria-label="Close Modal" class="close-modal-a"></a>
+			<p class="reward-thx-p">感谢您的支持，我会继续努力！</p>
+			<div class="reward-img-div">
+				<img class="reward-qr-img" src="http://7xoosr.com1.z0.glb.clouddn.com/encourage.png" alt="打赏赞助" />
+			</div>
+			<div class="reward-text-div">扫码打赏，建议金额1-10元</div>
+			<p class="reward-tip-p">
+				提醒：打赏金额将直接进此方账号，无法退款，请您谨慎操作。
+			</p>
+		</div>
+</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
