@@ -2345,7 +2345,7 @@ footer {
 }
 @media only screen and (max-width: 568px) {
   .modal-div {
-    min-width: 435px;
+    min-width: 320px;
   }
 }
 #reward-modal-container:not(:target) {
@@ -2422,7 +2422,7 @@ footer {
 }
 .close-modal-a {
   position: absolute;
-  right: 3%;
+  right: 5%;
   top: 3%;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
