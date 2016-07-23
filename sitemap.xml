@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.jeffjade.com/2015/03/19/2015-03-20-bat/</loc>
+    <loc>http://www.jeffjade.com/About/index.html</loc>
     
-    <lastmod>2016-07-14T15:26:12.000Z</lastmod>
+    <lastmod>2016-07-23T09:08:54.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.jeffjade.com/Links/index.html</loc>
     
-    <lastmod>2016-07-13T03:25:19.000Z</lastmod>
+    <lastmod>2016-07-23T09:02:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/2015/03/19/2015-03-20-bat/</loc>
+    
+    <lastmod>2016-07-14T15:26:12.000Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>http://www.jeffjade.com/special/jade-introduction.html</loc>
     
     <lastmod>2016-07-12T07:32:05.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.jeffjade.com/About/index.html</loc>
-    
-    <lastmod>2016-07-12T07:26:45.000Z</lastmod>
     
   </url>
   

@@ -250,9 +250,10 @@ MacTalk-池建强的随想录
 <script>
 $("article[itemprop='articleBody']").append("<canvas style='position:absolute;top:0;left:0;width:100%;height: 100%;z-index: 0;pointer-events: none;'></canvas>");
 
-document.addEventListener('touchmove', function (e) {
-    e.preventDefault()
-})
+// document.addEventListener('touchmove', function (e) {
+//     e.preventDefault()
+// })
+
 var c = document.getElementsByTagName('canvas')[0],
     x = c.getContext('2d'),
     pr = window.devicePixelRatio || 1,
