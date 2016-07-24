@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.jeffjade.com/2016/07/24/111-talk-about-work-arena/</loc>
+    
+    <lastmod>2016-07-24T15:38:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.jeffjade.com/About/index.html</loc>
     
     <lastmod>2016-07-23T09:08:54.000Z</lastmod>
@@ -639,14 +646,7 @@
   </url>
   
   <url>
-    <loc>http://www.jeffjade.com/jadeTodo/js/app.js</loc>
-    
-    <lastmod>2015-08-08T09:45:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.jeffjade.com/jadeTodo/node_modules/todomvc-common/base.css</loc>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/backbone/backbone.js</loc>
     
     <lastmod>2015-08-08T09:45:10.000Z</lastmod>
     
@@ -660,7 +660,14 @@
   </url>
   
   <url>
-    <loc>http://www.jeffjade.com/jadeTodo/node_modules/backbone/backbone.js</loc>
+    <loc>http://www.jeffjade.com/jadeTodo/js/app.js</loc>
+    
+    <lastmod>2015-08-08T09:45:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/todomvc-common/base.css</loc>
     
     <lastmod>2015-08-08T09:45:10.000Z</lastmod>
     
