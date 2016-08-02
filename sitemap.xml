@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.jeffjade.com/2015/04/12/2015-04-12-thought-choose-effort/</loc>
+    
+    <lastmod>2016-08-02T15:23:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.jeffjade.com/2016/07/24/111-talk-about-work-arena/</loc>
     
-    <lastmod>2016-08-02T14:57:01.000Z</lastmod>
+    <lastmod>2016-08-02T15:20:37.000Z</lastmod>
     
   </url>
   
@@ -660,14 +667,14 @@
   </url>
   
   <url>
-    <loc>http://www.jeffjade.com/jadeTodo/js/app.js</loc>
+    <loc>http://www.jeffjade.com/jadeTodo/node_modules/todomvc-common/base.css</loc>
     
     <lastmod>2015-08-08T09:45:10.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.jeffjade.com/jadeTodo/node_modules/todomvc-common/base.css</loc>
+    <loc>http://www.jeffjade.com/jadeTodo/js/app.js</loc>
     
     <lastmod>2015-08-08T09:45:10.000Z</lastmod>
     
@@ -824,13 +831,6 @@
     <loc>http://www.jeffjade.com/2015/04/11/2015-04-11-android-studio-shortcut/</loc>
     
     <lastmod>2015-04-14T00:21:59.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.jeffjade.com/2015/04/12/2015-04-12-thought-choose-effort/</loc>
-    
-    <lastmod>2015-04-13T15:05:45.000Z</lastmod>
     
   </url>
   
